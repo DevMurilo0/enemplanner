@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Planner de Estudos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-inner">
+      <div class="header-title">
+        <span class="header-icon">📚</span>
+        <div>
+          <h1>Planner Semanal</h1>
+          <p class="header-sub">Organize sua semana de estudos</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button class="btn-action" id="btn-import" title="Importar JSON">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Importar
+        </button>
+        <button class="btn-action btn-action--distribute" id="btn-distribute" title="Distribuir Automaticamente">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+          Distribuir
+        </button>
+        <button class="btn-action btn-action--export" id="btn-export" title="Exportar JSON">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+          Exportar
+        </button>
+        <input type="file" id="file-input" accept=".json" style="display:none" aria-label="Selecionar arquivo JSON" />
+      </div>
+
+      <div class="week-nav">
+        <button class="btn-nav" id="btn-prev" title="Semana anterior">&#8592;</button>
+        <span class="week-label" id="week-label"></span>
+        <button class="btn-nav" id="btn-next" title="Próxima semana">&#8594;</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Toast notification -->
+  <div class="toast" id="toast" role="alert" aria-live="polite"></div>
+
+  <main class="main">
+    <div class="calendar-grid" id="calendar-grid">
+      <!-- Days inserted by JS -->
+    </div>
+  </main>
+
+  <!-- Edit Block Modal -->
+  <div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal">
+      <div class="modal-header">
+        <h2 class="modal-title" id="modal-title">Editar Bloco</h2>
+        <button class="modal-close" id="modal-close" aria-label="Fechar">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <label class="field-label">Matéria</label>
+        <div class="subject-grid" id="subject-grid">
+          <!-- Subjects inserted by JS -->
+        </div>
+
+        <label class="field-label" for="block-note">Anotação (opcional)</label>
+        <textarea id="block-note" class="block-note" placeholder="Ex: Resolver lista 3, revisar capítulo 4…" rows="3"></textarea>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn-secondary" id="btn-clear">Limpar bloco</button>
+        <button class="btn-primary" id="btn-save">Salvar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Details Modal -->
+  <!-- Distribute Modal -->
+  <div class="dist-overlay" id="dist-overlay" role="dialog" aria-modal="true" aria-labelledby="dist-title">
+    <div class="dist-modal">
+      <div class="dist-header">
+        <h2 class="dist-title" id="dist-title">Distribuir Automaticamente</h2>
+        <button class="modal-close" id="dist-close" aria-label="Fechar">✕</button>
+      </div>
+
+      <div class="dist-body">
+        <p class="dist-intro">Cole ou edite a lista de conteúdos abaixo. O algoritmo distribuirá os blocos ao longo da semana respeitando prioridade, variedade e repetição espaçada.</p>
+
+        <div class="dist-toolbar">
+          <button class="btn-secondary btn-sm" id="dist-add">+ Adicionar conteúdo</button>
+          <button class="btn-secondary btn-sm" id="dist-clear-list">Limpar lista</button>
+        </div>
+
+        <div class="dist-list" id="dist-list">
+          <!-- items injected by JS -->
+        </div>
+
+        <div class="dist-result" id="dist-result" style="display:none">
+          <!-- overflow warning injected by JS -->
+        </div>
+      </div>
+
+      <div class="dist-footer">
+        <button class="btn-secondary" id="dist-cancel">Cancelar</button>
+        <button class="btn-primary"   id="dist-run">⚡ Distribuir agora</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="details-overlay" id="details-overlay" role="dialog" aria-modal="true" aria-labelledby="details-title">
+    <div class="details-modal">
+      <div class="details-header">
+        <div class="details-header-left">
+          <span class="details-subject-dot" id="details-dot"></span>
+          <div>
+            <p class="details-subject-label" id="details-subject"></p>
+            <h2 class="details-title" id="details-title"></h2>
+          </div>
+        </div>
+        <button class="modal-close" id="details-close" aria-label="Fechar detalhes">✕</button>
+      </div>
+
+      <div class="details-body">
+        <div class="details-meta" id="details-meta"></div>
+
+        <div class="details-section" id="details-desc-section">
+          <p class="details-section-label">Descrição</p>
+          <p class="details-desc" id="details-desc"></p>
+        </div>
+
+        <div class="details-section" id="details-det-section">
+          <p class="details-section-label">Detalhes</p>
+          <pre class="details-det" id="details-det"></pre>
+        </div>
+      </div>
+
+      <div class="details-footer">
+        <button class="btn-secondary" id="details-edit-btn">✏️ Editar bloco</button>
+        <button class="btn-primary"   id="details-close-btn">Fechar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
