@@ -979,3 +979,31 @@ h1 {
   .dist-modal { max-height: 96vh; }
   .dist-item { grid-template-columns: 1fr; }
 }
+/* ============================================================
+   BOTÃO "SOBRE" — navegação, separado das ações de dados
+   ============================================================ */
+.btn-action--about {
+  text-decoration: none;
+  margin-left: 8px;
+  position: relative;
+}
+
+.btn-action--about::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 20px;
+  background: var(--border);
+}
+
+@media (max-width: 720px) {
+  .btn-action--about::before {
+    display: none;
+  }
+  .btn-action--about {
+    margin-left: 0;
+  }
+}
