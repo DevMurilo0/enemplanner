@@ -13,11 +13,15 @@ const SUBJECTS = [
   { id: 'fis', label: 'Física',                 color: '#58b4e8' },
   { id: 'mat', label: 'Matemática',             color: '#3a6ecc' },
   { id: 'his', label: 'História',               color: '#e8c744' },
-  { id: 'fil', label: 'Fil. e Sociologia',      color: '#e87fad' },
-  { id: 'art', label: 'Artes e Literatura',     color: '#b689e0' },
-  { id: 'gra', label: 'Gramática Tradicional',  color: '#8a9bb0' },
+  { id: 'fil', label: 'Fil. e Sociologia',      color: '#e87fad',
+    aliases: ['filosofia e sociologia', 'filosofia', 'sociologia', 'fil. e sociologia', 'filosofia/sociologia'] },
+  { id: 'art', label: 'Artes e Literatura',     color: '#b689e0',
+    aliases: ['artes e literatura', 'artes', 'literatura', 'arte'] },
+  { id: 'gra', label: 'Gramática Tradicional',  color: '#8a9bb0',
+    aliases: ['gramática tradicional', 'gramatica tradicional', 'gramática', 'gramatica', 'português', 'portugues'] },
   { id: 'ing', label: 'Inglês',                 color: '#e05454' },
-  { id: 'geo', label: 'Geografia e Atualidades',color: '#2e8b57' },
+  { id: 'geo', label: 'Geografia e Atualidades',color: '#2e8b57',
+    aliases: ['geografia e atualidades', 'geografia', 'atualidades'] },
 ];
 
 // ── State ─────────────────────────────────────────────────────
@@ -323,9 +327,12 @@ const DAY_KEY_MAP = {
 };
 const DAY_KEYS_ORDER = ['domingo','segunda','terca','quarta','quinta','sexta','sabado'];
 
-// Subject label → id lookup (for import)
+// Subject label/alias → id lookup (for import)
 const SUBJECT_LABEL_MAP = Object.fromEntries(
-  SUBJECTS.map(s => [s.label.toLowerCase(), s.id])
+  SUBJECTS.flatMap(s => [
+    [s.label.toLowerCase(), s.id],
+    ...(s.aliases || []).map(a => [a.toLowerCase(), s.id])
+  ])
 );
 
 // ── Export ─────────────────────────────────────────────────────
@@ -479,7 +486,7 @@ function importJSON(file) {
           data[dateKey][i] = { subject: null, note: '' };
           continue;
         }
-        const subjectId = SUBJECT_LABEL_MAP[b.materia.toLowerCase()] || null;
+        const subjectId = resolveSubjectId(b.materia) || null;
         const note = (b.descricao || b.titulo || '').trim();
         data[dateKey][i] = {
           subject:    subjectId,
@@ -507,15 +514,44 @@ function importJSON(file) {
 // Priority order
 const PRIORITY_ORDER = { alta: 0, media: 1, baixa: 2, '': 3 };
 
-// Subject label → id (case-insensitive, partial match)
+// Remove acentos para comparação tolerante (ex: "Quimica" === "Química")
+function normalize(str) {
+  return str
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[.\/]/g, '')
+    .trim()
+    .toLowerCase();
+}
+
+// Subject label → id (exact → alias → normalized → partial, in that order)
 function resolveSubjectId(materiaStr) {
-  const m = materiaStr.trim().toLowerCase();
-  // exact match first
-  const exact = SUBJECTS.find(s => s.label.toLowerCase() === m);
-  if (exact) return exact.id;
-  // partial match
-  const partial = SUBJECTS.find(s => s.label.toLowerCase().includes(m) || m.includes(s.label.toLowerCase().split(' ')[0].toLowerCase()));
-  return partial ? partial.id : null;
+  if (!materiaStr) return null;
+  const raw = materiaStr.trim().toLowerCase();
+  const norm = normalize(materiaStr);
+
+  // 1. Exact match on label
+  let found = SUBJECTS.find(s => s.label.toLowerCase() === raw);
+  if (found) return found.id;
+
+  // 2. Exact match on any alias
+  found = SUBJECTS.find(s => (s.aliases || []).some(a => a.toLowerCase() === raw));
+  if (found) return found.id;
+
+  // 3. Normalized match (sem acento/pontuação) on label or aliases
+  found = SUBJECTS.find(s =>
+    normalize(s.label) === norm || (s.aliases || []).some(a => normalize(a) === norm)
+  );
+  if (found) return found.id;
+
+  // 4. Partial / substring match (normalized) on label or aliases
+  found = SUBJECTS.find(s => {
+    const labelNorm = normalize(s.label);
+    const aliasNorms = (s.aliases || []).map(normalize);
+    return labelNorm.includes(norm) || norm.includes(labelNorm)
+        || aliasNorms.some(a => a.includes(norm) || norm.includes(a));
+  });
+  return found ? found.id : null;
 }
 
 /**
