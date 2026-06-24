@@ -593,7 +593,13 @@ h1 {
 .toast.toast--error   { border-left: 3px solid var(--color-ing); }
 
 @media (max-width: 720px) {
-  .header-actions { order: 1; width: 100%; justify-content: flex-end; flex-wrap: wrap; row-gap: 8px; }
+  .header-actions {
+    order: 1;
+    width: 100%;
+    justify-content: center; /* centraliza */
+    flex-wrap: wrap;
+    row-gap: 8px;
+  }
   .btn-action span { display: none; }
 }
 
