@@ -1,0 +1,183 @@
+--- script.js	2026-07-02
++++ script.js	2026-07-02
+@@ -28,7 +28,7 @@
+ let weekOffset = 0;      // 0 = current week, -1 = previous, +1 = next…
+-let data       = {};     // { 'YYYY-MM-DD': [ {subject, note}, … ] }
++let data       = {};     // { 'YYYY-MM-DD': [ {subject, note, studied}, … ] }
+ let editing    = null;   // { dateKey, blockIndex }
+ 
+ // ── LocalStorage helpers ───────────────────────────────────────
+@@ -58,7 +58,8 @@
+     descricao:  existing.descricao  || note,
+     detalhes:   existing.detalhes   || '',
+     duracao:    existing.duracao    || '',
+-    prioridade: existing.prioridade || ''
++    prioridade: existing.prioridade || '',
++    studied:    existing.studied    || false
+   };
+   saveData();
+ }
+@@ -118,6 +119,10 @@
+     // Day header
+     const header = document.createElement('div');
+     header.className = 'day-header';
++    
++    // Calculate daily progress
++    const dayBlocks = [0,1,2,3].map(i => getBlock(dateKey, i));
++    const filledBlocks = dayBlocks.filter(b => b.subject);
++    const studiedBlocks = dayBlocks.filter(b => b.subject && b.studied);
++    
+     header.innerHTML = `
+-      <div class="day-name">${DAYS_SHORT[d]}</div>
+-      <div class="day-date">${date.getDate()}</div>
++      <div class="day-header-left">
++        <div class="day-name">${DAYS_SHORT[d]}</div>
++        <div class="day-date">${date.getDate()}</div>
++      </div>
++      ${filledBlocks.length > 0 ? \`<div class="day-progress">\${studiedBlocks.length}/\${filledBlocks.length}</div>\` : ''}
+     `;
+     card.appendChild(header);
+ 
+@@ -133,16 +138,30 @@
+ 
+       const el = document.createElement('div');
+-      el.className = 'study-block' + (subj ? ' block-filled' : ' block-empty');
++      el.className = 'study-block' + (subj ? ' block-filled' : ' block-empty') + (block.studied ? ' is-studied' : '');
+       el.style.setProperty('--block-color', subj ? subj.color : 'var(--text-muted)');
+-      el.style.borderLeftColor = subj ? subj.color : 'var(--text-muted)';
+       el.setAttribute('role', 'button');
+       el.setAttribute('tabindex', '0');
+       el.setAttribute('aria-label', `Editar bloco ${i + 1} de ${DAYS_SHORT[d]} – ${subj ? subj.label : 'Vazio'}`);
+ 
++      let checkboxHtml = '';
++      if (subj) {
++        checkboxHtml = \`<input type="checkbox" class="study-checkbox" \${block.studied ? 'checked' : ''} aria-label="Marcar como estudado" />\`;
++      }
++
+       el.innerHTML = \`
+-        <div class="block-time">${BLOCK_TIMES[i]}</div>
+-        <div class="block-subject">${subj ? subj.label : 'Clique para adicionar'}</div>
+-        ${block.note ? \`<div class="block-note-preview">\${escapeHtml(block.note)}</div>\` : ''}
++        <div class="block-header">
++          <div class="block-time">\${BLOCK_TIMES[i]}</div>
++          \${checkboxHtml}
++        </div>
++        <div class="block-content">
++          <div class="block-subject">\${subj ? subj.label : 'Clique para adicionar'}</div>
++          \${block.note ? \`<div class="block-note-preview">\${escapeHtml(block.note)}</div>\` : ''}
++        </div>
+       \`;
+ 
+-      el.addEventListener('click', () => openDetails(dateKey, i));
++      el.addEventListener('click', (e) => {
++        if (e.target.classList.contains('study-checkbox')) {
++          toggleStudied(dateKey, i, e.target.checked);
++          return;
++        }
++        openDetails(dateKey, i);
++      });
+       el.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') openDetails(dateKey, i); });
+ 
+@@ -154,6 +173,8 @@
+     grid.appendChild(card);
+   }
++
++  updateWeeklyStats();
+ }
+ 
++// ── Toggle Studied ─────────────────────────────────────────────
++function toggleStudied(dateKey, idx, isStudied) {
++  if (!data[dateKey]) data[dateKey] = [];
++  if (data[dateKey][idx]) {
++    data[dateKey][idx].studied = isStudied;
++    saveData();
++    renderCalendar(); // Re-render to update day headers and stats
++  }
++}
++
++// ── Weekly Stats ───────────────────────────────────────────────
++function updateWeeklyStats() {
++  const weekStart = getWeekStart(weekOffset);
++  let totalFilled = 0;
++  let totalStudied = 0;
++  const subjectCounts = {};
++
++  for (let d = 0; d < 7; d++) {
++    const date = new Date(weekStart);
++    date.setDate(date.getDate() + d);
++    const dateKey = toDateKey(date);
++    
++    for (let i = 0; i < 4; i++) {
++      const block = getBlock(dateKey, i);
++      if (block.subject) {
++        totalFilled++;
++        if (block.studied) totalStudied++;
++        
++        subjectCounts[block.subject] = (subjectCounts[block.subject] || 0) + 1;
++      }
++    }
++  }
++
++  // Update UI
++  document.getElementById('stat-filled').textContent = \`\${totalFilled}/28\`;
++  document.getElementById('stat-studied').textContent = \`\${totalStudied}/\${totalFilled}\`;
++  
++  // Top subject
++  let topSubjectId = null;
++  let maxCount = 0;
++  for (const [id, count] of Object.entries(subjectCounts)) {
++    if (count > maxCount) {
++      maxCount = count;
++      topSubjectId = id;
++    }
++  }
++  
++  const topSubjectEl = document.getElementById('stat-top-subject');
++  if (topSubjectId) {
++    const subj = getSubject(topSubjectId);
++    topSubjectEl.textContent = subj ? subj.label : '—';
++  } else {
++    topSubjectEl.textContent = '—';
++  }
++  
++  // Progress bar
++  const pct = totalFilled > 0 ? Math.round((totalStudied / totalFilled) * 100) : 0;
++  document.getElementById('stat-progress-fill').style.width = \`\${pct}%\`;
++  document.getElementById('stat-progress-pct').textContent = \`\${pct}%\`;
++}
++
+ // ── Render legend ──────────────────────────────────────────────
+@@ -450,7 +533,8 @@
+             subject: subjectId, note,
+             titulo: b.titulo, descricao: b.descricao,
+-            detalhes: b.detalhes, duracao: b.duracao, prioridade: b.prioridade
++            detalhes: b.detalhes, duracao: b.duracao, prioridade: b.prioridade,
++            studied: false
+           };
+         });
+@@ -496,7 +580,8 @@
+           descricao:  b.descricao  || '',
+           detalhes:   b.detalhes   || '',
+           duracao:    b.duracao    || '',
+-          prioridade: b.prioridade || ''
++          prioridade: b.prioridade || '',
++          studied: false
+         };
+       }
+@@ -636,7 +721,8 @@
+         descricao:  c.descricao  || '',
+         detalhes:   c.detalhes   || '',
+         duracao:    c.duracao    || '',
+-        prioridade: c.prioridade || ''
++        prioridade: c.prioridade || '',
++        studied: false
+       };
+     });
+@@ -768,7 +854,8 @@
+       data[dateKey][i] = { subject: subjectId, note,
+         titulo: b.titulo, descricao: b.descricao,
+-        detalhes: b.detalhes, duracao: b.duracao, prioridade: b.prioridade };
++        detalhes: b.detalhes, duracao: b.duracao, prioridade: b.prioridade,
++        studied: false };
+     });
+   });

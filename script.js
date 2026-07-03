@@ -26,7 +26,7 @@ const SUBJECTS = [
 
 // ── State ─────────────────────────────────────────────────────
 let weekOffset = 0;      // 0 = current week, -1 = previous, +1 = next…
-let data       = {};     // { 'YYYY-MM-DD': [ {subject, note}, … ] }
+let data       = {};     // { 'YYYY-MM-DD': [ {subject, note, studied}, … ] }
 let editing    = null;   // { dateKey, blockIndex }
 
 // ── LocalStorage helpers ───────────────────────────────────────
@@ -57,7 +57,8 @@ function setBlock(dateKey, idx, subject, note) {
     descricao:  existing.descricao  || note,
     detalhes:   existing.detalhes   || '',
     duracao:    existing.duracao    || '',
-    prioridade: existing.prioridade || ''
+    prioridade: existing.prioridade || '',
+    studied:    existing.studied    || false
   };
   saveData();
 }
@@ -116,9 +117,17 @@ function renderCalendar() {
     // Day header
     const header = document.createElement('div');
     header.className = 'day-header';
+
+    const dayBlocks = [0, 1, 2, 3].map(i => getBlock(dateKey, i));
+    const filledBlocks = dayBlocks.filter(b => b.subject);
+    const studiedBlocks = dayBlocks.filter(b => b.subject && b.studied);
+
     header.innerHTML = `
-      <div class="day-name">${DAYS_SHORT[d]}</div>
-      <div class="day-date">${date.getDate()}</div>
+      <div class="day-header-left">
+        <div class="day-name">${DAYS_SHORT[d]}</div>
+        <div class="day-date">${date.getDate()}</div>
+      </div>
+      ${filledBlocks.length > 0 ? `<div class="day-progress">${studiedBlocks.length}/${filledBlocks.length}</div>` : ''}
     `;
     card.appendChild(header);
 
@@ -131,20 +140,35 @@ function renderCalendar() {
       const subj  = block.subject ? getSubject(block.subject) : null;
 
       const el = document.createElement('div');
-      el.className = 'study-block' + (subj ? ' block-filled' : ' block-empty');
+      el.className = 'study-block' + (subj ? ' block-filled' : ' block-empty') + (block.studied ? ' is-studied' : '');
       el.style.setProperty('--block-color', subj ? subj.color : 'var(--text-muted)');
-      el.style.borderLeftColor = subj ? subj.color : 'var(--text-muted)';
       el.setAttribute('role', 'button');
       el.setAttribute('tabindex', '0');
       el.setAttribute('aria-label', `Editar bloco ${i + 1} de ${DAYS_SHORT[d]} – ${subj ? subj.label : 'Vazio'}`);
 
+      let checkboxHtml = '';
+      if (subj) {
+        checkboxHtml = `<input type="checkbox" class="study-checkbox" ${block.studied ? 'checked' : ''} aria-label="Marcar como estudado" />`;
+      }
+
       el.innerHTML = `
-        <div class="block-time">${BLOCK_TIMES[i]}</div>
-        <div class="block-subject">${subj ? subj.label : 'Clique para adicionar'}</div>
-        ${block.note ? `<div class="block-note-preview">${escapeHtml(block.note)}</div>` : ''}
+        <div class="block-header">
+          <div class="block-time">${BLOCK_TIMES[i]}</div>
+          ${checkboxHtml}
+        </div>
+        <div class="block-content">
+          <div class="block-subject">${subj ? subj.label : 'Clique para adicionar'}</div>
+          ${block.note ? `<div class="block-note-preview">${escapeHtml(block.note)}</div>` : ''}
+        </div>
       `;
 
-      el.addEventListener('click', () => openDetails(dateKey, i));
+      el.addEventListener('click', (e) => {
+        if (e.target.classList.contains('study-checkbox')) {
+          toggleStudied(dateKey, i, e.target.checked);
+          return;
+        }
+        openDetails(dateKey, i);
+      });
       el.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') openDetails(dateKey, i); });
 
       blocksEl.appendChild(el);
@@ -153,6 +177,73 @@ function renderCalendar() {
     card.appendChild(blocksEl);
     grid.appendChild(card);
   }
+
+  updateWeeklyStats();
+}
+
+// ── Toggle Studied ─────────────────────────────────────────────
+function toggleStudied(dateKey, idx, isStudied) {
+  if (!data[dateKey]) data[dateKey] = [];
+  if (data[dateKey][idx]) {
+    data[dateKey][idx].studied = isStudied;
+    saveData();
+    renderCalendar();
+  }
+}
+
+// ── Weekly Stats ───────────────────────────────────────────────
+function updateWeeklyStats() {
+  const weekStart = getWeekStart(weekOffset);
+  let totalFilled = 0;
+  let totalStudied = 0;
+  const subjectCounts = {};
+
+  for (let d = 0; d < 7; d++) {
+    const date = new Date(weekStart);
+    date.setDate(date.getDate() + d);
+    const dateKey = toDateKey(date);
+    
+    for (let i = 0; i < 4; i++) {
+      const block = getBlock(dateKey, i);
+      if (block.subject) {
+        totalFilled++;
+        if (block.studied) totalStudied++;
+        
+        subjectCounts[block.subject] = (subjectCounts[block.subject] || 0) + 1;
+      }
+    }
+  }
+
+  const statFilled = document.getElementById('stat-filled');
+  const statStudied = document.getElementById('stat-studied');
+  const statTopSubject = document.getElementById('stat-top-subject');
+  const statProgressFill = document.getElementById('stat-progress-fill');
+  const statProgressPct = document.getElementById('stat-progress-pct');
+
+  if (statFilled) statFilled.textContent = `${totalFilled}/28`;
+  if (statStudied) statStudied.textContent = `${totalStudied}/${totalFilled}`;
+  
+  let topSubjectId = null;
+  let maxCount = 0;
+  for (const [id, count] of Object.entries(subjectCounts)) {
+    if (count > maxCount) {
+      maxCount = count;
+      topSubjectId = id;
+    }
+  }
+  
+  if (statTopSubject) {
+    if (topSubjectId) {
+      const subj = getSubject(topSubjectId);
+      statTopSubject.textContent = subj ? subj.label : '—';
+    } else {
+      statTopSubject.textContent = '—';
+    }
+  }
+  
+  const pct = totalFilled > 0 ? Math.round((totalStudied / totalFilled) * 100) : 0;
+  if (statProgressFill) statProgressFill.style.width = `${pct}%`;
+  if (statProgressPct) statProgressPct.textContent = `${pct}%`;
 }
 
 // ── Render legend ──────────────────────────────────────────────
@@ -449,7 +540,8 @@ function importJSON(file) {
           data[dateKey][i] = {
             subject: subjectId, note,
             titulo: b.titulo, descricao: b.descricao,
-            detalhes: b.detalhes, duracao: b.duracao, prioridade: b.prioridade
+            detalhes: b.detalhes, duracao: b.duracao, prioridade: b.prioridade,
+            studied: false
           };
         });
       });
@@ -495,7 +587,8 @@ function importJSON(file) {
           descricao:  b.descricao  || '',
           detalhes:   b.detalhes   || '',
           duracao:    b.duracao    || '',
-          prioridade: b.prioridade || ''
+          prioridade: b.prioridade || '',
+          studied:    false
         };
       }
     });
@@ -635,7 +728,8 @@ function distribute(contents) {
         descricao:  c.descricao  || '',
         detalhes:   c.detalhes   || '',
         duracao:    c.duracao    || '',
-        prioridade: c.prioridade || ''
+        prioridade: c.prioridade || '',
+        studied:    false
       };
     });
   });
@@ -767,7 +861,8 @@ function runDistribute() {
       const note = (b.descricao || b.titulo || '').trim();
       data[dateKey][i] = { subject: subjectId, note,
         titulo: b.titulo, descricao: b.descricao,
-        detalhes: b.detalhes, duracao: b.duracao, prioridade: b.prioridade };
+        detalhes: b.detalhes, duracao: b.duracao, prioridade: b.prioridade,
+        studied: false };
     });
   });
 

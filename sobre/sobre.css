@@ -117,7 +117,7 @@
   height: 36px;
   border-radius: var(--radius-sm);
   color: var(--icon-color);
-  background: color-mix(in srgb, var(--icon-color) 15%, var(--bg-block));
+  background: color-mix(in srgb, var(--icon-color) 25%, var(--bg-card));
   margin-bottom: 12px;
 }
 
