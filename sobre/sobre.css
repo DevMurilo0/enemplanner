@@ -1,7 +1,137 @@
 /* ============================================================
-   SOBRE O SITE — estilos específicos desta página
-   Reaproveita os tokens definidos em style.css (cores, fontes, radius)
+   SOBRE O SITE — versão autossuficiente (não depende de ../style.css)
    ============================================================ */
+
+/* ---- Tokens do design system ---- */
+:root {
+  --bg-base:      #0A0A0A;
+  --bg-card:      #171717;
+  --bg-block-hover: #262626;
+  --bg-glass:     rgba(10, 10, 10, 0.85);
+
+  --text-primary:   #FAFAFA;
+  --text-secondary: #A3A3A3;
+  --text-muted:     #737373;
+
+  --accent:       #3B82F6;
+  --accent-light: rgba(59, 130, 246, 0.15);
+
+  --border:       #262626;
+  --border-hover: #404040;
+
+  --color-fil:    #F9A8D4;
+
+  --radius-sm: 6px;
+  --radius-lg: 14px;
+
+  --font-display: 'Plus Jakarta Sans', sans-serif;
+  --font-body:    'Plus Jakarta Sans', sans-serif;
+
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+/* ---- Reset & base ---- */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { font-size: 15px; scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg-base);
+  color: var(--text-primary);
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ---- Header (mesma estrutura do site principal) ---- */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--bg-glass);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+  padding: 0 24px;
+}
+
+.header-inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 76px;
+  gap: 16px;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.header-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.header-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+h1 {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.header-sub {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+.btn-action {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  border-radius: var(--radius-sm);
+  padding: 8px 16px;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  box-shadow: var(--shadow-sm);
+}
+
+.btn-action:hover {
+  background: var(--bg-block-hover);
+  color: var(--text-primary);
+  border-color: var(--border-hover);
+  transform: translateY(-1px);
+}
 
 /* ---- Header: título como link ---- */
 .header-title--link {
@@ -170,11 +300,7 @@
   color: var(--text-secondary);
 }
 
-<<<<<<< HEAD
 .creator-text p + p {
-=======
-.creator-text p+p {
->>>>>>> e836aac (fist commit)
   margin-top: 12px;
 }
 
@@ -200,37 +326,60 @@
   font-size: 0.92rem;
   line-height: 1.65;
   color: var(--text-secondary);
-  margin-bottom: 18px;
+  margin-bottom: 20px;
   max-width: 54ch;
 }
 
 .contact-email {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 9px;
-  background: var(--accent);
-  color: #fff;
+  gap: 16px;
+  background: var(--bg-block-hover);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
   text-decoration: none;
-  font-family: var(--font-body);
-  font-size: 0.88rem;
-  font-weight: 600;
-  border-radius: var(--radius-sm);
-  padding: 11px 18px;
-  transition: opacity 0.15s, transform 0.1s;
+  border-radius: var(--radius-lg);
+  padding: 16px 18px;
+  margin-bottom: 24px;
+  transition: border-color 0.15s, transform 0.1s;
 }
 
-<<<<<<< HEAD
-.contact-email:hover { opacity: 0.88; }
-.contact-email:active { transform: scale(0.98); }
-=======
 .contact-email:hover {
-  opacity: 0.88;
+  border-color: var(--border-hover);
 }
 
 .contact-email:active {
-  transform: scale(0.98);
+  transform: scale(0.99);
 }
->>>>>>> e836aac (fist commit)
+
+.contact-email-icon {
+  flex-shrink: 0;
+  width: 46px;
+  height: 46px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: linear-gradient(135deg, #60a5fa 0%, var(--accent) 100%);
+}
+
+.contact-email-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.contact-email-label {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.contact-email-value {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
 
 .contact-divider {
   height: 1px;
@@ -279,8 +428,6 @@
 }
 
 /* ============================================================
-<<<<<<< HEAD
-=======
    INSTAGRAM
    ============================================================ */
 .instagram-card {
@@ -359,7 +506,6 @@
 }
 
 /* ============================================================
->>>>>>> e836aac (fist commit)
    FOOTER
    ============================================================ */
 .about-footer {
@@ -379,17 +525,6 @@
    RESPONSIVE
    ============================================================ */
 @media (max-width: 720px) {
-<<<<<<< HEAD
-  .about-hero-title { font-size: 1.6rem; }
-  .about-grid { grid-template-columns: 1fr; }
-  .creator-card { flex-direction: column; }
-}
-
-@media (max-width: 480px) {
-  .about-main { padding: 40px 18px 60px; }
-  .header-actions, .btn-action span { white-space: normal; }
-}
-=======
   .about-hero-title {
     font-size: 1.6rem;
   }
@@ -413,4 +548,3 @@
     white-space: normal;
   }
 }
->>>>>>> e836aac (fist commit)
