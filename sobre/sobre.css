@@ -170,7 +170,11 @@
   color: var(--text-secondary);
 }
 
+<<<<<<< HEAD
 .creator-text p + p {
+=======
+.creator-text p+p {
+>>>>>>> e836aac (fist commit)
   margin-top: 12px;
 }
 
@@ -215,8 +219,18 @@
   transition: opacity 0.15s, transform 0.1s;
 }
 
+<<<<<<< HEAD
 .contact-email:hover { opacity: 0.88; }
 .contact-email:active { transform: scale(0.98); }
+=======
+.contact-email:hover {
+  opacity: 0.88;
+}
+
+.contact-email:active {
+  transform: scale(0.98);
+}
+>>>>>>> e836aac (fist commit)
 
 .contact-divider {
   height: 1px;
@@ -265,6 +279,87 @@
 }
 
 /* ============================================================
+<<<<<<< HEAD
+=======
+   INSTAGRAM
+   ============================================================ */
+.instagram-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 20px 22px;
+  text-decoration: none;
+  transition: border-color 0.15s, background 0.15s, transform 0.1s;
+}
+
+.instagram-card:hover {
+  border-color: var(--border-hover);
+  background: var(--bg-block-hover);
+}
+
+.instagram-card:active {
+  transform: scale(0.99);
+}
+
+.instagram-icon {
+  flex-shrink: 0;
+  width: 46px;
+  height: 46px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: linear-gradient(135deg, #f9ce34 0%, #ee2a7b 55%, #6228d7 100%);
+}
+
+.instagram-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+}
+
+.instagram-label {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.instagram-handle {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.instagram-arrow {
+  flex-shrink: 0;
+  color: var(--text-muted);
+  transition: color 0.15s, transform 0.15s;
+}
+
+.instagram-card:hover .instagram-arrow {
+  color: var(--accent);
+  transform: translate(2px, -2px);
+}
+
+@media (max-width: 480px) {
+  .instagram-card {
+    padding: 16px 18px;
+    gap: 12px;
+  }
+
+  .instagram-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* ============================================================
+>>>>>>> e836aac (fist commit)
    FOOTER
    ============================================================ */
 .about-footer {
@@ -284,6 +379,7 @@
    RESPONSIVE
    ============================================================ */
 @media (max-width: 720px) {
+<<<<<<< HEAD
   .about-hero-title { font-size: 1.6rem; }
   .about-grid { grid-template-columns: 1fr; }
   .creator-card { flex-direction: column; }
@@ -293,3 +389,28 @@
   .about-main { padding: 40px 18px 60px; }
   .header-actions, .btn-action span { white-space: normal; }
 }
+=======
+  .about-hero-title {
+    font-size: 1.6rem;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .creator-card {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-main {
+    padding: 40px 18px 60px;
+  }
+
+  .header-actions,
+  .btn-action span {
+    white-space: normal;
+  }
+}
+>>>>>>> e836aac (fist commit)
