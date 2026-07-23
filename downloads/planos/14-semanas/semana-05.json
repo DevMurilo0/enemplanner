@@ -1,0 +1,243 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Tecido Sanguíneo (plasma e elementos figurados do sangue)",
+        "descricao": "Tecido Sanguíneo (plasma e elementos figurados do sangue)",
+        "detalhes": "Monte um esquema/resumo visual sobre Tecido Sanguíneo (plasma e elementos figurados do sangue). Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Geometria Essencial",
+        "descricao": "Geometria Essencial: Semelhança de Triângulos, Leis dos Senos e Cossenos, e Polígonos",
+        "detalhes": "Resolva pelo menos 10 exercícios sobre Geometria Essencial, incluindo questões de vestibular.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Economia digital e plataformização",
+        "descricao": "Economia digital e plataformização",
+        "detalhes": "Leia com atenção os conceitos de Economia digital e plataformização e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Política ambiental brasileira",
+        "descricao": "Política ambiental brasileira",
+        "detalhes": "Relacione Política ambiental brasileira com questões atuais e exemplos do ENEM.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Pilhas",
+        "descricao": "Pilhas",
+        "detalhes": "Resolva exercícios aplicando os conceitos de Pilhas. Anote fórmulas e casos especiais.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Primeiro Reinado (1822-1831)",
+        "descricao": "Primeiro Reinado (1822-1831)",
+        "detalhes": "Contextualize Primeiro Reinado (1822-1831): causas, desenvolvimento e consequências. Use linha do tempo.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Parnasianismo",
+        "descricao": "Parnasianismo - Forma perfeita e distanciamento do mundo",
+        "detalhes": "Analise o contexto histórico e as características de Parnasianismo. Observe exemplos de obras.",
+        "duracao": "1h",
+        "prioridade": "baixa"
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Conferências ambientais",
+        "descricao": "Conferências ambientais",
+        "detalhes": "Relacione Conferências ambientais com questões atuais e exemplos do ENEM.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Produto de solubilidade",
+        "descricao": "Produto de solubilidade",
+        "detalhes": "Resolva exercícios aplicando os conceitos de Produto de solubilidade. Anote fórmulas e casos especiais.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Reforma Protestante",
+        "descricao": "Reforma Protestante - Parte 1 (Antecedentes e Luteranismo)",
+        "detalhes": "Contextualize Reforma Protestante: causas, desenvolvimento e consequências. Use linha do tempo.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Impressionismo",
+        "descricao": "Impressionismo - O olhar em movimento: luz, tempo e cidade",
+        "detalhes": "Analise o contexto histórico e as características de Impressionismo. Observe exemplos de obras.",
+        "duracao": "1h",
+        "prioridade": "baixa"
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Saponificação (diferença entre sabão e detergente)",
+        "descricao": "Saponificação (diferença entre sabão e detergente)",
+        "detalhes": "Resolva exercícios aplicando os conceitos de Saponificação (diferença entre sabão e detergente). Anote fórmulas e casos especiais.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Reforma Protestante",
+        "descricao": "Reforma Protestante - Parte 2 (Calvinismo, Anglicanismo e Contrarreforma)",
+        "detalhes": "Contextualize Reforma Protestante: causas, desenvolvimento e consequências. Use linha do tempo.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Regência nominal",
+        "descricao": "Regência nominal: adjetivos e nomes que exigem preposição; mudança de sentido por regência",
+        "detalhes": "Revise a teoria de Regência nominal e resolva exercícios de fixação.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Força de Atrito",
+        "descricao": "Força de Atrito",
+        "detalhes": "Pratique exercícios numéricos sobre Força de Atrito. Desenhe esquemas/gráficos quando possível.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Filosofia política moderna",
+        "descricao": "Filosofia política moderna: Maquiavel e o contrato",
+        "detalhes": "Leia com atenção os conceitos de Filosofia política moderna e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Crase — diagnóstico infalível",
+        "descricao": "Crase — diagnóstico infalível: casos obrigatórios, proibidos e facultativos; locuções, pronomes; nomes de lugar",
+        "detalhes": "Revise a teoria de Crase — diagnóstico infalível e resolva exercícios de fixação.",
+        "duracao": "1h30",
+        "prioridade": "media"
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Gametogênese Masculina (espermatogênese) e Feminina (ovog...",
+        "descricao": "Gametogênese Masculina (espermatogênese) e Feminina (ovogênese, ovulogênese ou ovocitogênese)",
+        "detalhes": "Monte um esquema/resumo visual sobre Gametogênese Masculina (espermatogênese) e Feminina (ovog.... Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h30",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Refração da Luz",
+        "descricao": "Refração da Luz",
+        "detalhes": "Pratique exercícios numéricos sobre Refração da Luz. Desenhe esquemas/gráficos quando possível.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Filosofia política contemporânea",
+        "descricao": "Filosofia política contemporânea: Estado, mercado, tecnologia e identidades",
+        "detalhes": "Leia com atenção os conceitos de Filosofia política contemporânea e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Enem e vestibulares 5",
+        "descricao": "Enem e vestibulares 5",
+        "detalhes": "Sessão de resolução de questões anteriores do ENEM e vestibulares. Reserve 30 minutos para revisão dos erros.",
+        "duracao": "1h30",
+        "prioridade": "alta"
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Ciclo sexual feminino ou Ciclo Menstrual",
+        "descricao": "Ciclo sexual feminino ou Ciclo Menstrual",
+        "detalhes": "Monte um esquema/resumo visual sobre Ciclo sexual feminino ou Ciclo Menstrual. Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Explorando Triângulos",
+        "descricao": "Explorando Triângulos: Conceitos e Suas Formas Especiais",
+        "detalhes": "Resolva pelo menos 10 exercícios sobre Explorando Triângulos, incluindo questões de vestibular.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Trabalho e transformação tecnológica",
+        "descricao": "Trabalho e transformação tecnológica",
+        "detalhes": "Leia com atenção os conceitos de Trabalho e transformação tecnológica e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Perfect Tenses",
+        "descricao": "Perfect Tenses",
+        "detalhes": "Pratique Perfect Tenses com frases e exercícios de tradução.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ]
+  }
+}

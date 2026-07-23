@@ -1,0 +1,243 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Trabalho mecânico e Potência",
+        "descricao": "Trabalho mecânico e Potência",
+        "detalhes": "Pratique exercícios numéricos sobre Trabalho mecânico e Potência. Desenhe esquemas/gráficos quando possível.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Sujeito, alteridade e reconhecimento",
+        "descricao": "Sujeito, alteridade e reconhecimento",
+        "detalhes": "Leia com atenção os conceitos de Sujeito, alteridade e reconhecimento e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Termos essenciais da oração",
+        "descricao": "Termos essenciais da oração: sujeito e predicado; tipos de sujeito; sujeito oracional; orações sem sujeito; predicativo do sujeito e do objeto; verbos de ligação; verbos significativos x verbos de ligação",
+        "detalhes": "Revise a teoria de Termos essenciais da oração e resolva exercícios de fixação.",
+        "duracao": "1h30",
+        "prioridade": "media"
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Dinâmica das populações",
+        "descricao": "Dinâmica das populações: potencial biótico, curvas de crescimento, espécies k e R estrategistas",
+        "detalhes": "Monte um esquema/resumo visual sobre Dinâmica das populações. Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h30",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Ondas",
+        "descricao": "Ondas",
+        "detalhes": "Pratique exercícios numéricos sobre Ondas. Desenhe esquemas/gráficos quando possível.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Fundamentos da Estética",
+        "descricao": "Fundamentos da Estética: arte, belo e sensibilidade",
+        "detalhes": "Leia com atenção os conceitos de Fundamentos da Estética e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Enem e vestibulares 8",
+        "descricao": "Enem e vestibulares 8",
+        "detalhes": "Sessão de resolução de questões anteriores do ENEM e vestibulares. Reserve 30 minutos para revisão dos erros.",
+        "duracao": "1h30",
+        "prioridade": "alta"
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Relações ecológicas harmônicas e desarmônicas",
+        "descricao": "Relações ecológicas harmônicas e desarmônicas",
+        "detalhes": "Monte um esquema/resumo visual sobre Relações ecológicas harmônicas e desarmônicas. Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Interferência de ondas",
+        "descricao": "Interferência de ondas",
+        "detalhes": "Pratique exercícios numéricos sobre Interferência de ondas. Desenhe esquemas/gráficos quando possível.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Racismo, exclusão e representatividade",
+        "descricao": "Racismo, exclusão e representatividade",
+        "detalhes": "Leia com atenção os conceitos de Racismo, exclusão e representatividade e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Used To/ To Be Used To",
+        "descricao": "Used To/ To Be Used To",
+        "detalhes": "Pratique Used To/ To Be Used To com frases e exercícios de tradução.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Sucessões Ecológicas",
+        "descricao": "Sucessões Ecológicas",
+        "detalhes": "Monte um esquema/resumo visual sobre Sucessões Ecológicas. Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Estatística Essencial",
+        "descricao": "Estatística Essencial: Definições Fundamentais, Tendência Central e Dispersão",
+        "detalhes": "Resolva pelo menos 10 exercícios sobre Estatística Essencial, incluindo questões de vestibular.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Violência, crime e território",
+        "descricao": "Violência, crime e território",
+        "detalhes": "Leia com atenção os conceitos de Violência, crime e território e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "A nova divisão internacional do trabalho (DIT) e mundo do...",
+        "descricao": "A nova divisão internacional do trabalho (DIT) e mundo do trabalho no século XXI",
+        "detalhes": "Relacione A nova divisão internacional do trabalho (DIT) e mundo do... com questões atuais e exemplos do ENEM.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Fatores que afetam a velocidade das reações químicas",
+        "descricao": "Fatores que afetam a velocidade das reações químicas",
+        "detalhes": "Resolva exercícios aplicando os conceitos de Fatores que afetam a velocidade das reações químicas. Anote fórmulas e casos especiais.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Primeira República",
+        "descricao": "Primeira República: Estruturas Políticas e Econômicas",
+        "detalhes": "Contextualize Primeira República: causas, desenvolvimento e consequências. Use linha do tempo.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Semana de Arte Moderna",
+        "descricao": "Semana de Arte Moderna - 1922: o grito de ruptura",
+        "detalhes": "Analise o contexto histórico e as características de Semana de Arte Moderna. Observe exemplos de obras.",
+        "duracao": "1h",
+        "prioridade": "baixa"
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Nova Ordem Mundial",
+        "descricao": "Nova Ordem Mundial",
+        "detalhes": "Relacione Nova Ordem Mundial com questões atuais e exemplos do ENEM.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Funções inorgânicas",
+        "descricao": "Funções inorgânicas: sais",
+        "detalhes": "Resolva exercícios aplicando os conceitos de Funções inorgânicas. Anote fórmulas e casos especiais.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Primeira República",
+        "descricao": "Primeira República: Revoltas e Movimentos",
+        "detalhes": "Contextualize Primeira República: causas, desenvolvimento e consequências. Use linha do tempo.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Modernismo brasileiro",
+        "descricao": "Modernismo brasileiro – 1ª fase - Experimentação, identidade e irreverência",
+        "detalhes": "Analise o contexto histórico e as características de Modernismo brasileiro. Observe exemplos de obras.",
+        "duracao": "1h",
+        "prioridade": "baixa"
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Solução tampão",
+        "descricao": "Solução tampão",
+        "detalhes": "Resolva exercícios aplicando os conceitos de Solução tampão. Anote fórmulas e casos especiais.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Revolução Francesa",
+        "descricao": "Revolução Francesa - Parte 1 (dos antecedentes até o fim da Monarquia Constitucional)",
+        "detalhes": "Contextualize Revolução Francesa: causas, desenvolvimento e consequências. Use linha do tempo.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Aspectos gerais da redação oficial",
+        "descricao": "Aspectos gerais da redação oficial",
+        "detalhes": "Revise a teoria de Aspectos gerais da redação oficial e resolva exercícios de fixação.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Downloads — Planner ENEM</title>
+  <link rel="icon" type="image/png" href="../icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="downloads.css" />
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header-inner">
+      <a class="header-title header-title--link" href="../index.html">
+        <div class="header-logo">
+          <img src="../icon.png" alt="Logo Planner ENEM" />
+        </div>
+        <div>
+          <h1>Planner ENEM</h1>
+          <p class="header-sub">Downloads de planos prontos</p>
+        </div>
+      </a>
+      <a class="btn-action" href="../index.html">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <line x1="19" y1="12" x2="5" y2="12" />
+          <polyline points="12 19 5 12 12 5" />
+        </svg>
+        Voltar ao planner
+      </a>
+    </div>
+  </header>
+
+  <main class="dl-main">
+
+    <section class="dl-hero">
+      <span class="dl-eyebrow">Downloads</span>
+      <h2 class="dl-hero-title">Baixe um plano de estudos pronto</h2>
+      <p class="dl-hero-lead">
+        Escolha uma duração e baixe o arquivo JSON da semana desejada. Depois é só
+        importar o arquivo no planner (botão "Importar" no topo da página principal).
+      </p>
+    </section>
+
+    <section class="dl-plan" id="plan-14">
+      <button class="dl-plan-head dl-plan-head--toggle" id="toggle-14" aria-expanded="false"
+        aria-controls="grid-14">
+        <div class="dl-plan-head-left">
+          <span class="dl-plan-chevron" id="chevron-14">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6" />
+            </svg>
+          </span>
+          <h3>14 semanas</h3>
+        </div>
+        <span class="dl-plan-count" id="count-14">0/14 disponíveis</span>
+      </button>
+      <div class="dl-grid" id="grid-14" hidden>
+        <!-- gerado por JS -->
+      </div>
+    </section>
+
+    <section class="dl-plan dl-plan--soon">
+      <div class="dl-plan-head">
+        <div class="dl-plan-head-left">
+          <h3>18 semanas</h3>
+        </div>
+        <span class="dl-plan-tag">em breve</span>
+      </div>
+      <p class="dl-soon-text">O plano de 18 semanas ainda está sendo preparado.</p>
+    </section>
+
+  </main>
+
+  <footer class="dl-footer">
+    <p>Feito de forma independente por Murilo Gabriel Souza da Silva.</p>
+  </footer>
+
+  <script src="downloads.js"></script>
+</body>
+
+</html>

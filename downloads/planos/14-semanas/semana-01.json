@@ -1,0 +1,243 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Norma-padrão, norma culta e variação linguística",
+        "descricao": "Norma-padrão, norma culta e variação linguística: adequação x \"certo/errado\", preconceito linguístico; registro e contexto de prova.",
+        "detalhes": "Conteúdo longo e conceitual — ideal para início de semana com mais tempo disponível. Leia com atenção os exemplos de uso, anote as diferenças entre registro formal e informal.",
+        "duracao": "1h30",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Pré-socráticos",
+        "descricao": "Pré-socráticos",
+        "detalhes": "Primeiros filósofos e suas ideias sobre o arché. Faça fichamento por filósofo: Tales, Anaximandro, Heráclito, Parmênides. Base para entender toda a Filosofia Clássica que vem depois.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "A teoria e os fundamentos da História",
+        "descricao": "A teoria e os fundamentos da História",
+        "detalhes": "O que é História? Fontes históricas, tempo histórico, memória e identidade. Base teórica essencial para entender os conteúdos históricos da semana.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Ácidos nucleicos: características básicas do DNA e RNA",
+        "descricao": "Ácidos nucleicos: características básicas do DNA e RNA",
+        "detalhes": "Alta prioridade. Compare estrutura, bases nitrogenadas e função do DNA e do RNA. Monte um quadro comparativo — servirá de base para os próximos conteúdos da semana.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Conjuntos numéricos, potências, raízes e sistemas de medidas",
+        "descricao": "Conjuntos numéricos, sistemas de numeração, potências, raízes, notação científica e sistemas de medidas",
+        "detalhes": "Alta prioridade. Revise notação científica com exemplos do ENEM. Pratique conversões entre sistemas de medidas.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Estequiometria (pureza e rendimento)",
+        "descricao": "Estequiometria (pureza e rendimento)",
+        "detalhes": "Alta prioridade. Resolva exercícios envolvendo reagente impuro e rendimento de reação. Treine o passo a passo: balancear, calcular mols, aplicar pureza/rendimento.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Movimento retilíneo uniforme (MRU)",
+        "descricao": "Movimento retilíneo uniforme (MRU)",
+        "detalhes": "Alta prioridade. Treine a fórmula S = S₀ + v·t. Resolva gráficos de posição x tempo e velocidade x tempo.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Duplicação semiconservativa do DNA",
+        "descricao": "Duplicação semiconservativa do DNA",
+        "detalhes": "Alta prioridade. Desenhe o esquema da duplicação passo a passo. Relacione com o conteúdo de DNA/RNA visto na segunda-feira.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Equilíbrio iônico",
+        "descricao": "Equilíbrio iônico",
+        "detalhes": "Alta prioridade. Revise constante de ionização, efeito do íon comum e pH de soluções. Resolva exercícios de cálculo de equilíbrio.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "A Expansão Marítima",
+        "descricao": "A Expansão Marítima",
+        "detalhes": "Contextualize: motivações, rotas, consequências. Use mapas mentais para fixar os países e as datas.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Filosofia Clássica (Sócrates e os Sofistas)",
+        "descricao": "Filosofia Clássica (Sócrates e os Sofistas)",
+        "detalhes": "Compare o método socrático com a retórica dos Sofistas. Foco na ironia e maiêutica de Sócrates. Conecte com os pré-socráticos estudados no domingo.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "RNA: Transcrição, tradução e código genético",
+        "descricao": "RNA: Transcrição, tradução, características do código genético",
+        "detalhes": "Alta prioridade. Esquematize o processo transcrição → tradução. Memorize as características do código genético (degenerado, universal, não sobreposto).",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Números inteiros, múltiplos, divisores. MMC e MDC",
+        "descricao": "Números inteiros, múltiplos e divisores. Números primos. MMC e MDC",
+        "detalhes": "Alta prioridade. Resolva pelo menos 10 exercícios de MMC e MDC, incluindo problemas contextualizados do ENEM.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Previsão da acidez na química orgânica",
+        "descricao": "Previsão da acidez na química orgânica",
+        "detalhes": "Alta prioridade. Relacione estrutura molecular (eletronegatividade, ressonância, efeito indutivo) com força ácida. Compare exemplos de moléculas orgânicas.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Pronouns and Possessive Adjectives",
+        "descricao": "Pronouns and Possessive Adjectives",
+        "detalhes": "Revise pronomes pessoais, possessivos e adjetivos possessivos. Pratique com frases e exercícios de substituição.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Introdução à óptica geométrica – Parte 1",
+        "descricao": "Introdução à óptica geométrica – Parte 1",
+        "detalhes": "Estude reflexão e refração. Desenhe os raios de luz em espelhos planos. Relacione com situações do cotidiano.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Grécia - Parte 2 (Período Clássico e Helenístico)",
+        "descricao": "Grécia - Parte 2 (Período Clássico e Período Helenístico)",
+        "detalhes": "Estude a Democracia ateniense, as Guerras do Peloponeso e a formação dos reinos helenísticos após Alexandre. Relacione com os filósofos vistos na semana.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Sociologia: ciência, método e estranhamento",
+        "descricao": "Sociologia: ciência, método e estranhamento",
+        "detalhes": "O que é Sociologia? Estranhamento e desnaturalização. Como a Sociologia olha para o mundo social.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Arte medieval – imagem, fé e simbolismo",
+        "descricao": "Arte medieval - Entre o céu e a terra: imagem, fé e simbolismo",
+        "detalhes": "Relacione a arte medieval com o contexto religioso da época. Analise o simbolismo presente nas obras.",
+        "duracao": "1h",
+        "prioridade": "baixa"
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Émile Durkheim: fato social, solidariedade e anomia",
+        "descricao": "Émile Durkheim: fato social, solidariedade e anomia",
+        "detalhes": "Conteúdo teórico extenso. Reserve tempo para fichamento dos conceitos: fato social, coerção, solidariedade mecânica x orgânica, anomia. Conecte com a introdução à Sociologia vista na quinta.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Arte do Renascimento – A revolução do saber e da técnica",
+        "descricao": "Arte do Renascimento - A revolução do saber e da técnica",
+        "detalhes": "Compare com a arte medieval estudada na quinta. Foque na perspectiva, no antropocentrismo e nos grandes nomes do período.",
+        "duracao": "1h",
+        "prioridade": "baixa"
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "História do pensamento geográfico",
+        "descricao": "História do pensamento geográfico: da natureza à sociedade",
+        "detalhes": "Evolução da Geografia como ciência. Determinismo, possibilismo, Geografia Crítica. Relacione com questões do ENEM.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Pontuação I",
+        "descricao": "Pontuação I",
+        "detalhes": "Estude o uso da vírgula, ponto e vírgula e dois pontos. Resolva exercícios de pontuação com foco em questões de prova.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Enem e vestibulares 1",
+        "descricao": "Enem e vestibulares 1",
+        "detalhes": "Sessão de resolução de questões anteriores do ENEM e vestibulares. Foque em interpretação de texto e questões de linguagem. Reserve 30 minutos para revisão dos erros.",
+        "duracao": "1h30",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Geografia da saúde: a saúde no Brasil e o SUS",
+        "descricao": "Geografia da saúde: a saúde no Brasil e a importância do SUS",
+        "detalhes": "Relacione desigualdades regionais de acesso à saúde com a organização do SUS. Tema recorrente em questões de atualidades do ENEM.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ]
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Tecido muscular estriado esquelético (fibras brancas e ve...",
+        "descricao": "Tecido muscular estriado esquelético (fibras brancas e vermelhas), estriado cardíaco e liso. Sarcômero a unidade de contração e suas atividades. A catraca de Huxley, contratura muscular e fadiga muscular",
+        "detalhes": "Monte um esquema/resumo visual sobre Tecido muscular estriado esquelético (fibras brancas e ve.... Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h30",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Dominando as Áreas das Figuras Planas",
+        "descricao": "Dominando as Áreas das Figuras Planas: Conceitos e Aplicações",
+        "detalhes": "Resolva pelo menos 10 exercícios sobre Dominando as Áreas das Figuras Planas, incluindo questões de vestibular.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Democracia, cidadania e direitos humanos",
+        "descricao": "Democracia, cidadania e direitos humanos",
+        "detalhes": "Leia com atenção os conceitos de Democracia, cidadania e direitos humanos e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "As mudanças climáticas",
+        "descricao": "As mudanças climáticas",
+        "detalhes": "Relacione As mudanças climáticas com questões atuais e exemplos do ENEM.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Tecido nervoso (neurônios e células da glia), sinapse quí...",
+        "descricao": "Tecido nervoso (neurônios e células da glia), sinapse química e elétrica, neurotransmissores e suas ações e gráfico do potencial de ação dos neurônios",
+        "detalhes": "Monte um esquema/resumo visual sobre Tecido nervoso (neurônios e células da glia), sinapse quí.... Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h30",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Segundo Reinado",
+        "descricao": "Segundo Reinado - Parte 1 (Política e Economia)",
+        "detalhes": "Contextualize Segundo Reinado: causas, desenvolvimento e consequências. Use linha do tempo.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Pós-Impressionismo",
+        "descricao": "Pós-Impressionismo - Quando a pintura começa a pensar a si mesma",
+        "detalhes": "Analise o contexto histórico e as características de Pós-Impressionismo. Observe exemplos de obras.",
+        "duracao": "1h",
+        "prioridade": "baixa"
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Matriz energética e Fontes de energia",
+        "descricao": "Matriz energética e Fontes de energia",
+        "detalhes": "Relacione Matriz energética e Fontes de energia com questões atuais e exemplos do ENEM.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Eletrólise (aspectos quantitativos)",
+        "descricao": "Eletrólise (aspectos quantitativos)",
+        "detalhes": "Resolva exercícios aplicando os conceitos de Eletrólise (aspectos quantitativos). Anote fórmulas e casos especiais.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Segundo Reinado",
+        "descricao": "Segundo Reinado - Parte 2 (Guerra do Paraguai e Declínio)",
+        "detalhes": "Contextualize Segundo Reinado: causas, desenvolvimento e consequências. Use linha do tempo.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Belle Époque",
+        "descricao": "Belle Époque",
+        "detalhes": "Analise o contexto histórico e as características de Belle Époque. Observe exemplos de obras.",
+        "duracao": "1h",
+        "prioridade": "baixa"
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Funções inorgânicas",
+        "descricao": "Funções inorgânicas: bases",
+        "detalhes": "Resolva exercícios aplicando os conceitos de Funções inorgânicas. Anote fórmulas e casos especiais.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Revolução Industrial",
+        "descricao": "Revolução Industrial",
+        "detalhes": "Contextualize Revolução Industrial: causas, desenvolvimento e consequências. Use linha do tempo.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Reescrita de frases",
+        "descricao": "Reescrita de frases",
+        "detalhes": "Revise a teoria de Reescrita de frases e resolva exercícios de fixação.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Reações orgânicas",
+        "descricao": "Reações orgânicas - Parte 1",
+        "detalhes": "Resolva exercícios aplicando os conceitos de Reações orgânicas. Anote fórmulas e casos especiais.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "O problema moral",
+        "descricao": "O problema moral: fundamentos históricos e filosóficos",
+        "detalhes": "Leia com atenção os conceitos de O problema moral e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Funções da Linguagem",
+        "descricao": "Funções da Linguagem",
+        "detalhes": "Revise a teoria de Funções da Linguagem e resolva exercícios de fixação.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Velocidade e aceleração vetoriais",
+        "descricao": "Velocidade e aceleração vetoriais",
+        "detalhes": "Pratique exercícios numéricos sobre Velocidade e aceleração vetoriais. Desenhe esquemas/gráficos quando possível.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Moral e Sociedade",
+        "descricao": "Moral e Sociedade: conflitos, normas e valores",
+        "detalhes": "Leia com atenção os conceitos de Moral e Sociedade e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Enem e vestibulares 6",
+        "descricao": "Enem e vestibulares 6",
+        "detalhes": "Sessão de resolução de questões anteriores do ENEM e vestibulares. Reserve 30 minutos para revisão dos erros.",
+        "duracao": "1h30",
+        "prioridade": "alta"
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Imunologia",
+        "descricao": "Imunologia: Sistema imunitário, Imunização passiva (soro), ativa (vacina), coagulação, soro, vacina, alergia, febre e inflamação",
+        "detalhes": "Monte um esquema/resumo visual sobre Imunologia. Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h30",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Lentes esféricas",
+        "descricao": "Lentes esféricas",
+        "detalhes": "Pratique exercícios numéricos sobre Lentes esféricas. Desenhe esquemas/gráficos quando possível.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Política, Estado Dominação e Poder",
+        "descricao": "Política, Estado Dominação e Poder",
+        "detalhes": "Leia com atenção os conceitos de Política, Estado Dominação e Poder e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Modal Verbs",
+        "descricao": "Modal Verbs",
+        "detalhes": "Pratique Modal Verbs com frases e exercícios de tradução.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ]
+  }
+}

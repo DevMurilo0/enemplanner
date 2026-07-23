@@ -1,0 +1,234 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Introdução à ecologia (cadeias alimentares, pirâmides eco...",
+        "descricao": "Introdução à ecologia (cadeias alimentares, pirâmides ecológicas e fluxo de energia)",
+        "detalhes": "Monte um esquema/resumo visual sobre Introdução à ecologia (cadeias alimentares, pirâmides eco.... Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Óptica da Visão",
+        "descricao": "Óptica da Visão",
+        "detalhes": "Pratique exercícios numéricos sobre Óptica da Visão. Desenhe esquemas/gráficos quando possível.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Movimentos sociais",
+        "descricao": "Movimentos sociais",
+        "detalhes": "Leia com atenção os conceitos de Movimentos sociais e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Future",
+        "descricao": "Future",
+        "detalhes": "Pratique Future com frases e exercícios de tradução.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Ciclos biogeoquímicos",
+        "descricao": "Ciclos biogeoquímicos: Ciclo do Nitrogênio",
+        "detalhes": "Monte um esquema/resumo visual sobre Ciclos biogeoquímicos. Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Função Afim Descomplicada",
+        "descricao": "Função Afim Descomplicada: Conceitos, Gráficos e Propriedades",
+        "detalhes": "Resolva pelo menos 10 exercícios sobre Função Afim Descomplicada, incluindo questões de vestibular.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Movimentos sociais no Brasil",
+        "descricao": "Movimentos sociais no Brasil",
+        "detalhes": "Leia com atenção os conceitos de Movimentos sociais no Brasil e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Mundialização do Capitalismo e as instituições financeira...",
+        "descricao": "Mundialização do Capitalismo e as instituições financeiras internacionais",
+        "detalhes": "Relacione Mundialização do Capitalismo e as instituições financeira... com questões atuais e exemplos do ENEM.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Ciclos biogeoquímicos",
+        "descricao": "Ciclos biogeoquímicos: Carbono, água e oxigênio",
+        "detalhes": "Monte um esquema/resumo visual sobre Ciclos biogeoquímicos. Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Função Quadrática",
+        "descricao": "Função Quadrática - Parte 1 e 2 (Conceitos, Propriedades, Gráficos, Forma Fatorada, máximos e mínimos)",
+        "detalhes": "Resolva pelo menos 10 exercícios sobre Função Quadrática, incluindo questões de vestibular.",
+        "duracao": "1h30",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Pré-Modernismo no Brasil",
+        "descricao": "Pré-Modernismo no Brasil - Um país em conflito: arte, identidade e contradição",
+        "detalhes": "Analise o contexto histórico e as características de Pré-Modernismo no Brasil. Observe exemplos de obras.",
+        "duracao": "1h",
+        "prioridade": "baixa"
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Blocos Econômicos, Mercado Global e Estratégias de Inserç...",
+        "descricao": "Blocos Econômicos, Mercado Global e Estratégias de Inserção na Globalização",
+        "detalhes": "Relacione Blocos Econômicos, Mercado Global e Estratégias de Inserç... com questões atuais e exemplos do ENEM.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Radioatividade (cinética das emissões)",
+        "descricao": "Radioatividade (cinética das emissões)",
+        "detalhes": "Resolva exercícios aplicando os conceitos de Radioatividade (cinética das emissões). Anote fórmulas e casos especiais.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Aula especial sobre Escravidão",
+        "descricao": "Aula especial sobre Escravidão",
+        "detalhes": "Contextualize Aula especial sobre Escravidão: causas, desenvolvimento e consequências. Use linha do tempo.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Vanguardas europeias",
+        "descricao": "Vanguardas europeias - Quebrar para criar: a arte em tempos de ruptura",
+        "detalhes": "Analise o contexto histórico e as características de Vanguardas europeias. Observe exemplos de obras.",
+        "duracao": "1h",
+        "prioridade": "baixa"
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Funções inorgânicas",
+        "descricao": "Funções inorgânicas: óxidos",
+        "detalhes": "Resolva exercícios aplicando os conceitos de Funções inorgânicas. Anote fórmulas e casos especiais.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Iluminismo, Fisiocracia e Liberalismo",
+        "descricao": "Iluminismo, Fisiocracia e Liberalismo",
+        "detalhes": "Contextualize Iluminismo, Fisiocracia e Liberalismo: causas, desenvolvimento e consequências. Use linha do tempo.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Figuras de linguagem e efeitos de sentido",
+        "descricao": "Figuras de linguagem e efeitos de sentido: metáfora, metonímia, ironia, hipérbole, eufemismo, antítese, paradoxo etc.",
+        "detalhes": "Revise a teoria de Figuras de linguagem e efeitos de sentido e resolva exercícios de fixação.",
+        "duracao": "1h30",
+        "prioridade": "media"
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Reações orgânicas",
+        "descricao": "Reações orgânicas - Parte 2",
+        "detalhes": "Resolva exercícios aplicando os conceitos de Reações orgânicas. Anote fórmulas e casos especiais.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Dilemas morais contemporâneos",
+        "descricao": "Dilemas morais contemporâneos",
+        "detalhes": "Leia com atenção os conceitos de Dilemas morais contemporâneos e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Variação Linguística",
+        "descricao": "Variação Linguística",
+        "detalhes": "Revise a teoria de Variação Linguística e resolva exercícios de fixação.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Força resultante centrípeta",
+        "descricao": "Força resultante centrípeta",
+        "detalhes": "Pratique exercícios numéricos sobre Força resultante centrípeta. Desenhe esquemas/gráficos quando possível.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "O ser humano em perspectiva",
+        "descricao": "O ser humano em perspectiva: natureza, cultura e liberdade",
+        "detalhes": "Leia com atenção os conceitos de O ser humano em perspectiva e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Enem e vestibulares 7",
+        "descricao": "Enem e vestibulares 7",
+        "detalhes": "Sessão de resolução de questões anteriores do ENEM e vestibulares. Reserve 30 minutos para revisão dos erros.",
+        "duracao": "1h30",
+        "prioridade": "alta"
+      }
+    ]
+  }
+}

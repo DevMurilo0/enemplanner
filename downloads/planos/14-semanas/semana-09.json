@@ -1,0 +1,234 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Energia mecânica",
+        "descricao": "Energia mecânica - Parte I",
+        "detalhes": "Pratique exercícios numéricos sobre Energia mecânica. Desenhe esquemas/gráficos quando possível.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Arte, cultura e crítica",
+        "descricao": "Arte, cultura e crítica: modernidade e indústria cultural",
+        "detalhes": "Leia com atenção os conceitos de Arte, cultura e crítica e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Termos acessórios da oração",
+        "descricao": "Termos acessórios da oração: Adjunto adnominal; adjunto adverbial; locuções adverbiais; aposto; vocativo; diferenças entre adjunto adnominal x complemento nominal; pontuação aplicada",
+        "detalhes": "Revise a teoria de Termos acessórios da oração e resolva exercícios de fixação.",
+        "duracao": "1h30",
+        "prioridade": "media"
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Acústica",
+        "descricao": "Acústica",
+        "detalhes": "Pratique exercícios numéricos sobre Acústica. Desenhe esquemas/gráficos quando possível.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Estética contemporânea",
+        "descricao": "Estética contemporânea: corpo, imagem e tecnologia",
+        "detalhes": "Leia com atenção os conceitos de Estética contemporânea e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Enem e vestibulares 9",
+        "descricao": "Enem e vestibulares 9",
+        "detalhes": "Sessão de resolução de questões anteriores do ENEM e vestibulares. Reserve 30 minutos para revisão dos erros.",
+        "duracao": "1h30",
+        "prioridade": "alta"
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Biomas brasileiros",
+        "descricao": "Biomas brasileiros - Parte 1 (floresta amazônica, caatinga e cerrado)",
+        "detalhes": "Monte um esquema/resumo visual sobre Biomas brasileiros. Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Cordas e tubos sonoros",
+        "descricao": "Cordas e tubos sonoros",
+        "detalhes": "Pratique exercícios numéricos sobre Cordas e tubos sonoros. Desenhe esquemas/gráficos quando possível.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Urbanização e direito à cidade",
+        "descricao": "Urbanização e direito à cidade",
+        "detalhes": "Leia com atenção os conceitos de Urbanização e direito à cidade e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "There Be x Have",
+        "descricao": "There Be x Have",
+        "detalhes": "Pratique There Be x Have com frases e exercícios de tradução.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Poluição e Desequilíbrio ecológico",
+        "descricao": "Poluição e Desequilíbrio ecológico - Parte 1 (hipótese de gaia, biodiversidade, extinção, poluição das águas (derramamento de petróleo, eutrofização e DBO), acidificação da água do mar)",
+        "detalhes": "Monte um esquema/resumo visual sobre Poluição e Desequilíbrio ecológico. Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h30",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Análise combinatória",
+        "descricao": "Análise combinatória - Parte 1 (contagem, fatorial, permutações simples)",
+        "detalhes": "Resolva pelo menos 10 exercícios sobre Análise combinatória, incluindo questões de vestibular.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "O que é gênero?",
+        "descricao": "O que é gênero?",
+        "detalhes": "Leia com atenção os conceitos de O que é gênero? e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "China",
+        "descricao": "China: A construção de uma grande potência",
+        "detalhes": "Relacione China com questões atuais e exemplos do ENEM.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Poluição e Desequilíbrio ecológico",
+        "descricao": "Poluição e Desequilíbrio ecológico - Parte 2 (Maré-vermelha, biomagnificação, efeito estufa, inversão térmica, chuva ácida, tratamento de lixo, reciclagem, 5Rs, desmatamento e espécies exóticas)",
+        "detalhes": "Monte um esquema/resumo visual sobre Poluição e Desequilíbrio ecológico. Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h30",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Análise combinatória",
+        "descricao": "Análise combinatória - Parte 2 (agrupamento (arranjos, permutações, combinações))",
+        "detalhes": "Resolva pelo menos 10 exercícios sobre Análise combinatória, incluindo questões de vestibular.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Modernismo brasileiro",
+        "descricao": "Modernismo brasileiro – 2ª fase - Maturidade estética e crítica social",
+        "detalhes": "Analise o contexto histórico e as características de Modernismo brasileiro. Observe exemplos de obras.",
+        "duracao": "1h",
+        "prioridade": "baixa"
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Conflitos na Ásia",
+        "descricao": "Conflitos na Ásia",
+        "detalhes": "Relacione Conflitos na Ásia com questões atuais e exemplos do ENEM.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Reações de síntese e análise",
+        "descricao": "Reações de síntese e análise",
+        "detalhes": "Resolva exercícios aplicando os conceitos de Reações de síntese e análise. Anote fórmulas e casos especiais.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Era Vargas",
+        "descricao": "Era Vargas - Parte 1 (Revolução de 1930, Governo Provisório e Governo Constitucional)",
+        "detalhes": "Contextualize Era Vargas: causas, desenvolvimento e consequências. Use linha do tempo.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Modernismo brasileiro",
+        "descricao": "Modernismo brasileiro – 3ª fase - Existência, linguagem e universalidade",
+        "detalhes": "Analise o contexto histórico e as características de Modernismo brasileiro. Observe exemplos de obras.",
+        "duracao": "1h",
+        "prioridade": "baixa"
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Reações orgânicas",
+        "descricao": "Reações orgânicas - Parte 3",
+        "detalhes": "Resolva exercícios aplicando os conceitos de Reações orgânicas. Anote fórmulas e casos especiais.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Revolução Francesa",
+        "descricao": "Revolução Francesa - Parte 2 (a Convenção Nacional, o Diretório e o Golpe do 18 de Brumário)",
+        "detalhes": "Contextualize Revolução Francesa: causas, desenvolvimento e consequências. Use linha do tempo.",
+        "duracao": "1h30",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Termos integrantes da oração",
+        "descricao": "Termos integrantes da oração: Complementos verbais; objeto direto; objeto indireto; complemento nominal; agente da passiva; diferença entre complemento verbal e complemento nominal",
+        "detalhes": "Revise a teoria de Termos integrantes da oração e resolva exercícios de fixação.",
+        "duracao": "1h30",
+        "prioridade": "media"
+      }
+    ]
+  }
+}

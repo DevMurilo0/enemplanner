@@ -1,0 +1,261 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Fermentação alcoólica, láctica e acética",
+        "descricao": "Fermentação alcoólica, láctica e acética",
+        "detalhes": "Monte um esquema/resumo visual sobre Fermentação alcoólica, láctica e acética. Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Operação Raciocínio",
+        "descricao": "Operação Raciocínio: Problemas de 1º grau, razão, proporção e porcentagem sem mistério",
+        "detalhes": "Resolva pelo menos 10 exercícios sobre Operação Raciocínio, incluindo questões de vestibular.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Estratificação social",
+        "descricao": "Estratificação social",
+        "detalhes": "Leia com atenção os conceitos de Estratificação social e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Present and Past Continuous",
+        "descricao": "Present and Past Continuous",
+        "detalhes": "Pratique Present and Past Continuous com frases e exercícios de tradução.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Isomeria espacial óptica",
+        "descricao": "Isomeria espacial óptica",
+        "detalhes": "Resolva exercícios aplicando os conceitos de Isomeria espacial óptica. Anote fórmulas e casos especiais.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Revisando as 4 operações elementares e suas aplicações e ...",
+        "descricao": "Revisando as 4 operações elementares e suas aplicações e frações, potências e raízes",
+        "detalhes": "Resolva pelo menos 10 exercícios sobre Revisando as 4 operações elementares e suas aplicações e ..., incluindo questões de vestibular.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Mobilidade social e desenvolvimento",
+        "descricao": "Mobilidade social e desenvolvimento",
+        "detalhes": "Leia com atenção os conceitos de Mobilidade social e desenvolvimento e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Os domínios de vegetação e natureza no brasil",
+        "descricao": "Os domínios de vegetação e natureza no brasil",
+        "detalhes": "Relacione Os domínios de vegetação e natureza no brasil com questões atuais e exemplos do ENEM.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Hidrólise",
+        "descricao": "Hidrólise",
+        "detalhes": "Resolva exercícios aplicando os conceitos de Hidrólise. Anote fórmulas e casos especiais.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Período Joanino",
+        "descricao": "Período Joanino",
+        "detalhes": "Contextualize Período Joanino: causas, desenvolvimento e consequências. Use linha do tempo.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Realismo",
+        "descricao": "Realismo - A vida como ela é: arte e crítica social",
+        "detalhes": "Analise o contexto histórico e as características de Realismo. Observe exemplos de obras.",
+        "duracao": "1h",
+        "prioridade": "baixa"
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Os problemas ambientais",
+        "descricao": "Os problemas ambientais",
+        "detalhes": "Relacione Os problemas ambientais com questões atuais e exemplos do ENEM.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Transesterificação",
+        "descricao": "Transesterificação",
+        "detalhes": "Resolva exercícios aplicando os conceitos de Transesterificação. Anote fórmulas e casos especiais.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Alta Idade Média Ocidental",
+        "descricao": "Alta Idade Média Ocidental",
+        "detalhes": "Contextualize Alta Idade Média Ocidental: causas, desenvolvimento e consequências. Use linha do tempo.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Naturalismo",
+        "descricao": "Naturalismo - Ciência, determinismo e corpo social",
+        "detalhes": "Analise o contexto histórico e as características de Naturalismo. Observe exemplos de obras.",
+        "duracao": "1h",
+        "prioridade": "baixa"
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "A Fotossíntese",
+        "descricao": "A Fotossíntese: O papel da Luz e Os Processos de Fotofosforilação Acíclica e Cíclica (Fase clara)",
+        "detalhes": "Monte um esquema/resumo visual sobre A Fotossíntese. Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h30",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Leis de Newton",
+        "descricao": "Leis de Newton - Parte I",
+        "detalhes": "Pratique exercícios numéricos sobre Leis de Newton. Desenhe esquemas/gráficos quando possível.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Baixa Idade Média Ocidental",
+        "descricao": "Baixa Idade Média Ocidental",
+        "detalhes": "Contextualize Baixa Idade Média Ocidental: causas, desenvolvimento e consequências. Use linha do tempo.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Concordância nominal — armadilhas frequentes",
+        "descricao": "Concordância nominal — armadilhas frequentes: É proibido; meio/meia; anexo; bastante; mesmo; todo; obrigado.",
+        "detalhes": "Revise a teoria de Concordância nominal — armadilhas frequentes e resolva exercícios de fixação.",
+        "duracao": "1h30",
+        "prioridade": "media"
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "A Fotossíntese",
+        "descricao": "A Fotossíntese: Ciclo de Calvin (fase escura) e fatores limitantes da fotossíntese (Luz, CO2 e temperatura)",
+        "detalhes": "Monte um esquema/resumo visual sobre A Fotossíntese. Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h30",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Leis de Newton",
+        "descricao": "Leis de Newton - Parte II",
+        "detalhes": "Pratique exercícios numéricos sobre Leis de Newton. Desenhe esquemas/gráficos quando possível.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Epistemologia contemporânea",
+        "descricao": "Epistemologia contemporânea: linguagem, ciência e verdade",
+        "detalhes": "Leia com atenção os conceitos de Epistemologia contemporânea e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Regência verbal — verbos campeões",
+        "descricao": "Regência verbal — verbos campeões: assistir, preferir, visar, implicar, obedecer, aspirar, namorar, chegar, ir etc.",
+        "detalhes": "Revise a teoria de Regência verbal — verbos campeões e resolva exercícios de fixação.",
+        "duracao": "1h30",
+        "prioridade": "media"
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Respiração Celular Aeróbia",
+        "descricao": "Respiração Celular Aeróbia - Glicólise, Ciclo de Krebs e cadeia transportadora de elétrons. E respiração celular anaeróbia",
+        "detalhes": "Monte um esquema/resumo visual sobre Respiração Celular Aeróbia. Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h30",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Espelhos esféricos",
+        "descricao": "Espelhos esféricos - Parte II",
+        "detalhes": "Pratique exercícios numéricos sobre Espelhos esféricos. Desenhe esquemas/gráficos quando possível.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Conhecimento, tecnologia e sociedade",
+        "descricao": "Conhecimento, tecnologia e sociedade: desafios atuais",
+        "detalhes": "Leia com atenção os conceitos de Conhecimento, tecnologia e sociedade e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Enem e vestibulares 4",
+        "descricao": "Enem e vestibulares 4",
+        "detalhes": "Sessão de resolução de questões anteriores do ENEM e vestibulares. Reserve 30 minutos para revisão dos erros.",
+        "duracao": "1h30",
+        "prioridade": "alta"
+      }
+    ]
+  }
+}

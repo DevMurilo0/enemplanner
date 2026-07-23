@@ -1,0 +1,252 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Isomeria espacial geométrica",
+        "descricao": "Isomeria espacial geométrica",
+        "detalhes": "Resolva exercícios aplicando os conceitos de Isomeria espacial geométrica. Anote fórmulas e casos especiais.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Ciclo da mineração e período pombalino",
+        "descricao": "Ciclo da mineração e período pombalino",
+        "detalhes": "Contextualize Ciclo da mineração e período pombalino: causas, desenvolvimento e consequências. Use linha do tempo.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Neoclassicismo / Arcadismo",
+        "descricao": "Neoclassicismo / Arcadismo - Razão, norma e disciplina do olhar",
+        "detalhes": "Analise o contexto histórico e as características de Neoclassicismo / Arcadismo. Observe exemplos de obras.",
+        "duracao": "1h",
+        "prioridade": "baixa"
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Características climáticas do território brasileiro",
+        "descricao": "Características climáticas do território brasileiro",
+        "detalhes": "Relacione Características climáticas do território brasileiro com questões atuais e exemplos do ENEM.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Funções inorgânicas",
+        "descricao": "Funções inorgânicas: ácidos",
+        "detalhes": "Resolva exercícios aplicando os conceitos de Funções inorgânicas. Anote fórmulas e casos especiais.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Movimentos Emancipacionistas",
+        "descricao": "Movimentos Emancipacionistas",
+        "detalhes": "Contextualize Movimentos Emancipacionistas: causas, desenvolvimento e consequências. Use linha do tempo.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Romantismo",
+        "descricao": "Romantismo - O triunfo da emoção e do indivíduo",
+        "detalhes": "Analise o contexto histórico e as características de Romantismo. Observe exemplos de obras.",
+        "duracao": "1h",
+        "prioridade": "baixa"
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Esterificação",
+        "descricao": "Esterificação",
+        "detalhes": "Resolva exercícios aplicando os conceitos de Esterificação. Anote fórmulas e casos especiais.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Roma",
+        "descricao": "Roma - Parte 2 (a fase do Império)",
+        "detalhes": "Contextualize Roma: causas, desenvolvimento e consequências. Use linha do tempo.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Pronomes e Colocação Pronominal II",
+        "descricao": "Pronomes e Colocação Pronominal II",
+        "detalhes": "Revise a teoria de Pronomes e Colocação Pronominal II e resolva exercícios de fixação.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Organelas Citoplasmáticas",
+        "descricao": "Organelas Citoplasmáticas - Parte 2 (peroxissomos, glioxissomos, vacúolos, mitocôndrias, cloroplastos, centríolos)",
+        "detalhes": "Monte um esquema/resumo visual sobre Organelas Citoplasmáticas. Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h30",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Gráficos do MUV",
+        "descricao": "Gráficos do MUV",
+        "detalhes": "Pratique exercícios numéricos sobre Gráficos do MUV. Desenhe esquemas/gráficos quando possível.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Introdução à Filosofia Moderna",
+        "descricao": "Introdução à Filosofia Moderna",
+        "detalhes": "Leia com atenção os conceitos de Introdução à Filosofia Moderna e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Concordância verbal — casos especiais",
+        "descricao": "Concordância verbal — casos especiais: sujeito composto; porcentagem; coletivos; \"haver/fazer/existir\"; verbos impessoais.",
+        "detalhes": "Revise a teoria de Concordância verbal — casos especiais e resolva exercícios de fixação.",
+        "duracao": "1h30",
+        "prioridade": "media"
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Núcleo (estrutura, eucromatina, heterocromatina e nucléol...",
+        "descricao": "Núcleo (estrutura, eucromatina, heterocromatina e nucléolo), corpúsculo de Barr, cariótipo celular (número de cromossomos, células haplóides e diplóides)",
+        "detalhes": "Monte um esquema/resumo visual sobre Núcleo (estrutura, eucromatina, heterocromatina e nucléol.... Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h30",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Espelhos planos",
+        "descricao": "Espelhos planos",
+        "detalhes": "Pratique exercícios numéricos sobre Espelhos planos. Desenhe esquemas/gráficos quando possível.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Modernidade e o sujeito do conhecimento",
+        "descricao": "Modernidade e o sujeito do conhecimento",
+        "detalhes": "Leia com atenção os conceitos de Modernidade e o sujeito do conhecimento e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Enem e vestibulares 3",
+        "descricao": "Enem e vestibulares 3",
+        "detalhes": "Sessão de resolução de questões anteriores do ENEM e vestibulares. Reserve 30 minutos para revisão dos erros.",
+        "duracao": "1h30",
+        "prioridade": "alta"
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Divisão celular",
+        "descricao": "Divisão celular: MITOSE (equacional)",
+        "detalhes": "Monte um esquema/resumo visual sobre Divisão celular. Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Espelhos esféricos",
+        "descricao": "Espelhos esféricos - Parte I",
+        "detalhes": "Pratique exercícios numéricos sobre Espelhos esféricos. Desenhe esquemas/gráficos quando possível.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Cultura, etnocentrismo e alteridade",
+        "descricao": "Cultura, etnocentrismo e alteridade",
+        "detalhes": "Leia com atenção os conceitos de Cultura, etnocentrismo e alteridade e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Past Simple",
+        "descricao": "Past Simple",
+        "detalhes": "Pratique Past Simple com frases e exercícios de tradução.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Divisão celular",
+        "descricao": "Divisão celular: MEIOSE (reducional)",
+        "detalhes": "Monte um esquema/resumo visual sobre Divisão celular. Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Porcentagem, Juros Simples e Compostos",
+        "descricao": "Porcentagem, Juros Simples e Compostos: Conceitos e Aplicações no Dia a Dia",
+        "detalhes": "Resolva pelo menos 10 exercícios sobre Porcentagem, Juros Simples e Compostos, incluindo questões de vestibular.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Identidade, representação e estigma",
+        "descricao": "Identidade, representação e estigma",
+        "detalhes": "Leia com atenção os conceitos de Identidade, representação e estigma e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Mecanismos do clima e circulação atmosférica",
+        "descricao": "Mecanismos do clima e circulação atmosférica",
+        "detalhes": "Relacione Mecanismos do clima e circulação atmosférica com questões atuais e exemplos do ENEM.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ]
+  }
+}

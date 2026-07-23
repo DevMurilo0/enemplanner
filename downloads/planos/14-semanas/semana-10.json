@@ -1,0 +1,261 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Evolução",
+        "descricao": "Evolução: teorias evolucionistas de Lamarck e Darwin. Neodarwinismo e tipos de adaptação",
+        "detalhes": "Monte um esquema/resumo visual sobre Evolução. Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Distribuição binomial de probabilidades",
+        "descricao": "Distribuição binomial de probabilidades",
+        "detalhes": "Resolva pelo menos 10 exercícios sobre Distribuição binomial de probabilidades, incluindo questões de vestibular.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Decolonialidade",
+        "descricao": "Decolonialidade",
+        "detalhes": "Leia com atenção os conceitos de Decolonialidade e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Conflitos no Oriente Médio",
+        "descricao": "Conflitos no Oriente Médio",
+        "detalhes": "Relacione Conflitos no Oriente Médio com questões atuais e exemplos do ENEM.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Reação de simples troca",
+        "descricao": "Reação de simples troca",
+        "detalhes": "Resolva exercícios aplicando os conceitos de Reação de simples troca. Anote fórmulas e casos especiais.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Era Vargas",
+        "descricao": "Era Vargas - Parte 2 (O Estado Novo)",
+        "detalhes": "Contextualize Era Vargas: causas, desenvolvimento e consequências. Use linha do tempo.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Pop Art e a crítica à arte moderna",
+        "descricao": "Pop Art e a crítica à arte moderna - Imagem em excesso: consumo, reprodução e ironia",
+        "detalhes": "Analise o contexto histórico e as características de Pop Art e a crítica à arte moderna. Observe exemplos de obras.",
+        "duracao": "1h",
+        "prioridade": "baixa"
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Guerra na Ucrânia",
+        "descricao": "Guerra na Ucrânia",
+        "detalhes": "Relacione Guerra na Ucrânia com questões atuais e exemplos do ENEM.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Reações orgânicas",
+        "descricao": "Reações orgânicas - Parte 4",
+        "detalhes": "Resolva exercícios aplicando os conceitos de Reações orgânicas. Anote fórmulas e casos especiais.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "O Imperialismo e a Segunda Revolução Industrial",
+        "descricao": "O Imperialismo e a Segunda Revolução Industrial",
+        "detalhes": "Contextualize O Imperialismo e a Segunda Revolução Industrial: causas, desenvolvimento e consequências. Use linha do tempo.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Da obra ao conceito",
+        "descricao": "Da obra ao conceito: a crise do objeto artístico",
+        "detalhes": "Analise o contexto histórico e as características de Da obra ao conceito. Observe exemplos de obras.",
+        "duracao": "1h",
+        "prioridade": "baixa"
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Botânica",
+        "descricao": "Botânica: Introdução aos estudos dos vegetais: características gerais, ciclo reprodutivo geral e glossário de botânica",
+        "detalhes": "Monte um esquema/resumo visual sobre Botânica. Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h30",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Energia mecânica",
+        "descricao": "Energia mecânica - Parte II",
+        "detalhes": "Pratique exercícios numéricos sobre Energia mecânica. Desenhe esquemas/gráficos quando possível.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Unificações da Alemanha e Itália e a Primeira Guerra Mund...",
+        "descricao": "Unificações da Alemanha e Itália e a Primeira Guerra Mundial (1914-1918)",
+        "detalhes": "Contextualize Unificações da Alemanha e Itália e a Primeira Guerra Mund...: causas, desenvolvimento e consequências. Use linha do tempo.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Advérbios e Locuções Adverbiais",
+        "descricao": "Advérbios e Locuções Adverbiais",
+        "detalhes": "Revise a teoria de Advérbios e Locuções Adverbiais e resolva exercícios de fixação.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Fanerógamas",
+        "descricao": "Fanerógamas: angiospermas",
+        "detalhes": "Monte um esquema/resumo visual sobre Fanerógamas. Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Dilatação Térmica",
+        "descricao": "Dilatação Térmica",
+        "detalhes": "Pratique exercícios numéricos sobre Dilatação Térmica. Desenhe esquemas/gráficos quando possível.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Crise da Razão e o Nascimento do Contemporâneo",
+        "descricao": "Crise da Razão e o Nascimento do Contemporâneo",
+        "detalhes": "Leia com atenção os conceitos de Crise da Razão e o Nascimento do Contemporâneo e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Preposição e relações de sentido",
+        "descricao": "Preposição e relações de sentido",
+        "detalhes": "Revise a teoria de Preposição e relações de sentido e resolva exercícios de fixação.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Fisiologia vegetal",
+        "descricao": "Fisiologia vegetal: germinação da semente, movimentos vegetais, fitormônios, condução de seiva bruta, elaborada",
+        "detalhes": "Monte um esquema/resumo visual sobre Fisiologia vegetal. Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h30",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Propagação do Calor",
+        "descricao": "Propagação do Calor",
+        "detalhes": "Pratique exercícios numéricos sobre Propagação do Calor. Desenhe esquemas/gráficos quando possível.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Capitalismo, subjetividade e cultura",
+        "descricao": "Capitalismo, subjetividade e cultura",
+        "detalhes": "Leia com atenção os conceitos de Capitalismo, subjetividade e cultura e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Enem e vestibulares 10",
+        "descricao": "Enem e vestibulares 10",
+        "detalhes": "Sessão de resolução de questões anteriores do ENEM e vestibulares. Reserve 30 minutos para revisão dos erros.",
+        "duracao": "1h30",
+        "prioridade": "alta"
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Fotoperiodismo",
+        "descricao": "Fotoperiodismo: citocromo e floração de vegetais de dia curto e dia longo. Estiolamento",
+        "detalhes": "Monte um esquema/resumo visual sobre Fotoperiodismo. Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Probabilidades",
+        "descricao": "Probabilidades - Conceitos básicos e aplicações",
+        "detalhes": "Resolva pelo menos 10 exercícios sobre Probabilidades, incluindo questões de vestibular.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "As minorias",
+        "descricao": "As minorias",
+        "detalhes": "Leia com atenção os conceitos de As minorias e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Gerund and Infinitive",
+        "descricao": "Gerund and Infinitive",
+        "detalhes": "Pratique Gerund and Infinitive com frases e exercícios de tradução.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ]
+  }
+}

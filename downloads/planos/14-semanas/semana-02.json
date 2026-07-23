@@ -1,0 +1,243 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Previsão da basicidade na química orgânica",
+        "descricao": "Previsão da basicidade na química orgânica",
+        "detalhes": "Resolva exercícios aplicando os conceitos de Previsão da basicidade na química orgânica. Anote fórmulas e casos especiais.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Roma",
+        "descricao": "Roma - Parte 1 (a Monarquia e a República)",
+        "detalhes": "Contextualize Roma: causas, desenvolvimento e consequências. Use linha do tempo.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Pontuação II",
+        "descricao": "Pontuação II",
+        "detalhes": "Revise a teoria de Pontuação II e resolva exercícios de fixação.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Movimento uniformemente variado (MUV) e Movimento vertical",
+        "descricao": "Movimento uniformemente variado (MUV) e Movimento vertical",
+        "detalhes": "Pratique exercícios numéricos sobre Movimento uniformemente variado (MUV) e Movimento vertical. Desenhe esquemas/gráficos quando possível.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Filosofia Clássica (Platão e Aristóteles)",
+        "descricao": "Filosofia Clássica (Platão e Aristóteles)",
+        "detalhes": "Leia com atenção os conceitos de Filosofia Clássica (Platão e Aristóteles) e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Pronomes e Colocação Pronominal I",
+        "descricao": "Pronomes e Colocação Pronominal I",
+        "detalhes": "Revise a teoria de Pronomes e Colocação Pronominal I e resolva exercícios de fixação.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Enzimologia",
+        "descricao": "Enzimologia",
+        "detalhes": "Monte um esquema/resumo visual sobre Enzimologia. Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Introdução à óptica geométrica",
+        "descricao": "Introdução à óptica geométrica - Parte II",
+        "detalhes": "Pratique exercícios numéricos sobre Introdução à óptica geométrica. Desenhe esquemas/gráficos quando possível.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Filosofia Helenística",
+        "descricao": "Filosofia Helenística",
+        "detalhes": "Leia com atenção os conceitos de Filosofia Helenística e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Enem e vestibulares 2",
+        "descricao": "Enem e vestibulares 2",
+        "detalhes": "Sessão de resolução de questões anteriores do ENEM e vestibulares. Reserve 30 minutos para revisão dos erros.",
+        "duracao": "1h30",
+        "prioridade": "alta"
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Membrana plasmática e seus transportes passivos (difusão ...",
+        "descricao": "Membrana plasmática e seus transportes passivos (difusão e osmose), ativos (bombas e endocitoses)",
+        "detalhes": "Monte um esquema/resumo visual sobre Membrana plasmática e seus transportes passivos (difusão .... Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h30",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Razão e proporção; Escalas; Grandezas proporcionais",
+        "descricao": "Razão e proporção; Escalas; Grandezas proporcionais",
+        "detalhes": "Resolva pelo menos 10 exercícios sobre Razão e proporção; Escalas; Grandezas proporcionais, incluindo questões de vestibular.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Max Weber",
+        "descricao": "Max Weber: ação social e racionalização",
+        "detalhes": "Leia com atenção os conceitos de Max Weber e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Present Simple",
+        "descricao": "Present Simple",
+        "detalhes": "Pratique Present Simple com frases e exercícios de tradução.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Organelas Citoplasmáticas",
+        "descricao": "Organelas Citoplasmáticas - Parte 1 (ribossomos, retículo, golgi, lisossomos)",
+        "detalhes": "Monte um esquema/resumo visual sobre Organelas Citoplasmáticas. Relacione com os conteúdos de Biologia já estudados.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Regra de 3 simples e composta",
+        "descricao": "Regra de 3 simples e composta",
+        "detalhes": "Resolva pelo menos 10 exercícios sobre Regra de 3 simples e composta, incluindo questões de vestibular.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Karl Marx",
+        "descricao": "Karl Marx: trabalho, classes e capitalismo",
+        "detalhes": "Leia com atenção os conceitos de Karl Marx e faça fichamento das ideias principais.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Superfícies da terra",
+        "descricao": "Superfícies da terra: estrutura e formas do relevo",
+        "detalhes": "Relacione Superfícies da terra com questões atuais e exemplos do ENEM.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Termoquímica (Lei de Hess)",
+        "descricao": "Termoquímica (Lei de Hess)",
+        "detalhes": "Resolva exercícios aplicando os conceitos de Termoquímica (Lei de Hess). Anote fórmulas e casos especiais.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Início da Colonização",
+        "descricao": "Início da Colonização: As Capitanias Hereditárias e o Governo-Geral",
+        "detalhes": "Contextualize Início da Colonização: causas, desenvolvimento e consequências. Use linha do tempo.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Quinhentismo",
+        "descricao": "Quinhentismo - Olhar europeu, cultura visual, colonização e representação do Brasil",
+        "detalhes": "Analise o contexto histórico e as características de Quinhentismo. Observe exemplos de obras.",
+        "duracao": "1h",
+        "prioridade": "baixa"
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Superfícies da terra",
+        "descricao": "Superfícies da terra: unidades do relevo brasileiro",
+        "detalhes": "Relacione Superfícies da terra com questões atuais e exemplos do ENEM.",
+        "duracao": "1h",
+        "prioridade": "media"
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Ligações intermoleculares",
+        "descricao": "Ligações intermoleculares",
+        "detalhes": "Resolva exercícios aplicando os conceitos de Ligações intermoleculares. Anote fórmulas e casos especiais.",
+        "duracao": "1h",
+        "prioridade": "alta"
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "A sociedade do açúcar e a economia complementar colonial",
+        "descricao": "A sociedade do açúcar e a economia complementar colonial",
+        "detalhes": "Contextualize A sociedade do açúcar e a economia complementar colonial: causas, desenvolvimento e consequências. Use linha do tempo.",
+        "duracao": "1h",
+        "prioridade": "media"
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Barroco",
+        "descricao": "Barroco - Excesso, drama e persuasão",
+        "detalhes": "Analise o contexto histórico e as características de Barroco. Observe exemplos de obras.",
+        "duracao": "1h",
+        "prioridade": "baixa"
+      }
+    ]
+  }
+}
