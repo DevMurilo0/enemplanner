@@ -4,30 +4,38 @@
 
 // ── Constants ─────────────────────────────────────────────────
 const STORAGE_KEY = 'studyPlanner_v1';
-const DAYS_SHORT   = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'];
-const BLOCK_TIMES  = ['07:00 – 08:00', '08:00 – 09:00', '09:00 – 10:00', '10:00 – 11:00'];
+const DAYS_SHORT = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'];
+const BLOCK_TIMES = ['07:00 – 08:00', '08:00 – 09:00', '09:00 – 10:00', '10:00 – 11:00'];
 
 const SUBJECTS = [
-  { id: 'bio', label: 'Biologia',               color: '#4caf7d' },
-  { id: 'qui', label: 'Química',                color: '#f4883a' },
-  { id: 'fis', label: 'Física',                 color: '#58b4e8' },
-  { id: 'mat', label: 'Matemática',             color: '#3a6ecc' },
-  { id: 'his', label: 'História',               color: '#e8c744' },
-  { id: 'fil', label: 'Fil. e Sociologia',      color: '#e87fad',
-    aliases: ['filosofia e sociologia', 'filosofia', 'sociologia', 'fil. e sociologia', 'filosofia/sociologia'] },
-  { id: 'art', label: 'Artes e Literatura',     color: '#b689e0',
-    aliases: ['artes e literatura', 'artes', 'literatura', 'arte'] },
-  { id: 'gra', label: 'Gramática Tradicional',  color: '#8a9bb0',
-    aliases: ['gramática tradicional', 'gramatica tradicional', 'gramática', 'gramatica', 'português', 'portugues'] },
-  { id: 'ing', label: 'Inglês',                 color: '#e05454' },
-  { id: 'geo', label: 'Geografia e Atualidades',color: '#2e8b57',
-    aliases: ['geografia e atualidades', 'geografia', 'atualidades'] },
+  { id: 'bio', label: 'Biologia', color: '#4caf7d' },
+  { id: 'qui', label: 'Química', color: '#f4883a' },
+  { id: 'fis', label: 'Física', color: '#58b4e8' },
+  { id: 'mat', label: 'Matemática', color: '#3a6ecc' },
+  { id: 'his', label: 'História', color: '#e8c744' },
+  {
+    id: 'fil', label: 'Fil. e Sociologia', color: '#e87fad',
+    aliases: ['filosofia e sociologia', 'filosofia', 'sociologia', 'fil. e sociologia', 'filosofia/sociologia']
+  },
+  {
+    id: 'art', label: 'Artes e Literatura', color: '#b689e0',
+    aliases: ['artes e literatura', 'artes', 'literatura', 'arte']
+  },
+  {
+    id: 'gra', label: 'Gramática Tradicional', color: '#8a9bb0',
+    aliases: ['gramática tradicional', 'gramatica tradicional', 'gramática', 'gramatica', 'português', 'portugues']
+  },
+  { id: 'ing', label: 'Inglês', color: '#e05454' },
+  {
+    id: 'geo', label: 'Geografia e Atualidades', color: '#2e8b57',
+    aliases: ['geografia e atualidades', 'geografia', 'atualidades']
+  },
 ];
 
 // ── State ─────────────────────────────────────────────────────
 let weekOffset = 0;      // 0 = current week, -1 = previous, +1 = next…
-let data       = {};     // { 'YYYY-MM-DD': [ {subject, note, studied}, … ] }
-let editing    = null;   // { dateKey, blockIndex }
+let data = {};     // { 'YYYY-MM-DD': [ {subject, note, studied}, … ] }
+let editing = null;   // { dateKey, blockIndex }
 
 // ── LocalStorage helpers ───────────────────────────────────────
 function loadData() {
@@ -53,12 +61,12 @@ function setBlock(dateKey, idx, subject, note) {
   data[dateKey][idx] = {
     subject,
     note,
-    titulo:     existing.titulo     || '',
-    descricao:  existing.descricao  || note,
-    detalhes:   existing.detalhes   || '',
-    duracao:    existing.duracao    || '',
+    titulo: existing.titulo || '',
+    descricao: existing.descricao || note,
+    detalhes: existing.detalhes || '',
+    duracao: existing.duracao || '',
     prioridade: existing.prioridade || '',
-    studied:    existing.studied    || false
+    studied: existing.studied || false
   };
   saveData();
 }
@@ -88,8 +96,8 @@ function formatWeekLabel(start) {
 function isToday(date) {
   const t = new Date();
   return date.getDate() === t.getDate()
-      && date.getMonth() === t.getMonth()
-      && date.getFullYear() === t.getFullYear();
+    && date.getMonth() === t.getMonth()
+    && date.getFullYear() === t.getFullYear();
 }
 
 // ── Subject lookup ─────────────────────────────────────────────
@@ -99,14 +107,14 @@ function getSubject(id) {
 
 // ── Render calendar ────────────────────────────────────────────
 function renderCalendar() {
-  const grid      = document.getElementById('calendar-grid');
+  const grid = document.getElementById('calendar-grid');
   const weekStart = getWeekStart(weekOffset);
 
   document.getElementById('week-label').textContent = formatWeekLabel(weekStart);
   grid.innerHTML = '';
 
   for (let d = 0; d < 7; d++) {
-    const date    = new Date(weekStart);
+    const date = new Date(weekStart);
     date.setDate(date.getDate() + d);
     const dateKey = toDateKey(date);
 
@@ -137,7 +145,7 @@ function renderCalendar() {
 
     for (let i = 0; i < 4; i++) {
       const block = getBlock(dateKey, i);
-      const subj  = block.subject ? getSubject(block.subject) : null;
+      const subj = block.subject ? getSubject(block.subject) : null;
 
       const el = document.createElement('div');
       el.className = 'study-block' + (subj ? ' block-filled' : ' block-empty') + (block.studied ? ' is-studied' : '');
@@ -202,13 +210,13 @@ function updateWeeklyStats() {
     const date = new Date(weekStart);
     date.setDate(date.getDate() + d);
     const dateKey = toDateKey(date);
-    
+
     for (let i = 0; i < 4; i++) {
       const block = getBlock(dateKey, i);
       if (block.subject) {
         totalFilled++;
         if (block.studied) totalStudied++;
-        
+
         subjectCounts[block.subject] = (subjectCounts[block.subject] || 0) + 1;
       }
     }
@@ -222,7 +230,7 @@ function updateWeeklyStats() {
 
   if (statFilled) statFilled.textContent = `${totalFilled}/28`;
   if (statStudied) statStudied.textContent = `${totalStudied}/${totalFilled}`;
-  
+
   let topSubjectId = null;
   let maxCount = 0;
   for (const [id, count] of Object.entries(subjectCounts)) {
@@ -231,7 +239,7 @@ function updateWeeklyStats() {
       topSubjectId = id;
     }
   }
-  
+
   if (statTopSubject) {
     if (topSubjectId) {
       const subj = getSubject(topSubjectId);
@@ -240,7 +248,7 @@ function updateWeeklyStats() {
       statTopSubject.textContent = '—';
     }
   }
-  
+
   const pct = totalFilled > 0 ? Math.round((totalStudied / totalFilled) * 100) : 0;
   if (statProgressFill) statProgressFill.style.width = `${pct}%`;
   if (statProgressPct) statProgressPct.textContent = `${pct}%`;
@@ -349,7 +357,7 @@ function openDetails(dateKey, blockIndex) {
   const subj = getSubject(block.subject);
 
   document.getElementById('details-dot').style.background = subj ? subj.color : 'var(--text-muted)';
-  document.getElementById('details-subject').textContent  = subj ? subj.label : '—';
+  document.getElementById('details-subject').textContent = subj ? subj.label : '—';
 
   const titulo = block.titulo || (block.note ? block.note.split('\n')[0] : '') || 'Sem título';
   document.getElementById('details-title').textContent = titulo;
@@ -357,7 +365,7 @@ function openDetails(dateKey, blockIndex) {
   const meta = document.getElementById('details-meta');
   meta.innerHTML = '';
   const badges = [
-    { icon: '⏱', value: block.duracao    || '' },
+    { icon: '⏱', value: block.duracao || '' },
     { icon: '🎯', value: block.prioridade || '' },
   ];
   badges.forEach(({ icon, value }) => {
@@ -369,7 +377,7 @@ function openDetails(dateKey, blockIndex) {
   });
 
   const descSection = document.getElementById('details-desc-section');
-  const descEl      = document.getElementById('details-desc');
+  const descEl = document.getElementById('details-desc');
   const desc = block.descricao || block.note || '';
   if (desc) {
     descEl.textContent = desc;
@@ -379,7 +387,7 @@ function openDetails(dateKey, blockIndex) {
   }
 
   const detSection = document.getElementById('details-det-section');
-  const detEl      = document.getElementById('details-det');
+  const detEl = document.getElementById('details-det');
   if (block.detalhes && block.detalhes.trim()) {
     detEl.textContent = block.detalhes;
     detSection.style.display = '';
@@ -416,7 +424,7 @@ const DAY_KEY_MAP = {
   domingo: 0, segunda: 1, terca: 2, quarta: 3,
   quinta: 4, sexta: 5, sabado: 6
 };
-const DAY_KEYS_ORDER = ['domingo','segunda','terca','quarta','quinta','sexta','sabado'];
+const DAY_KEYS_ORDER = ['domingo', 'segunda', 'terca', 'quarta', 'quinta', 'sexta', 'sabado'];
 
 // Subject label/alias → id lookup (for import)
 const SUBJECT_LABEL_MAP = Object.fromEntries(
@@ -432,40 +440,40 @@ function exportJSON() {
   const semana = {};
 
   DAY_KEYS_ORDER.forEach((dayKey, d) => {
-    const date    = new Date(weekStart);
+    const date = new Date(weekStart);
     date.setDate(date.getDate() + d);
     const dateKey = toDateKey(date);
 
     semana[dayKey] = [];
     for (let i = 0; i < 4; i++) {
       const block = getBlock(dateKey, i);
-      const subj  = block.subject ? getSubject(block.subject) : null;
+      const subj = block.subject ? getSubject(block.subject) : null;
       semana[dayKey].push({
-        materia:    subj ? subj.label : '',
-        cor:        subj ? subj.color : '',
-        titulo:     block.note ? block.note.split('\n')[0] : '',
-        descricao:  block.note || '',
-        detalhes:   '',
-        duracao:    '1h',
+        materia: subj ? subj.label : '',
+        cor: subj ? subj.color : '',
+        titulo: block.note ? block.note.split('\n')[0] : '',
+        descricao: block.note || '',
+        detalhes: '',
+        duracao: '1h',
         prioridade: ''
       });
     }
   });
 
-  const payload  = JSON.stringify({ semana }, null, 2);
-  const blob     = new Blob([payload], { type: 'application/json' });
-  const url      = URL.createObjectURL(blob);
-  const a        = document.createElement('a');
-  const label    = formatWeekLabel(weekStart).replace(/\s/g, '_').replace(/[^a-zA-Z0-9_\-]/g, '');
-  a.href         = url;
-  a.download     = `planner_${label}.json`;
+  const payload = JSON.stringify({ semana }, null, 2);
+  const blob = new Blob([payload], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  const label = formatWeekLabel(weekStart).replace(/\s/g, '_').replace(/[^a-zA-Z0-9_\-]/g, '');
+  a.href = url;
+  a.download = `planner_${label}.json`;
   a.click();
   URL.revokeObjectURL(url);
   showToast('✓ JSON exportado com sucesso!', 'success');
 }
 
 // ── Validation ─────────────────────────────────────────────────
-const REQUIRED_BLOCK_FIELDS = ['materia','cor','titulo','descricao','detalhes','duracao','prioridade'];
+const REQUIRED_BLOCK_FIELDS = ['materia', 'cor', 'titulo', 'descricao', 'detalhes', 'duracao', 'prioridade'];
 
 function validateJSON(parsed) {
   if (typeof parsed !== 'object' || parsed === null || Array.isArray(parsed))
@@ -513,11 +521,11 @@ function importJSON(file) {
     // ── Formato "conteudos": distribui automaticamente ──────────
     if (parsed.conteudos && Array.isArray(parsed.conteudos)) {
       const contents = parsed.conteudos.map(c => ({
-        materia:    c.materia    || '',
-        titulo:     c.titulo     || '',
-        descricao:  c.descricao  || c.detalhes || '',
-        detalhes:   c.detalhes   || '',
-        duracao:    c.duracao    || '1h',
+        materia: c.materia || '',
+        titulo: c.titulo || '',
+        descricao: c.descricao || c.detalhes || '',
+        detalhes: c.detalhes || '',
+        duracao: c.duracao || '1h',
         prioridade: c.prioridade || 'media'
       })).filter(c => c.materia.trim());
 
@@ -530,7 +538,7 @@ function importJSON(file) {
 
       const weekStart = getWeekStart(weekOffset);
       DAY_KEYS_ORDER.forEach((dayKey, d) => {
-        const date    = new Date(weekStart);
+        const date = new Date(weekStart);
         date.setDate(date.getDate() + d);
         const dateKey = toDateKey(date);
         data[dateKey] = [];
@@ -566,10 +574,10 @@ function importJSON(file) {
 
     const weekStart = getWeekStart(weekOffset);
     DAY_KEYS_ORDER.forEach((dayKey, d) => {
-      const date    = new Date(weekStart);
+      const date = new Date(weekStart);
       date.setDate(date.getDate() + d);
       const dateKey = toDateKey(date);
-      const blocks  = parsed.semana[dayKey];
+      const blocks = parsed.semana[dayKey];
 
       data[dateKey] = [];
       for (let i = 0; i < 4; i++) {
@@ -581,14 +589,14 @@ function importJSON(file) {
         const subjectId = resolveSubjectId(b.materia) || null;
         const note = (b.descricao || b.titulo || '').trim();
         data[dateKey][i] = {
-          subject:    subjectId,
+          subject: subjectId,
           note,
-          titulo:     b.titulo     || '',
-          descricao:  b.descricao  || '',
-          detalhes:   b.detalhes   || '',
-          duracao:    b.duracao    || '',
+          titulo: b.titulo || '',
+          descricao: b.descricao || '',
+          detalhes: b.detalhes || '',
+          duracao: b.duracao || '',
           prioridade: b.prioridade || '',
-          studied:    false
+          studied: false
         };
       }
     });
@@ -642,7 +650,7 @@ function resolveSubjectId(materiaStr) {
     const labelNorm = normalize(s.label);
     const aliasNorms = (s.aliases || []).map(normalize);
     return labelNorm.includes(norm) || norm.includes(labelNorm)
-        || aliasNorms.some(a => a.includes(norm) || norm.includes(a));
+      || aliasNorms.some(a => a.includes(norm) || norm.includes(a));
   });
   return found ? found.id : null;
 }
@@ -715,21 +723,21 @@ function distribute(contents) {
   }
 
   // Build output structure
-  const dayKeys = ['domingo','segunda','terca','quarta','quinta','sexta','sabado'];
+  const dayKeys = ['domingo', 'segunda', 'terca', 'quarta', 'quinta', 'sexta', 'sabado'];
   const semana = {};
   dayKeys.forEach((key, d) => {
     semana[key] = grid[d].map(c => {
-      if (!c) return { materia:'', cor:'', titulo:'', descricao:'', detalhes:'', duracao:'', prioridade:'' };
+      if (!c) return { materia: '', cor: '', titulo: '', descricao: '', detalhes: '', duracao: '', prioridade: '' };
       const subj = SUBJECTS.find(s => s.id === resolveSubjectId(c.materia));
       return {
-        materia:    c.materia    || '',
-        cor:        subj ? subj.color : '',
-        titulo:     c.titulo     || '',
-        descricao:  c.descricao  || '',
-        detalhes:   c.detalhes   || '',
-        duracao:    c.duracao    || '',
+        materia: c.materia || '',
+        cor: subj ? subj.color : '',
+        titulo: c.titulo || '',
+        descricao: c.descricao || '',
+        detalhes: c.detalhes || '',
+        duracao: c.duracao || '',
         prioridade: c.prioridade || '',
-        studied:    false
+        studied: false
       };
     });
   });
@@ -768,7 +776,7 @@ function renderDistList() {
     const dotColor = subj ? subj.color : 'var(--text-muted)';
 
     card.innerHTML = `
-      <button class="dist-item-remove" data-idx="${idx}" aria-label="Remover conteúdo ${idx+1}" title="Remover">✕</button>
+      <button class="dist-item-remove" data-idx="${idx}" aria-label="Remover conteúdo ${idx + 1}" title="Remover">✕</button>
 
       <div class="dist-item-row">
         <label>Matéria</label>
@@ -784,9 +792,9 @@ function renderDistList() {
       <div class="dist-item-row">
         <label>Prioridade</label>
         <select data-field="prioridade" data-idx="${idx}">
-          <option value="alta"  ${item.prioridade==='alta'  ? 'selected':''}>🔴 Alta</option>
-          <option value="media" ${item.prioridade==='media' ? 'selected':''}>🟡 Média</option>
-          <option value="baixa" ${item.prioridade==='baixa' ? 'selected':''}>🟢 Baixa</option>
+          <option value="alta"  ${item.prioridade === 'alta' ? 'selected' : ''}>🔴 Alta</option>
+          <option value="media" ${item.prioridade === 'media' ? 'selected' : ''}>🟡 Média</option>
+          <option value="baixa" ${item.prioridade === 'baixa' ? 'selected' : ''}>🟢 Baixa</option>
         </select>
       </div>
 
@@ -852,17 +860,19 @@ function runDistribute() {
   // Apply to calendar (import path — reuse existing importJSON logic inline)
   const weekStart = getWeekStart(weekOffset);
   DAY_KEYS_ORDER.forEach((dayKey, d) => {
-    const date    = new Date(weekStart);
+    const date = new Date(weekStart);
     date.setDate(date.getDate() + d);
     const dateKey = toDateKey(date);
     data[dateKey] = [];
     semana[dayKey].forEach((b, i) => {
       const subjectId = resolveSubjectId(b.materia) || null;
       const note = (b.descricao || b.titulo || '').trim();
-      data[dateKey][i] = { subject: subjectId, note,
+      data[dateKey][i] = {
+        subject: subjectId, note,
         titulo: b.titulo, descricao: b.descricao,
         detalhes: b.detalhes, duracao: b.duracao, prioridade: b.prioridade,
-        studied: false };
+        studied: false
+      };
     });
   });
 
@@ -879,7 +889,7 @@ function runDistribute() {
     showToast(`✓ ${valids.length} conteúdos distribuídos!`, 'success');
   } else {
     resultEl.className = 'dist-result';
-    const names = overflow.map(c => `• ${c.materia}${c.titulo ? ': '+c.titulo : ''}`).join('\n');
+    const names = overflow.map(c => `• ${c.materia}${c.titulo ? ': ' + c.titulo : ''}`).join('\n');
     resultEl.textContent =
       `⚠ ${valids.length - overflow.length} distribuído(s). ` +
       `${overflow.length} não coube(ram) nos 28 blocos disponíveis:\n${names}`;
@@ -954,6 +964,23 @@ function bindEvents() {
   document.getElementById('btn-export').addEventListener('click', exportJSON);
 }
 
+// ── Countdown ENEM ─────────────────────────────────────────────
+function renderCountdown() {
+  const el = document.getElementById('countdown-days');
+  if (!el) return;
+
+  const hoje = new Date();
+  hoje.setHours(0, 0, 0, 0);
+
+  let prova = new Date(hoje.getFullYear(), 10, 8); // novembro = mês 10
+  if (hoje > prova) prova = new Date(hoje.getFullYear() + 1, 10, 8);
+
+  const diffMs = prova - hoje;
+  const dias = Math.max(0, Math.ceil(diffMs / (1000 * 60 * 60 * 24)));
+
+  el.textContent = dias;
+}
+
 // ── Init ───────────────────────────────────────────────────────
 function init() {
   loadData();
@@ -962,6 +989,7 @@ function init() {
   bindDistributeEvents();
   renderCalendar();
   renderLegend();
+  renderCountdown();
 }
 
 document.addEventListener('DOMContentLoaded', init);
