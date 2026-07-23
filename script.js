@@ -966,8 +966,9 @@ function bindEvents() {
 
 // ── Countdown ENEM ─────────────────────────────────────────────
 function renderCountdown() {
-  const el = document.getElementById('countdown-days');
-  if (!el) return;
+  const elDias = document.getElementById('countdown-days');
+  const elSemanas = document.getElementById('countdown-weeks');
+  if (!elDias || !elSemanas) return;
 
   const hoje = new Date();
   hoje.setHours(0, 0, 0, 0);
@@ -977,8 +978,10 @@ function renderCountdown() {
 
   const diffMs = prova - hoje;
   const dias = Math.max(0, Math.ceil(diffMs / (1000 * 60 * 60 * 24)));
+  const semanas = Math.floor(dias / 7);
 
-  el.textContent = dias;
+  elDias.textContent = dias;
+  elSemanas.textContent = semanas;
 }
 
 // ── Init ───────────────────────────────────────────────────────

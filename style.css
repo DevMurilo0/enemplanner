@@ -141,6 +141,19 @@ body {
   margin: 0 2px;
 }
 
+.countdown-weeks {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin: 0 2px;
+}
+
+.countdown-sep {
+  color: var(--text-muted);
+  margin: 0 4px;
+}
+
 .countdown-highlight {
   color: var(--text-primary);
   font-weight: 700;
