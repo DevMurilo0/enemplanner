@@ -1,0 +1,225 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Respiração Celular Aeróbia- Glicólise, Ciclo de Krebs e cadeia transp…",
+        "descricao": "Respiração Celular Aeróbia- Glicólise, Ciclo de Krebs e cadeia transportadora de elétrons. E respiração celular anaeróbia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Geometria Essencial: Semelhança de Triângulos, Leis dos Senos e Cosse…",
+        "descricao": "Geometria Essencial: Semelhança de Triângulos, Leis dos Senos e Cossenos, e Polígonos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Violência, crime e território",
+        "descricao": "Violência, crime e território",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Os domínios de vegetação e natureza no Brasil",
+        "descricao": "Os domínios de vegetação e natureza no Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Fermentação alcoólica, lactica e acética",
+        "descricao": "Fermentação alcoólica, lactica e acética",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Movimentos Emancipacionistas",
+        "descricao": "Movimentos Emancipacionistas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Realismo - A vida como ela é: arte e crítica social",
+        "descricao": "Realismo - A vida como ela é: arte e crítica social",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Os problemas ambientais",
+        "descricao": "Os problemas ambientais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Gametogênese Masculina (espermatogênese) e Feminina (ovogênese, ovulo…",
+        "descricao": "Gametogênese Masculina (espermatogênese) e Feminina (ovogênese, ovulogênese ou ovocitogênese)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Reforma Protestante - Parte 1 (Antecedentes e Luteranismo)",
+        "descricao": "Reforma Protestante - Parte 1 (Antecedentes e Luteranismo)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Naturalismo - Ciência, determinismo e corpo social",
+        "descricao": "Naturalismo - Ciência, determinismo e corpo social",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Ligações intermoleculares",
+        "descricao": "Ligações intermoleculares",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Reforma Protestante - Parte 2 ( Calvinismo, Anglicanismo e Contrarref…",
+        "descricao": "Reforma Protestante - Parte 2 ( Calvinismo, Anglicanismo e Contrarreforma)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Regência verbal — verbos campeões: assistir, preferir, visar, implica…",
+        "descricao": "Regência verbal — verbos campeões: assistir, preferir, visar, implicar, obedecer, aspirar, namorar, chegar, ir etc",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Previsão da basicidade na química orgânica",
+        "descricao": "Previsão da basicidade na química orgânica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "O ser humano em perspectiva: natureza, cultura e liberdade",
+        "descricao": "O ser humano em perspectiva: natureza, cultura e liberdade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Regência nominal: adjetivos e nomes que exigem preposição; mudança de…",
+        "descricao": "Regência nominal: adjetivos e nomes que exigem preposição; mudança de sentido por regência",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Força de Atrito",
+        "descricao": "Força de Atrito",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Sujeito, alteridade e reconhecimento",
+        "descricao": "Sujeito, alteridade e reconhecimento",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Enem e vestibulares 6",
+        "descricao": "Enem e vestibulares 6",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Refração da Luz",
+        "descricao": "Refração da Luz",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Racismo, exclusão e representatividade",
+        "descricao": "Racismo, exclusão e representatividade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Modal Verbs",
+        "descricao": "Modal Verbs",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}
