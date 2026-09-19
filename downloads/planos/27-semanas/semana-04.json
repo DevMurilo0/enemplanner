@@ -1,0 +1,207 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Proteínas",
+        "descricao": "Proteínas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Revisão de Matemática Básica: Conjuntos numéricos, sistemas de numeração, potências, raízes, notação científica e sistemas de medidas.",
+        "descricao": "Revisão de Matemática Básica: Conjuntos numéricos, sistemas de numeração, potências, raízes, notação científica e sistemas de medidas.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Maneirismo - O corpo em tensão: a primeira crise do ideal clássico",
+        "descricao": "Maneirismo - O corpo em tensão: a primeira crise do ideal clássico",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Enzimologia",
+        "descricao": "Enzimologia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "A sociedade do açúcar e a economia complementar colonial",
+        "descricao": "A sociedade do açúcar e a economia complementar colonial",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Significação contextual das palavras: semântica",
+        "descricao": "Significação contextual das palavras: semântica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Membrana plasmática e seus transportes passivos (difusão e osmose) e ativos (bombas e endocitoses)",
+        "descricao": "Membrana plasmática e seus transportes passivos (difusão e osmose) e ativos (bombas e endocitoses)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Grécia - Parte 1 (das origens até o surgimento da Democracia)",
+        "descricao": "Grécia - Parte 1 (das origens até o surgimento da Democracia)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Pronomes e Colocação Pronominal 1",
+        "descricao": "Pronomes e Colocação Pronominal 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Radioatividade (cinética das emissões)",
+        "descricao": "Radioatividade (cinética das emissões)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Fundamentos da Filosofia Política",
+        "descricao": "Fundamentos da Filosofia Política",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Pronomes e Colocação Pronominal 2",
+        "descricao": "Pronomes e Colocação Pronominal 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Gases (teoria cinética dos gases e equação geral dos gases ideais, lei de Dalton para gases)",
+        "descricao": "Gases (teoria cinética dos gases e equação geral dos gases ideais, lei de Dalton para gases)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Trabalho e transformação tecnológica",
+        "descricao": "Trabalho e transformação tecnológica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 4",
+        "descricao": "Enem e vestibulares 4",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Leis de Newton - Parte 1",
+        "descricao": "Leis de Newton - Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Arte medieval - Entre o céu e a terra: imagem, fé e simbolismo",
+        "descricao": "Arte medieval - Entre o céu e a terra: imagem, fé e simbolismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Present and Past Continuous",
+        "descricao": "Present and Past Continuous",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Espelhos esféricos - Parte 1",
+        "descricao": "Espelhos esféricos - Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Arte do Renascimento - A revolução do saber e da técnica",
+        "descricao": "Arte do Renascimento - A revolução do saber e da técnica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Superfícies da terra: estrutura e formas do relevo",
+        "descricao": "Superfícies da terra: estrutura e formas do relevo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

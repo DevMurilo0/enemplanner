@@ -1,0 +1,180 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "ISTs: Infecções sexualmente transmissíveis.",
+        "descricao": "ISTs: Infecções sexualmente transmissíveis.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Funções - Logarítmica",
+        "descricao": "Funções - Logarítmica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Registros, níveis de formalidade e adequação: variação linguística; oralidade x escrita; quando “marca de fala” vira erro em prova.",
+        "descricao": "Registros, níveis de formalidade e adequação: variação linguística; oralidade x escrita; quando “marca de fala” vira erro em prova.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Embriologia animal: tipos de ovos, segmentação, desenvolvimento embrionário do anfioxo e suas fases (mórula, blástula, gástrula e nêurula) e organogênese",
+        "descricao": "Embriologia animal: tipos de ovos, segmentação, desenvolvimento embrionário do anfioxo e suas fases (mórula, blástula, gástrula e nêurula) e organogênese",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Período Regencial (1831 - 1840)",
+        "descricao": "Período Regencial (1831 - 1840)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 11",
+        "descricao": "Enem e vestibulares 11",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Embriologia animal: embriologia na zoologia e anexos embrionários dos vertebrados",
+        "descricao": "Embriologia animal: embriologia na zoologia e anexos embrionários dos vertebrados",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Renascimento Cultural",
+        "descricao": "Renascimento Cultural",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Question Tags",
+        "descricao": "Question Tags",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Geometria molecular e polaridade",
+        "descricao": "Geometria molecular e polaridade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "O ser humano em perspectiva: natureza, cultura e liberdade",
+        "descricao": "O ser humano em perspectiva: natureza, cultura e liberdade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Matriz energética e Fontes de energia",
+        "descricao": "Matriz energética e Fontes de energia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Isomeria espacial óptica",
+        "descricao": "Isomeria espacial óptica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Racismo, exclusão e representatividade",
+        "descricao": "Racismo, exclusão e representatividade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Energia mecânica - Parte 1",
+        "descricao": "Energia mecânica - Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Impressionismo - O olhar em movimento: luz, tempo e cidade",
+        "descricao": "Impressionismo - O olhar em movimento: luz, tempo e cidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Interferência de ondas",
+        "descricao": "Interferência de ondas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Pós-Impressionismo - Quando a pintura começa a pensar a si mesma",
+        "descricao": "Pós-Impressionismo - Quando a pintura começa a pensar a si mesma",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

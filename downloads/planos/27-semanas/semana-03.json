@@ -1,0 +1,225 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Ácidos nucléicos: características básicas do DNA e RNA",
+        "descricao": "Ácidos nucléicos: características básicas do DNA e RNA",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Gráficos do MUV",
+        "descricao": "Gráficos do MUV",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Estratificação social",
+        "descricao": "Estratificação social",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Cartografia",
+        "descricao": "Cartografia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Duplicação semiconservativa do DNA",
+        "descricao": "Duplicação semiconservativa do DNA",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Espelhos planos",
+        "descricao": "Espelhos planos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Mobilidade social e desenvolvimento",
+        "descricao": "Mobilidade social e desenvolvimento",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Novas tecnologias cartográficas",
+        "descricao": "Novas tecnologias cartográficas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "RNA: Transcrição, tradução, características do código genético",
+        "descricao": "RNA: Transcrição, tradução, características do código genético",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Revisão (razão e proporção) + Porcentagem, Juros Simples e Compostos: Conceitos e Aplicações no Dia a Dia",
+        "descricao": "Revisão (razão e proporção) + Porcentagem, Juros Simples e Compostos: Conceitos e Aplicações no Dia a Dia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Arte romana - Arte como engenharia do poder",
+        "descricao": "Arte romana - Arte como engenharia do poder",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Tradução e síntese proteica",
+        "descricao": "Tradução e síntese proteica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Início da Colonização: As Capitanias Hereditárias e o Governo-Geral",
+        "descricao": "Início da Colonização: As Capitanias Hereditárias e o Governo-Geral",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Pontuação 1",
+        "descricao": "Pontuação 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Termoquímica (energia de ligação e operação com as equações termoquímicas)",
+        "descricao": "Termoquímica (energia de ligação e operação com as equações termoquímicas)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Antiguidade Oriental",
+        "descricao": "Antiguidade Oriental",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Pontuação 2",
+        "descricao": "Pontuação 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Concentração das soluções (g/l, mol/l, molalidade, título em massa, inpm, volume de H2O2)",
+        "descricao": "Concentração das soluções (g/l, mol/l, molalidade, título em massa, inpm, volume de H2O2)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Epistemologia contemporânea: linguagem, ciência e verdade",
+        "descricao": "Epistemologia contemporânea: linguagem, ciência e verdade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 3",
+        "descricao": "Enem e vestibulares 3",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Radioatividade (características das radiações e efeitos)",
+        "descricao": "Radioatividade (características das radiações e efeitos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Conhecimento, tecnologia e sociedade: desafios atuais",
+        "descricao": "Conhecimento, tecnologia e sociedade: desafios atuais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Past Simple",
+        "descricao": "Past Simple",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

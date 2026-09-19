@@ -1,0 +1,171 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "ECOLOGIA: introdução à ecologia, cadeias alimentares, pirâmides ecológicas e fluxo de energia.",
+        "descricao": "ECOLOGIA: introdução à ecologia, cadeias alimentares, pirâmides ecológicas e fluxo de energia.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Revisão Completa de Análise Combinatória: Conceitos e Aplicações",
+        "descricao": "Revisão Completa de Análise Combinatória: Conceitos e Aplicações",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 14",
+        "descricao": "Enem e vestibulares 14",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Ciclos biogeoquímicos: Ciclo do Nitrogênio",
+        "descricao": "Ciclos biogeoquímicos: Ciclo do Nitrogênio",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Segundo Reinado - Parte 2 (Guerra do Paraguai e Declínio)",
+        "descricao": "Segundo Reinado - Parte 2 (Guerra do Paraguai e Declínio)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Passive Voice",
+        "descricao": "Passive Voice",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Ciclos biogeoquímicos: Carbono, água e oxigênio",
+        "descricao": "Ciclos biogeoquímicos: Carbono, água e oxigênio",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Revoluções Inglesas do Século XVII",
+        "descricao": "Revoluções Inglesas do Século XVII",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "A nova divisão internacional do trabalho (DIT) e mundo do trabalho no século XXI",
+        "descricao": "A nova divisão internacional do trabalho (DIT) e mundo do trabalho no século XXI",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Equilíbrio iônico",
+        "descricao": "Equilíbrio iônico",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Fundamentos da Estética: arte, belo e sensibilidade",
+        "descricao": "Fundamentos da Estética: arte, belo e sensibilidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Previsão da acidez na química orgânica",
+        "descricao": "Previsão da acidez na química orgânica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Urbanização e direito à cidade",
+        "descricao": "Urbanização e direito à cidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Conservação da quantidade de movimento e colisão mecânica",
+        "descricao": "Conservação da quantidade de movimento e colisão mecânica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Pré-Modernismo no Brasil - Um país em conflito: arte, identidade e contradição",
+        "descricao": "Pré-Modernismo no Brasil - Um país em conflito: arte, identidade e contradição",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Princípios fundamentais e processos de eletrização",
+        "descricao": "Princípios fundamentais e processos de eletrização",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Termos acessórios da oração: Adjunto adnominal; adjunto adverbial; locuções adverbiais; aposto; vocativo; diferenças entre adjunto adnominal × complemento nominal; pontuação aplicada",
+        "descricao": "Termos acessórios da oração: Adjunto adnominal; adjunto adverbial; locuções adverbiais; aposto; vocativo; diferenças entre adjunto adnominal × complemento nominal; pontuação aplicada",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

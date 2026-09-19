@@ -1,0 +1,198 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Reprodução assexuada e sexuada dos seres vivos (seres unicelulares, animais e plantas)",
+        "descricao": "Reprodução assexuada e sexuada dos seres vivos (seres unicelulares, animais e plantas)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Funções-Quadrática - Parte 1 e 2 (Conceitos, Propriedades, Gráficos, Forma Fatorada, máximos e mínimos)",
+        "descricao": "Funções-Quadrática - Parte 1 e 2 (Conceitos, Propriedades, Gráficos, Forma Fatorada, máximos e mínimos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Naturalismo - Ciência, determinismo e corpo social",
+        "descricao": "Naturalismo - Ciência, determinismo e corpo social",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Anatomia básica dos sistemas reprodutores masculino e feminino.",
+        "descricao": "Anatomia básica dos sistemas reprodutores masculino e feminino.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Período Joanino",
+        "descricao": "Período Joanino",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Funções da Linguagem",
+        "descricao": "Funções da Linguagem",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Gametogênese Masculina (espermatogênese) e Feminina (ovogênese, ovulogênese ou ovocitogênese).",
+        "descricao": "Gametogênese Masculina (espermatogênese) e Feminina (ovogênese, ovulogênese ou ovocitogênese).",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Processo de independência do Brasil",
+        "descricao": "Processo de independência do Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 9",
+        "descricao": "Enem e vestibulares 9",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Ligação iônica",
+        "descricao": "Ligação iônica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Baixa Idade Média Ocidental",
+        "descricao": "Baixa Idade Média Ocidental",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "There Be x Have",
+        "descricao": "There Be x Have",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Cinética química",
+        "descricao": "Cinética química",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Moral e Sociedade: conflitos, normas e valores",
+        "descricao": "Moral e Sociedade: conflitos, normas e valores",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Os problemas ambientais",
+        "descricao": "Os problemas ambientais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Movimento circular uniforme (MCU)",
+        "descricao": "Movimento circular uniforme (MCU)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Movimentos sociais",
+        "descricao": "Movimentos sociais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Política ambiental brasileira",
+        "descricao": "Política ambiental brasileira",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Óptica da Visão",
+        "descricao": "Óptica da Visão",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Realismo - A vida como ela é: arte e crítica social",
+        "descricao": "Realismo - A vida como ela é: arte e crítica social",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

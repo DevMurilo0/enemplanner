@@ -1,0 +1,171 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Circulação humana",
+        "descricao": "Circulação humana",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Funções Trigonométricas - Parte 2 (explorando o seno e o cosseno)",
+        "descricao": "Funções Trigonométricas - Parte 2 (explorando o seno e o cosseno)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 23",
+        "descricao": "Enem e vestibulares 23",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Respiração humana",
+        "descricao": "Respiração humana",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Governo João Goulart e os Primeiros Governos Militares (Castelo Branco e Costa e Silva)",
+        "descricao": "Governo João Goulart e os Primeiros Governos Militares (Castelo Branco e Costa e Silva)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Prefixes and Suffixes",
+        "descricao": "Prefixes and Suffixes",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Sistema urinário humano - Excreção. Fisiologia do néfron e ciclo da ornitina",
+        "descricao": "Sistema urinário humano - Excreção. Fisiologia do néfron e ciclo da ornitina",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "A Revolução Russa de 1917",
+        "descricao": "A Revolução Russa de 1917",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "A industrialização brasileira",
+        "descricao": "A industrialização brasileira",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Reação de simples troca",
+        "descricao": "Reação de simples troca",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Poder, Corpo e Subjetividade",
+        "descricao": "Poder, Corpo e Subjetividade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Reações orgânicas - Parte 4",
+        "descricao": "Reações orgânicas - Parte 4",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Raça, Racismo e Branquitude no Brasil Contemporâneo",
+        "descricao": "Raça, Racismo e Branquitude no Brasil Contemporâneo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Propagação do Calor",
+        "descricao": "Propagação do Calor",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Fotografia e cinema como arte - Novos olhares, novas narrativas",
+        "descricao": "Fotografia e cinema como arte - Novos olhares, novas narrativas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Receptores Elétricos",
+        "descricao": "Receptores Elétricos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Subordinadas adverbiais. Causa, consequência, concessão, condição, finalidade, tempo, comparação etc.",
+        "descricao": "Subordinadas adverbiais. Causa, consequência, concessão, condição, finalidade, tempo, comparação etc.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

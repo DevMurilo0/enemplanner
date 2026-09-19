@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Citoplasma (endoplasma, ectoplasma, tixotropia e movimentos citoplasmáticos) e organelas ou estruturas amembranosas do citoesqueleto",
+        "descricao": "Citoplasma (endoplasma, ectoplasma, tixotropia e movimentos citoplasmáticos) e organelas ou estruturas amembranosas do citoesqueleto",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Explorando Triângulos: Conceitos, Propriedades e Suas Formas Especiais",
+        "descricao": "Explorando Triângulos: Conceitos, Propriedades e Suas Formas Especiais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "\"Concordância nominal — armadilhas frequentes: “É proibido”; “meio/meia”; “anexo”; “bastante”; “mesmo”; “todo”; “obrigado”.\"",
+        "descricao": "\"Concordância nominal — armadilhas frequentes: “É proibido”; “meio/meia”; “anexo”; “bastante”; “mesmo”; “todo”; “obrigado”.\"",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Organelas Citoplasmáticas (ribossomos, retículos liso e rugoso, golgi, lisossomos, peroxissomos e glioxissomos, mitocôndria, cloroplasto, Hidrogenossomos, Mitossomos e vacúolos)",
+        "descricao": "Organelas Citoplasmáticas (ribossomos, retículos liso e rugoso, golgi, lisossomos, peroxissomos e glioxissomos, mitocôndria, cloroplasto, Hidrogenossomos, Mitossomos e vacúolos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "A União Ibérica e o Brasil Holandês",
+        "descricao": "A União Ibérica e o Brasil Holandês",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 5",
+        "descricao": "Enem e vestibulares 5",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Núcleo (estrutura, eucromatina, heterocromatina e nucléolo), corpúsculo de Barr, cariótipo celular (número de cromossomos, células haploides e diploides)",
+        "descricao": "Núcleo (estrutura, eucromatina, heterocromatina e nucléolo), corpúsculo de Barr, cariótipo celular (número de cromossomos, células haploides e diploides)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Grécia - Parte 2 (Período Clássico e Período Helenístico)",
+        "descricao": "Grécia - Parte 2 (Período Clássico e Período Helenístico)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Perfect Tenses",
+        "descricao": "Perfect Tenses",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Gases (equação de Clapeyron, densidade dos gases, difusão e efusão)",
+        "descricao": "Gases (equação de Clapeyron, densidade dos gases, difusão e efusão)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Filosofia política moderna - Maquiavel e o contrato",
+        "descricao": "Filosofia política moderna - Maquiavel e o contrato",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Superfícies da terra: unidades do relevo brasileiro",
+        "descricao": "Superfícies da terra: unidades do relevo brasileiro",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Eletrólise (aspectos qualitativos)",
+        "descricao": "Eletrólise (aspectos qualitativos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Economia digital e plataformização",
+        "descricao": "Economia digital e plataformização",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Hidrografia: geomorfologia fluvial",
+        "descricao": "Hidrografia: geomorfologia fluvial",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Leis de Newton - Parte 2",
+        "descricao": "Leis de Newton - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Quinhentismo - Olhar europeu, cultura visual, colonização e representação do Brasil",
+        "descricao": "Quinhentismo - Olhar europeu, cultura visual, colonização e representação do Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Espelhos esféricos - Parte 2",
+        "descricao": "Espelhos esféricos - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Concordância verbal — casos especiais: sujeito composto; porcentagem; coletivos; “haver/fazer/existir”; verbos impessoais.",
+        "descricao": "Concordância verbal — casos especiais: sujeito composto; porcentagem; coletivos; “haver/fazer/existir”; verbos impessoais.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Histologia vegetal: tecidos meristemáticos (meristema I e II) Cortes de raiz e caule.",
+        "descricao": "Histologia vegetal: tecidos meristemáticos (meristema I e II) Cortes de raiz e caule.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Geometria espacial - Retas e planos no espaço, Vistas e perspectivas, Projeções ortogonais",
+        "descricao": "Geometria espacial - Retas e planos no espaço, Vistas e perspectivas, Projeções ortogonais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 18",
+        "descricao": "Enem e vestibulares 18",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Histologia vegetal: tecidos permanentes: proteção, reserva, sustentação e condução.",
+        "descricao": "Histologia vegetal: tecidos permanentes: proteção, reserva, sustentação e condução.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Primeira República: Revoltas e Movimentos",
+        "descricao": "Primeira República: Revoltas e Movimentos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Degrees of The Adjectives",
+        "descricao": "Degrees of The Adjectives",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Fisiologia vegetal: germinação da semente, movimentos vegetais, fitormônios, condução de seiva bruta, elaborada.",
+        "descricao": "Fisiologia vegetal: germinação da semente, movimentos vegetais, fitormônios, condução de seiva bruta, elaborada.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Revolução Francesa - Parte 2 (a Convenção Nacional, o Diretório e o Golpe do 18 de Brumário)",
+        "descricao": "Revolução Francesa - Parte 2 (a Convenção Nacional, o Diretório e o Golpe do 18 de Brumário)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Conflitos na Ásia",
+        "descricao": "Conflitos na Ásia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Produto de solubilidade",
+        "descricao": "Produto de solubilidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Capitalismo, subjetividade e cultura",
+        "descricao": "Capitalismo, subjetividade e cultura",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Conflitos no Oriente Médio",
+        "descricao": "Conflitos no Oriente Médio",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Saponificação (diferença entre sabão e detergente)",
+        "descricao": "Saponificação (diferença entre sabão e detergente)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Crise do Cuidado e Reprodução Social",
+        "descricao": "Crise do Cuidado e Reprodução Social",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Lançamentos horizontal e oblíquo",
+        "descricao": "Lançamentos horizontal e oblíquo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Modernismo brasileiro – 3ª fase - Existência, linguagem e universalidade",
+        "descricao": "Modernismo brasileiro – 3ª fase - Existência, linguagem e universalidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Potencial elétrico",
+        "descricao": "Potencial elétrico",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Conjunções Subordinativas – Parte 1",
+        "descricao": "Conjunções Subordinativas – Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Determinação do sexo, heranças genéticas sexuais (ligada, holândrica, limitada e influenciada) e genética das populações (Equilíbrio gênico de Hardy-Weimberg).",
+        "descricao": "Determinação do sexo, heranças genéticas sexuais (ligada, holândrica, limitada e influenciada) e genética das populações (Equilíbrio gênico de Hardy-Weimberg).",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Introdução à trigonometria - Parte 1 (razões, ciclo trigonométrico e aplicações)",
+        "descricao": "Introdução à trigonometria - Parte 1 (razões, ciclo trigonométrico e aplicações)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 22",
+        "descricao": "Enem e vestibulares 22",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Biotecnologia completa",
+        "descricao": "Biotecnologia completa",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Governos JK e Jânio Quadros",
+        "descricao": "Governos JK e Jânio Quadros",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Connectors and Conjunctions",
+        "descricao": "Connectors and Conjunctions",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Digestão humana",
+        "descricao": "Digestão humana",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Unificações da Alemanha e Itália e a Primeira Guerra Mundial (1914 - 1918)",
+        "descricao": "Unificações da Alemanha e Itália e a Primeira Guerra Mundial (1914 - 1918)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "População (Brasil e Mundo)",
+        "descricao": "População (Brasil e Mundo)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Reações de síntese e análise",
+        "descricao": "Reações de síntese e análise",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "O que é Pós-modernidade?",
+        "descricao": "O que é Pós-modernidade?",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Os novos processos de migração",
+        "descricao": "Os novos processos de migração",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Reações orgânicas - Parte 3",
+        "descricao": "Reações orgânicas - Parte 3",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Pensamento social brasileiro",
+        "descricao": "Pensamento social brasileiro",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Dilatação Térmica",
+        "descricao": "Dilatação Térmica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Arte contemporânea – O corpo como linguagem: performance, happening e presença",
+        "descricao": "Arte contemporânea – O corpo como linguagem: performance, happening e presença",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Geradores Elétricos",
+        "descricao": "Geradores Elétricos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Subordinadas adjetivas (restritiva × explicativa) + pontuação. Efeito de sentido com vírgula; pronomes relativos; redução de ambiguidades.\"",
+        "descricao": "Subordinadas adjetivas (restritiva × explicativa) + pontuação. Efeito de sentido com vírgula; pronomes relativos; redução de ambiguidades.\"",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

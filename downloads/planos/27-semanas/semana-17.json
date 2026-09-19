@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Botânica: Introdução aos estudos dos vegetais: características gerais, ciclo reprodutivo geral e glossário de botânica.",
+        "descricao": "Botânica: Introdução aos estudos dos vegetais: características gerais, ciclo reprodutivo geral e glossário de botânica.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Campo elétrico - Parte 2",
+        "descricao": "Campo elétrico - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Conjunções Coordenativas",
+        "descricao": "Conjunções Coordenativas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Criptógamas: briófitas e pteridófitas",
+        "descricao": "Criptógamas: briófitas e pteridófitas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Sequências e progressões aritméticas + Progressões geométricas",
+        "descricao": "Sequências e progressões aritméticas + Progressões geométricas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 17",
+        "descricao": "Enem e vestibulares 17",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Fanerógamas: gimnospermas",
+        "descricao": "Fanerógamas: gimnospermas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Primeira República: Estruturas Políticas e Econômicas",
+        "descricao": "Primeira República: Estruturas Políticas e Econômicas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Quantifiers",
+        "descricao": "Quantifiers",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Fanerógamas: angiospermas",
+        "descricao": "Fanerógamas: angiospermas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Revolução Francesa - Parte 1 (dos antecedentes até o fim da Monarquia Constitucional)",
+        "descricao": "Revolução Francesa - Parte 1 (dos antecedentes até o fim da Monarquia Constitucional)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Características econômicas e territoriais dos países de industrialização avançada ou desenvolvidos e os em desenvolvimento",
+        "descricao": "Características econômicas e territoriais dos países de industrialização avançada ou desenvolvidos e os em desenvolvimento",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Hidrólise",
+        "descricao": "Hidrólise",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Crise da Razão e o Nascimento do Contemporâneo",
+        "descricao": "Crise da Razão e o Nascimento do Contemporâneo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Geografia dos Transportes",
+        "descricao": "Geografia dos Transportes",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Transesterificação",
+        "descricao": "Transesterificação",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Decolonialidade",
+        "descricao": "Decolonialidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Composição de movimentos",
+        "descricao": "Composição de movimentos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Modernismo brasileiro – 2ª fase - Maturidade estética e crítica social",
+        "descricao": "Modernismo brasileiro – 2ª fase - Maturidade estética e crítica social",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

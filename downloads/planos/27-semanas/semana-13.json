@@ -1,0 +1,171 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Imunologia: Sistema imunitário, Imunização passiva (soro), ativa (vacina),Coagulação, soro, vacina, alergia, febre e inflamação",
+        "descricao": "Imunologia: Sistema imunitário, Imunização passiva (soro), ativa (vacina),Coagulação, soro, vacina, alergia, febre e inflamação",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Análise combinatória - Parte 1 (contagem, fatorial, permutações simples) + Análise combinatória - Parte 2 (Agrupamento (arranjos, permutações, combinações))",
+        "descricao": "Análise combinatória - Parte 1 (contagem, fatorial, permutações simples) + Análise combinatória - Parte 2 (Agrupamento (arranjos, permutações, combinações))",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 13",
+        "descricao": "Enem e vestibulares 13",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Tecido muscular estriado esquelético (fibras brancas e vermelhas), estriado cardíaco e liso. Sarcômero a unidade de contração e suas atividades. A catraca de Huxley, contratura muscular e fadiga muscular",
+        "descricao": "Tecido muscular estriado esquelético (fibras brancas e vermelhas), estriado cardíaco e liso. Sarcômero a unidade de contração e suas atividades. A catraca de Huxley, contratura muscular e fadiga muscular",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Segundo Reinado - Parte 1 (Política e Economia)",
+        "descricao": "Segundo Reinado - Parte 1 (Política e Economia)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Reported Speech",
+        "descricao": "Reported Speech",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Tecido nervoso (neurônios e células da glia), sinapse química e elétrica, neurotransmissores e suas ações e gráfico do potencial de ação dos neurônios",
+        "descricao": "Tecido nervoso (neurônios e células da glia), sinapse química e elétrica, neurotransmissores e suas ações e gráfico do potencial de ação dos neurônios",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Formação das Monarquias Nacionais, Absolutismo e Mercantilismo",
+        "descricao": "Formação das Monarquias Nacionais, Absolutismo e Mercantilismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Blocos Econômicos, Mercado Global e Estratégias de Inserção na Globalização",
+        "descricao": "Blocos Econômicos, Mercado Global e Estratégias de Inserção na Globalização",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Ligação metálica",
+        "descricao": "Ligação metálica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Sujeito, alteridade e reconhecimento",
+        "descricao": "Sujeito, alteridade e reconhecimento",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Fatores que afetam o equilíbrio",
+        "descricao": "Fatores que afetam o equilíbrio",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "A questão prisional",
+        "descricao": "A questão prisional",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Impulso e Quantidade de movimento",
+        "descricao": "Impulso e Quantidade de movimento",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Abstracionismo e a crise da forma - Quando a imagem deixa de representar",
+        "descricao": "Abstracionismo e a crise da forma - Quando a imagem deixa de representar",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Cordas e tubos sonoros",
+        "descricao": "Cordas e tubos sonoros",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Termos integrantes da oração: Complementos verbais; objeto direto; objeto indireto; complemento nominal; agente da passiva; diferença entre complemento verbal e complemento nominal",
+        "descricao": "Termos integrantes da oração: Complementos verbais; objeto direto; objeto indireto; complemento nominal; agente da passiva; diferença entre complemento verbal e complemento nominal",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

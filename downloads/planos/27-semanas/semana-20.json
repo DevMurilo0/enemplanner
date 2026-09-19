@@ -1,0 +1,171 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Variações da Primeira Lei de Mendel.",
+        "descricao": "Variações da Primeira Lei de Mendel.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Geometria espacial - Pirâmides, Cones, Proporcionalidades entre sólidos semelhantes",
+        "descricao": "Geometria espacial - Pirâmides, Cones, Proporcionalidades entre sólidos semelhantes",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 20",
+        "descricao": "Enem e vestibulares 20",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Heredogramas",
+        "descricao": "Heredogramas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Era Vargas - Parte 2 (O Estado Novo)",
+        "descricao": "Era Vargas - Parte 2 (O Estado Novo)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Too/Also/As Well/Either …",
+        "descricao": "Too/Also/As Well/Either …",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Grupos sanguíneos: sistema ABO e efeito Bombaim.",
+        "descricao": "Grupos sanguíneos: sistema ABO e efeito Bombaim.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "A Expansão dos Estados Unidos para o Oeste e a Guerra de Secessão",
+        "descricao": "A Expansão dos Estados Unidos para o Oeste e a Guerra de Secessão",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "América Latina e Caribe (Política e Crises)",
+        "descricao": "América Latina e Caribe (Política e Crises)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Funções inorgânicas óxidos",
+        "descricao": "Funções inorgânicas óxidos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Fenomenologia, percepção e experiência",
+        "descricao": "Fenomenologia, percepção e experiência",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Reações orgânicas - Parte 2",
+        "descricao": "Reações orgânicas - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Antropoceno, ecologia e Amazônia",
+        "descricao": "Antropoceno, ecologia e Amazônia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Hidrostática – Parte 2",
+        "descricao": "Hidrostática – Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Da obra ao conceito: a crise do objeto artístico",
+        "descricao": "Da obra ao conceito: a crise do objeto artístico",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Leis de Ohm",
+        "descricao": "Leis de Ohm",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Orações coordenadas: Aditiva, adversativa, alternativa, conclusiva, explicativa; conectivos e valores.",
+        "descricao": "Orações coordenadas: Aditiva, adversativa, alternativa, conclusiva, explicativa; conectivos e valores.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

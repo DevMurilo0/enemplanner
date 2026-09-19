@@ -1,0 +1,180 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Relações ecológicas harmônicas e desarmônicas",
+        "descricao": "Relações ecológicas harmônicas e desarmônicas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Probabilidades - Conceitos básicos e aplicações, Distribuição binomial de probabilidades + Probabilidade - Evento complementar, Diagrama da árvore, Probabilidade condicional",
+        "descricao": "Probabilidades - Conceitos básicos e aplicações, Distribuição binomial de probabilidades + Probabilidade - Evento complementar, Diagrama da árvore, Probabilidade condicional",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Advérbios e Locuções Adverbiais",
+        "descricao": "Advérbios e Locuções Adverbiais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Sucessões ecológicas",
+        "descricao": "Sucessões ecológicas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Processo de Proclamação da República",
+        "descricao": "Processo de Proclamação da República",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 15",
+        "descricao": "Enem e vestibulares 15",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Biomas brasileiros - Parte 1: Floresta amazônica, Caatinga e Cerrado",
+        "descricao": "Biomas brasileiros - Parte 1: Floresta amazônica, Caatinga e Cerrado",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Revolução Industrial",
+        "descricao": "Revolução Industrial",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Plural of Nouns",
+        "descricao": "Plural of Nouns",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Ligações intermoleculares",
+        "descricao": "Ligações intermoleculares",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Iluminismo, Fisiocracia e Liberalismo",
+        "descricao": "Iluminismo, Fisiocracia e Liberalismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "As Transformações no Leste Europeu: Guerra Fria e Cortina de Ferro e a Formação territorial do mundo no fim do século XX e início do Séc. XXI",
+        "descricao": "As Transformações no Leste Europeu: Guerra Fria e Cortina de Ferro e a Formação territorial do mundo no fim do século XX e início do Séc. XXI",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Previsão da basicidade na química orgânica",
+        "descricao": "Previsão da basicidade na química orgânica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Arte, cultura e crítica: modernidade e indústria cultural",
+        "descricao": "Arte, cultura e crítica: modernidade e indústria cultural",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Gravitação universal - Parte 1",
+        "descricao": "Gravitação universal - Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "O que é gênero?",
+        "descricao": "O que é gênero?",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Lei de coulomb",
+        "descricao": "Lei de coulomb",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Semana de Arte Moderna - 1922: o grito de ruptura",
+        "descricao": "Semana de Arte Moderna - 1922: o grito de ruptura",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

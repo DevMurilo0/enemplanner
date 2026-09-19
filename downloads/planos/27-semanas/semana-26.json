@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Principais protozooses do Brasil: Amebíase, Giardíase, Leishmaniose tegumentar e visceral, Malária, Doença de Chagas, Doença do sono, Toxoplasmose, Tricomoníase, Balantidíase.",
+        "descricao": "Principais protozooses do Brasil: Amebíase, Giardíase, Leishmaniose tegumentar e visceral, Malária, Doença de Chagas, Doença do sono, Toxoplasmose, Tricomoníase, Balantidíase.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Força magnética",
+        "descricao": "Força magnética",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Adjetivo e locuções adjetivas: grau; valor semântico; adjetivação “avaliativa” (efeito argumentativo).",
+        "descricao": "Adjetivo e locuções adjetivas: grau; valor semântico; adjetivação “avaliativa” (efeito argumentativo).",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Fungos: características, classificação e reprodução.",
+        "descricao": "Fungos: características, classificação e reprodução.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Revisando geometria plana e espacial",
+        "descricao": "Revisando geometria plana e espacial",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 30",
+        "descricao": "Enem e vestibulares 30",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Verminoses causadas por platelminto e nematelmintos: Esquistossomose, Teníase e Cisticercose, Ascaridíase, Ancilostomose, Filariose, Oxiuríase e Larva migrans (bicho geográfico).",
+        "descricao": "Verminoses causadas por platelminto e nematelmintos: Esquistossomose, Teníase e Cisticercose, Ascaridíase, Ancilostomose, Filariose, Oxiuríase e Larva migrans (bicho geográfico).",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Civilizações pré-colombianas: Incas, Maias e Astecas",
+        "descricao": "Civilizações pré-colombianas: Incas, Maias e Astecas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 31",
+        "descricao": "Enem e vestibulares 31",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Zoologia Geral (níveis de organização, folhetos embrionários, Celoma, protostomia e deuterostomia, simetria, metameria) - árvore filogenética dos animais",
+        "descricao": "Zoologia Geral (níveis de organização, folhetos embrionários, Celoma, protostomia e deuterostomia, simetria, metameria) - árvore filogenética dos animais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Guerra Fria - Parte 1 (Origens, Descolonização Afro-Asiática e 1968)",
+        "descricao": "Guerra Fria - Parte 1 (Origens, Descolonização Afro-Asiática e 1968)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 32",
+        "descricao": "Enem e vestibulares 32",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Oxidação e redução",
+        "descricao": "Oxidação e redução",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Pós-modernidade, Consumo e Informação",
+        "descricao": "Pós-modernidade, Consumo e Informação",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "A Questão Agrária Brasileira",
+        "descricao": "A Questão Agrária Brasileira",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Biocombustíveis",
+        "descricao": "Biocombustíveis",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Classes, elites e subalternidade",
+        "descricao": "Classes, elites e subalternidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Termodinâmica - Parte I",
+        "descricao": "Termodinâmica - Parte I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Arte afro-brasileira e identidade - Memória, corpo e território",
+        "descricao": "Arte afro-brasileira e identidade - Memória, corpo e território",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

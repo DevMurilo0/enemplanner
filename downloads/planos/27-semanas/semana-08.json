@@ -1,0 +1,180 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "A Fotossíntese: Ciclo de Calvin (fase escura) e fatores limitantes da fotossíntese (Luz, CO2 e temperatura).",
+        "descricao": "A Fotossíntese: Ciclo de Calvin (fase escura) e fatores limitantes da fotossíntese (Luz, CO2 e temperatura).",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Função Afim Descomplicada: Conceitos, Gráficos e Propriedades",
+        "descricao": "Função Afim Descomplicada: Conceitos, Gráficos e Propriedades",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 8",
+        "descricao": "Enem e vestibulares 8",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Respiração Celular Aeróbia - Glicólise, Ciclo de Krebs e cadeia transportadora de elétrons. E respiração celular anaeróbia.",
+        "descricao": "Respiração Celular Aeróbia - Glicólise, Ciclo de Krebs e cadeia transportadora de elétrons. E respiração celular anaeróbia.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Movimentos Emancipacionistas",
+        "descricao": "Movimentos Emancipacionistas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Used To/ To Be Used To",
+        "descricao": "Used To/ To Be Used To",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Fermentação alcoólica, láctica e acética",
+        "descricao": "Fermentação alcoólica, láctica e acética",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Alta Idade Média Ocidental",
+        "descricao": "Alta Idade Média Ocidental",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Os domínios de vegetação e natureza no mundo",
+        "descricao": "Os domínios de vegetação e natureza no mundo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Propriedades periódicas",
+        "descricao": "Propriedades periódicas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "O problema moral: fundamentos históricos e filosóficos",
+        "descricao": "O problema moral: fundamentos históricos e filosóficos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Os domínios de vegetação e natureza no Brasil",
+        "descricao": "Os domínios de vegetação e natureza no Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Pilhas",
+        "descricao": "Pilhas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Nacionalismo, globalização e identitarismo",
+        "descricao": "Nacionalismo, globalização e identitarismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Força resultante centrípeta",
+        "descricao": "Força resultante centrípeta",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Romantismo - O triunfo da emoção e do indivíduo",
+        "descricao": "Romantismo - O triunfo da emoção e do indivíduo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Lentes esféricas",
+        "descricao": "Lentes esféricas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Reescrita de frases",
+        "descricao": "Reescrita de frases",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

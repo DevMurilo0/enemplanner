@@ -1,0 +1,216 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Sais minerais: características e atividade biológica",
+        "descricao": "Sais minerais: características e atividade biológica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Introdução à óptica geométrica - Parte 2",
+        "descricao": "Introdução à óptica geométrica - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Identidade, representação e estigma",
+        "descricao": "Identidade, representação e estigma",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Geografia da saúde: a saúde no Brasil e a importância do SUS",
+        "descricao": "Geografia da saúde: a saúde no Brasil e a importância do SUS",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Vitaminas lipossolúveis",
+        "descricao": "Vitaminas lipossolúveis",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Razão e proporção; Escalas; Grandezas proporcionais + Regra de 3 simples e composta",
+        "descricao": "Razão e proporção; Escalas; Grandezas proporcionais + Regra de 3 simples e composta",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Arte africana - Forma, ancestralidade e sentido: arte além do olhar europeu",
+        "descricao": "Arte africana - Forma, ancestralidade e sentido: arte além do olhar europeu",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Vitaminas hidrossolúveis",
+        "descricao": "Vitaminas hidrossolúveis",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "O Brasil antes de Cabral, as Sociedades ‘Ameríndias’ e o Período Pré-Colonial",
+        "descricao": "O Brasil antes de Cabral, as Sociedades ‘Ameríndias’ e o Período Pré-Colonial",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Arte grega - A invenção do belo: proporção, corpo e razão",
+        "descricao": "Arte grega - A invenção do belo: proporção, corpo e razão",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Termoquímica (lei de Hess)",
+        "descricao": "Termoquímica (lei de Hess)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Pré-História: Paleolítico e Neolítico",
+        "descricao": "Pré-História: Paleolítico e Neolítico",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Ortografia e Acordo Ortográfico: grafia, homófonos/parônimos, emprego de letras, hífen essencial para a banca.",
+        "descricao": "Ortografia e Acordo Ortográfico: grafia, homófonos/parônimos, emprego de letras, hífen essencial para a banca.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Estequiometria (pureza e rendimento)",
+        "descricao": "Estequiometria (pureza e rendimento)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Introdução à Filosofia Moderna",
+        "descricao": "Introdução à Filosofia Moderna",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Acentuação gráfica: oxítonas/paroxítonas/proparoxítonas; hiatos; ditongos; casos recorrentes.",
+        "descricao": "Acentuação gráfica: oxítonas/paroxítonas/proparoxítonas; hiatos; ditongos; casos recorrentes.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Isomeria plana",
+        "descricao": "Isomeria plana",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Modernidade e o sujeito do conhecimento",
+        "descricao": "Modernidade e o sujeito do conhecimento",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 2",
+        "descricao": "Enem e vestibulares 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Movimento uniformemente variado (MUV) e Movimento vertical",
+        "descricao": "Movimento uniformemente variado (MUV) e Movimento vertical",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Cultura, etnocentrismo e alteridade",
+        "descricao": "Cultura, etnocentrismo e alteridade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Present Simple",
+        "descricao": "Present Simple",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Poluição e desequilíbrio ecológico - Parte 1: Hipótese de gaia, Biodiversidade, extinção, poluição das águas (derramamento de petróleo, eutrofização e DBO, acidificação da água do mar)",
+        "descricao": "Poluição e desequilíbrio ecológico - Parte 1: Hipótese de gaia, Biodiversidade, extinção, poluição das águas (derramamento de petróleo, eutrofização e DBO, acidificação da água do mar)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Probabilidade - Revisão e aprofundamento",
+        "descricao": "Probabilidade - Revisão e aprofundamento",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Conjunção – Análise Geral",
+        "descricao": "Conjunção – Análise Geral",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Poluição e desequilíbrio ecológico - Parte 2: Maré-vermelha, biomagnificação, Efeito estufa, inversão térmica, chuva ácida, tratamento de lixo, reciclagem, 5Rs, desmatamento e espécies exóticas",
+        "descricao": "Poluição e desequilíbrio ecológico - Parte 2: Maré-vermelha, biomagnificação, Efeito estufa, inversão térmica, chuva ácida, tratamento de lixo, reciclagem, 5Rs, desmatamento e espécies exóticas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Aula especial sobre Escravidão",
+        "descricao": "Aula especial sobre Escravidão",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 16",
+        "descricao": "Enem e vestibulares 16",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Taxonomia (regras de classificação de Lineu e classificação moderna), os reinos dos seres vivos, domínios e filogenia (estudo dos cladogramas)",
+        "descricao": "Taxonomia (regras de classificação de Lineu e classificação moderna), os reinos dos seres vivos, domínios e filogenia (estudo dos cladogramas)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Processo de Independência dos Estados Unidos",
+        "descricao": "Processo de Independência dos Estados Unidos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Articles",
+        "descricao": "Articles",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Funções inorgânicas ácidos",
+        "descricao": "Funções inorgânicas ácidos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Estética contemporânea: corpo, imagem e tecnologia",
+        "descricao": "Estética contemporânea: corpo, imagem e tecnologia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "China: A construção de uma grande potência",
+        "descricao": "China: A construção de uma grande potência",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Esterificação",
+        "descricao": "Esterificação",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "As minorias",
+        "descricao": "As minorias",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Gravitação universal - Parte II",
+        "descricao": "Gravitação universal - Parte II",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Modernismo brasileiro – 1ª fase - Experimentação, identidade e irreverência",
+        "descricao": "Modernismo brasileiro – 1ª fase - Experimentação, identidade e irreverência",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Campo elétrico - Parte I",
+        "descricao": "Campo elétrico - Parte I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Preposição e relações de sentido",
+        "descricao": "Preposição e relações de sentido",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Divisão celular: MITOSE (equacional)",
+        "descricao": "Divisão celular: MITOSE (equacional)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Geometria Essencial: Semelhança de Triângulos, Leis dos Senos e Cossenos, e Polígonos",
+        "descricao": "Geometria Essencial: Semelhança de Triângulos, Leis dos Senos e Cossenos, e Polígonos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Rococó - Arte do prazer e da intimidade",
+        "descricao": "Rococó - Arte do prazer e da intimidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Divisão celular: MEIOSE (reducional)",
+        "descricao": "Divisão celular: MEIOSE (reducional)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Bandeiras, Entradas, Monções e Expansão das Fronteiras do Brasil",
+        "descricao": "Bandeiras, Entradas, Monções e Expansão das Fronteiras do Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Regência verbal — verbos campeões: assistir, preferir, visar, implicar, obedecer, aspirar, namorar, chegar, ir etc.",
+        "descricao": "Regência verbal — verbos campeões: assistir, preferir, visar, implicar, obedecer, aspirar, namorar, chegar, ir etc.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Ciclos de vida (haplobionte haplonte, haplobionte Diplonte e haplodiplobionte)",
+        "descricao": "Ciclos de vida (haplobionte haplonte, haplobionte Diplonte e haplodiplobionte)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Movimentos Nativistas",
+        "descricao": "Movimentos Nativistas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Regência nominal: adjetivos e nomes que exigem preposição; mudança de sentido por regência.",
+        "descricao": "Regência nominal: adjetivos e nomes que exigem preposição; mudança de sentido por regência.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Densidade absoluta",
+        "descricao": "Densidade absoluta",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Roma - Parte 1 (a Monarquia e a República)",
+        "descricao": "Roma - Parte 1 (a Monarquia e a República)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 6",
+        "descricao": "Enem e vestibulares 6",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Eletrólise (aspectos quantitativos)",
+        "descricao": "Eletrólise (aspectos quantitativos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Filosofia Política contemporânea: Estado, mercado, tecnologia e identidades",
+        "descricao": "Filosofia Política contemporânea: Estado, mercado, tecnologia e identidades",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Modal Verbs",
+        "descricao": "Modal Verbs",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Força de Atrito",
+        "descricao": "Força de Atrito",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Política, Estado Dominação e Poder",
+        "descricao": "Política, Estado Dominação e Poder",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Mecanismos do clima e circulação atmosférica",
+        "descricao": "Mecanismos do clima e circulação atmosférica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Refração da Luz",
+        "descricao": "Refração da Luz",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Barroco - Excesso, drama e persuasão",
+        "descricao": "Barroco - Excesso, drama e persuasão",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Sistema sensorial: visão",
+        "descricao": "Sistema sensorial: visão",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Campo magnético gerado por corrente elétrica",
+        "descricao": "Campo magnético gerado por corrente elétrica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Substantivo e artigo: flexões; valores do artigo; substantivação; coletivos e usos que caem.",
+        "descricao": "Substantivo e artigo: flexões; valores do artigo; substantivação; coletivos e usos que caem.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Sistema sensorial: audição",
+        "descricao": "Sistema sensorial: audição",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Revisando as 4 operações elementares e suas aplicações e frações, potências e raízes",
+        "descricao": "Revisando as 4 operações elementares e suas aplicações e frações, potências e raízes",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 27",
+        "descricao": "Enem e vestibulares 27",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Vírus: características gerais, ciclo lítico e lisogênico",
+        "descricao": "Vírus: características gerais, ciclo lítico e lisogênico",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "República Nova",
+        "descricao": "República Nova",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 28",
+        "descricao": "Enem e vestibulares 28",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Procariontes/Reino monera: bactérias, cianobactérias e arqueobactérias",
+        "descricao": "Procariontes/Reino monera: bactérias, cianobactérias e arqueobactérias",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "A Segunda Guerra Mundial (1939 - 1945)",
+        "descricao": "A Segunda Guerra Mundial (1939 - 1945)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 29",
+        "descricao": "Enem e vestibulares 29",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Osmose",
+        "descricao": "Osmose",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Simulacros, Hiper-realidade e Capitalismo Tardio",
+        "descricao": "Simulacros, Hiper-realidade e Capitalismo Tardio",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "A industrialização da agricultura e a produção agropecuária no Brasil",
+        "descricao": "A industrialização da agricultura e a produção agropecuária no Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Petróleo e combustíveis fósseis",
+        "descricao": "Petróleo e combustíveis fósseis",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Cultura, Identidade e Modernização no Brasil",
+        "descricao": "Cultura, Identidade e Modernização no Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Estudo dos Gases",
+        "descricao": "Estudo dos Gases",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Arte indígena - Tradição viva e resistência: estética, ritualística e contemporânea",
+        "descricao": "Arte indígena - Tradição viva e resistência: estética, ritualística e contemporânea",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

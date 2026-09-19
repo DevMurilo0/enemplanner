@@ -1,0 +1,180 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Erros cromossômicos: erros numéricos (aneuploidias (monossomia e trissomia) e euploidias); erros estruturais (deleção, duplicação, inversão e translocação)",
+        "descricao": "Erros cromossômicos: erros numéricos (aneuploidias (monossomia e trissomia) e euploidias); erros estruturais (deleção, duplicação, inversão e translocação)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Dioptros planos",
+        "descricao": "Dioptros planos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Crase",
+        "descricao": "Crase",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Introdução à Bioenergética (aula básica com conceitos iniciais)",
+        "descricao": "Introdução à Bioenergética (aula básica com conceitos iniciais)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Dominando as Áreas das Figuras Planas: Conceitos e Aplicações",
+        "descricao": "Dominando as Áreas das Figuras Planas: Conceitos e Aplicações",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 7",
+        "descricao": "Enem e vestibulares 7",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "A Fotossíntese: O papel da Luz e Os Processos de Fotofosforilação Acíclica e Cíclica (Fase Clara)",
+        "descricao": "A Fotossíntese: O papel da Luz e Os Processos de Fotofosforilação Acíclica e Cíclica (Fase Clara)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Ciclo da mineração e período pombalino",
+        "descricao": "Ciclo da mineração e período pombalino",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Future",
+        "descricao": "Future",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Modelos atômicos",
+        "descricao": "Modelos atômicos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Roma - Parte 2 (a fase do Império)",
+        "descricao": "Roma - Parte 2 (a fase do Império)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Características climáticas do território brasileiro",
+        "descricao": "Características climáticas do território brasileiro",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Isomeria espacial geométrica",
+        "descricao": "Isomeria espacial geométrica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Democracia, cidadania e participação",
+        "descricao": "Democracia, cidadania e participação",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Vetores",
+        "descricao": "Vetores",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Democracia, cidadania e direitos humanos",
+        "descricao": "Democracia, cidadania e direitos humanos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Velocidade e aceleração vetoriais",
+        "descricao": "Velocidade e aceleração vetoriais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Neoclassicismo / Arcadismo - Razão, norma e disciplina do olhar",
+        "descricao": "Neoclassicismo / Arcadismo - Razão, norma e disciplina do olhar",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}
