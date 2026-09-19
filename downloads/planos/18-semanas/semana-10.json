@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Dinâmica das populações: potencial biótico, curvas de crescimento, es…",
+        "descricao": "Dinâmica das populações: potencial biótico, curvas de crescimento, espécies k e R estrategistas.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Estatística Essencial: Definições Fundamentais, Tendência Central e D…",
+        "descricao": "Estatística Essencial: Definições Fundamentais, Tendência Central e Dispersão",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Variação Linguística",
+        "descricao": "Variação Linguística",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Relações ecológicas harmônicas e desarmônicas",
+        "descricao": "Relações ecológicas harmônicas e desarmônicas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Segundo Reinado - Parte 2 (Guerra do Paraguai e Declínio)",
+        "descricao": "Segundo Reinado - Parte 2 (Guerra do Paraguai e Declínio)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Enem e vestibulares 10",
+        "descricao": "Enem e vestibulares 10",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Sucessões ecológicas",
+        "descricao": "Sucessões ecológicas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Revolução Francesa - Parte 2 (a Convenção Nacional, o Diretório e o G…",
+        "descricao": "Revolução Francesa - Parte 2 (a Convenção Nacional, o Diretório e o Golpe do 18 de Brumário)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Gerund and Infinitive",
+        "descricao": "Gerund and Infinitive",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Funções inorgânicas bases",
+        "descricao": "Funções inorgânicas bases",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Era Napoleônica",
+        "descricao": "Era Napoleônica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "A nova divisão internacional do trabalho (DIT) e mundo do trabalho no…",
+        "descricao": "A nova divisão internacional do trabalho (DIT) e mundo do trabalho no século XXI",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Reações orgânicas - Parte 1",
+        "descricao": "Reações orgânicas - Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Crise da Razão e o Nascimento do Contemporâneo",
+        "descricao": "Crise da Razão e o Nascimento do Contemporâneo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "As Transformações no Leste Europeu: Guerra Fria e Cortina de Ferro e …",
+        "descricao": "As Transformações no Leste Europeu: Guerra Fria e Cortina de Ferro e a Formação territorial do mundo no fim do século XX e início do Séc. XXI",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Energia mecânica - Parte I",
+        "descricao": "Energia mecânica - Parte I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Sociedade Algorítmica, Inteligência Artificial e Democracia",
+        "descricao": "Sociedade Algorítmica, Inteligência Artificial e Democracia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Interferência de ondas",
+        "descricao": "Interferência de ondas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Pré-Modernismo no Brasil - Um país em conflito: arte, identidade e co…",
+        "descricao": "Pré-Modernismo no Brasil - Um país em conflito: arte, identidade e contradição",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}
