@@ -697,3 +697,54 @@ h1 {
     height: 40px;
   }
 }
+
+
+.whatsapp-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 20px 22px;
+  text-decoration: none;
+  transition: border-color .15s, background .15s, transform .1s;
+}
+
+.whatsapp-card:hover {
+  border-color: var(--border-hover);
+  background: var(--bg-block-hover);
+}
+
+.whatsapp-card:active {
+  transform: scale(.99);
+}
+
+.whatsapp-icon {
+  flex-shrink: 0;
+  width: 46px;
+  height: 46px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: linear-gradient(135deg, #34d399 0%, #16a34a 100%);
+}
+
+.whatsapp-card:hover .instagram-arrow {
+  color: #25d366;
+  transform: translate(2px, -2px);
+}
+
+@media (max-width: 480px) {
+  .whatsapp-card {
+    padding: 16px 18px;
+    gap: 12px;
+  }
+
+  .whatsapp-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
