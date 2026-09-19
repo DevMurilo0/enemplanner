@@ -1,0 +1,198 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Circulação humana",
+        "descricao": "Circulação humana",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Geradores Elétricos",
+        "descricao": "Geradores Elétricos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Arte em tempo real - da arte popular à arte digital: redes, mercado e…",
+        "descricao": "Arte em tempo real - da arte popular à arte digital: redes, mercado e experiência e cotidiano",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Endocrinologia humana + Vacinas emagrecedoras",
+        "descricao": "Endocrinologia humana + Vacinas emagrecedoras",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Operação Raciocínio: Problemas de 1º grau, razão, proporção e porcent…",
+        "descricao": "Operação Raciocínio: Problemas de 1º grau, razão, proporção e porcentagem sem mistério Revisando as 4 operações elementares e suas aplicações e frações, potências e raízes",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Subordinadas adjetivas (restritiva × explicativa) + Pontuação Efeito …",
+        "descricao": "Subordinadas adjetivas (restritiva × explicativa) + Pontuação Efeito de sentido com vírgula; pronomes relativos; redução de ambiguidades.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Principais protozooses do Brasil: Amebíase, Giardíase, Leishmaniose t…",
+        "descricao": "Principais protozooses do Brasil: Amebíase, Giardíase, Leishmaniose tegumentar e visceral, Malária, Doença de Chagas, Doença do sono, Toxoplasmose, Tricomoníase, Balantidíase",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "República Nova",
+        "descricao": "República Nova",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Subordinadas adverbiais. Causa, consequência, concessão, condição, fi…",
+        "descricao": "Subordinadas adverbiais. Causa, consequência, concessão, condição, finalidade, tempo, comparação etc.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Verminoses causadas por platelminto e nematelmintos: Esquistossomose,…",
+        "descricao": "Verminoses causadas por platelminto e nematelmintos: Esquistossomose, Teníase e Cisticercose, Ascaridíase, Ancilostomose, Filariose, Oxiuríase e Larva migrans (bicho geográfico)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Método para fazer a prova do ENEM",
+        "descricao": "Método para fazer a prova do ENEM",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Enem e vestibulares 18",
+        "descricao": "Enem e vestibulares 18",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Equação de Gibbs e espontaneidade das reações químicas",
+        "descricao": "Equação de Gibbs e espontaneidade das reações químicas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "O Pós-Guerra Fria",
+        "descricao": "O Pós-Guerra Fria",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Degrees of The Adjectives",
+        "descricao": "Degrees of The Adjectives",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Lixo, lixão, aterro controlado e aterro sanitário",
+        "descricao": "Lixo, lixão, aterro controlado e aterro sanitário",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Antropoceno, ecologia e futuro",
+        "descricao": "Antropoceno, ecologia e futuro",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Geografia Cultural",
+        "descricao": "Geografia Cultural",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Associação de Resistores",
+        "descricao": "Associação de Resistores",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "O Brasil entre Democracia, Autoritarismo e Populismo",
+        "descricao": "O Brasil entre Democracia, Autoritarismo e Populismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}
