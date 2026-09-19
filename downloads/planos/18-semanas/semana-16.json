@@ -1,0 +1,198 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Heredogramas",
+        "descricao": "Heredogramas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Geometria espacial - Pirâmides, Cones, Proporcionalidades entre sólid…",
+        "descricao": "Geometria espacial - Pirâmides, Cones, Proporcionalidades entre sólidos semelhantes",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Conjunções Subordinativas – Parte 1",
+        "descricao": "Conjunções Subordinativas – Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Grupos sanguíneos: sistema ABO e efeito bombaim",
+        "descricao": "Grupos sanguíneos: sistema ABO e efeito bombaim",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Governo João Goulart e os Primeiros Governos Militares (Castelo Branc…",
+        "descricao": "Governo João Goulart e os Primeiros Governos Militares (Castelo Branco e Costa e Silva)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Conjunções Subordinativas – Parte 2",
+        "descricao": "Conjunções Subordinativas – Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Grupos sanguíneos: Sistema RH e eritroblastose fetal. Sistema MN e SS",
+        "descricao": "Grupos sanguíneos: Sistema RH e eritroblastose fetal. Sistema MN e SS",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Guerra Fria - Parte 1 (Origens, Descolonização Afro-Asiática e 1968)",
+        "descricao": "Guerra Fria - Parte 1 (Origens, Descolonização Afro-Asiática e 1968)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Enem e vestibulares 16",
+        "descricao": "Enem e vestibulares 16",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Osmose",
+        "descricao": "Osmose",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Simulacros, Hiper-realidade e Capitalismo Tardio",
+        "descricao": "Simulacros, Hiper-realidade e Capitalismo Tardio",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Articles",
+        "descricao": "Articles",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Petróleo e combustíveis fósseis",
+        "descricao": "Petróleo e combustíveis fósseis",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Cultura, Identidade e Modernização no Brasil",
+        "descricao": "Cultura, Identidade e Modernização no Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Questão urbana e os problemas urbanos",
+        "descricao": "Questão urbana e os problemas urbanos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Hidrostática – Parte I",
+        "descricao": "Hidrostática – Parte I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Fotografia e cinema como arte - Novos olhares, novas narrativas",
+        "descricao": "Fotografia e cinema como arte - Novos olhares, novas narrativas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "A industrialização da agricultura e a produção agropecuária no Brasil",
+        "descricao": "A industrialização da agricultura e a produção agropecuária no Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Corrente elétrica",
+        "descricao": "Corrente elétrica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Arte contemporânea brasileira - Diversidade, política e experimentação",
+        "descricao": "Arte contemporânea brasileira - Diversidade, política e experimentação",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}
