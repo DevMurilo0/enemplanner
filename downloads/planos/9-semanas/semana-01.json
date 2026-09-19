@@ -1,0 +1,288 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Ácidos nucleicos: características básicas do DNA e RNA",
+        "descricao": "Ácidos nucleicos: características básicas do DNA e RNA",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Introdução à óptica geométrica - Parte I",
+        "descricao": "Introdução à óptica geométrica - Parte I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Filosofia Clássica (Sócrates e os Sofistas)",
+        "descricao": "Filosofia Clássica (Sócrates e os Sofistas)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Romantismo - O triunfo da emoção e do indivíduo",
+        "descricao": "Romantismo - O triunfo da emoção e do indivíduo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Globalização",
+        "descricao": "Globalização",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Duplicação semiconservativa do DNA",
+        "descricao": "Duplicação semiconservativa do DNA",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Conjuntos numéricos, sistemas de numeração, potências, raízes, notação científica e sistemas de medidas",
+        "descricao": "Conjuntos numéricos, sistemas de numeração, potências, raízes, notação científica e sistemas de medidas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Filosofia Clássica (Platão e Aristóteles)",
+        "descricao": "Filosofia Clássica (Platão e Aristóteles)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Realismo - A vida como ela é: arte e crítica social",
+        "descricao": "Realismo - A vida como ela é: arte e crítica social",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Revisão Geo Física - Aula 2026",
+        "descricao": "Revisão Geo Física - Aula 2026",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Enzimologia",
+        "descricao": "Enzimologia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Números inteiros, múltiplos e divisores. Números primos. MMC e MDC",
+        "descricao": "Números inteiros, múltiplos e divisores. Números primos. MMC e MDC",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Filosofia Helenística",
+        "descricao": "Filosofia Helenística",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Pontuação I",
+        "descricao": "Pontuação I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Estequiometria (pureza e rendimento)",
+        "descricao": "Estequiometria (pureza e rendimento)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "A Expansão Marítima",
+        "descricao": "A Expansão Marítima",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Sociologia: ciência, método e estranhamento",
+        "descricao": "Sociologia: ciência, método e estranhamento",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Pontuação II",
+        "descricao": "Pontuação II",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Eletrólise (aspectos quantitativos)",
+        "descricao": "Eletrólise (aspectos quantitativos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "A teoria e os fundamentos da História",
+        "descricao": "A teoria e os fundamentos da História",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Émile Durkheim: fato social, solidariedade e anomia",
+        "descricao": "Émile Durkheim: fato social, solidariedade e anomia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Pontuação: o uso da vírgula",
+        "descricao": "Pontuação: o uso da vírgula",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Reações orgânicas - Parte 1",
+        "descricao": "Reações orgânicas - Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Alta Idade Média Ocidental",
+        "descricao": "Alta Idade Média Ocidental",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Max Weber: ação social e racionalização",
+        "descricao": "Max Weber: ação social e racionalização",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 1",
+        "descricao": "Enem e vestibulares 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Movimento retilíneo uniforme (MRU)",
+        "descricao": "Movimento retilíneo uniforme (MRU)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Pré-socráticos",
+        "descricao": "Pré-socráticos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Karl Marx: trabalho, classes e capitalismo",
+        "descricao": "Karl Marx: trabalho, classes e capitalismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Pronouns and Possessive Adjectives",
+        "descricao": "Pronouns and Possessive Adjectives",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

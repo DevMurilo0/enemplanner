@@ -6,8 +6,9 @@ const STORAGE_KEY = 'studyPlanner_v1';
 const TUTORIAL_KEY = 'studyPlanner_tutorial_seen_v2';
 const INTRO_STATE_KEY = 'studyPlanner_intro_collapsed_v1';
 const DAYS_SHORT = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'];
-const BLOCK_TIMES = ['07:00 – 08:00', '08:00 – 09:00', '09:00 – 10:00', '10:00 – 11:00'];
+const BLOCK_TIMES = ['07:00 – 08:00', '08:00 – 09:00', '09:00 – 10:00', '10:00 – 11:00', '11:00 – 12:00'];
 const DAY_KEYS_ORDER = ['domingo', 'segunda', 'terca', 'quarta', 'quinta', 'sexta', 'sabado'];
+const MAX_BLOCKS_PER_DAY = 5;
 
 const SUBJECTS = [
   { id: 'bio', label: 'Biologia', color: '#7fa67f' },
@@ -135,7 +136,7 @@ function getWeekBlocks() {
     const date = new Date(weekStart);
     date.setDate(date.getDate() + d);
     const dateKey = toDateKey(date);
-    for (let i = 0; i < 4; i++) blocks.push({ ...getBlock(dateKey, i), dateKey, index: i });
+    for (let i = 0; i < MAX_BLOCKS_PER_DAY; i++) blocks.push({ ...getBlock(dateKey, i), dateKey, index: i });
   }
   return blocks;
 }
@@ -165,7 +166,7 @@ function renderCalendar() {
     const date = new Date(weekStart);
     date.setDate(date.getDate() + d);
     const dateKey = toDateKey(date);
-    const dayBlocks = [0, 1, 2, 3].map(i => getBlock(dateKey, i));
+    const dayBlocks = Array.from({ length: MAX_BLOCKS_PER_DAY }, (_, i) => getBlock(dateKey, i));
     const filled = dayBlocks.filter(b => b.subject);
     const studied = filled.filter(b => b.studied);
 
@@ -183,7 +184,7 @@ function renderCalendar() {
     const blocksEl = document.createElement('div');
     blocksEl.className = 'day-blocks';
 
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < MAX_BLOCKS_PER_DAY; i++) {
       const block = getBlock(dateKey, i);
       const subject = getSubject(block.subject);
       const blockEl = document.createElement('div');
@@ -254,7 +255,7 @@ function updateStats() {
   });
 
   const pct = filled.length ? Math.round((studied.length / filled.length) * 100) : 0;
-  $('stat-filled').textContent = `${filled.length}/28`;
+  $('stat-filled').textContent = `${filled.length}`;
   $('stat-studied').textContent = `${studied.length}/${filled.length}`;
   $('stat-top-subject').textContent = topId ? getSubject(topId)?.label || '—' : '—';
   $('stat-progress-pct').textContent = `${pct}%`;
@@ -464,7 +465,7 @@ function validateWeekJSON(parsed) {
 
   for (const day of DAY_KEYS_ORDER) {
     if (!Array.isArray(parsed.semana[day])) return `O dia “${day}” não foi encontrado.`;
-    if (parsed.semana[day].length > 4) return `O dia “${day}” possui mais de 4 blocos.`;
+    if (parsed.semana[day].length > MAX_BLOCKS_PER_DAY) return `O dia “${day}” possui mais de ${MAX_BLOCKS_PER_DAY} blocos.`;
     for (let i = 0; i < parsed.semana[day].length; i++) {
       const block = parsed.semana[day][i];
       if (!block || typeof block !== 'object') return `O bloco ${i + 1} de “${day}” é inválido.`;
@@ -485,7 +486,7 @@ function applyWeek(semana) {
     const blocks = semana[dayKey] || [];
     data[dateKey] = [];
 
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < MAX_BLOCKS_PER_DAY; i++) {
       const block = blocks[i];
       if (!block) {
         data[dateKey][i] = { subject: null, note: '', studied: false };
@@ -559,7 +560,7 @@ function exportJSON() {
     const dateKey = toDateKey(date);
     semana[dayKey] = [];
 
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < MAX_BLOCKS_PER_DAY; i++) {
       const block = getBlock(dateKey, i);
       if (!block.subject) continue;
       const subject = getSubject(block.subject);
@@ -604,7 +605,7 @@ function distribute(contents) {
     const subjectId = resolveSubjectId(item.materia);
     const candidates = grid
       .map((day, index) => ({ day, index, same: day.filter(x => resolveSubjectId(x.materia) === subjectId).length }))
-      .filter(x => x.day.length < 4)
+      .filter(x => x.day.length < MAX_BLOCKS_PER_DAY)
       .sort((a, b) => a.same - b.same || a.day.length - b.day.length || a.index - b.index);
 
     if (!candidates.length) {
@@ -702,7 +703,7 @@ function runDistribute() {
   $('dist-result').hidden = false;
   $('dist-result').className = `dist-result${overflow.length ? '' : ' success'}`;
   $('dist-result').textContent = overflow.length
-    ? `${valid.length - overflow.length} conteúdo(s) distribuído(s). ${overflow.length} não coube(ram) nos 28 blocos.`
+    ? `${valid.length - overflow.length} conteúdo(s) distribuído(s). ${overflow.length} não coube(ram) nos ${7 * MAX_BLOCKS_PER_DAY} blocos.`
     : `${valid.length} conteúdo(s) distribuído(s) com sucesso.`;
   if (!overflow.length) setTimeout(closeDistribute, 850);
 }

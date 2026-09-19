@@ -1,0 +1,261 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Tecido Sanguíneo (plasma e elementos figurados do sangue)",
+        "descricao": "Tecido Sanguíneo (plasma e elementos figurados do sangue)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Força resultante centrípeta",
+        "descricao": "Força resultante centrípeta",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Fenomenologia, percepção e experiência",
+        "descricao": "Fenomenologia, percepção e experiência",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Conjunções Coordenativas",
+        "descricao": "Conjunções Coordenativas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Imunologia: Sistema imunitário, Imunização passiva (soro), ativa (vacina), coagulação, soro, vacina, alergia, febre e inflamação",
+        "descricao": "Imunologia: Sistema imunitário, Imunização passiva (soro), ativa (vacina), coagulação, soro, vacina, alergia, febre e inflamação",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Probabilidades - Conceitos básicos e aplicações",
+        "descricao": "Probabilidades - Conceitos básicos e aplicações",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Existencialismo, liberdade e angústia",
+        "descricao": "Existencialismo, liberdade e angústia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Conjunções Subordinativas – Parte 1",
+        "descricao": "Conjunções Subordinativas – Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Tecido muscular estriado esquelético (fibras brancas e vermelhas), estriado cardíaco e liso. Sarcômero a unidade de contração e suas atividades. A catraca de Huxley, contratura muscular e fadiga muscular",
+        "descricao": "Tecido muscular estriado esquelético (fibras brancas e vermelhas), estriado cardíaco e liso. Sarcômero a unidade de contração e suas atividades. A catraca de Huxley, contratura muscular e fadiga muscular",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Distribuição binomial de probabilidades",
+        "descricao": "Distribuição binomial de probabilidades",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Urbanização e direito à cidade",
+        "descricao": "Urbanização e direito à cidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Conjunções Subordinativas – Parte 2",
+        "descricao": "Conjunções Subordinativas – Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Hidrólise",
+        "descricao": "Hidrólise",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Probabilidade - Evento complementar, Diagrama da árvore, Probabilidade condicional",
+        "descricao": "Probabilidade - Evento complementar, Diagrama da árvore, Probabilidade condicional",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "O que é gênero?",
+        "descricao": "O que é gênero?",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 6",
+        "descricao": "Enem e vestibulares 6",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Propriedades coligativas",
+        "descricao": "Propriedades coligativas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Era Vargas - Parte 2 (O Estado Novo)",
+        "descricao": "Era Vargas - Parte 2 (O Estado Novo)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "As minorias",
+        "descricao": "As minorias",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Modal Verbs",
+        "descricao": "Modal Verbs",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Reação de dupla troca",
+        "descricao": "Reação de dupla troca",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Revolução Francesa - Parte 2 (A Convenção Nacional, o Diretório e o Golpe do 18 de Brumário)",
+        "descricao": "Revolução Francesa - Parte 2 (A Convenção Nacional, o Diretório e o Golpe do 18 de Brumário)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Modernismo brasileiro – 3ª fase",
+        "descricao": "Modernismo brasileiro – 3ª fase",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "A industrialização brasileira",
+        "descricao": "A industrialização brasileira",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Força de Atrito",
+        "descricao": "Força de Atrito",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "O Imperialismo e a Segunda Revolução Industrial",
+        "descricao": "O Imperialismo e a Segunda Revolução Industrial",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Conjunção – Análise Geral",
+        "descricao": "Conjunção – Análise Geral",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

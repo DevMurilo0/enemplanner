@@ -1,0 +1,279 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "A Fotossíntese: O papel da Luz e Os Processos de Fotofosforilação Acíclica e Cíclica (Fase clara)",
+        "descricao": "A Fotossíntese: O papel da Luz e Os Processos de Fotofosforilação Acíclica e Cíclica (Fase clara)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Leis de Newton - Parte I",
+        "descricao": "Leis de Newton - Parte I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Moral e Sociedade: conflitos, normas e valores",
+        "descricao": "Moral e Sociedade: conflitos, normas e valores",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Vanguardas europeias - Parte 2",
+        "descricao": "Vanguardas europeias - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Conflitos na Ásia, Oriente Médio e Ucrânia: Apenas as aulas Palestina x Israel, Ucrânia, EUA x Irã, Ucrânia.",
+        "descricao": "Conflitos na Ásia, Oriente Médio e Ucrânia: Apenas as aulas Palestina x Israel, Ucrânia, EUA x Irã, Ucrânia.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "A Fotossíntese: Ciclo de Calvin (fase escura) e fatores limitantes da fotossíntese (Luz, CO2 e temperatura)",
+        "descricao": "A Fotossíntese: Ciclo de Calvin (fase escura) e fatores limitantes da fotossíntese (Luz, CO2 e temperatura)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Explorando Triângulos: Conceitos, Propriedades e Suas Formas Especiais",
+        "descricao": "Explorando Triângulos: Conceitos, Propriedades e Suas Formas Especiais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Dilemas morais contemporâneos",
+        "descricao": "Dilemas morais contemporâneos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Semana de Arte Moderna - 1922: o grito de ruptura",
+        "descricao": "Semana de Arte Moderna - 1922: o grito de ruptura",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Respiração Celular Aeróbia- Glicólise, Ciclo de Krebs e cadeia transportadora de elétrons. E respiração celular anaeróbia",
+        "descricao": "Respiração Celular Aeróbia- Glicólise, Ciclo de Krebs e cadeia transportadora de elétrons. E respiração celular anaeróbia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Dominando as Áreas das Figuras Planas: Conceitos e Aplicações",
+        "descricao": "Dominando as Áreas das Figuras Planas: Conceitos e Aplicações",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Política, Estado Dominação e Poder",
+        "descricao": "Política, Estado Dominação e Poder",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Funções da Linguagem",
+        "descricao": "Funções da Linguagem",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Isomeria espacial óptica",
+        "descricao": "Isomeria espacial óptica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Aula especial sobre Escravidão",
+        "descricao": "Aula especial sobre Escravidão",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Democracia, cidadania e direitos humanos",
+        "descricao": "Democracia, cidadania e direitos humanos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Figuras de linguagem",
+        "descricao": "Figuras de linguagem",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Reações de síntese e análise",
+        "descricao": "Reações de síntese e análise",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Primeira República: Revoltas e Movimentos",
+        "descricao": "Primeira República: Revoltas e Movimentos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Movimentos sociais",
+        "descricao": "Movimentos sociais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Variação Linguística",
+        "descricao": "Variação Linguística",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Reações orgânicas - Parte 3",
+        "descricao": "Reações orgânicas - Parte 3",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Revolução Industrial",
+        "descricao": "Revolução Industrial",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Movimentos sociais no Brasil",
+        "descricao": "Movimentos sociais no Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 4",
+        "descricao": "Enem e vestibulares 4",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Acústica",
+        "descricao": "Acústica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "O problema moral: fundamentos históricos e filosóficos",
+        "descricao": "O problema moral: fundamentos históricos e filosóficos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Vanguardas europeias - Parte 1",
+        "descricao": "Vanguardas europeias - Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Present and Past Continuous",
+        "descricao": "Present and Past Continuous",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

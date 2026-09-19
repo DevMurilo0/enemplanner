@@ -1,0 +1,234 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Fermentação alcoólica, láctica e acética",
+        "descricao": "Fermentação alcoólica, láctica e acética",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Estatística Essencial: Definições Fundamentais, Tendência Central e Dispersão",
+        "descricao": "Estatística Essencial: Definições Fundamentais, Tendência Central e Dispersão",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Violência, crime e território",
+        "descricao": "Violência, crime e território",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Perfect Tenses",
+        "descricao": "Perfect Tenses",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Gametogênese Masculina (espermatogênese) e Feminina (ovogênese, ovulogênese ou ovocitogênese)",
+        "descricao": "Gametogênese Masculina (espermatogênese) e Feminina (ovogênese, ovulogênese ou ovocitogênese)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Era Vargas - Parte 1 (Revolução de 1930, Governo Provisório e Governo Constitucional)",
+        "descricao": "Era Vargas - Parte 1 (Revolução de 1930, Governo Provisório e Governo Constitucional)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Modernismo brasileiro – 1ª fase",
+        "descricao": "Modernismo brasileiro – 1ª fase",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "População (Brasil e Mundo)",
+        "descricao": "População (Brasil e Mundo)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Ciclo sexual feminino ou Ciclo Menstrual",
+        "descricao": "Ciclo sexual feminino ou Ciclo Menstrual",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Iluminismo, Fisiocracia e Liberalismo",
+        "descricao": "Iluminismo, Fisiocracia e Liberalismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Modernismo brasileiro – 2ª fase",
+        "descricao": "Modernismo brasileiro – 2ª fase",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Os novos processos de migração",
+        "descricao": "Os novos processos de migração",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Reação de simples troca",
+        "descricao": "Reação de simples troca",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Revolução Francesa - Parte 1 (Dos Antecedentes até o Fim da Monarquia Constitucional)",
+        "descricao": "Revolução Francesa - Parte 1 (Dos Antecedentes até o Fim da Monarquia Constitucional)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Termos essenciais da oração: sujeito e predicado; tipos de sujeito; sujeito oracional; orações sem sujeito; predicativo do sujeito e do objeto; verbos de ligação; verbos significativos × verbos de ligação",
+        "descricao": "Termos essenciais da oração: sujeito e predicado; tipos de sujeito; sujeito oracional; orações sem sujeito; predicativo do sujeito e do objeto; verbos de ligação; verbos significativos × verbos de ligação",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Reações orgânicas - Parte 4",
+        "descricao": "Reações orgânicas - Parte 4",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Crise da Razão e o Nascimento do Contemporâneo",
+        "descricao": "Crise da Razão e o Nascimento do Contemporâneo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Termos integrantes da oração: Complementos verbais; objeto direto; objeto indireto; complemento nominal; agente da passiva; diferença entre complemento verbal e complemento nominal",
+        "descricao": "Termos integrantes da oração: Complementos verbais; objeto direto; objeto indireto; complemento nominal; agente da passiva; diferença entre complemento verbal e complemento nominal",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Leis de Newton - Parte II",
+        "descricao": "Leis de Newton - Parte II",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Capitalismo, subjetividade e cultura",
+        "descricao": "Capitalismo, subjetividade e cultura",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Termos acessórios da oração: Adjunto adnominal; adjunto adverbial; locuções adverbiais; aposto; vocativo; diferenças entre adjunto adnominal × complemento nominal; pontuação aplicada",
+        "descricao": "Termos acessórios da oração: Adjunto adnominal; adjunto adverbial; locuções adverbiais; aposto; vocativo; diferenças entre adjunto adnominal × complemento nominal; pontuação aplicada",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Cordas e tubos",
+        "descricao": "Cordas e tubos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Racismo, exclusão e representatividade",
+        "descricao": "Racismo, exclusão e representatividade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 5",
+        "descricao": "Enem e vestibulares 5",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

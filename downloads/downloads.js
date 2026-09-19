@@ -1,4 +1,5 @@
 const PLANS = [
+  { id: '9', total: 9, folder: 'planos/9-semanas', title: '9 semanas', description: 'Cronograma inédito de 9 semanas.' },
   { id: '14', total: 14, folder: 'planos/14-semanas', title: '14 semanas', description: 'Cronograma anterior em 14 semanas.' },
   { id: '18', total: 18, folder: 'planos/18-semanas', title: '18 semanas', description: 'Cronograma inédito de 18 semanas.' }
 ];
@@ -69,14 +70,14 @@ function renderPlans() {
     const section = document.createElement('section');
     section.className = 'plan';
     section.innerHTML = `
-      <button class="plan__toggle" type="button" aria-expanded="${index === 1 ? 'true' : 'false'}">
+      <button class="plan__toggle" type="button" aria-expanded="${index === 0 ? 'true' : 'false'}">
         <div class="plan__title">
           <span class="plan__arrow">›</span>
           <div><strong>${plan.title}</strong><small>${plan.description}</small></div>
         </div>
         <span class="plan__count">verificando…</span>
       </button>
-      <div class="plan__body" ${index === 1 ? '' : 'hidden'}>
+      <div class="plan__body" ${index === 0 ? '' : 'hidden'}>
         <div class="weeks-grid"></div>
       </div>
     `;
@@ -93,7 +94,7 @@ function renderPlans() {
     });
 
     root.appendChild(section);
-    if (index === 1) populatePlan(plan, body, count);
+    if (index === 0) populatePlan(plan, body, count);
   });
 }
 

@@ -1,0 +1,216 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Introdução à ecologia (cadeias alimentares, pirâmides ecológicas e fluxo de energia)",
+        "descricao": "Introdução à ecologia (cadeias alimentares, pirâmides ecológicas e fluxo de energia)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Geometria espacial - Retas e planos no espaço, Vistas e perspectivas, Projeções ortogonais",
+        "descricao": "Geometria espacial - Retas e planos no espaço, Vistas e perspectivas, Projeções ortogonais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Decolonialidade",
+        "descricao": "Decolonialidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Urbanização Brasil e Mundo + Regiões de Influência e rede urbana (Hierarquia urbana) - Aula 2026",
+        "descricao": "Urbanização Brasil e Mundo + Regiões de Influência e rede urbana (Hierarquia urbana) - Aula 2026",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Ciclos biogeoquímicos: Ciclo do Nitrogênio",
+        "descricao": "Ciclos biogeoquímicos: Ciclo do Nitrogênio",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Geometria espacial - Poliedros, Prismas, Cilindros",
+        "descricao": "Geometria espacial - Poliedros, Prismas, Cilindros",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Crise do Cuidado e Reprodução Social",
+        "descricao": "Crise do Cuidado e Reprodução Social",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Ciclos biogeoquímicos: Carbono, água e oxigênio",
+        "descricao": "Ciclos biogeoquímicos: Carbono, água e oxigênio",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Governo João Goulart e os Primeiros Governos Militares (Castelo Branco e Costa e Silva)",
+        "descricao": "Governo João Goulart e os Primeiros Governos Militares (Castelo Branco e Costa e Silva)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Sociedade Algorítmica, Inteligência Artificial e Democracia",
+        "descricao": "Sociedade Algorítmica, Inteligência Artificial e Democracia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Osmose",
+        "descricao": "Osmose",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Unificações da Alemanha e Itália e a Primeira Guerra Mundial (1914 - 1918)",
+        "descricao": "Unificações da Alemanha e Itália e a Primeira Guerra Mundial (1914 - 1918)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Arte contemporânea – O que faz algo ser arte hoje: ideia, processo e provocação",
+        "descricao": "Arte contemporânea – O que faz algo ser arte hoje: ideia, processo e provocação",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Petróleo e combustíveis fósseis",
+        "descricao": "Petróleo e combustíveis fósseis",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Período Entreguerras: A Crise de 1929 e os Totalitarismos",
+        "descricao": "Período Entreguerras: A Crise de 1929 e os Totalitarismos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Orações coordenadas: Aditiva, adversativa, alternativa, conclusiva, explicativa; conectivos e valores",
+        "descricao": "Orações coordenadas: Aditiva, adversativa, alternativa, conclusiva, explicativa; conectivos e valores",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Energia mecânica - Parte I",
+        "descricao": "Energia mecânica - Parte I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Poder, Corpo e Subjetividade",
+        "descricao": "Poder, Corpo e Subjetividade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 7",
+        "descricao": "Enem e vestibulares 7",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Energia mecânica - Parte II",
+        "descricao": "Energia mecânica - Parte II",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Linguagem, Diferença e Desconstrução",
+        "descricao": "Linguagem, Diferença e Desconstrução",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Future",
+        "descricao": "Future",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

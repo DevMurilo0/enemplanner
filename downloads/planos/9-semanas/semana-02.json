@@ -1,0 +1,270 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Membrana plasmática e seus transportes passivos (difusão e osmose), ativos (bombas e endocitoses)",
+        "descricao": "Membrana plasmática e seus transportes passivos (difusão e osmose), ativos (bombas e endocitoses)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Ondas",
+        "descricao": "Ondas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Introdução à Filosofia Moderna",
+        "descricao": "Introdução à Filosofia Moderna",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Parnasianismo - Forma perfeita e distanciamento do mundo",
+        "descricao": "Parnasianismo - Forma perfeita e distanciamento do mundo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Organelas Citoplasmáticas - Parte 1 (ribossomos, retículo, golgi, lisossomos)",
+        "descricao": "Organelas Citoplasmáticas - Parte 1 (ribossomos, retículo, golgi, lisossomos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Razão e proporção; Escalas; Grandezas proporcionais",
+        "descricao": "Razão e proporção; Escalas; Grandezas proporcionais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Modernidade e o sujeito do conhecimento",
+        "descricao": "Modernidade e o sujeito do conhecimento",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Concordância verbal — casos especiais: sujeito composto; porcentagem; coletivos; “haver/fazer/existir”; verbos impessoais.",
+        "descricao": "Concordância verbal — casos especiais: sujeito composto; porcentagem; coletivos; “haver/fazer/existir”; verbos impessoais.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Organelas Citoplasmáticas - Parte 2 (peroxissomos, glioxissomos, vacúolos, mitocôndrias, cloroplastos, centríolos)",
+        "descricao": "Organelas Citoplasmáticas - Parte 2 (peroxissomos, glioxissomos, vacúolos, mitocôndrias, cloroplastos, centríolos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Regra de 3 simples e composta",
+        "descricao": "Regra de 3 simples e composta",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Epistemologia contemporânea: linguagem, ciência e verdade",
+        "descricao": "Epistemologia contemporânea: linguagem, ciência e verdade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "\"Concordância nominal — armadilhas frequentes: É proibido”; “meio/meia”; “anexo”; “bastante”; “mesmo”; “todo”; “obrigado”.",
+        "descricao": "\"Concordância nominal — armadilhas frequentes: É proibido”; “meio/meia”; “anexo”; “bastante”; “mesmo”; “todo”; “obrigado”.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Ligações intermoleculares",
+        "descricao": "Ligações intermoleculares",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Porcentagem, Juros Simples e Compostos: Conceitos e Aplicações no Dia a Dia",
+        "descricao": "Porcentagem, Juros Simples e Compostos: Conceitos e Aplicações no Dia a Dia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Conhecimento, tecnologia e sociedade: desafios atuais",
+        "descricao": "Conhecimento, tecnologia e sociedade: desafios atuais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 2",
+        "descricao": "Enem e vestibulares 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Radioatividade (cinética das emissões)",
+        "descricao": "Radioatividade (cinética das emissões)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "A sociedade do açúcar e a economia complementar colonial",
+        "descricao": "A sociedade do açúcar e a economia complementar colonial",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Cultura, etnocentrismo e alteridade",
+        "descricao": "Cultura, etnocentrismo e alteridade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Present Simple",
+        "descricao": "Present Simple",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Reações orgânicas - Parte 2",
+        "descricao": "Reações orgânicas - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Ciclo da mineração e período pombalino",
+        "descricao": "Ciclo da mineração e período pombalino",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Identidade, representação e estigma",
+        "descricao": "Identidade, representação e estigma",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Os problemas ambientais",
+        "descricao": "Os problemas ambientais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Movimento uniformemente variado (MUV) e Movimento vertical",
+        "descricao": "Movimento uniformemente variado (MUV) e Movimento vertical",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Baixa Idade Média Ocidental",
+        "descricao": "Baixa Idade Média Ocidental",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Naturalismo - Ciência, determinismo e corpo social",
+        "descricao": "Naturalismo - Ciência, determinismo e corpo social",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Matriz energética e Fontes de energia",
+        "descricao": "Matriz energética e Fontes de energia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

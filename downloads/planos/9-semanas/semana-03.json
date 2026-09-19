@@ -1,0 +1,261 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Núcleo (estrutura, eucromatina, heterocromatina e nucléolo), corpúsculo de Barr, cariótipo celular (número de cromossomos, células haplóides e diplóides)",
+        "descricao": "Núcleo (estrutura, eucromatina, heterocromatina e nucléolo), corpúsculo de Barr, cariótipo celular (número de cromossomos, células haplóides e diplóides)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Interferência de ondas",
+        "descricao": "Interferência de ondas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Filosofia Política contemporânea: Estado, mercado, tecnologia e identidades",
+        "descricao": "Filosofia Política contemporânea: Estado, mercado, tecnologia e identidades",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Regência verbal — verbos campeões: assistir, preferir, visar, implicar, obedecer, aspirar, namorar, chegar, ir etc",
+        "descricao": "Regência verbal — verbos campeões: assistir, preferir, visar, implicar, obedecer, aspirar, namorar, chegar, ir etc",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Divisão celular: MITOSE (equacional)",
+        "descricao": "Divisão celular: MITOSE (equacional)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Operação Raciocínio: Problemas de 1º grau, razão, proporção e porcentagem sem mistério",
+        "descricao": "Operação Raciocínio: Problemas de 1º grau, razão, proporção e porcentagem sem mistério",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Estratificação social",
+        "descricao": "Estratificação social",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Regência nominal: adjetivos e nomes que exigem preposição; mudança de sentido por regência",
+        "descricao": "Regência nominal: adjetivos e nomes que exigem preposição; mudança de sentido por regência",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Divisão celular: MEIOSE (reducional)",
+        "descricao": "Divisão celular: MEIOSE (reducional)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Revisando as 4 operações elementares e suas aplicações e frações, potências e raízes",
+        "descricao": "Revisando as 4 operações elementares e suas aplicações e frações, potências e raízes",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Mobilidade social e desenvolvimento",
+        "descricao": "Mobilidade social e desenvolvimento",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Crase — diagnóstico infalível: casos obrigatórios, proibidos e facultativos; locuções; pronomes; nomes de lugar",
+        "descricao": "Crase — diagnóstico infalível: casos obrigatórios, proibidos e facultativos; locuções; pronomes; nomes de lugar",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Isomeria espacial geométrica",
+        "descricao": "Isomeria espacial geométrica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Segundo Reinado - Parte 1 (Política e Economia)",
+        "descricao": "Segundo Reinado - Parte 1 (Política e Economia)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Trabalho e transformação tecnológica",
+        "descricao": "Trabalho e transformação tecnológica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 3",
+        "descricao": "Enem e vestibulares 3",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Fatores que afetam o equilíbrio",
+        "descricao": "Fatores que afetam o equilíbrio",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Reforma Protestante - Parte 1 (Antecedentes e Luteranismo)",
+        "descricao": "Reforma Protestante - Parte 1 (Antecedentes e Luteranismo)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Economia digital e plataformização",
+        "descricao": "Economia digital e plataformização",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Past Simple",
+        "descricao": "Past Simple",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Solução tampão",
+        "descricao": "Solução tampão",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Reforma Protestante - Parte 2 (Calvinismo, Anglicanismo e Contrarreforma)",
+        "descricao": "Reforma Protestante - Parte 2 (Calvinismo, Anglicanismo e Contrarreforma)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Impressionismo - O olhar em movimento: luz, tempo e cidade",
+        "descricao": "Impressionismo - O olhar em movimento: luz, tempo e cidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Revisão Geo Humana - Aula 2026",
+        "descricao": "Revisão Geo Humana - Aula 2026",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Gráficos do MUV",
+        "descricao": "Gráficos do MUV",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Filosofia política moderna - Maquiavel e o contrato",
+        "descricao": "Filosofia política moderna - Maquiavel e o contrato",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Pré-Modernismo no Brasil - Um país em conflito: arte, identidade e contradição",
+        "descricao": "Pré-Modernismo no Brasil - Um país em conflito: arte, identidade e contradição",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}
