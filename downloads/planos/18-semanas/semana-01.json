@@ -1,0 +1,252 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Origem da vida: Abiogênese, biogênese, Origem do primeiro ser vivo, E…",
+        "descricao": "Origem da vida: Abiogênese, biogênese, Origem do primeiro ser vivo, Experimentos de Stanley Miller e Sidney fox, hipótese da invaginação de Robertson, Endossimbiose, Metabolismo, unicelularidade e multicelularidade.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Introdução à óptica geométrica - Parte I",
+        "descricao": "Introdução à óptica geométrica - Parte I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Filosofia Clássica (Platão e Aristóteles)",
+        "descricao": "Filosofia Clássica (Platão e Aristóteles)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Norma-padrão, norma culta e variação linguística: adequação x “certo/…",
+        "descricao": "Norma-padrão, norma culta e variação linguística: adequação x “certo/errado”; preconceito linguístico; registro e contexto de prova",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Origem da vida: Metabolismo autotrófico e heterotrófico.",
+        "descricao": "Origem da vida: Metabolismo autotrófico e heterotrófico.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Conjuntos numéricos, sistemas de numeração, potências, raízes, notaçã…",
+        "descricao": "Conjuntos numéricos, sistemas de numeração, potências, raízes, notação científica e sistemas de medidas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Filosofia Helenística",
+        "descricao": "Filosofia Helenística",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Enem e vestibulares 1",
+        "descricao": "Enem e vestibulares 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Ácidos nucléicos: características básicas do DNA e RNA",
+        "descricao": "Ácidos nucléicos: características básicas do DNA e RNA",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Números inteiros, múltiplos e divisores. Números primos. MMC e MDC",
+        "descricao": "Números inteiros, múltiplos e divisores. Números primos. MMC e MDC",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Sociologia: ciência, método e estranhamento",
+        "descricao": "Sociologia: ciência, método e estranhamento",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Pronouns and Possessive Adjectives",
+        "descricao": "Pronouns and Possessive Adjectives",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Termoquímica (Lei de Hess)",
+        "descricao": "Termoquímica (Lei de Hess)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "A Expansão Marítima",
+        "descricao": "A Expansão Marítima",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Émile Durkheim: fato social, solidariedade e anomia",
+        "descricao": "Émile Durkheim: fato social, solidariedade e anomia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "História do pensamento geográfico: da natureza à sociedade",
+        "descricao": "História do pensamento geográfico: da natureza à sociedade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Eletrólise (aspectos quantitativos)",
+        "descricao": "Eletrólise (aspectos quantitativos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "A teoria e os fundamentos da História",
+        "descricao": "A teoria e os fundamentos da História",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Max Weber: ação social e racionalização",
+        "descricao": "Max Weber: ação social e racionalização",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Geografia da saúde: a saúde no Brasil e a importância do SUS",
+        "descricao": "Geografia da saúde: a saúde no Brasil e a importância do SUS",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Fatores que afetam a velocidade das reações químicas",
+        "descricao": "Fatores que afetam a velocidade das reações químicas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Pré-socráticos",
+        "descricao": "Pré-socráticos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Karl Marx: trabalho, classes e capitalismo",
+        "descricao": "Karl Marx: trabalho, classes e capitalismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Movimento retilíneo uniforme (MRU)",
+        "descricao": "Movimento retilíneo uniforme (MRU)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Filosofia Clássica (Sócrates e os Sofistas)",
+        "descricao": "Filosofia Clássica (Sócrates e os Sofistas)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Arte medieval - Entre o céu e a terra: imagem, fé e simbolismo",
+        "descricao": "Arte medieval - Entre o céu e a terra: imagem, fé e simbolismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}
