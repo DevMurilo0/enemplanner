@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Biomas brasileiros - Parte 2 (Pampas, Florestas de araucárias, Pantan…",
+        "descricao": "Biomas brasileiros - Parte 2 (Pampas, Florestas de araucárias, Pantanal e Zona dos cocais)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Probabilidades - Conceitos básicos e aplicações",
+        "descricao": "Probabilidades - Conceitos básicos e aplicações",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Termos essenciais da oração: sujeito e predicado; tipos de sujeito; s…",
+        "descricao": "Termos essenciais da oração: sujeito e predicado; tipos de sujeito; sujeito oracional; orações sem sujeito; predicativo do sujeito e do objeto; verbos de ligação; verbos significativos × verbos de ligação",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Poluição e desequilíbrio ecológico - Parte 1 (Hipótese de gaia, Biodi…",
+        "descricao": "Poluição e desequilíbrio ecológico - Parte 1 (Hipótese de gaia, Biodiversidade, extinção, poluição das águas (derramamento de petróleo, eutrofização e DBO, acidificação da água do mar))",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Distribuição binomial de probabilidades",
+        "descricao": "Distribuição binomial de probabilidades",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Enem e vestibulares 12",
+        "descricao": "Enem e vestibulares 12",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Poluição e desequilíbrio ecológico - Parte 2 (Maré-vermelha, biomagni…",
+        "descricao": "Poluição e desequilíbrio ecológico - Parte 2 (Maré-vermelha, biomagnificação, Efeito estufa, inversão térmica, chuva ácida, tratamento de lixo, reciclagem, 5Rs, desmatamento e espécies exóticas)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Primeira República: Estruturas Políticas e Econômicas",
+        "descricao": "Primeira República: Estruturas Políticas e Econômicas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Conditionals",
+        "descricao": "Conditionals",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Funções inorgânicas sais",
+        "descricao": "Funções inorgânicas sais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "O Imperialismo e a Segunda Revolução Industrial",
+        "descricao": "O Imperialismo e a Segunda Revolução Industrial",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Conflitos na Ásia",
+        "descricao": "Conflitos na Ásia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Solução tampão",
+        "descricao": "Solução tampão",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Fenomenologia, percepção e experiência",
+        "descricao": "Fenomenologia, percepção e experiência",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Conflitos no Oriente Médio",
+        "descricao": "Conflitos no Oriente Médio",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Impulso e Quantidade de movimento",
+        "descricao": "Impulso e Quantidade de movimento",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Riscos globais, tecnologia e futuro",
+        "descricao": "Riscos globais, tecnologia e futuro",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Cordas e tubos sonoros",
+        "descricao": "Cordas e tubos sonoros",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Modernismo brasileiro – 1ª fase - Experimentação, identidade e irreve…",
+        "descricao": "Modernismo brasileiro – 1ª fase - Experimentação, identidade e irreverência",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}
