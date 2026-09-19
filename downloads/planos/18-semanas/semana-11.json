@@ -1,0 +1,180 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Biomas terrestres - Parte 2 (Floresta tropical, campos limpos, sujos …",
+        "descricao": "Biomas terrestres - Parte 2 (Floresta tropical, campos limpos, sujos e Desertos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Análise combinatória - Parte 2 - Agrupamento (arranjos, permutações, …",
+        "descricao": "Análise combinatória - Parte 2 - Agrupamento (arranjos, permutações, combinações)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Enem e vestibulares 11",
+        "descricao": "Enem e vestibulares 11",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Biomas brasileiros - Parte 1 (Floresta amazônica, Caatinga e Cerrado)",
+        "descricao": "Biomas brasileiros - Parte 1 (Floresta amazônica, Caatinga e Cerrado)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Aula especial sobre Escravidão",
+        "descricao": "Aula especial sobre Escravidão",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Question Tags",
+        "descricao": "Question Tags",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Funções inorgânicas óxidos",
+        "descricao": "Funções inorgânicas óxidos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "A Expansão dos Estados Unidos para o Oeste e a Guerra de Secessão",
+        "descricao": "A Expansão dos Estados Unidos para o Oeste e a Guerra de Secessão",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "China: A construção de uma grande potência",
+        "descricao": "China: A construção de uma grande potência",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Reações orgânicas - Parte 2",
+        "descricao": "Reações orgânicas - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Capitalismo, subjetividade e cultura",
+        "descricao": "Capitalismo, subjetividade e cultura",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Geografia dos Transportes",
+        "descricao": "Geografia dos Transportes",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Energia mecânica - Parte II",
+        "descricao": "Energia mecânica - Parte II",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Antropoceno, ecologia e Amazônia",
+        "descricao": "Antropoceno, ecologia e Amazônia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Acústica",
+        "descricao": "Acústica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Semana de Arte Moderna - 1922: o grito de ruptura",
+        "descricao": "Semana de Arte Moderna - 1922: o grito de ruptura",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Análise combinatória - Parte 1 (contagem, fatorial, permutações simples)",
+        "descricao": "Análise combinatória - Parte 1 (contagem, fatorial, permutações simples)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Linguagem institucional e redação oficial (noções): clareza, concisão…",
+        "descricao": "Linguagem institucional e redação oficial (noções): clareza, concisão, impessoalidade; padrões; problemas típicos em questões",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}
