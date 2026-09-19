@@ -1,0 +1,180 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Variações da segunda lei de Mendel parte 2: Linkage (genes ligados), Sex-Linkage e genes holândricos.",
+        "descricao": "Variações da segunda lei de Mendel parte 2: Linkage (genes ligados), Sex-Linkage e genes holândricos.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Leis de Ohm",
+        "descricao": "Leis de Ohm",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Conjunções Subordinativas – Parte 1",
+        "descricao": "Conjunções Subordinativas – Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Variações da segunda lei de Mendel parte 3: Herança quantitativa ou aditiva",
+        "descricao": "Variações da segunda lei de Mendel parte 3: Herança quantitativa ou aditiva",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Geometria espacial - Retas e planos no espaço, Vistas e perspectivas, Projeções ortogonais",
+        "descricao": "Geometria espacial - Retas e planos no espaço, Vistas e perspectivas, Projeções ortogonais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 21",
+        "descricao": "Enem e vestibulares 21",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Determinação do sexo, heranças genéticas sexuais (ligada, holândrica, limitada e influenciada) e genética das populações (Equilíbrio gênico de hard-Weimberg).",
+        "descricao": "Determinação do sexo, heranças genéticas sexuais (ligada, holândrica, limitada e influenciada) e genética das populações (Equilíbrio gênico de hard-Weimberg).",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Era Vargas - Parte 1 (Revolução de 1930, Governo provisório e Governo constitucional)",
+        "descricao": "Era Vargas - Parte 1 (Revolução de 1930, Governo provisório e Governo constitucional)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Genitive Case's",
+        "descricao": "Genitive Case's",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Biotecnologia completa",
+        "descricao": "Biotecnologia completa",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Revolução Francesa - Parte 2 (A Convenção Nacional, o Diretório e o Golpe do 18 de Brumário)",
+        "descricao": "Revolução Francesa - Parte 2 (A Convenção Nacional, o Diretório e o Golpe do 18 de Brumário)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Conflitos no Oriente Médio",
+        "descricao": "Conflitos no Oriente Médio",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Produto de solubilidade",
+        "descricao": "Produto de solubilidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Capitalismo, subjetividade e cultura",
+        "descricao": "Capitalismo, subjetividade e cultura",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Saponificação (diferença entre sabão e detergente)",
+        "descricao": "Saponificação (diferença entre sabão e detergente)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Crise do Cuidado e Reprodução Social",
+        "descricao": "Crise do Cuidado e Reprodução Social",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Hidrostática – Parte II",
+        "descricao": "Hidrostática – Parte II",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Modernismo brasileiro – 3ª fase - Existência, linguagem e universalidade",
+        "descricao": "Modernismo brasileiro – 3ª fase - Existência, linguagem e universalidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

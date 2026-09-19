@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Biomas brasileiros - Parte 2: Pampas, Florestas de araucárias, Pantanal e Zona dos cocais",
+        "descricao": "Biomas brasileiros - Parte 2: Pampas, Florestas de araucárias, Pantanal e Zona dos cocais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Lei de coulomb",
+        "descricao": "Lei de coulomb",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Linguagem institucional e redação oficial (noções): clareza, concisão, impessoalidade; padrões; problemas típicos em questões.",
+        "descricao": "Linguagem institucional e redação oficial (noções): clareza, concisão, impessoalidade; padrões; problemas típicos em questões.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Poluição e desequilíbrio ecológico - Parte 1: Hipótese de gaia, Biodiversidade, extinção, poluição das águas (derramamento de petróleo, eutrofização e DBO, acidificação da água do mar).",
+        "descricao": "Poluição e desequilíbrio ecológico - Parte 1: Hipótese de gaia, Biodiversidade, extinção, poluição das águas (derramamento de petróleo, eutrofização e DBO, acidificação da água do mar).",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Revisão Completa de Análise Combinatória: Conceitos e Aplicações",
+        "descricao": "Revisão Completa de Análise Combinatória: Conceitos e Aplicações",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Termos essenciais da oração: sujeito e predicado; tipos de sujeito; sujeito oracional; orações sem sujeito; predicativo do sujeito e do objeto; verbos de ligação; verbos significativos × verbos de ligação",
+        "descricao": "Termos essenciais da oração: sujeito e predicado; tipos de sujeito; sujeito oracional; orações sem sujeito; predicativo do sujeito e do objeto; verbos de ligação; verbos significativos × verbos de ligação",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Poluição e desequilíbrio ecológico - Parte 2: Maré-vermelha, biomagnificação, Efeito estufa, inversão térmica, chuva ácida, tratamento de lixo, reciclagem, 5Rs, desmatamento e espécies exóticas.",
+        "descricao": "Poluição e desequilíbrio ecológico - Parte 2: Maré-vermelha, biomagnificação, Efeito estufa, inversão térmica, chuva ácida, tratamento de lixo, reciclagem, 5Rs, desmatamento e espécies exóticas.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Segundo Reinado - Parte 1 (política e economia)",
+        "descricao": "Segundo Reinado - Parte 1 (política e economia)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 15",
+        "descricao": "Enem e vestibulares 15",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Taxonomia (regras de classificação de Lineu e classificação moderna), os reinos dos seres vivos, domínios e filogenia (estudo dos cladogramas)",
+        "descricao": "Taxonomia (regras de classificação de Lineu e classificação moderna), os reinos dos seres vivos, domínios e filogenia (estudo dos cladogramas)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Formação das Monarquias Nacionais, Absolutismo e Mercantilismo",
+        "descricao": "Formação das Monarquias Nacionais, Absolutismo e Mercantilismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Plural of Nouns",
+        "descricao": "Plural of Nouns",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Equilíbrio químico",
+        "descricao": "Equilíbrio químico",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Técnica, trabalho e corpo: o humano como construção",
+        "descricao": "Técnica, trabalho e corpo: o humano como construção",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "As Transformações no Leste Europeu: Guerra Fria e Cortina de Ferro e a Formação territorial do mundo no fim do século XX e início do Séc. XXI",
+        "descricao": "As Transformações no Leste Europeu: Guerra Fria e Cortina de Ferro e a Formação territorial do mundo no fim do século XX e início do Séc. XXI",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Polímeros",
+        "descricao": "Polímeros",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Violência, crime e território",
+        "descricao": "Violência, crime e território",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Gravitação universal - Parte I",
+        "descricao": "Gravitação universal - Parte I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Vanguardas europeias - Quebrar para criar: a arte em tempos de ruptura",
+        "descricao": "Vanguardas europeias - Quebrar para criar: a arte em tempos de ruptura",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

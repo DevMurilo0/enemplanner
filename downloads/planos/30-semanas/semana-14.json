@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Dinâmica das populações: potencial biótico, curvas de crescimento, espécies k e R estrategistas.",
+        "descricao": "Dinâmica das populações: potencial biótico, curvas de crescimento, espécies k e R estrategistas.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Princípios fundamentais e processos de eletrização",
+        "descricao": "Princípios fundamentais e processos de eletrização",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Figuras de linguagem",
+        "descricao": "Figuras de linguagem",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Relações ecológicas harmônicas e desarmônicas",
+        "descricao": "Relações ecológicas harmônicas e desarmônicas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Análise combinatória - Parte 2 (Agrupamento (arranjos, permutações, combinações))",
+        "descricao": "Análise combinatória - Parte 2 (Agrupamento (arranjos, permutações, combinações))",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Registros, níveis de formalidade e adequação: variação linguística; oralidade x escrita; quando “marca de fala” vira erro em prova.",
+        "descricao": "Registros, níveis de formalidade e adequação: variação linguística; oralidade x escrita; quando “marca de fala” vira erro em prova.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Sucessões ecológicas",
+        "descricao": "Sucessões ecológicas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Revoltas Regenciais",
+        "descricao": "Revoltas Regenciais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 14",
+        "descricao": "Enem e vestibulares 14",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Biomas brasileiros - Parte 1 (Floresta amazônica, Caatinga e Cerrado)",
+        "descricao": "Biomas brasileiros - Parte 1 (Floresta amazônica, Caatinga e Cerrado)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Reforma Protestante - Parte 2 (Calvinismo, Anglicanismo e Contrarreforma)",
+        "descricao": "Reforma Protestante - Parte 2 (Calvinismo, Anglicanismo e Contrarreforma)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Passive Voice",
+        "descricao": "Passive Voice",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Geometria molecular e polaridade",
+        "descricao": "Geometria molecular e polaridade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "O ser humano em perspectiva: natureza, cultura e liberdade",
+        "descricao": "O ser humano em perspectiva: natureza, cultura e liberdade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "A nova divisão internacional do trabalho (DIT) e mundo do trabalho no século XXI",
+        "descricao": "A nova divisão internacional do trabalho (DIT) e mundo do trabalho no século XXI",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Isomeria espacial óptica",
+        "descricao": "Isomeria espacial óptica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Racismo, exclusão e representatividade",
+        "descricao": "Racismo, exclusão e representatividade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Conservação da quantidade de movimento e colisão mecânica",
+        "descricao": "Conservação da quantidade de movimento e colisão mecânica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Impressionismo - O olhar em movimento: luz, tempo e cidade + Pós-Impressionismo - Quando a pintura começa a pensar a si mesma",
+        "descricao": "Impressionismo - O olhar em movimento: luz, tempo e cidade + Pós-Impressionismo - Quando a pintura começa a pensar a si mesma",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

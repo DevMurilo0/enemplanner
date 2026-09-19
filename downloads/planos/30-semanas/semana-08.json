@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Fermentação alcoólica, lactica e acética",
+        "descricao": "Fermentação alcoólica, lactica e acética",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Lentes esféricas",
+        "descricao": "Lentes esféricas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Concordância nominal — armadilhas frequentes: “É proibido”; “meio/meia”; “anexo”; “bastante”; “mesmo”; “todo”; “obrigado”.\"",
+        "descricao": "Concordância nominal — armadilhas frequentes: “É proibido”; “meio/meia”; “anexo”; “bastante”; “mesmo”; “todo”; “obrigado”.\"",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Fermentação e metanol: Do processo biológico ao risco químico",
+        "descricao": "Fermentação e metanol: Do processo biológico ao risco químico",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Funções-Quadrática - Parte 1 e 2 (Conceitos, Propriedades, Gráficos, Forma Fatorada, máximos e mínimos)",
+        "descricao": "Funções-Quadrática - Parte 1 e 2 (Conceitos, Propriedades, Gráficos, Forma Fatorada, máximos e mínimos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 8",
+        "descricao": "Enem e vestibulares 8",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Reprodução assexuada e sexuada dos seres vivos (seres unicelulares, animais e plantas)",
+        "descricao": "Reprodução assexuada e sexuada dos seres vivos (seres unicelulares, animais e plantas)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Ciclo da mineração e período pombalino",
+        "descricao": "Ciclo da mineração e período pombalino",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Used To/ To Be Used To",
+        "descricao": "Used To/ To Be Used To",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Anatomia básica dos sistemas reprodutores masculino e feminino.",
+        "descricao": "Anatomia básica dos sistemas reprodutores masculino e feminino.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Alta Idade Média Ocidental",
+        "descricao": "Alta Idade Média Ocidental",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Os domínios de vegetação e natureza no mundo",
+        "descricao": "Os domínios de vegetação e natureza no mundo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Gases (equação de Clapeyron, densidade dos gases, difusão e efusão)",
+        "descricao": "Gases (equação de Clapeyron, densidade dos gases, difusão e efusão)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Filosofia política moderna - Maquiavel e o contrato",
+        "descricao": "Filosofia política moderna - Maquiavel e o contrato",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Os domínios de vegetação e natureza no brasil",
+        "descricao": "Os domínios de vegetação e natureza no brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Eletrólise (aspectos qualitativos)",
+        "descricao": "Eletrólise (aspectos qualitativos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Economia digital e plataformização",
+        "descricao": "Economia digital e plataformização",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Força resultante centrípeta",
+        "descricao": "Força resultante centrípeta",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Barroco - Excesso, drama e persuasão",
+        "descricao": "Barroco - Excesso, drama e persuasão",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

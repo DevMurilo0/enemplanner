@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Botânica: Introdução aos estudos dos vegetais: características gerais, ciclo reprodutivo geral e glossário de botânica.",
+        "descricao": "Botânica: Introdução aos estudos dos vegetais: características gerais, ciclo reprodutivo geral e glossário de botânica.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Campo elétrico - Parte I",
+        "descricao": "Campo elétrico - Parte I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Termos integrantes da oração: Complementos verbais; objeto direto; objeto indireto; complemento nominal; agente da passiva; diferença entre complemento verbal e complemento nominal",
+        "descricao": "Termos integrantes da oração: Complementos verbais; objeto direto; objeto indireto; complemento nominal; agente da passiva; diferença entre complemento verbal e complemento nominal",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Criptógamas: briófitas e pteridófitas",
+        "descricao": "Criptógamas: briófitas e pteridófitas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Probabilidades - Conceitos básicos e aplicações, Distribuição binomial de probabilidades",
+        "descricao": "Probabilidades - Conceitos básicos e aplicações, Distribuição binomial de probabilidades",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Termos acessórios da oração: Adjunto adnominal; adjunto adverbial; locuções adverbiais; aposto; vocativo; diferenças entre adjunto adnominal × complemento nominal; pontuação aplicada",
+        "descricao": "Termos acessórios da oração: Adjunto adnominal; adjunto adverbial; locuções adverbiais; aposto; vocativo; diferenças entre adjunto adnominal × complemento nominal; pontuação aplicada",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Fanerógamas: gimnospermas",
+        "descricao": "Fanerógamas: gimnospermas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Segundo Reinado - Parte 1 (guerra do Paraguai e declínio)",
+        "descricao": "Segundo Reinado - Parte 1 (guerra do Paraguai e declínio)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 16",
+        "descricao": "Enem e vestibulares 16",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Fanerógamas: angiospermas",
+        "descricao": "Fanerógamas: angiospermas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Revoluções Inglesas do Século XVII",
+        "descricao": "Revoluções Inglesas do Século XVII",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Articles",
+        "descricao": "Articles",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Ligação metálica",
+        "descricao": "Ligação metálica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Sujeito, alteridade e reconhecimento",
+        "descricao": "Sujeito, alteridade e reconhecimento",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "China: A construção de uma grande potência",
+        "descricao": "China: A construção de uma grande potência",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Fatores que afetam o equilíbrio",
+        "descricao": "Fatores que afetam o equilíbrio",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "A questão prisional",
+        "descricao": "A questão prisional",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Gravitação universal - Parte II",
+        "descricao": "Gravitação universal - Parte II",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Abstracionismo e a crise da forma - Quando a imagem deixa de representar",
+        "descricao": "Abstracionismo e a crise da forma - Quando a imagem deixa de representar",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

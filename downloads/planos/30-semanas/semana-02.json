@@ -1,0 +1,207 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Sais minerais: características e atividade biológica",
+        "descricao": "Sais minerais: características e atividade biológica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Introdução à óptica geométrica - Parte II",
+        "descricao": "Introdução à óptica geométrica - Parte II",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Max Weber: ação social e racionalização",
+        "descricao": "Max Weber: ação social e racionalização",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Vitaminas lipossolúveis e hidrossolúveis",
+        "descricao": "Vitaminas lipossolúveis e hidrossolúveis",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Razão e proporção; Escalas; Grandezas proporcionais. + Regra de 3 simples e composta. + Revisão (razão e proporção).",
+        "descricao": "Razão e proporção; Escalas; Grandezas proporcionais. + Regra de 3 simples e composta. + Revisão (razão e proporção).",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Karl Marx: trabalho, classes e capitalismo",
+        "descricao": "Karl Marx: trabalho, classes e capitalismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Ácidos nucléicos: características básicas do DNA e RNA",
+        "descricao": "Ácidos nucléicos: características básicas do DNA e RNA",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "O Brasil antes de Cabral, as Sociedades Ameríndias’ e o Período Pré-Colonial",
+        "descricao": "O Brasil antes de Cabral, as Sociedades Ameríndias’ e o Período Pré-Colonial",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Arte egípcia - Eternidade em pedra: arte, poder e vida após a morte",
+        "descricao": "Arte egípcia - Eternidade em pedra: arte, poder e vida após a morte",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Métodos de separação das misturas",
+        "descricao": "Métodos de separação das misturas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Pré-História: Paleolítico e Neolítico",
+        "descricao": "Pré-História: Paleolítico e Neolítico",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Ortografia e Acordo Ortográfico: grafia, homófonos/parônimos, emprego de letras, hífen essencial para a banca.",
+        "descricao": "Ortografia e Acordo Ortográfico: grafia, homófonos/parônimos, emprego de letras, hífen essencial para a banca.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Estequiometria (pureza e rendimento)",
+        "descricao": "Estequiometria (pureza e rendimento)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Filosofia Helenística",
+        "descricao": "Filosofia Helenística",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 2",
+        "descricao": "Enem e vestibulares 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Funções orgânicas nitrogenadas (aminas, amida, nitrilo e nitrocomposto e derivados halogenados)",
+        "descricao": "Funções orgânicas nitrogenadas (aminas, amida, nitrilo e nitrocomposto e derivados halogenados)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Filosofia Medieval (Patrística e Escolástica)",
+        "descricao": "Filosofia Medieval (Patrística e Escolástica)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Present Simple",
+        "descricao": "Present Simple",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Movimento uniformemente variado (MUV) e Movimento vertical",
+        "descricao": "Movimento uniformemente variado (MUV) e Movimento vertical",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Émile Durkheim: fato social, solidariedade e anomia",
+        "descricao": "Émile Durkheim: fato social, solidariedade e anomia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Geografia da saúde: a saúde no Brasil e a importância do SUS",
+        "descricao": "Geografia da saúde: a saúde no Brasil e a importância do SUS",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

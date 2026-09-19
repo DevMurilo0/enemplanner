@@ -1,0 +1,180 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Tecido nervoso (neurônios e células da glia), sinapse química e elétrica, neurotransmissores e suas ações e gráfico do potencial de ação dos neurônios.",
+        "descricao": "Tecido nervoso (neurônios e células da glia), sinapse química e elétrica, neurotransmissores e suas ações e gráfico do potencial de ação dos neurônios.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Cordas e tubos sonoros",
+        "descricao": "Cordas e tubos sonoros",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Funções da Linguagem",
+        "descricao": "Funções da Linguagem",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "ECOLOGIA: introdução à ecologia, cadeias alimentares, pirâmides ecológicas e fluxo de energia.",
+        "descricao": "ECOLOGIA: introdução à ecologia, cadeias alimentares, pirâmides ecológicas e fluxo de energia.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Análise combinatória - Parte 1 (contagem, fatorial, permutações simples)",
+        "descricao": "Análise combinatória - Parte 1 (contagem, fatorial, permutações simples)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 13",
+        "descricao": "Enem e vestibulares 13",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Ciclos biogeoquímicos: Ciclo do Nitrogênio",
+        "descricao": "Ciclos biogeoquímicos: Ciclo do Nitrogênio",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Período Regencial (1831 - 1840)",
+        "descricao": "Período Regencial (1831 - 1840)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Reported Speech",
+        "descricao": "Reported Speech",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Ciclos biogeoquímicos: Carbono, água e oxigênio",
+        "descricao": "Ciclos biogeoquímicos: Carbono, água e oxigênio",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Reforma Protestante - Parte 1 (Antecedentes e Luteranismo)",
+        "descricao": "Reforma Protestante - Parte 1 (Antecedentes e Luteranismo)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Blocos Econômicos, Mercado Global e Estratégias de Inserção na Globalização",
+        "descricao": "Blocos Econômicos, Mercado Global e Estratégias de Inserção na Globalização",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Ligação covalente",
+        "descricao": "Ligação covalente",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Dilemas morais contemporâneos",
+        "descricao": "Dilemas morais contemporâneos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Fatores que afetam a velocidade das reações químicas",
+        "descricao": "Fatores que afetam a velocidade das reações químicas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Movimentos sociais no Brasil",
+        "descricao": "Movimentos sociais no Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Impulso e Quantidade de movimento",
+        "descricao": "Impulso e Quantidade de movimento",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Parnasianismo - Forma perfeita e distanciamento do mundo + Simbolismo - O invisível, o sonho e a subjetividade",
+        "descricao": "Parnasianismo - Forma perfeita e distanciamento do mundo + Simbolismo - O invisível, o sonho e a subjetividade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

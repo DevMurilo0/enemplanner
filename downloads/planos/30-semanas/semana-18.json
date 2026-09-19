@@ -1,0 +1,180 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Fotoperiodismo: citocromo e floração de vegetais de dia curto e dia longo. Estiolamento.",
+        "descricao": "Fotoperiodismo: citocromo e floração de vegetais de dia curto e dia longo. Estiolamento.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Potencial elétrico",
+        "descricao": "Potencial elétrico",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Preposição e relações de sentido",
+        "descricao": "Preposição e relações de sentido",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Evolução: teorias evolucionistas de Lamarck e Darwin. Neodarwinismo e tipos de adaptação.",
+        "descricao": "Evolução: teorias evolucionistas de Lamarck e Darwin. Neodarwinismo e tipos de adaptação.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Probabilidade - Revisão e aprofundamento",
+        "descricao": "Probabilidade - Revisão e aprofundamento",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 18",
+        "descricao": "Enem e vestibulares 18",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Evidências evolutivas, especiação e isolamento reprodutivo.",
+        "descricao": "Evidências evolutivas, especiação e isolamento reprodutivo.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Aula especial sobre Escravidão",
+        "descricao": "Aula especial sobre Escravidão",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Degrees of The Adjectives",
+        "descricao": "Degrees of The Adjectives",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Evolução Humana",
+        "descricao": "Evolução Humana",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Iluminismo, Fisiocracia e Liberalismo",
+        "descricao": "Iluminismo, Fisiocracia e Liberalismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Conflitos na Ásia",
+        "descricao": "Conflitos na Ásia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Ligações intermoleculares",
+        "descricao": "Ligações intermoleculares",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Arte, cultura e crítica: modernidade e indústria cultural",
+        "descricao": "Arte, cultura e crítica: modernidade e indústria cultural",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Previsão da basicidade na química orgânica",
+        "descricao": "Previsão da basicidade na química orgânica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "O que é gênero?",
+        "descricao": "O que é gênero?",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Lançamentos horizontal e oblíquo",
+        "descricao": "Lançamentos horizontal e oblíquo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Semana de Arte Moderna - 1922: o grito de ruptura",
+        "descricao": "Semana de Arte Moderna - 1922: o grito de ruptura",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

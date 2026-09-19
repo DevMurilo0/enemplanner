@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "ISTs: Infecções sexualmente transmissíveis.",
+        "descricao": "ISTs: Infecções sexualmente transmissíveis.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Ondas",
+        "descricao": "Ondas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Regência nominal: adjetivos e nomes que exigem preposição; mudança de sentido por regência.",
+        "descricao": "Regência nominal: adjetivos e nomes que exigem preposição; mudança de sentido por regência.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Embriologia animal: tipos de ovos, segmentação, desenvolvimento embrionário do anfioxo e suas fases (mórula, blástula, gástrula e nêurula) e organogênese",
+        "descricao": "Embriologia animal: tipos de ovos, segmentação, desenvolvimento embrionário do anfioxo e suas fases (mórula, blástula, gástrula e nêurula) e organogênese",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Funções - Função exponencial",
+        "descricao": "Funções - Função exponencial",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 10",
+        "descricao": "Enem e vestibulares 10",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Embriologia animal: embriologia na zoologia e anexos embrionários dos vertebrados",
+        "descricao": "Embriologia animal: embriologia na zoologia e anexos embrionários dos vertebrados",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Período Joanino",
+        "descricao": "Período Joanino",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Gerund and Infinitive",
+        "descricao": "Gerund and Infinitive",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Desenvolvimento embrionário da espécie humana. Placenta, cordão umbilical, Circulação Fetal e Gestação (Períodos e hormônios)",
+        "descricao": "Desenvolvimento embrionário da espécie humana. Placenta, cordão umbilical, Circulação Fetal e Gestação (Períodos e hormônios)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Idade Média Oriental - Parte 1 (Civilização Islâmica)",
+        "descricao": "Idade Média Oriental - Parte 1 (Civilização Islâmica)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Conferências ambientais",
+        "descricao": "Conferências ambientais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Modelos atômicos",
+        "descricao": "Modelos atômicos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Democracia, cidadania e participação",
+        "descricao": "Democracia, cidadania e participação",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "As mudanças climáticas",
+        "descricao": "As mudanças climáticas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Isomeria espacial geométrica",
+        "descricao": "Isomeria espacial geométrica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Democracia, cidadania e direitos humanos",
+        "descricao": "Democracia, cidadania e direitos humanos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Trabalho mecânico e Potência",
+        "descricao": "Trabalho mecânico e Potência",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Neoclassicismo / Arcadismo - Razão, norma e disciplina do olhar",
+        "descricao": "Neoclassicismo / Arcadismo - Razão, norma e disciplina do olhar",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Vírus: características gerais, ciclo lítico e lisogênico",
+        "descricao": "Vírus: características gerais, ciclo lítico e lisogênico",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Capacitores",
+        "descricao": "Capacitores",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Subordinadas adverbiais. Causa, consequência, concessão, condição, finalidade, tempo, comparação etc.",
+        "descricao": "Subordinadas adverbiais. Causa, consequência, concessão, condição, finalidade, tempo, comparação etc.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Principais viroses do Brasil",
+        "descricao": "Principais viroses do Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Introdução à trigonometria - Parte 1 (razões, ciclo trigonométrico e aplicações)",
+        "descricao": "Introdução à trigonometria - Parte 1 (razões, ciclo trigonométrico e aplicações)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 28",
+        "descricao": "Enem e vestibulares 28",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Procariontes/Reino monera: bactérias, cianobactérias e arqueobactérias",
+        "descricao": "Procariontes/Reino monera: bactérias, cianobactérias e arqueobactérias",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Ditadura Militar: O Ápice e o Declínio (Governos Médici, Geisel e Figueiredo)",
+        "descricao": "Ditadura Militar: O Ápice e o Declínio (Governos Médici, Geisel e Figueiredo)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 29",
+        "descricao": "Enem e vestibulares 29",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Principais bacterioses do Brasil",
+        "descricao": "Principais bacterioses do Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "A Revolução Russa de 1917",
+        "descricao": "A Revolução Russa de 1917",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "A industrialização brasileira",
+        "descricao": "A industrialização brasileira",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Reação de simples troca",
+        "descricao": "Reação de simples troca",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Poder, Corpo e Subjetividade",
+        "descricao": "Poder, Corpo e Subjetividade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Reações orgânicas - Parte 4",
+        "descricao": "Reações orgânicas - Parte 4",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Raça, Racismo e Branquitude no Brasil Contemporâneo",
+        "descricao": "Raça, Racismo e Branquitude no Brasil Contemporâneo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Calorimetria - Parte II",
+        "descricao": "Calorimetria - Parte II",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Fotografia e cinema como arte - Novos olhares, novas narrativas",
+        "descricao": "Fotografia e cinema como arte - Novos olhares, novas narrativas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

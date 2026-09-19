@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Termorregulação humana e dos animais",
+        "descricao": "Termorregulação humana e dos animais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Leis de Kirchhoff",
+        "descricao": "Leis de Kirchhoff",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Subordinadas adjetivas (restritiva × explicativa) + pontuação. Efeito de sentido com vírgula; pronomes relativos; redução de ambiguidades.",
+        "descricao": "Subordinadas adjetivas (restritiva × explicativa) + pontuação. Efeito de sentido com vírgula; pronomes relativos; redução de ambiguidades.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Sistema sensorial: visão",
+        "descricao": "Sistema sensorial: visão",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Revisão Analítica",
+        "descricao": "Revisão Analítica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 26",
+        "descricao": "Enem e vestibulares 26",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Sistema sensorial: audição",
+        "descricao": "Sistema sensorial: audição",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Governo João Goulart e os Primeiros Governos Militares (Castelo Branco e Costa e Silva)",
+        "descricao": "Governo João Goulart e os Primeiros Governos Militares (Castelo Branco e Costa e Silva)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 27",
+        "descricao": "Enem e vestibulares 27",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Sistema sensorial: paladar, olfato e tato",
+        "descricao": "Sistema sensorial: paladar, olfato e tato",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Unificações da Alemanha e Itália e a Primeira Guerra Mundial (1914 - 1918)",
+        "descricao": "Unificações da Alemanha e Itália e a Primeira Guerra Mundial (1914 - 1918)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "População (Brasil e Mundo)",
+        "descricao": "População (Brasil e Mundo)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Reações de síntese e análise",
+        "descricao": "Reações de síntese e análise",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "O que é Pós-modernidade?",
+        "descricao": "O que é Pós-modernidade?",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Os novos processos de migração",
+        "descricao": "Os novos processos de migração",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Reações orgânicas - Parte 3",
+        "descricao": "Reações orgânicas - Parte 3",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Pensamento social brasileiro",
+        "descricao": "Pensamento social brasileiro",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Calorimetria - Parte I",
+        "descricao": "Calorimetria - Parte I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Arte contemporânea – O corpo como linguagem: performance, happening e presença",
+        "descricao": "Arte contemporânea – O corpo como linguagem: performance, happening e presença",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Tecido conjuntivo - Parte 2 (cartilaginoso, ósseo e hematopoiético)",
+        "descricao": "Tecido conjuntivo - Parte 2 (cartilaginoso, ósseo e hematopoiético)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Acústica",
+        "descricao": "Acústica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Reescrita de frases",
+        "descricao": "Reescrita de frases",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Tecido Sanguíneo - plasma e elementos figurados do sangue.",
+        "descricao": "Tecido Sanguíneo - plasma e elementos figurados do sangue.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Funções - Logarítmica (Parte 2) e Estatística Essencial: Definições Fundamentais, Tendência Central e Dispersão",
+        "descricao": "Funções - Logarítmica (Parte 2) e Estatística Essencial: Definições Fundamentais, Tendência Central e Dispersão",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 12",
+        "descricao": "Enem e vestibulares 12",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Imunologia: Sistema imunitário, Imunização passiva (soro), ativa (vacina),Coagulação, soro, vacina, alergia, febre e inflamação.",
+        "descricao": "Imunologia: Sistema imunitário, Imunização passiva (soro), ativa (vacina),Coagulação, soro, vacina, alergia, febre e inflamação.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Primeiro Reinado (1822 - 1831)",
+        "descricao": "Primeiro Reinado (1822 - 1831)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Conditionals",
+        "descricao": "Conditionals",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Tecido muscular estriado esquelético (fibras brancas e vermelhas), estriado cardíaco e liso. Sarcômero a unidade de contração e suas atividades. A catraca de Huxley, contratura muscular e fadiga muscular.",
+        "descricao": "Tecido muscular estriado esquelético (fibras brancas e vermelhas), estriado cardíaco e liso. Sarcômero a unidade de contração e suas atividades. A catraca de Huxley, contratura muscular e fadiga muscular.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Renascimento Cultural",
+        "descricao": "Renascimento Cultural",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Mundialização do Capitalismo e as instituições financeiras internacionais",
+        "descricao": "Mundialização do Capitalismo e as instituições financeiras internacionais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Ligação iônica",
+        "descricao": "Ligação iônica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Moral e Sociedade: conflitos, normas e valores",
+        "descricao": "Moral e Sociedade: conflitos, normas e valores",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Cinética química",
+        "descricao": "Cinética química",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Movimentos sociais",
+        "descricao": "Movimentos sociais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Energia mecânica - Parte II",
+        "descricao": "Energia mecânica - Parte II",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Realismo - A vida como ela é: arte e crítica social + Naturalismo - Ciência, determinismo e corpo social",
+        "descricao": "Realismo - A vida como ela é: arte e crítica social + Naturalismo - Ciência, determinismo e corpo social",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

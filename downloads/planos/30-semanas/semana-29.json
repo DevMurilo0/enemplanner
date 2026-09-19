@@ -1,0 +1,180 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Zoologia dos Invertebrados I (Poríferos e Cnidários)",
+        "descricao": "Zoologia dos Invertebrados I (Poríferos e Cnidários)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Termodinâmica - Parte II",
+        "descricao": "Termodinâmica - Parte II",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Arte afro-brasileira e identidade - Memória, corpo e território",
+        "descricao": "Arte afro-brasileira e identidade - Memória, corpo e território",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Zoologia dos Invertebrados II (Platelmintos e Nematelmintos)",
+        "descricao": "Zoologia dos Invertebrados II (Platelmintos e Nematelmintos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Indução eletromagnética",
+        "descricao": "Indução eletromagnética",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Adjetivo e locuções adjetivas: grau; valor semântico; adjetivação “avaliativa” (efeito argumentativo).",
+        "descricao": "Adjetivo e locuções adjetivas: grau; valor semântico; adjetivação “avaliativa” (efeito argumentativo).",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Zoologia dos Invertebrados III ( Moluscos e Anelídeos)",
+        "descricao": "Zoologia dos Invertebrados III ( Moluscos e Anelídeos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Revisando geometria plana e espacial",
+        "descricao": "Revisando geometria plana e espacial",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 34",
+        "descricao": "Enem e vestibulares 34",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Artrópodes (Filo Arthropoda)",
+        "descricao": "Artrópodes (Filo Arthropoda)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Método para fazer a prova do ENEM",
+        "descricao": "Método para fazer a prova do ENEM",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "A Questão Agrária Brasileira",
+        "descricao": "A Questão Agrária Brasileira",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Equinodermos",
+        "descricao": "Equinodermos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Guerra Fria (Parte 1): Origens, Descolonização Afro-Asiática e 1968",
+        "descricao": "Guerra Fria (Parte 1): Origens, Descolonização Afro-Asiática e 1968",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Oxidação e redução",
+        "descricao": "Oxidação e redução",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Pós-modernidade, Consumo e Informação",
+        "descricao": "Pós-modernidade, Consumo e Informação",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Biocombustíveis",
+        "descricao": "Biocombustíveis",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Classes, elites e subalternidade",
+        "descricao": "Classes, elites e subalternidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

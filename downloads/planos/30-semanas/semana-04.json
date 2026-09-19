@@ -1,0 +1,198 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Carboidratos",
+        "descricao": "Carboidratos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Leis de Newton - Parte I",
+        "descricao": "Leis de Newton - Parte I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Arte grega - A invenção do belo: proporção, corpo e razão",
+        "descricao": "Arte grega - A invenção do belo: proporção, corpo e razão",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Lipídios",
+        "descricao": "Lipídios",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Espelhos esféricos - Parte I",
+        "descricao": "Espelhos esféricos - Parte I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Arte romana - Arte como engenharia do poder",
+        "descricao": "Arte romana - Arte como engenharia do poder",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Proteínas",
+        "descricao": "Proteínas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Explorando Triângulos: Conceitos, Propriedades e Suas Formas Especiais",
+        "descricao": "Explorando Triângulos: Conceitos, Propriedades e Suas Formas Especiais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Pontuação I + Pontuação II",
+        "descricao": "Pontuação I + Pontuação II",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Enzimologia",
+        "descricao": "Enzimologia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "A sociedade do açúcar e a economia complementar colonial",
+        "descricao": "A sociedade do açúcar e a economia complementar colonial",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 4",
+        "descricao": "Enem e vestibulares 4",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Membrana plasmática e seus transportes passivos (difusão e osmose) e ativos (bombas e endocitoses)",
+        "descricao": "Membrana plasmática e seus transportes passivos (difusão e osmose) e ativos (bombas e endocitoses)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Grécia - Parte 1 (Das origens até o surgimento da Democracia)",
+        "descricao": "Grécia - Parte 1 (Das origens até o surgimento da Democracia)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Present and Past Continuous",
+        "descricao": "Present and Past Continuous",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Teoria de ácidos e bases",
+        "descricao": "Teoria de ácidos e bases",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Modernidade e o sujeito do conhecimento",
+        "descricao": "Modernidade e o sujeito do conhecimento",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Superfícies da terra: estrutura e formas do relevo",
+        "descricao": "Superfícies da terra: estrutura e formas do relevo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Reações químicas em solução",
+        "descricao": "Reações químicas em solução",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Identidade, representação e estigma",
+        "descricao": "Identidade, representação e estigma",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

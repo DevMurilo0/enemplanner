@@ -1,0 +1,216 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Biologia como ciência: O que é Biologia: conceito de Biologia, objeto de estudo da Biologia, importância da Biologia para a sociedade",
+        "descricao": "Biologia como ciência: O que é Biologia: conceito de Biologia, objeto de estudo da Biologia, importância da Biologia para a sociedade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Como estudar Física",
+        "descricao": "Como estudar Física",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Filosofia Clássica (Sócrates e os Sofistas)",
+        "descricao": "Filosofia Clássica (Sócrates e os Sofistas)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "História do pensamento geográfico: da natureza à sociedade",
+        "descricao": "História do pensamento geográfico: da natureza à sociedade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Origem da vida: Abiogênese, biogênese, Origem do primeiro ser vivo, Experimentos de Stanley Miller e Sidney Fox, hipótese da invaginação de Robertson, Endossimbiose, Metabolismo, unicelularidade e multicelularidade.",
+        "descricao": "Origem da vida: Abiogênese, biogênese, Origem do primeiro ser vivo, Experimentos de Stanley Miller e Sidney Fox, hipótese da invaginação de Robertson, Endossimbiose, Metabolismo, unicelularidade e multicelularidade.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Movimento retilíneo uniforme (MRU)",
+        "descricao": "Movimento retilíneo uniforme (MRU)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Filosofia Clássica (Platão e Aristóteles)",
+        "descricao": "Filosofia Clássica (Platão e Aristóteles)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Origem da vida: Metabolismo autotrófico e heterotrófico.",
+        "descricao": "Origem da vida: Metabolismo autotrófico e heterotrófico.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Introdução à óptica geométrica - Parte I",
+        "descricao": "Introdução à óptica geométrica - Parte I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Sociologia: ciência, método e estranhamento",
+        "descricao": "Sociologia: ciência, método e estranhamento",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Água e suas propriedades biológicas",
+        "descricao": "Água e suas propriedades biológicas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Conjuntos numéricos, sistemas de numeração, potências, raízes, notação científica e sistemas de medidas. + Números inteiros, múltiplos e divisores. Números primos. MMC e MDC",
+        "descricao": "Conjuntos numéricos, sistemas de numeração, potências, raízes, notação científica e sistemas de medidas. + Números inteiros, múltiplos e divisores. Números primos. MMC e MDC",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Arte primitiva - Imagem, rito e sobrevivência",
+        "descricao": "Arte primitiva - Imagem, rito e sobrevivência",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Concentração das soluções (g/l, mol/l, molalidade, título em massa, inpm, volume de h2o2)",
+        "descricao": "Concentração das soluções (g/l, mol/l, molalidade, título em massa, inpm, volume de h2o2)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "A Expansão Marítima",
+        "descricao": "A Expansão Marítima",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Norma-padrão, norma culta e variação linguística: adequação x “certo/errado”; preconceito linguístico; registro e contexto de prova.",
+        "descricao": "Norma-padrão, norma culta e variação linguística: adequação x “certo/errado”; preconceito linguístico; registro e contexto de prova.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Funções orgânicas oxigenadas (álcool, fenol, aldeído e cetona)",
+        "descricao": "Funções orgânicas oxigenadas (álcool, fenol, aldeído e cetona)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "A teoria e os fundamentos da História",
+        "descricao": "A teoria e os fundamentos da História",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 1",
+        "descricao": "Enem e vestibulares 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Funções orgânicas oxigenadas (ácido carboxílico, éter, éster e haletos de acila)",
+        "descricao": "Funções orgânicas oxigenadas (ácido carboxílico, éter, éster e haletos de acila)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Pré-socráticos",
+        "descricao": "Pré-socráticos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Pronouns and Possessive Adjectives",
+        "descricao": "Pronouns and Possessive Adjectives",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

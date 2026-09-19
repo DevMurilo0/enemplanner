@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Citoplasma(endoplasma, ectoplasma, tixotropia e movimentos citoplasmáticos) e organelas ou estruturas amembranosas do citoesqueleto",
+        "descricao": "Citoplasma(endoplasma, ectoplasma, tixotropia e movimentos citoplasmáticos) e organelas ou estruturas amembranosas do citoesqueleto",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Espelhos esféricos - Parte II",
+        "descricao": "Espelhos esféricos - Parte II",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Significação contextual das palavras: semântica",
+        "descricao": "Significação contextual das palavras: semântica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Organelas Citoplasmáticas (ribossomos, retículos liso e rugoso, golgi, lisossomos, peroxissomos e glioxissomos, mitocôndria, cloroplasto, Hidrogenossomos, Mitossomos e vacúolos)",
+        "descricao": "Organelas Citoplasmáticas (ribossomos, retículos liso e rugoso, golgi, lisossomos, peroxissomos e glioxissomos, mitocôndria, cloroplasto, Hidrogenossomos, Mitossomos e vacúolos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Geometria Essencial: Semelhança de Triângulos, Leis dos Senos e Cossenos, e Polígonos",
+        "descricao": "Geometria Essencial: Semelhança de Triângulos, Leis dos Senos e Cossenos, e Polígonos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 5",
+        "descricao": "Enem e vestibulares 5",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Núcleo (estrutura, eucromatina, heterocromatina e nucléolo), corpúsculo de Barr, cariótipo celular (número de cromossomos, células haplóides e diplóides).",
+        "descricao": "Núcleo (estrutura, eucromatina, heterocromatina e nucléolo), corpúsculo de Barr, cariótipo celular (número de cromossomos, células haplóides e diplóides).",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "União Ibérica e Período holandês",
+        "descricao": "União Ibérica e Período holandês",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Perfect Tenses",
+        "descricao": "Perfect Tenses",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Introdução ao Ciclo de vida celular (estudos sobre a interfáse, pontos de checagem e complexo ciclina CDK).",
+        "descricao": "Introdução ao Ciclo de vida celular (estudos sobre a interfáse, pontos de checagem e complexo ciclina CDK).",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Grécia: Período Clássico e Período Helenístico - Parte 2",
+        "descricao": "Grécia: Período Clássico e Período Helenístico - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Superfícies da terra: unidades do relevo brasileiro",
+        "descricao": "Superfícies da terra: unidades do relevo brasileiro",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Termoquímica (Lei de Hess)",
+        "descricao": "Termoquímica (Lei de Hess)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Epistemologia contemporânea: linguagem, ciência e verdade",
+        "descricao": "Epistemologia contemporânea: linguagem, ciência e verdade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Hidrografia: geomorfologia fluvial",
+        "descricao": "Hidrografia: geomorfologia fluvial",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Isomeria plana",
+        "descricao": "Isomeria plana",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Estratificação social",
+        "descricao": "Estratificação social",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Leis de Newton - Parte II",
+        "descricao": "Leis de Newton - Parte II",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Arte medieval - Entre o céu e a terra: imagem, fé e simbolismo",
+        "descricao": "Arte medieval - Entre o céu e a terra: imagem, fé e simbolismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

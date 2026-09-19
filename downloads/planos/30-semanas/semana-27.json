@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Reino Protista: Protozoários",
+        "descricao": "Reino Protista: Protozoários",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Funções Trigonométricas - Parte 2 (explorando o seno e o cosseno)",
+        "descricao": "Funções Trigonométricas - Parte 2 (explorando o seno e o cosseno)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 30",
+        "descricao": "Enem e vestibulares 30",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Principais protozooses do Brasil: Amebíase, Giardíase, Leishmaniose tegumentar e visceral, Malária, Doença de Chagas, Doença do sono, Toxoplasmose, Tricomoníase, Balantidíase.",
+        "descricao": "Principais protozooses do Brasil: Amebíase, Giardíase, Leishmaniose tegumentar e visceral, Malária, Doença de Chagas, Doença do sono, Toxoplasmose, Tricomoníase, Balantidíase.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "República Nova",
+        "descricao": "República Nova",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 31",
+        "descricao": "Enem e vestibulares 31",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Algas",
+        "descricao": "Algas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Período Entreguerras: A Crise de 1929 e os Totalitarismos",
+        "descricao": "Período Entreguerras: A Crise de 1929 e os Totalitarismos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Urbanização (Brasil e mundo)",
+        "descricao": "Urbanização (Brasil e mundo)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Propriedades coligativas",
+        "descricao": "Propriedades coligativas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Linguagem, Diferença e Desconstrução",
+        "descricao": "Linguagem, Diferença e Desconstrução",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Hierarquia urbana e rede urbana",
+        "descricao": "Hierarquia urbana e rede urbana",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Reação de dupla troca",
+        "descricao": "Reação de dupla troca",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Feminismos Brasileiros e Interseccionalidade",
+        "descricao": "Feminismos Brasileiros e Interseccionalidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Questão urbana e os problemas urbanos",
+        "descricao": "Questão urbana e os problemas urbanos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Estudo dos Gases",
+        "descricao": "Estudo dos Gases",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Arte contemporânea brasileira - Diversidade, política e experimentação",
+        "descricao": "Arte contemporânea brasileira - Diversidade, política e experimentação",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Campo magnético gerado por corrente elétrica",
+        "descricao": "Campo magnético gerado por corrente elétrica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Estrutura e formação de palavras: radical, prefixos/sufixos; derivação e composição; parassíntese; neologismo.",
+        "descricao": "Estrutura e formação de palavras: radical, prefixos/sufixos; derivação e composição; parassíntese; neologismo.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

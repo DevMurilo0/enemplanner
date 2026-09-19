@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Introdução à Bioenergética (aula básica com conceitos iniciais).",
+        "descricao": "Introdução à Bioenergética (aula básica com conceitos iniciais).",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Velocidade e aceleração vetoriais",
+        "descricao": "Velocidade e aceleração vetoriais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Quinhentismo - Olhar europeu, cultura visual, colonização e representação do Brasil",
+        "descricao": "Quinhentismo - Olhar europeu, cultura visual, colonização e representação do Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "A Fotossíntese: O papel da Luz e Os Processos de Fotofosforilação Acíclica e Cíclica (Fase Clara).",
+        "descricao": "A Fotossíntese: O papel da Luz e Os Processos de Fotofosforilação Acíclica e Cíclica (Fase Clara).",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Dioptros planos",
+        "descricao": "Dioptros planos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Concordância verbal — casos especiais: sujeito composto; porcentagem; coletivos; “haver/fazer/existir”; verbos impessoais.",
+        "descricao": "Concordância verbal — casos especiais: sujeito composto; porcentagem; coletivos; “haver/fazer/existir”; verbos impessoais.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "A Fotossíntese: Ciclo de Calvin (fase escura) e fatores limitantes da fotossíntese (Luz, CO2 e temperatura).",
+        "descricao": "A Fotossíntese: Ciclo de Calvin (fase escura) e fatores limitantes da fotossíntese (Luz, CO2 e temperatura).",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Função Afim Descomplicada: Conceitos, Gráficos e Propriedades",
+        "descricao": "Função Afim Descomplicada: Conceitos, Gráficos e Propriedades",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 7",
+        "descricao": "Enem e vestibulares 7",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Respiração Celular Aeróbia￾Glicólise, Ciclo de Krebs e cadeia transportadora de elétrons. E respiração celular anaeróbia.",
+        "descricao": "Respiração Celular Aeróbia￾Glicólise, Ciclo de Krebs e cadeia transportadora de elétrons. E respiração celular anaeróbia.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Movimentos Nativistas",
+        "descricao": "Movimentos Nativistas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Future",
+        "descricao": "Future",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Radioatividade (cinética das emissões)",
+        "descricao": "Radioatividade (cinética das emissões)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Roma - Parte 2 (Fase do Império e a Decadência do Império Romano do Ocidente)",
+        "descricao": "Roma - Parte 2 (Fase do Império e a Decadência do Império Romano do Ocidente)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Características climáticas do território brasileiro",
+        "descricao": "Características climáticas do território brasileiro",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Gases (teoria cinética dos gases e equação geral dos gases ideais, lei de dalton para gases)",
+        "descricao": "Gases (teoria cinética dos gases e equação geral dos gases ideais, lei de dalton para gases)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Fundamentos da Filosofia Política",
+        "descricao": "Fundamentos da Filosofia Política",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Vetores",
+        "descricao": "Vetores",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Trabalho e transformação tecnológica",
+        "descricao": "Trabalho e transformação tecnológica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

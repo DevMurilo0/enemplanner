@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Histologia vegetal: tecidos meristemáticos (meristema I e II) Cortes de raiz e caule.",
+        "descricao": "Histologia vegetal: tecidos meristemáticos (meristema I e II) Cortes de raiz e caule.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Campo elétrico - Parte II",
+        "descricao": "Campo elétrico - Parte II",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Advérbios e Locuções Adverbiais",
+        "descricao": "Advérbios e Locuções Adverbiais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Histologia vegetal: tecidos permanentes: proteção, reserva, sustentação e condução.",
+        "descricao": "Histologia vegetal: tecidos permanentes: proteção, reserva, sustentação e condução.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Probabilidade - Evento complementar, Diagrama da árvore, Probabilidade condicional",
+        "descricao": "Probabilidade - Evento complementar, Diagrama da árvore, Probabilidade condicional",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 17",
+        "descricao": "Enem e vestibulares 17",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Morfologia vegetal: raiz, caule e folha e suas adaptações.",
+        "descricao": "Morfologia vegetal: raiz, caule e folha e suas adaptações.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Processo de Proclamação da República",
+        "descricao": "Processo de Proclamação da República",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Quantifiers",
+        "descricao": "Quantifiers",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Fisiologia vegetal: germinação da semente, movimentos vegetais, fitormônios, condução de seiva bruta, elaborada.",
+        "descricao": "Fisiologia vegetal: germinação da semente, movimentos vegetais, fitormônios, condução de seiva bruta, elaborada.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Revolução Industrial",
+        "descricao": "Revolução Industrial",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Características econômicas e territoriais dos países de industrialização avançada ou desenvolvidos e os em desenvolvimento",
+        "descricao": "Características econômicas e territoriais dos países de industrialização avançada ou desenvolvidos e os em desenvolvimento",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Equilíbrio iônico",
+        "descricao": "Equilíbrio iônico",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Fundamentos da Estética: arte, belo e sensibilidade",
+        "descricao": "Fundamentos da Estética: arte, belo e sensibilidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Geografia dos Transportes",
+        "descricao": "Geografia dos Transportes",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Previsão da acidez na química orgânica",
+        "descricao": "Previsão da acidez na química orgânica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Urbanização e direito à cidade",
+        "descricao": "Urbanização e direito à cidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Composição de movimentos",
+        "descricao": "Composição de movimentos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Pré-Modernismo no Brasil - Um país em conflito: arte, identidade e contradição",
+        "descricao": "Pré-Modernismo no Brasil - Um país em conflito: arte, identidade e contradição",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

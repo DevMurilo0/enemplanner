@@ -1,0 +1,180 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Grupos sanguíneos: sistema ABO e efeito bombaim.",
+        "descricao": "Grupos sanguíneos: sistema ABO e efeito bombaim.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Corrente elétrica",
+        "descricao": "Corrente elétrica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Conjunções Coordenativas",
+        "descricao": "Conjunções Coordenativas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Grupos sanguíneos: Sistema RH e eritroblastose fetal. Sistema MN e SS.",
+        "descricao": "Grupos sanguíneos: Sistema RH e eritroblastose fetal. Sistema MN e SS.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Progressões geométricas",
+        "descricao": "Progressões geométricas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 20",
+        "descricao": "Enem e vestibulares 20",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Segunda Lei de Mendel (segregação independente dos gametas) e suas proporções fenotípicas e genotípicas.",
+        "descricao": "Segunda Lei de Mendel (segregação independente dos gametas) e suas proporções fenotípicas e genotípicas.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Primeira República: Revoltas e Movimentos",
+        "descricao": "Primeira República: Revoltas e Movimentos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Too/Also/As Well/Either …",
+        "descricao": "Too/Also/As Well/Either …",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Variações da segunda lei de Mendel: Pleiotropia, casos de interação gênica epistática e não epistática.",
+        "descricao": "Variações da segunda lei de Mendel: Pleiotropia, casos de interação gênica epistática e não epistática.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Revolução Francesa - Parte 1 (dos antecedentes até o fim da Monarquia Constitucional)",
+        "descricao": "Revolução Francesa - Parte 1 (dos antecedentes até o fim da Monarquia Constitucional)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Revisão Humana",
+        "descricao": "Revisão Humana",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Hidrólise",
+        "descricao": "Hidrólise",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Crise da Razão e o Nascimento do Contemporâneo",
+        "descricao": "Crise da Razão e o Nascimento do Contemporâneo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Transesterificação",
+        "descricao": "Transesterificação",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Decolonialidade",
+        "descricao": "Decolonialidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Hidrostática – Parte I",
+        "descricao": "Hidrostática – Parte I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Modernismo brasileiro – 2ª fase - Maturidade estética e crítica social",
+        "descricao": "Modernismo brasileiro – 2ª fase - Maturidade estética e crítica social",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}
