@@ -805,3 +805,35 @@ svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-l
     width:100%;
   }
 }
+
+
+/* Clareza da opção de reorganização */
+.plan-adaptation__head #plan-adaptation-message{
+  margin-top:7px;
+  padding:10px 11px;
+  border:1px solid #48536d;
+  border-radius:8px;
+  background:#111722;
+  color:#d8ddea;
+  font-size:.72rem;
+  line-height:1.55;
+}
+.plan-reorganize-option{
+  border-color:#566789;
+  background:#141923;
+}
+.plan-reorganize-option:has(input:checked){
+  border-color:#7185b3;
+  background:#171e2c;
+}
+.plan-reorganize-option input{
+  width:16px;
+  height:16px;
+  margin-top:2px;
+}
+.plan-reorganize-option span > strong{
+  color:#f0f2f7;
+}
+.plan-reorganize-option span > small{
+  max-width:690px;
+}

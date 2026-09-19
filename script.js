@@ -1152,10 +1152,10 @@ function distributeOptimizedBlocksAcrossWeeks(blocks, targetWeeks) {
   return result;
 }
 
-function buildAdaptivePlan(allWeekEntries, targetWeeks, selectedIds, skipPrevious, firstWeek) {
-  const sourceEntries = skipPrevious
-    ? allWeekEntries.filter(entry => entry.week >= firstWeek)
-    : allWeekEntries;
+function buildAdaptivePlan(allWeekEntries, targetWeeks, selectedIds, reorganizeContent, firstWeek) {
+  const sourceEntries = reorganizeContent
+    ? allWeekEntries
+    : allWeekEntries.filter(entry => entry.week >= firstWeek);
 
   const contents = flattenSelectedContents(sourceEntries, selectedIds);
   const capacity = targetWeeks * 7 * MAX_BLOCKS_PER_DAY;
@@ -1168,7 +1168,7 @@ function buildAdaptivePlan(allWeekEntries, targetWeeks, selectedIds, skipPreviou
     scheduledBlockCount: compressed.blocks.length,
     maxBundleSize: compressed.maxBundleSize,
     groupedBlocks: compressed.groupedBlocks,
-    skippedSourceWeeks: skipPrevious ? Math.max(0, firstWeek - 1) : 0
+    skippedSourceWeeks: reorganizeContent ? 0 : Math.max(0, firstWeek - 1)
   };
 }
 
@@ -1181,7 +1181,7 @@ async function updatePlanOptimizationPreview() {
   const firstWeek = getSelectedPlanStartWeek();
   const targetWeeks = plan.total - firstWeek + 1;
   const selectedIds = getSelectedPlanSubjectIds();
-  const skipPrevious = $('plan-skip-previous')?.checked === true;
+  const reorganizeContent = $('plan-reorganize-content')?.checked !== false;
 
   if (!selectedIds.size) {
     preview.innerHTML = '<span class="plan-optimization-preview__warning">Escolha pelo menos uma matéria para montar a prévia.</span>';
@@ -1194,18 +1194,18 @@ async function updatePlanOptimizationPreview() {
     const allWeeks = await loadPlanWeeks(plan);
     if (token !== planPreviewToken) return;
 
-    const optimized = buildAdaptivePlan(allWeeks, targetWeeks, selectedIds, skipPrevious, firstWeek);
+    const optimized = buildAdaptivePlan(allWeeks, targetWeeks, selectedIds, reorganizeContent, firstWeek);
     const originalPlanText = plan.total === targetWeeks
       ? `Plano com ${plan.total} semanas`
       : `Plano original: ${plan.total} semanas <span>→</span> Seu plano: ${targetWeeks} semanas`;
 
     let detail;
-    if (skipPrevious && firstWeek > 1) {
-      detail = `As Semanas 1 a ${firstWeek - 1} serão ignoradas porque você marcou que já estudou esse conteúdo. Os ${optimized.originalContentCount} conteúdos restantes serão reorganizados.`;
+    if (targetWeeks < plan.total && reorganizeContent) {
+      detail = `Você teria ${targetWeeks} semanas para um plano de ${plan.total}. Reorganizei os conteúdos para aproveitar tudo o que você selecionou, sem descartar as semanas anteriores.`;
     } else if (targetWeeks < plan.total) {
-      detail = `Todos os ${optimized.originalContentCount} conteúdos das matérias selecionadas serão preservados e redistribuídos em ${targetWeeks} semanas.`;
+      detail = `A reorganização está desativada. O cronograma começará na Semana ${firstWeek} e os conteúdos das ${firstWeek - 1} semana${firstWeek - 1 === 1 ? '' : 's'} anterior${firstWeek - 1 === 1 ? '' : 'es'} ficarão de fora.`;
     } else {
-      detail = `Os ${optimized.originalContentCount} conteúdos das matérias selecionadas serão mantidos na duração original do plano.`;
+      detail = `Seu plano já cabe no período escolhido. Os ${optimized.originalContentCount} conteúdos selecionados serão mantidos na duração original.`;
     }
 
     const grouping = optimized.maxBundleSize > 1
@@ -1262,16 +1262,33 @@ function updatePlanImportSummary() {
       ? ' Escolha pelo menos uma matéria para continuar.'
       : ` ${selectedCount} de ${SUBJECTS.length} matérias estão incluídas.`;
 
-  $('plan-import-count').textContent = (firstWeek === 1
-    ? `As ${plan.total} semanas do plano serão importadas.`
-    : `Serão importadas ${weeksToImport} semanas, da Semana ${firstWeek} até a Semana ${plan.total}.`) + subjectsText;
+  const reorganizeContent = $('plan-reorganize-content')?.checked !== false;
+  const adaptationMessage = $('plan-adaptation-message');
+  const reorganizeOption = $('plan-reorganize-option');
+
+  if (weeksToImport < plan.total) {
+    if (reorganizeOption) reorganizeOption.hidden = false;
+    if (adaptationMessage) {
+      adaptationMessage.textContent = reorganizeContent
+        ? `Você tem ${weeksToImport} semanas para um plano de ${plan.total}. Vou reorganizar os conteúdos para aproveitar tudo sem perder as semanas anteriores.`
+        : `Você tem ${weeksToImport} semanas para um plano de ${plan.total}. Sem reorganização, as semanas anteriores ficarão de fora.`;
+    }
+    $('plan-import-count').textContent = reorganizeContent
+      ? `Seu calendário terá ${weeksToImport} semanas com os conteúdos das ${plan.total} semanas originais reorganizados.${subjectsText}`
+      : `Seu calendário terá ${weeksToImport} semanas e começará na Semana ${firstWeek} do plano.${subjectsText}`;
+  } else {
+    if (reorganizeOption) reorganizeOption.hidden = true;
+    if (adaptationMessage) adaptationMessage.textContent = 'O plano já cabe no período escolhido. Nenhuma adaptação de duração é necessária.';
+  }
 
   $('plan-run').disabled = selectedCount === 0;
   $('plan-run').textContent = selectedCount === 0
     ? 'Escolha uma matéria'
     : firstWeek === 1
       ? 'Importar plano completo'
-      : `Montar plano de ${weeksToImport} semanas`;
+      : reorganizeContent
+        ? `Reorganizar em ${weeksToImport} semanas`
+        : `Usar somente ${weeksToImport} semanas`;
 
   updateEnemFitSuggestion();
   updatePlanOptimizationPreview();
@@ -1282,7 +1299,7 @@ function openPlanImport(planId = null, startWeek = 1) {
   if (planId && AVAILABLE_PLANS.some(plan => plan.id === String(planId))) $('plan-select').value = String(planId);
   updatePlanWeekOptions(startWeek);
   resetPlanSubjectSelection();
-  if ($('plan-skip-previous')) $('plan-skip-previous').checked = false;
+  if ($('plan-reorganize-content')) $('plan-reorganize-content').checked = true;
 
   const anchor = viewMode === 'week' ? getWeekStart(weekOffset) : getCurrentAnchorDate();
   $('plan-start-date').value = toDateKey(anchor);
@@ -1309,7 +1326,7 @@ async function importFullPlan() {
   const firstWeek = getSelectedPlanStartWeek();
   const targetWeeks = plan.total - firstWeek + 1;
   const selectedSubjects = getSelectedPlanSubjectIds();
-  const skipPrevious = $('plan-skip-previous')?.checked === true;
+  const reorganizeContent = $('plan-reorganize-content')?.checked !== false;
 
   if (!selectedSubjects.size) {
     $('plan-import-status').hidden = false;
@@ -1324,15 +1341,17 @@ async function importFullPlan() {
   const status = $('plan-import-status');
   const run = $('plan-run');
   status.hidden = false;
-  status.textContent = targetWeeks < plan.total
-    ? `Reorganizando o plano de ${plan.total} semanas para ${targetWeeks} semanas...`
-    : `Preparando as ${targetWeeks} semanas...`;
+  status.textContent = targetWeeks < plan.total && reorganizeContent
+    ? `Reorganizando os conteúdos de ${plan.total} semanas para caber em ${targetWeeks}...`
+    : targetWeeks < plan.total
+      ? `Preparando somente da Semana ${firstWeek} até a Semana ${plan.total}...`
+      : `Preparando as ${targetWeeks} semanas...`;
   run.disabled = true;
   run.textContent = 'Organizando...';
 
   try {
     const allWeeks = await loadPlanWeeks(plan);
-    const optimized = buildAdaptivePlan(allWeeks, targetWeeks, selectedSubjects, skipPrevious, firstWeek);
+    const optimized = buildAdaptivePlan(allWeeks, targetWeeks, selectedSubjects, reorganizeContent, firstWeek);
 
     optimized.weeks.forEach((semana, index) => {
       const weekStart = new Date(start);
@@ -1345,11 +1364,13 @@ async function importFullPlan() {
 
     const subjectCustomized = selectedSubjects.size !== SUBJECTS.length;
     const durationCustomized = targetWeeks !== plan.total;
-    const successMessage = durationCustomized
+    const successMessage = durationCustomized && reorganizeContent
       ? `Plano reorganizado em ${targetWeeks} semanas com ${optimized.originalContentCount} conteúdos preservados.`
-      : subjectCustomized
-        ? `${plan.title} personalizado e importado com sucesso.`
-        : `${plan.title} importado com sucesso.`;
+      : durationCustomized
+        ? `Plano iniciado na Semana ${firstWeek}, sem reorganizar as semanas anteriores.`
+        : subjectCustomized
+          ? `${plan.title} personalizado e importado com sucesso.`
+          : `${plan.title} importado com sucesso.`;
 
     showToast(successMessage, 'success');
     setViewMode('week', start);
@@ -1599,14 +1620,14 @@ function bindEvents() {
   $('plan-cancel').addEventListener('click', closePlanImport);
   $('plan-select').addEventListener('change', () => {
     updatePlanWeekOptions(1);
-    if ($('plan-skip-previous')) $('plan-skip-previous').checked = false;
+    if ($('plan-reorganize-content')) $('plan-reorganize-content').checked = true;
     updatePlanImportSummary();
   });
   $('plan-week-start').addEventListener('change', updatePlanImportSummary);
   $('plan-start-date').addEventListener('change', updatePlanImportSummary);
   $('plan-subjects-all').addEventListener('click', () => setAllPlanSubjects(true));
   $('plan-subjects-none').addEventListener('click', () => setAllPlanSubjects(false));
-  $('plan-skip-previous').addEventListener('change', updatePlanImportSummary);
+  $('plan-reorganize-content').addEventListener('change', updatePlanImportSummary);
   $('plan-enem-fit-btn').addEventListener('click', () => {
     const suggestedWeek = Number($('plan-enem-fit-btn').dataset.suggestedWeek) || 1;
     updatePlanWeekOptions(suggestedWeek);

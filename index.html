@@ -253,7 +253,7 @@
       </div>
       <div class="modal__body guide-body">
         <div class="guide-row"><span>1</span><div><strong>Escolha um cronograma</strong><p>Use “Importar plano” para selecionar um dos planos disponíveis.</p></div></div>
-        <div class="guide-row"><span>2</span><div><strong>Adapte ao tempo que falta</strong><p>Se restarem menos semanas que o plano original, o Planner reorganiza o conteúdo para caber no período sem simplesmente apagar as semanas anteriores.</p></div></div>
+        <div class="guide-row"><span>2</span><div><strong>Adapte ao tempo que falta</strong><p>Se restarem menos semanas que o plano original, deixe “Reorganizar” marcado para encaixar os conteúdos das semanas que ficariam de fora.</p></div></div>
         <div class="guide-row"><span>3</span><div><strong>Acompanhe em quatro visões</strong><p>Use Dia, Semana, Mês e Ano para alternar entre foco no presente e visão geral.</p></div></div>
         <div class="guide-row"><span>4</span><div><strong>Continue com liberdade</strong><p>Você ainda pode importar uma semana isolada, editar blocos, distribuir conteúdos e exportar sua semana.</p></div></div>
         <div class="guide-note">Importar um plano completo substitui conteúdos já existentes no período escolhido. O Planner avisa antes de continuar.</div>
@@ -295,16 +295,18 @@
         <section class="plan-adaptation" aria-labelledby="plan-adaptation-title">
           <div class="plan-adaptation__head">
             <span class="plan-import-summary__label">Adaptação do cronograma</span>
-            <strong id="plan-adaptation-title">Nenhuma semana precisa ser perdida</strong>
-            <p>Se você tiver menos tempo que o plano original, o Planner redistribui os conteúdos das matérias escolhidas dentro das semanas restantes.</p>
+            <strong id="plan-adaptation-title">Fazer o plano caber no tempo que você tem</strong>
+            <p id="plan-adaptation-message">Vou verificar se alguma semana ficaria de fora e reorganizar o cronograma quando necessário.</p>
           </div>
-          <label class="plan-skip-option">
-            <input id="plan-skip-previous" type="checkbox" />
+
+          <label class="plan-skip-option plan-reorganize-option" id="plan-reorganize-option">
+            <input id="plan-reorganize-content" type="checkbox" checked />
             <span>
-              <strong>Já estudei as semanas anteriores</strong>
-              <small>Marque apenas se você realmente já concluiu esse conteúdo. Nesse caso, ele não será trazido para o novo cronograma.</small>
+              <strong>Reorganizar para não perder nenhum conteúdo</strong>
+              <small>Recomendado. Os conteúdos das semanas que ficariam de fora entram nas semanas disponíveis, mantendo tudo o que você selecionou.</small>
             </span>
           </label>
+
           <div class="plan-optimization-preview" id="plan-optimization-preview">
             <span class="plan-optimization-preview__status">Preparando a prévia do cronograma...</span>
           </div>
@@ -333,7 +335,7 @@
           <p id="plan-range-label">Selecione um plano para ver o período.</p>
           <div class="plan-import-count" id="plan-import-count">Todas as semanas serão importadas.</div>
         </div>
-        <p class="plan-import-note">A data é ajustada para o domingo da semana escolhida. A adaptação preserva todos os conteúdos das matérias selecionadas, agrupando temas no mesmo bloco somente quando for necessário para caber no período.</p>
+        <p class="plan-import-note">A data é ajustada para o domingo da semana escolhida. Com “Reorganizar” marcado, o Planner preserva os conteúdos das matérias selecionadas e distribui tudo dentro do período disponível.</p>
         <p class="plan-import-status" id="plan-import-status" hidden></p>
       </div>
       <div class="modal__foot">
