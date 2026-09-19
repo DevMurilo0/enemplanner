@@ -1,276 +1,259 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="Planner semanal de estudos para o ENEM. Organize, distribua e acompanhe seu progresso." />
-  <title>Planner de Estudos — ENEM</title>
+  <meta name="description" content="Planner semanal de estudos para o ENEM. Importe cronogramas prontos, organize sua semana e acompanhe seu progresso." />
+  <meta name="theme-color" content="#0a0a0a" />
+  <title>Planner ENEM — Organize sua semana de estudos</title>
   <link rel="icon" type="image/png" href="icon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
-    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-
-  <header class="header">
-    <div class="header-inner">
-      <div class="header-left">
-        <div class="header-title">
-          <div class="header-logo">
-            <img src="icon.png" alt="Logo Planner ENEM" />
-          </div>
-          <div>
-            <h1>Planner ENEM</h1>
-            <p class="header-sub">Organize • Estude • Conquiste</p>
-          </div>
+  <header class="topbar">
+    <div class="topbar__inner">
+      <a class="brand" href="./" aria-label="Planner ENEM — início">
+        <img class="brand__logo" src="icon.png" alt="" />
+        <div>
+          <strong>Planner ENEM</strong>
+          <span>Seu plano. Sua semana. Seu ritmo.</span>
         </div>
+      </a>
 
-        <div class="week-nav">
-          <button class="btn-nav" id="btn-prev" title="Semana anterior">&#8592;</button>
-          <span class="week-label" id="week-label"></span>
-          <button class="btn-nav" id="btn-next" title="Próxima semana">&#8594;</button>
+      <div class="week-switcher" aria-label="Navegação entre semanas">
+        <button class="icon-btn" id="btn-prev" type="button" aria-label="Semana anterior">←</button>
+        <div class="week-switcher__label">
+          <span>Semana selecionada</span>
+          <strong id="week-label">—</strong>
         </div>
+        <button class="icon-btn" id="btn-next" type="button" aria-label="Próxima semana">→</button>
       </div>
 
-      <div class="header-actions">
-        <button class="btn-action" id="btn-import" title="Importar JSON">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round">
-            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-            <polyline points="7 10 12 15 17 10" />
-            <line x1="12" y1="15" x2="12" y2="3" />
-          </svg>
-          Importar
-        </button>
-        <button class="btn-action btn-action--distribute" id="btn-distribute" title="Distribuir Automaticamente">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="18" cy="5" r="3" />
-            <circle cx="6" cy="12" r="3" />
-            <circle cx="18" cy="19" r="3" />
-            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
-            <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
-          </svg>
-          Distribuir
-        </button>
-        <button class="btn-action btn-action--export" id="btn-export" title="Exportar JSON">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round">
-            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-            <polyline points="17 8 12 3 7 8" />
-            <line x1="12" y1="3" x2="12" y2="15" />
-          </svg>
-          Exportar
-        </button>
-        <input type="file" id="file-input" accept=".json" style="display:none" aria-label="Selecionar arquivo JSON" />
-        <a class="btn-action btn-action--about" href="downloads/" title="Baixar planos prontos">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round">
-            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-            <polyline points="7 10 12 15 17 10" />
-            <line x1="12" y1="15" x2="12" y2="3" />
-          </svg>
-          Downloads
+      <nav class="top-actions" aria-label="Ações principais">
+        <a class="action action--primary" href="downloads/" id="btn-plans">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 19h14"/></svg>
+          <span>Planos prontos</span>
         </a>
-        <a class="btn-action btn-action--about" href="sobre/" title="Sobre o site">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="10" />
-            <line x1="12" y1="16" x2="12" y2="12" />
-            <line x1="12" y1="8" x2="12.01" y2="8" />
-          </svg>
-          Sobre
-        </a>
-      </div>
+        <button class="action" id="btn-import" type="button">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 19h14"/></svg>
+          <span>Importar</span>
+        </button>
+        <button class="action action--ghost" id="btn-help" type="button">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.8 9a2.4 2.4 0 1 1 4.6 1c-.5 1-1.5 1.4-2 2.2-.3.4-.4.8-.4 1.3M12 17h.01"/></svg>
+          <span>Como usar</span>
+        </button>
+        <div class="more-wrap">
+          <button class="icon-btn icon-btn--menu" id="btn-more" type="button" aria-label="Mais ações" aria-expanded="false">•••</button>
+          <div class="more-menu" id="more-menu" hidden>
+            <button type="button" id="btn-distribute">Distribuir conteúdos</button>
+            <button type="button" id="btn-export">Exportar semana</button>
+            <a href="sobre/">Sobre o projeto</a>
+          </div>
+        </div>
+      </nav>
+      <input type="file" id="file-input" accept=".json,application/json" hidden />
     </div>
   </header>
 
-  <!-- Toast notification -->
-  <div class="toast" id="toast" role="alert" aria-live="polite"></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-  <!-- Countdown para a prova -->
-  <section class="countdown-bar" id="countdown-bar">
-    <div class="countdown-inner">
-      <span class="countdown-icon">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-          stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="12" cy="12" r="10" />
-          <polyline points="12 6 12 12 16 14" />
-        </svg>
-      </span>
-      <p class="countdown-text">
-        Faltam <span class="countdown-days" id="countdown-days">—</span> dias
-        <span class="countdown-sep">•</span>
-        <span class="countdown-weeks" id="countdown-weeks">—</span> semanas
-        para o <span class="countdown-highlight">ENEM (8 de novembro)</span>
-      </p>
-    </div>
-  </section>
-
-  <!-- Weekly Stats -->
-  <section class="stats-bar" id="stats-bar">
-    <div class="stats-inner">
-      <div class="stat-card">
-        <span class="stat-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--text-secondary)" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round">
-            <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
-            <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
-            <path d="M12 11h4"></path>
-            <path d="M12 16h4"></path>
-            <path d="M8 11h.01"></path>
-            <path d="M8 16h.01"></path>
-          </svg>
-        </span>
-        <div>
-          <span class="stat-value" id="stat-filled">0/28</span>
-          <span class="stat-label">Blocos preenchidos</span>
+  <main class="page-shell">
+    <section class="intro-card" id="quick-start">
+      <div class="intro-card__copy">
+        <span class="eyebrow">Comece por aqui</span>
+        <h1>Monte sua semana sem ficar tentando adivinhar como o site funciona.</h1>
+        <p>O fluxo é simples: escolha um cronograma pronto, baixe a semana que quer estudar e importe o arquivo no planner.</p>
+        <div class="intro-card__actions">
+          <a class="button button--primary" href="downloads/">Escolher um cronograma</a>
+          <button class="button button--secondary" id="quick-import" type="button">Já baixei, quero importar</button>
         </div>
       </div>
-      <div class="stat-card stat-card--accent">
-        <span class="stat-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--success)" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round">
-            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-            <polyline points="22 4 12 14.01 9 11.01"></polyline>
-          </svg>
-        </span>
-        <div>
-          <span class="stat-value" id="stat-studied">0/0</span>
-          <span class="stat-label">Estudados</span>
-        </div>
-      </div>
-      <div class="stat-card">
-        <span class="stat-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="8" r="7"></circle>
-            <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
-          </svg>
-        </span>
-        <div>
-          <span class="stat-value" id="stat-top-subject">—</span>
-          <span class="stat-label">Matéria da semana</span>
-        </div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-progress-wrap">
-          <span class="stat-label">Progresso semanal</span>
-          <div class="stat-progress-bar">
-            <div class="stat-progress-fill" id="stat-progress-fill"></div>
+      <div class="flow" aria-label="Passo a passo de uso">
+        <article class="flow-step">
+          <span class="flow-step__number">01</span>
+          <div>
+            <strong>Baixe uma semana</strong>
+            <p>Abra “Planos prontos” e escolha entre os cronogramas disponíveis.</p>
           </div>
-          <span class="stat-progress-pct" id="stat-progress-pct">0%</span>
+        </article>
+        <article class="flow-step">
+          <span class="flow-step__number">02</span>
+          <div>
+            <strong>Importe o arquivo JSON</strong>
+            <p>Volte para cá, clique em “Importar” e selecione o arquivo baixado.</p>
+          </div>
+        </article>
+        <article class="flow-step">
+          <span class="flow-step__number">03</span>
+          <div>
+            <strong>Estude e marque o progresso</strong>
+            <p>Abra cada bloco para ver o conteúdo e marque como concluído ao terminar.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="import-hint" id="import-hint" hidden>
+      <div>
+        <span class="import-hint__icon">↓</span>
+        <div>
+          <strong>Arquivo baixado? Agora falta só importar.</strong>
+          <p>Selecione o JSON da semana que você acabou de baixar.</p>
         </div>
       </div>
-    </div>
-  </section>
+      <button class="button button--primary" id="hint-import" type="button">Selecionar arquivo</button>
+    </section>
 
-  <main class="main">
-    <div class="calendar-grid" id="calendar-grid">
-      <!-- Days inserted by JS -->
-    </div>
+    <section class="overview" aria-label="Resumo da semana">
+      <article class="metric">
+        <span class="metric__label">Blocos planejados</span>
+        <strong id="stat-filled">0/28</strong>
+        <small>até 4 blocos por dia</small>
+      </article>
+      <article class="metric metric--success">
+        <span class="metric__label">Concluídos</span>
+        <strong id="stat-studied">0/0</strong>
+        <small>marque conforme estudar</small>
+      </article>
+      <article class="metric">
+        <span class="metric__label">Matéria mais presente</span>
+        <strong class="metric__compact" id="stat-top-subject">—</strong>
+        <small>na semana selecionada</small>
+      </article>
+      <article class="metric metric--progress">
+        <div class="metric__progress-head">
+          <span class="metric__label">Progresso</span>
+          <strong id="stat-progress-pct">0%</strong>
+        </div>
+        <div class="progress-track"><span id="stat-progress-fill"></span></div>
+        <small id="progress-message">Comece importando ou adicionando blocos.</small>
+      </article>
+    </section>
+
+    <section class="planner-section">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">Planner semanal</span>
+          <h2>O que você vai estudar</h2>
+          <p>Clique em um bloco para ver detalhes ou editar. Use a caixa de seleção para marcar o que já foi concluído.</p>
+        </div>
+        <div class="section-heading__tools">
+          <button class="button button--secondary button--small" id="section-import" type="button">Importar semana</button>
+          <button class="button button--secondary button--small" id="section-distribute" type="button">Distribuir manualmente</button>
+        </div>
+      </div>
+
+      <div class="subject-legend" id="subject-legend" aria-label="Legenda de matérias"></div>
+      <div class="calendar-grid" id="calendar-grid"></div>
+    </section>
   </main>
 
-  <!-- Edit Block Modal -->
-  <div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
-    <div class="modal">
-      <div class="modal-header">
-        <h2 class="modal-title" id="modal-title">Editar Bloco</h2>
-        <button class="modal-close" id="modal-close" aria-label="Fechar">✕</button>
-      </div>
+  <footer class="site-footer">
+    <span>Planner ENEM</span>
+    <span>Feito de forma independente por Murilo Gabriel Souza da Silva.</span>
+  </footer>
 
-      <div class="modal-body">
+  <div class="overlay" id="edit-overlay" role="dialog" aria-modal="true" aria-labelledby="edit-title">
+    <div class="modal modal--compact">
+      <div class="modal__head">
+        <div><span class="eyebrow">Editar bloco</span><h2 id="edit-title">Bloco de estudo</h2></div>
+        <button class="modal-close" id="edit-close" type="button" aria-label="Fechar">×</button>
+      </div>
+      <div class="modal__body">
         <label class="field-label">Matéria</label>
-        <div class="subject-grid" id="subject-grid">
-          <!-- Subjects inserted by JS -->
-        </div>
-
-        <label class="field-label" for="block-note">Anotação (opcional)</label>
-        <textarea id="block-note" class="block-note" placeholder="Ex: Resolver lista 3, revisar capítulo 4…"
-          rows="3"></textarea>
+        <div class="subject-picker" id="subject-grid"></div>
+        <label class="field-label" for="block-note">Anotação</label>
+        <textarea id="block-note" class="textarea" rows="4" placeholder="Ex.: Fazer 15 questões e revisar os erros"></textarea>
       </div>
-
-      <div class="modal-footer">
-        <button class="btn-secondary" id="btn-clear">Limpar bloco</button>
-        <button class="btn-primary" id="btn-save">Salvar</button>
+      <div class="modal__foot">
+        <button class="button button--danger-ghost" id="btn-clear" type="button">Limpar bloco</button>
+        <button class="button button--primary" id="btn-save" type="button">Salvar alterações</button>
       </div>
     </div>
   </div>
 
-  <!-- Details Modal -->
-  <!-- Distribute Modal -->
-  <div class="dist-overlay" id="dist-overlay" role="dialog" aria-modal="true" aria-labelledby="dist-title">
-    <div class="dist-modal">
-      <div class="dist-header">
-        <h2 class="dist-title" id="dist-title">Distribuir Automaticamente</h2>
-        <button class="modal-close" id="dist-close" aria-label="Fechar">✕</button>
+  <div class="overlay" id="details-overlay" role="dialog" aria-modal="true" aria-labelledby="details-title">
+    <div class="modal">
+      <div class="modal__head details-head">
+        <div class="details-head__subject"><span class="subject-dot" id="details-dot"></span><span id="details-subject">—</span></div>
+        <button class="modal-close" id="details-close" type="button" aria-label="Fechar">×</button>
       </div>
-
-      <div class="dist-body">
-        <p class="dist-intro">Cole ou edite a lista de conteúdos abaixo. O algoritmo distribuirá os blocos ao longo da
-          semana respeitando prioridade, variedade e repetição espaçada.</p>
-
-        <div class="dist-toolbar">
-          <button class="btn-secondary btn-sm" id="dist-add">+ Adicionar conteúdo</button>
-          <button class="btn-secondary btn-sm" id="dist-clear-list">Limpar lista</button>
-        </div>
-
-        <div class="dist-list" id="dist-list">
-          <!-- items injected by JS -->
-        </div>
-
-        <div class="dist-result" id="dist-result" style="display:none">
-          <!-- overflow warning injected by JS -->
-        </div>
-      </div>
-
-      <div class="dist-footer">
-        <button class="btn-secondary" id="dist-cancel">Cancelar</button>
-        <button class="btn-primary" id="dist-run">⚡ Distribuir agora</button>
-      </div>
-    </div>
-  </div>
-
-  <div class="details-overlay" id="details-overlay" role="dialog" aria-modal="true" aria-labelledby="details-title">
-    <div class="details-modal">
-      <div class="details-header">
-        <div class="details-header-left">
-          <span class="details-subject-dot" id="details-dot"></span>
-          <div>
-            <p class="details-subject-label" id="details-subject"></p>
-            <h2 class="details-title" id="details-title"></h2>
-          </div>
-        </div>
-        <button class="modal-close" id="details-close" aria-label="Fechar detalhes">✕</button>
-      </div>
-
-      <div class="details-body">
+      <div class="modal__body">
+        <h2 class="details-title" id="details-title">—</h2>
         <div class="details-meta" id="details-meta"></div>
-
         <div class="details-section" id="details-desc-section">
-          <p class="details-section-label">Descrição</p>
-          <p class="details-desc" id="details-desc"></p>
+          <span class="field-label">Conteúdo</span>
+          <p id="details-desc"></p>
         </div>
-
         <div class="details-section" id="details-det-section">
-          <p class="details-section-label">Detalhes</p>
-          <pre class="details-det" id="details-det"></pre>
+          <span class="field-label">Detalhes</span>
+          <pre id="details-det"></pre>
         </div>
       </div>
+      <div class="modal__foot">
+        <button class="button button--secondary" id="details-edit-btn" type="button">Editar bloco</button>
+        <button class="button button--primary" id="details-close-btn" type="button">Fechar</button>
+      </div>
+    </div>
+  </div>
 
-      <div class="details-footer">
-        <button class="btn-secondary" id="details-edit-btn">✏️ Editar bloco</button>
-        <button class="btn-primary" id="details-close-btn">Fechar</button>
+  <div class="overlay" id="help-overlay" role="dialog" aria-modal="true" aria-labelledby="help-title">
+    <div class="modal modal--guide">
+      <div class="modal__head">
+        <div><span class="eyebrow">Guia rápido</span><h2 id="help-title">Como usar o Planner ENEM</h2></div>
+        <button class="modal-close" id="help-close" type="button" aria-label="Fechar">×</button>
+      </div>
+      <div class="modal__body guide-body">
+        <div class="guide-row">
+          <span>1</span>
+          <div><strong>Abra Planos prontos</strong><p>Escolha o cronograma que você está seguindo e baixe o JSON da semana correspondente.</p></div>
+        </div>
+        <div class="guide-row">
+          <span>2</span>
+          <div><strong>Importe na semana certa</strong><p>Navegue pelas setas até a semana em que quer estudar, clique em “Importar” e selecione o arquivo.</p></div>
+        </div>
+        <div class="guide-row">
+          <span>3</span>
+          <div><strong>Use os blocos como seu checklist</strong><p>Cada bloco traz uma matéria e um conteúdo. Clique para ver detalhes e marque a caixa quando terminar.</p></div>
+        </div>
+        <div class="guide-row">
+          <span>4</span>
+          <div><strong>Personalize se quiser</strong><p>Você pode editar qualquer bloco, distribuir conteúdos manualmente e exportar sua própria semana depois.</p></div>
+        </div>
+        <div class="guide-note">Importar uma semana substitui os blocos já preenchidos apenas na semana selecionada.</div>
+      </div>
+      <div class="modal__foot">
+        <a class="button button--secondary" href="downloads/">Ver planos prontos</a>
+        <button class="button button--primary" id="help-import" type="button">Importar um arquivo</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="overlay" id="dist-overlay" role="dialog" aria-modal="true" aria-labelledby="dist-title">
+    <div class="modal modal--wide">
+      <div class="modal__head">
+        <div><span class="eyebrow">Montagem manual</span><h2 id="dist-title">Distribuir conteúdos na semana</h2></div>
+        <button class="modal-close" id="dist-close" type="button" aria-label="Fechar">×</button>
+      </div>
+      <div class="modal__body">
+        <p class="modal-lead">Adicione os conteúdos que quer estudar. O planner distribui tudo pelos dias, evitando repetir a mesma matéria no mesmo dia quando possível.</p>
+        <div class="dist-toolbar">
+          <button class="button button--secondary button--small" id="dist-add" type="button">+ Adicionar conteúdo</button>
+          <button class="button button--secondary button--small" id="dist-clear-list" type="button">Limpar lista</button>
+        </div>
+        <div class="dist-list" id="dist-list"></div>
+        <div class="dist-result" id="dist-result" hidden></div>
+      </div>
+      <div class="modal__foot">
+        <button class="button button--secondary" id="dist-cancel" type="button">Cancelar</button>
+        <button class="button button--primary" id="dist-run" type="button">Distribuir agora</button>
       </div>
     </div>
   </div>
 
   <script src="script.js"></script>
 </body>
-
 </html>
