@@ -1,82 +1,100 @@
-// Gera os cards de download para o plano de 14 semanas.
-// Basta colocar os arquivos JSON em: downloads/planos/14-semanas/semana-01.json ... semana-14.json
-// que o card correspondente vira "disponível" automaticamente.
+const PLANS = [
+  { id: '14', total: 14, folder: 'planos/14-semanas', title: '14 semanas', description: 'Cronograma anterior em 14 semanas.' },
+  { id: '18', total: 18, folder: 'planos/18-semanas', title: '18 semanas', description: 'Cronograma inédito de 18 semanas.' }
+];
 
-const TOTAL_SEMANAS_14 = 14;
-const PASTA_14 = "planos/14-semanas";
-
-function nomeArquivo(numero) {
-  return `semana-${String(numero).padStart(2, "0")}.json`;
+function fileName(number) {
+  return `semana-${String(number).padStart(2, '0')}.json`;
 }
 
-async function arquivoExiste(url) {
+async function fileExists(url) {
   try {
-    const res = await fetch(url, { method: "HEAD", cache: "no-store" });
-    return res.ok;
+    const response = await fetch(url, { method: 'HEAD', cache: 'no-store' });
+    return response.ok;
   } catch {
     return false;
   }
 }
 
-function criarCard(numero, disponivel, url) {
-  const card = document.createElement("div");
-  card.className = "dl-card";
+function showNext(plan, week) {
+  const box = document.getElementById('download-next');
+  document.getElementById('download-next-title').textContent = `${plan.title} · Semana ${String(week).padStart(2, '0')} baixada`;
+  box.hidden = false;
+  localStorage.setItem('planner_last_download', JSON.stringify({ plan: plan.title, week, at: Date.now() }));
+}
 
-  const titulo = document.createElement("span");
-  titulo.className = "dl-card-title";
-  titulo.textContent = `Semana ${String(numero).padStart(2, "0")}`;
+function makeWeekCard(plan, week, available, url) {
+  const card = document.createElement('article');
+  card.className = 'week-card';
+  card.innerHTML = `
+    <div class="week-card__top">
+      <strong>Semana ${String(week).padStart(2, '0')}</strong>
+      <span class="status ${available ? 'ok' : ''}" aria-hidden="true"></span>
+    </div>
+    <p>${available ? 'Arquivo pronto para importar no planner.' : 'Esta semana ainda não foi adicionada.'}</p>
+    <div class="week-card__actions">
+      <a class="download-btn ${available ? 'ok' : 'missing'}" ${available ? `href="${url}" download="${fileName(week)}"` : 'href="#" aria-disabled="true"'}>${available ? 'Baixar JSON' : 'Em breve'}</a>
+    </div>
+  `;
 
-  const status = document.createElement("span");
-  status.className = `dl-card-status ${disponivel ? "dl-card-status--ok" : "dl-card-status--missing"}`;
-  status.textContent = disponivel ? "Disponível" : "Em breve";
-
-  const btn = document.createElement("a");
-  btn.className = `dl-card-btn ${disponivel ? "dl-card-btn--ok" : "dl-card-btn--disabled"}`;
-  btn.textContent = "Baixar JSON";
-  if (disponivel) {
-    btn.href = url;
-    btn.setAttribute("download", nomeArquivo(numero));
-  } else {
-    btn.href = "#";
-    btn.setAttribute("aria-disabled", "true");
+  if (available) {
+    card.querySelector('a').addEventListener('click', () => showNext(plan, week));
   }
-
-  card.append(titulo, status, btn);
   return card;
 }
 
-let jaCarregou14 = false;
+async function populatePlan(plan, body, count) {
+  if (body.dataset.loaded === 'true') return;
+  body.dataset.loaded = 'true';
+  const grid = body.querySelector('.weeks-grid');
+  let availableCount = 0;
 
-async function montarGrade14() {
-  const grid = document.getElementById("grid-14");
-  const contador = document.getElementById("count-14");
-  let disponiveis = 0;
+  const checks = await Promise.all(Array.from({ length: plan.total }, async (_, index) => {
+    const week = index + 1;
+    const url = `${plan.folder}/${fileName(week)}`;
+    const available = await fileExists(url);
+    return { week, url, available };
+  }));
 
-  for (let i = 1; i <= TOTAL_SEMANAS_14; i++) {
-    const url = `${PASTA_14}/${nomeArquivo(i)}`;
-    const existe = await arquivoExiste(url);
-    if (existe) disponiveis++;
-    grid.appendChild(criarCard(i, existe, url));
-  }
-
-  contador.textContent = `${disponiveis}/${TOTAL_SEMANAS_14} disponíveis`;
+  checks.forEach(item => {
+    if (item.available) availableCount++;
+    grid.appendChild(makeWeekCard(plan, item.week, item.available, item.url));
+  });
+  count.textContent = `${availableCount}/${plan.total} disponíveis`;
 }
 
-function configurarAccordion() {
-  const toggle = document.getElementById("toggle-14");
-  const grid = document.getElementById("grid-14");
+function renderPlans() {
+  const root = document.getElementById('plans');
+  PLANS.forEach((plan, index) => {
+    const section = document.createElement('section');
+    section.className = 'plan';
+    section.innerHTML = `
+      <button class="plan__toggle" type="button" aria-expanded="${index === 1 ? 'true' : 'false'}">
+        <div class="plan__title">
+          <span class="plan__arrow">›</span>
+          <div><strong>${plan.title}</strong><small>${plan.description}</small></div>
+        </div>
+        <span class="plan__count">verificando…</span>
+      </button>
+      <div class="plan__body" ${index === 1 ? '' : 'hidden'}>
+        <div class="weeks-grid"></div>
+      </div>
+    `;
 
-  toggle.addEventListener("click", async () => {
-    const abrindo = grid.hasAttribute("hidden");
+    const toggle = section.querySelector('.plan__toggle');
+    const body = section.querySelector('.plan__body');
+    const count = section.querySelector('.plan__count');
 
-    if (abrindo && !jaCarregou14) {
-      jaCarregou14 = true;
-      await montarGrade14();
-    }
+    toggle.addEventListener('click', async () => {
+      const opening = body.hidden;
+      body.hidden = !opening;
+      toggle.setAttribute('aria-expanded', String(opening));
+      if (opening) await populatePlan(plan, body, count);
+    });
 
-    grid.toggleAttribute("hidden", !abrindo);
-    toggle.setAttribute("aria-expanded", String(abrindo));
+    root.appendChild(section);
+    if (index === 1) populatePlan(plan, body, count);
   });
 }
 
-configurarAccordion();
+document.addEventListener('DOMContentLoaded', renderPlans);
