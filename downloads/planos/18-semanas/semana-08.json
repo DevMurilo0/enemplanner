@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Imunologia: Sistema imunitário, imunização passiva (soro), ativa (vac…",
+        "descricao": "Imunologia: Sistema imunitário, imunização passiva (soro), ativa (vacina), coagulação, soro, vacina, alergia, febre e inflamação.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Função Afim Descomplicada: Conceitos, Gráficos e Propriedades",
+        "descricao": "Função Afim Descomplicada: Conceitos, Gráficos e Propriedades",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Funções da Linguagem",
+        "descricao": "Funções da Linguagem",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Tecido muscular estriado esquelético (fibras brancas e vermelhas), es…",
+        "descricao": "Tecido muscular estriado esquelético (fibras brancas e vermelhas), estriado cardíaco e liso. Sarcômero a unidade de contração e suas atividades. A catraca de Huxley, contratura muscular e fadiga muscular.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Primeiro Reinado (1822 - 1831)",
+        "descricao": "Primeiro Reinado (1822 - 1831)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Enem e vestibulares 8",
+        "descricao": "Enem e vestibulares 8",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Tecido nervoso (neurônios e células da glia), sinapse química e elétr…",
+        "descricao": "Tecido nervoso (neurônios e células da glia), sinapse química e elétrica, neurotransmissores e suas ações e gráfico do potencial de ação dos neurônios.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Iluminismo, Fisiocracia e Liberalismo",
+        "descricao": "Iluminismo, Fisiocracia e Liberalismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Used To/ To Be Used To",
+        "descricao": "Used To/ To Be Used To",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Hidrólise",
+        "descricao": "Hidrólise",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Arte, cultura e crítica: modernidade e indústria cultural",
+        "descricao": "Arte, cultura e crítica: modernidade e indústria cultural",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "As mudanças climáticas",
+        "descricao": "As mudanças climáticas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Transesterificação",
+        "descricao": "Transesterificação",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "O que é gênero?",
+        "descricao": "O que é gênero?",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Matriz energética e Fontes de energia",
+        "descricao": "Matriz energética e Fontes de energia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Força resultante centrípeta",
+        "descricao": "Força resultante centrípeta",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "As minorias",
+        "descricao": "As minorias",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Óptica da Visão",
+        "descricao": "Óptica da Visão",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Pós-Impressionismo - Quando a pintura começa a pensar a si mesma",
+        "descricao": "Pós-Impressionismo - Quando a pintura começa a pensar a si mesma",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}
