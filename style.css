@@ -837,3 +837,68 @@ svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-l
 .plan-reorganize-option span > small{
   max-width:690px;
 }
+
+
+/* Limpeza completa do Planner */
+.more-menu .more-menu__danger{
+  margin-top:4px;
+  border-top:1px solid var(--line);
+  border-radius:0 0 7px 7px;
+  color:#d18a83;
+}
+.more-menu .more-menu__danger:hover{
+  background:#2a1918;
+  color:#e6a19a;
+}
+.button--danger{
+  background:#8f514c;
+  border-color:#8f514c;
+  color:#fff4f2;
+}
+.button--danger:hover{
+  background:#a25e58;
+  border-color:#a25e58;
+}
+.reset-modal__lead{
+  color:var(--text);
+  font-size:.86rem;
+  font-weight:650;
+}
+.reset-modal__summary{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+  margin-top:16px;
+}
+.reset-modal__summary div{
+  display:flex;
+  align-items:flex-start;
+  gap:9px;
+  padding:10px 11px;
+  border:1px solid var(--line);
+  border-radius:8px;
+  background:#121211;
+}
+.reset-modal__summary span{
+  flex:0 0 auto;
+  width:20px;
+  height:20px;
+  border-radius:6px;
+  display:grid;
+  place-items:center;
+  background:#252321;
+  color:#d4d0c7;
+  font-size:.67rem;
+  font-weight:800;
+}
+.reset-modal__summary p{
+  color:var(--muted);
+  font-size:.74rem;
+  line-height:1.5;
+}
+.reset-modal__note{
+  margin-top:14px;
+  color:var(--muted-2);
+  font-size:.68rem;
+  line-height:1.5;
+}

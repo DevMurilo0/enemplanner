@@ -45,6 +45,7 @@
           <div class="more-menu" id="more-menu" hidden>
             <button type="button" id="btn-distribute">Distribuir conteúdos</button>
             <button type="button" id="btn-export">Exportar semana</button>
+            <button type="button" id="btn-reset-planner" class="more-menu__danger">Limpar todo o Planner</button>
             <a href="sobre/">Sobre o projeto</a>
           </div>
         </div>
@@ -341,6 +342,31 @@
       <div class="modal__foot">
         <button class="button button--secondary" id="plan-cancel" type="button">Cancelar</button>
         <button class="button button--primary" id="plan-run" type="button">Importar plano completo</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="overlay" id="reset-overlay" role="dialog" aria-modal="true" aria-labelledby="reset-title">
+    <div class="modal modal--compact reset-modal">
+      <div class="modal__head">
+        <div>
+          <span class="eyebrow">Limpar Planner</span>
+          <h2 id="reset-title">Deixar tudo livre novamente?</h2>
+        </div>
+        <button class="modal-close" id="reset-close" type="button" aria-label="Fechar">×</button>
+      </div>
+      <div class="modal__body">
+        <p class="reset-modal__lead">Isso remove todo o conteúdo que você colocou no Planner.</p>
+        <div class="reset-modal__summary">
+          <div><span>✓</span><p>Apaga todos os planos e semanas importados.</p></div>
+          <div><span>✓</span><p>Remove conteúdos adicionados manualmente e marcações de concluído.</p></div>
+          <div><span>✓</span><p>Volta para a semana atual com todos os blocos livres.</p></div>
+        </div>
+        <p class="reset-modal__note">Os cronogramas prontos continuam disponíveis para você importar novamente depois.</p>
+      </div>
+      <div class="modal__foot">
+        <button class="button button--secondary" id="reset-cancel" type="button">Cancelar</button>
+        <button class="button button--danger" id="reset-confirm" type="button">Limpar tudo</button>
       </div>
     </div>
   </div>

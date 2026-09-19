@@ -1581,6 +1581,46 @@ function runDistribute() {
   if (!overflow.length) setTimeout(closeDistribute, 850);
 }
 
+function openResetPlanner() {
+  const menu = $('more-menu');
+  const more = $('btn-more');
+  if (menu) menu.hidden = true;
+  if (more) more.setAttribute('aria-expanded', 'false');
+  openOverlay('reset-overlay');
+}
+
+function closeResetPlanner() {
+  closeOverlay('reset-overlay');
+}
+
+function resetPlanner() {
+  data = {};
+  localStorage.removeItem(STORAGE_KEY);
+
+  weekOffset = 0;
+  monthOffset = 0;
+  yearOffset = 0;
+  viewMode = 'week';
+  localStorage.setItem(VIEW_KEY, 'week');
+
+  editing = null;
+  detailsContext = null;
+  distItems = [];
+  selectedPlanSubjects = new Set(SUBJECTS.map(subject => subject.id));
+  planPreviewToken++;
+  planWeeksCache.clear();
+
+  if ($('file-input')) $('file-input').value = '';
+  if ($('import-hint')) $('import-hint').hidden = true;
+
+  closeResetPlanner();
+  renderCalendar();
+  showToast('Planner limpo. Todas as semanas estão livres novamente.', 'success');
+
+  const planner = $('planner-section');
+  if (planner) planner.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
 function bindDropdown() {
   const more = $('btn-more');
   const menu = $('more-menu');
@@ -1650,6 +1690,10 @@ function bindEvents() {
 
   $('btn-distribute').addEventListener('click', openDistribute);
   $('section-distribute').addEventListener('click', openDistribute);
+  $('btn-reset-planner').addEventListener('click', openResetPlanner);
+  $('reset-close').addEventListener('click', closeResetPlanner);
+  $('reset-cancel').addEventListener('click', closeResetPlanner);
+  $('reset-confirm').addEventListener('click', resetPlanner);
   $('dist-close').addEventListener('click', closeDistribute);
   $('dist-cancel').addEventListener('click', closeDistribute);
   $('dist-add').addEventListener('click', () => { distItems.push(makeEmptyDistItem()); renderDistList(); });
