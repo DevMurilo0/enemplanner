@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Biomas Brasileiros",
+        "descricao": "Biomas Brasileiros",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Introdução à Análise Combinatória: Princípio Fundamental da Contagem, Fatorial e Permutações",
+        "descricao": "Introdução à Análise Combinatória: Princípio Fundamental da Contagem, Fatorial e Permutações",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Competência 4 - Habilidade 13",
+        "descricao": "Competência 4 - Habilidade 13",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Poluição e Desequilíbrio ecológico - Parte 1",
+        "descricao": "Poluição e Desequilíbrio ecológico - Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Processo de Independência dos Estados Unidos",
+        "descricao": "Processo de Independência dos Estados Unidos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "Algumas teorias novas, nossos teóricos deste ano e nossas ideias sobre tudo",
+        "descricao": "Algumas teorias novas, nossos teóricos deste ano e nossas ideias sobre tudo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Poluição e Desequilíbrio ecológico - Parte 2",
+        "descricao": "Poluição e Desequilíbrio ecológico - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Primeira República: Estruturas Políticas e Econômicas",
+        "descricao": "Primeira República: Estruturas Políticas e Econômicas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 19)",
+        "descricao": "Text Comprehension (Enem e vestibulares 19)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Propriedades Periódicas",
+        "descricao": "Propriedades Periódicas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Imperativo categórico, Utilitarismo e Bioética",
+        "descricao": "Imperativo categórico, Utilitarismo e Bioética",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Prepositions",
+        "descricao": "Prepositions",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Cinética Química",
+        "descricao": "Cinética Química",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "O que é gênero?",
+        "descricao": "O que é gênero?",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Geografia dos Transportes",
+        "descricao": "Geografia dos Transportes",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Composição de Movimentos",
+        "descricao": "Composição de Movimentos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Belle-Époque - Art Nouveau - Art Deco",
+        "descricao": "Belle-Époque - Art Nouveau - Art Deco",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Campo Elétrico - Parte 2",
+        "descricao": "Campo Elétrico - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Vírgula no período simples",
+        "descricao": "Vírgula no período simples",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

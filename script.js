@@ -19,6 +19,8 @@ const SUBJECTS = [
   { id: 'fil', label: 'Fil. e Sociologia', color: '#a9809a', aliases: ['filosofia e sociologia', 'filosofia', 'sociologia', 'fil. e sociologia', 'filosofia/sociologia'] },
   { id: 'art', label: 'Artes e Literatura', color: '#9784ad', aliases: ['artes e literatura', 'artes', 'literatura', 'arte'] },
   { id: 'gra', label: 'Gramática Tradicional', color: '#9097a0', aliases: ['gramática tradicional', 'gramatica tradicional', 'gramática', 'gramatica', 'português', 'portugues'] },
+  { id: 'int', label: 'Interpretação de Texto', color: '#849a93', aliases: ['interpretação de texto', 'interpretacao de texto', 'interpretação', 'interpretacao', 'linguagens'] },
+  { id: 'red', label: 'Redação', color: '#b48a73', aliases: ['redação', 'redacao', 'produção textual', 'producao textual'] },
   { id: 'ing', label: 'Inglês', color: '#b97770', aliases: ['ingles'] },
   { id: 'geo', label: 'Geografia e Atualidades', color: '#6f9980', aliases: ['geografia e atualidades', 'geografia', 'atualidades'] }
 ];

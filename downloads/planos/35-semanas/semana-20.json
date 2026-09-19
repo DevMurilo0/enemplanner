@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Evolução",
+        "descricao": "Evolução",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Análise Combinatória Avançada: Arranjos, Permutações e Combinações Descomplicadas",
+        "descricao": "Análise Combinatória Avançada: Arranjos, Permutações e Combinações Descomplicadas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Competência 5 - Habilidade 14",
+        "descricao": "Competência 5 - Habilidade 14",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Evidências Evolutivas, Especiação e Isolamento Reprodutivo",
+        "descricao": "Evidências Evolutivas, Especiação e Isolamento Reprodutivo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Revolução Francesa: Dos Antecedentes até o Fim da Monarquia Constitucional - Parte 1",
+        "descricao": "Revolução Francesa: Dos Antecedentes até o Fim da Monarquia Constitucional - Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "Algumas teorias novas, nossos teóricos deste ano e nossas ideias sobre tudo - Parte 2 (Enrique Dussel e Ladislau Dowbor)",
+        "descricao": "Algumas teorias novas, nossos teóricos deste ano e nossas ideias sobre tudo - Parte 2 (Enrique Dussel e Ladislau Dowbor)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Evolução Humana e Eras Geológicas",
+        "descricao": "Evolução Humana e Eras Geológicas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Primeira República: Revoltas e Movimentos",
+        "descricao": "Primeira República: Revoltas e Movimentos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 20)",
+        "descricao": "Text Comprehension (Enem e vestibulares 20)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Ligação Iônica",
+        "descricao": "Ligação Iônica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Introdução à Filosofia contemporânea – pós-moderna",
+        "descricao": "Introdução à Filosofia contemporânea – pós-moderna",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Too/Also/As Well/Either...",
+        "descricao": "Too/Also/As Well/Either...",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Fatores que afetam a velocidades das reações químicas",
+        "descricao": "Fatores que afetam a velocidades das reações químicas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Sociedade e violência",
+        "descricao": "Sociedade e violência",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Conflitos na Ásia",
+        "descricao": "Conflitos na Ásia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Lançamentos",
+        "descricao": "Lançamentos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Pré-Modernismo",
+        "descricao": "Pré-Modernismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Eletrostática: Potencial Elétrico",
+        "descricao": "Eletrostática: Potencial Elétrico",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Vírgula no período composto",
+        "descricao": "Vírgula no período composto",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

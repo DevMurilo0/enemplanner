@@ -1,0 +1,171 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Cordados vertebrados agnathos (ciclostomados) e gnathostomados (peixes cartilaginosos e ósseos)",
+        "descricao": "Cordados vertebrados agnathos (ciclostomados) e gnathostomados (peixes cartilaginosos e ósseos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Funções Trigonométricas: Explorando o Seno e o Cosseno",
+        "descricao": "Funções Trigonométricas: Explorando o Seno e o Cosseno",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 35)",
+        "descricao": "Text Comprehension (Enem e vestibulares 35)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Cordados vertebrados (Anfíbios e Répteis)",
+        "descricao": "Cordados vertebrados (Anfíbios e Répteis)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "O Pós-Guerra Fria",
+        "descricao": "O Pós-Guerra Fria",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "A Organização do Estado Brasileiro",
+        "descricao": "A Organização do Estado Brasileiro",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Cordados vertebrados (aves e mamíferos)",
+        "descricao": "Cordados vertebrados (aves e mamíferos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Incas, Maias e Astecas",
+        "descricao": "Incas, Maias e Astecas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Geografia Cultural",
+        "descricao": "Geografia Cultural",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Equação de Gibbs e Espontaneidade das Reações Químicas",
+        "descricao": "Equação de Gibbs e Espontaneidade das Reações Químicas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Jean Baudrillard e Francois Lyotard",
+        "descricao": "Jean Baudrillard e Francois Lyotard",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Tipos de pilhas e células de combustíveis",
+        "descricao": "Tipos de pilhas e células de combustíveis",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Bruno Paes Manso (narcoestado)",
+        "descricao": "Bruno Paes Manso (narcoestado)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Revolução das Máquinas",
+        "descricao": "Revolução das Máquinas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Textos narrativos e seus gêneros textuais",
+        "descricao": "Textos narrativos e seus gêneros textuais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "De Onde Vem a Energia Elétrica",
+        "descricao": "De Onde Vem a Energia Elétrica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "A música no Brasil",
+        "descricao": "A música no Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

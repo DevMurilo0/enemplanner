@@ -1,0 +1,180 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Variações da Segunda Lei - Parte 1 (Pleiotropia e Interações Gênicas)",
+        "descricao": "Variações da Segunda Lei - Parte 1 (Pleiotropia e Interações Gênicas)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Eletrodinâmica: Leis de Kirchhoff",
+        "descricao": "Eletrodinâmica: Leis de Kirchhoff",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Competência 7 - Habilidade 23",
+        "descricao": "Competência 7 - Habilidade 23",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Variações da Segunda Lei - Parte 2 (Linkage ou genes ligados, Sex-Linkage e genes holândricos)",
+        "descricao": "Variações da Segunda Lei - Parte 2 (Linkage ou genes ligados, Sex-Linkage e genes holândricos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Explorando Prismas e Cilindros: Conceitos e Aplicações na Geometria Espacial",
+        "descricao": "Explorando Prismas e Cilindros: Conceitos e Aplicações na Geometria Espacial",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "O ouro: seleção dos melhores tópicos frasais e dos melhores teóricos para cada eixo temático - Parte 1",
+        "descricao": "O ouro: seleção dos melhores tópicos frasais e dos melhores teóricos para cada eixo temático - Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Variações da Segunda Lei - Parte 3 (Herança Quantitativa)",
+        "descricao": "Variações da Segunda Lei - Parte 3 (Herança Quantitativa)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Ditadura Militar: O Ápice e o Declínio (Governos Médici, Geisel e Figueiredo)",
+        "descricao": "Ditadura Militar: O Ápice e o Declínio (Governos Médici, Geisel e Figueiredo)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 29)",
+        "descricao": "Text Comprehension (Enem e vestibulares 29)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Determinação do Sexo e Heranças Genéticas Sexuais",
+        "descricao": "Determinação do Sexo e Heranças Genéticas Sexuais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Deleuze",
+        "descricao": "Deleuze",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "A industrialização brasileira",
+        "descricao": "A industrialização brasileira",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Reações de Síntese e Análise",
+        "descricao": "Reações de Síntese e Análise",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Nobert Elias, Pierre Boudieu e Stuart Halls",
+        "descricao": "Nobert Elias, Pierre Boudieu e Stuart Halls",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Reações Orgânicas-Parte 1",
+        "descricao": "Reações Orgânicas-Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Pintura do Modernismo",
+        "descricao": "Pintura do Modernismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Calorimetria I",
+        "descricao": "Calorimetria I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Figuras de Linguagem",
+        "descricao": "Figuras de Linguagem",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Metabolismo vegetal: Plantas C3, C4 e CAM",
+        "descricao": "Metabolismo vegetal: Plantas C3, C4 e CAM",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Revisão Completa de Geometria Plana: Conceitos, Figuras e Aplicações",
+        "descricao": "Revisão Completa de Geometria Plana: Conceitos, Figuras e Aplicações",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Questões globais - Enem 2021",
+        "descricao": "Questões globais - Enem 2021",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Quimiossíntese",
+        "descricao": "Quimiossíntese",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Idade Média Oriental: Civilização Islâmica - Parte 1",
+        "descricao": "Idade Média Oriental: Civilização Islâmica - Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "Elementos estruturais da dissertação - Introdução muito além dos clichês da internet",
+        "descricao": "Elementos estruturais da dissertação - Introdução muito além dos clichês da internet",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Respiração Celular - Glicólise, Ciclo de Krebs e Cadeia transportadora de elétrons",
+        "descricao": "Respiração Celular - Glicólise, Ciclo de Krebs e Cadeia transportadora de elétrons",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Período Joanino",
+        "descricao": "Período Joanino",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 10)",
+        "descricao": "Text Comprehension (Enem e vestibulares 10)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Gases (teoria cinética, equação geral dos gases ideais, equação de Clapeyron, difusão e efusão dos gases)",
+        "descricao": "Gases (teoria cinética, equação geral dos gases ideais, equação de Clapeyron, difusão e efusão dos gases)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Teoria do Conhecimento - Empirismo: Francis Bacon, David Hume e John Locke",
+        "descricao": "Teoria do Conhecimento - Empirismo: Francis Bacon, David Hume e John Locke",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Gerund and Infinitive",
+        "descricao": "Gerund and Infinitive",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Funções Orgânicas Oxigenadas - Parte 2 (ácidos carboxílicos, éteres, ésteres e haletos de acila)",
+        "descricao": "Funções Orgânicas Oxigenadas - Parte 2 (ácidos carboxílicos, éteres, ésteres e haletos de acila)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Estado, Poder e Política",
+        "descricao": "Estado, Poder e Política",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Os problemas ambientais",
+        "descricao": "Os problemas ambientais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "O movimento e suas causas",
+        "descricao": "O movimento e suas causas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Romantismo (Prosa)",
+        "descricao": "Romantismo (Prosa)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Política ambiental brasileira",
+        "descricao": "Política ambiental brasileira",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Óptica da Visão",
+        "descricao": "Óptica da Visão",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Pronomes - Parte 2 (demonstrativos) + Pronomes - Parte 3 (relativos, indefinidos e interrogativos)",
+        "descricao": "Pronomes - Parte 2 (demonstrativos) + Pronomes - Parte 3 (relativos, indefinidos e interrogativos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Núcleo (eucromatina e heterocromatina) e cariótipo celular",
+        "descricao": "Núcleo (eucromatina e heterocromatina) e cariótipo celular",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Explorando Triângulos: Conceitos, Propriedades e Suas Formas Especiais",
+        "descricao": "Explorando Triângulos: Conceitos, Propriedades e Suas Formas Especiais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Questões globais - Enem 2022",
+        "descricao": "Questões globais - Enem 2022",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Introdução ao ciclo de vida celular (estudos sobre a interfase, pontos de checagem e complexo ciclina CDK)",
+        "descricao": "Introdução ao ciclo de vida celular (estudos sobre a interfase, pontos de checagem e complexo ciclina CDK)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Roma: a Fase do Império - Parte 2",
+        "descricao": "Roma: a Fase do Império - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "Montagem do esquema da Redação - Tipos de montagem do tema",
+        "descricao": "Montagem do esquema da Redação - Tipos de montagem do tema",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Estudo sobre o Câncer",
+        "descricao": "Estudo sobre o Câncer",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Movimentos Nativistas",
+        "descricao": "Movimentos Nativistas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 7)",
+        "descricao": "Text Comprehension (Enem e vestibulares 7)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Estequiometria (reações consecutivas e excesso)",
+        "descricao": "Estequiometria (reações consecutivas e excesso)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Patrística e Escolástica",
+        "descricao": "Patrística e Escolástica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Future",
+        "descricao": "Future",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Funções Orgânicas Oxigenadas - Parte 1 (álcool, fenol, aldeído e cetona)",
+        "descricao": "Funções Orgânicas Oxigenadas - Parte 1 (álcool, fenol, aldeído e cetona)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Raça, etnia e multiculturalismo",
+        "descricao": "Raça, etnia e multiculturalismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Características climáticas do território brasileiro",
+        "descricao": "Características climáticas do território brasileiro",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Vetores e Cinemática Vetorial",
+        "descricao": "Vetores e Cinemática Vetorial",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Resolução de questões sobre Quinhentismo, Barroco e Arcadismo",
+        "descricao": "Resolução de questões sobre Quinhentismo, Barroco e Arcadismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Refração da Luz - Parte 2",
+        "descricao": "Refração da Luz - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Coesão, coerência e operadores argumentativos",
+        "descricao": "Coesão, coerência e operadores argumentativos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

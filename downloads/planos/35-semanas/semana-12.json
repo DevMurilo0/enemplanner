@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Gametogênese masculina, feminina e Fecundação",
+        "descricao": "Gametogênese masculina, feminina e Fecundação",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Função Quadrática: Conceitos, Propriedades, Gráficos e Forma Fatorada",
+        "descricao": "Função Quadrática: Conceitos, Propriedades, Gráficos e Forma Fatorada",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Competência 1 - Habilidade 2",
+        "descricao": "Competência 1 - Habilidade 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Ciclo Menstrual e Métodos Contraceptivos",
+        "descricao": "Ciclo Menstrual e Métodos Contraceptivos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Renascimento Cultural",
+        "descricao": "Renascimento Cultural",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "Elementos estruturais da dissertação - Desenvolvimento - Parte 1",
+        "descricao": "Elementos estruturais da dissertação - Desenvolvimento - Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "ISTs - Infecções sexualmente transmissíveis",
+        "descricao": "ISTs - Infecções sexualmente transmissíveis",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Primeiro Reinado (1822 - 1831)",
+        "descricao": "Primeiro Reinado (1822 - 1831)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 12)",
+        "descricao": "Text Comprehension (Enem e vestibulares 12)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Modelos Atômicos",
+        "descricao": "Modelos Atômicos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "A Filosofia de Hegel",
+        "descricao": "A Filosofia de Hegel",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Conditionals",
+        "descricao": "Conditionals",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Termoquímica – Parte 1 (definição, entalpia, variação de entalpia e lei de Hess)",
+        "descricao": "Termoquímica – Parte 1 (definição, entalpia, variação de entalpia e lei de Hess)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Movimentos sociais tradicionais",
+        "descricao": "Movimentos sociais tradicionais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Matriz energética e Fontes de energia",
+        "descricao": "Matriz energética e Fontes de energia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Trabalho Mecânico e Potência",
+        "descricao": "Trabalho Mecânico e Potência",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Realismo (Artes Plásticas)",
+        "descricao": "Realismo (Artes Plásticas)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Fundamentos do estudo das ondas",
+        "descricao": "Fundamentos do estudo das ondas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Advérbio e Locuções Adverbiais",
+        "descricao": "Advérbio e Locuções Adverbiais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Ácidos Nucleicos (características bioquímicas do DNA e RNA)",
+        "descricao": "Ácidos Nucleicos (características bioquímicas do DNA e RNA)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Desvendando Razão, Proporção, Grandezas Proporcionais, Gráficos e Escalas na Prática",
+        "descricao": "Desvendando Razão, Proporção, Grandezas Proporcionais, Gráficos e Escalas na Prática",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Questões operacionais - Enem 2023",
+        "descricao": "Questões operacionais - Enem 2023",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Duplicação semiconservativa do DNA",
+        "descricao": "Duplicação semiconservativa do DNA",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Antiguidade Oriental",
+        "descricao": "Antiguidade Oriental",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "Estrutura textual - Retrospectiva ENEM: cartilha com os melhores textos das últimas edições",
+        "descricao": "Estrutura textual - Retrospectiva ENEM: cartilha com os melhores textos das últimas edições",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Transcrição do RNA, tradução, síntese proteica",
+        "descricao": "Transcrição do RNA, tradução, síntese proteica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "O Início da Colonização: As Capitanias Hereditárias e o Governo-Geral",
+        "descricao": "O Início da Colonização: As Capitanias Hereditárias e o Governo-Geral",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 3)",
+        "descricao": "Text Comprehension (Enem e vestibulares 3)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Concentração das soluções",
+        "descricao": "Concentração das soluções",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Sócrates e os Sofistas",
+        "descricao": "Sócrates e os Sofistas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Past Simple",
+        "descricao": "Past Simple",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Classificação das cadeias carbônicas",
+        "descricao": "Classificação das cadeias carbônicas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "O pensamento de Max Weber",
+        "descricao": "O pensamento de Max Weber",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Geografia da saúde: a saúde no Brasil e a importância do SUS",
+        "descricao": "Geografia da saúde: a saúde no Brasil e a importância do SUS",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Gráficos do MUV",
+        "descricao": "Gráficos do MUV",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Barroco (Literatura)",
+        "descricao": "Barroco (Literatura)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Espelhos Planos",
+        "descricao": "Espelhos Planos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Significação contextual das palavras: semântica",
+        "descricao": "Significação contextual das palavras: semântica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

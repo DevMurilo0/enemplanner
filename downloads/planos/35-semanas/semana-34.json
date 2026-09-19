@@ -1,0 +1,153 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Artrópodes",
+        "descricao": "Artrópodes",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Guerra Fria: Conflitos na Ásia, Revolução Cubana e Crise dos Mísseis de Cuba - Parte 2",
+        "descricao": "Guerra Fria: Conflitos na Ásia, Revolução Cubana e Crise dos Mísseis de Cuba - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "A Questão Agrária Brasileira",
+        "descricao": "A Questão Agrária Brasileira",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Equinodermos e Introdução aos Cordados",
+        "descricao": "Equinodermos e Introdução aos Cordados",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Hartmut Rosa e Gilles Lipovetsky",
+        "descricao": "Hartmut Rosa e Gilles Lipovetsky",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Oxidação e Redução",
+        "descricao": "Oxidação e Redução",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Sueli Carneiro, Conceição Evaristo, Marilena Chauí e Maria da Conceição Tavares",
+        "descricao": "Sueli Carneiro, Conceição Evaristo, Marilena Chauí e Maria da Conceição Tavares",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Lixo, lixão, aterro controlado e sanitário",
+        "descricao": "Lixo, lixão, aterro controlado e sanitário",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Gramática na prática 4",
+        "descricao": "Gramática na prática 4",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Termodinâmica II",
+        "descricao": "Termodinâmica II",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Competência 9 - Habilidade 30",
+        "descricao": "Competência 9 - Habilidade 30",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Eletromagnetismo III",
+        "descricao": "Eletromagnetismo III",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Samuel de Saboia: o nosso prodígio da arte contemporânea",
+        "descricao": "Samuel de Saboia: o nosso prodígio da arte contemporânea",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Introdução à Trigonometria: Razões, Ciclo Trigonométrico e Aplicações",
+        "descricao": "Introdução à Trigonometria: Razões, Ciclo Trigonométrico e Aplicações",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 34)",
+        "descricao": "Text Comprehension (Enem e vestibulares 34)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

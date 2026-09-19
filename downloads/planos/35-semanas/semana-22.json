@@ -1,0 +1,198 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Circulação comparada dos seres vivos",
+        "descricao": "Circulação comparada dos seres vivos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Probabilidade Descomplicada: Fundamentos, Cálculos e Aplicações Práticas",
+        "descricao": "Probabilidade Descomplicada: Fundamentos, Cálculos e Aplicações Práticas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Competência 5 - Habilidade 16",
+        "descricao": "Competência 5 - Habilidade 16",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Circulação linfática Humana",
+        "descricao": "Circulação linfática Humana",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Era Napoleônica",
+        "descricao": "Era Napoleônica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "Os teóricos do Brasil e nossas ideias sobre tudo - Ruy Braga (sociólogo)",
+        "descricao": "Os teóricos do Brasil e nossas ideias sobre tudo - Ruy Braga (sociólogo)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Respiração Humana",
+        "descricao": "Respiração Humana",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Era Vargas: O Estado Novo - Parte 2",
+        "descricao": "Era Vargas: O Estado Novo - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 22)",
+        "descricao": "Text Comprehension (Enem e vestibulares 22)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Geometria Molecular e Polaridade",
+        "descricao": "Geometria Molecular e Polaridade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Nietzsche e Schopenhauer",
+        "descricao": "Nietzsche e Schopenhauer",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Connectors and Conjunctions",
+        "descricao": "Connectors and Conjunctions",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Fatores que afetam o equilíbrio químico",
+        "descricao": "Fatores que afetam o equilíbrio químico",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Sociologia digital",
+        "descricao": "Sociologia digital",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Conflitos na África",
+        "descricao": "Conflitos na África",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Equilíbrio Estático",
+        "descricao": "Equilíbrio Estático",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Vanguardas europeias (Cubismo, Dadaísmo e Surrealismo)",
+        "descricao": "Vanguardas europeias (Cubismo, Dadaísmo e Surrealismo)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Guerra na Ucrânia",
+        "descricao": "Guerra na Ucrânia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Eletrostática: Condutores em Equilíbrio Eletrostático",
+        "descricao": "Eletrostática: Condutores em Equilíbrio Eletrostático",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Gramática na prática 2",
+        "descricao": "Gramática na prática 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

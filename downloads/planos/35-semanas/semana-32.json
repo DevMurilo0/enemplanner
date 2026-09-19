@@ -1,0 +1,171 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Principais Viroses do Brasil",
+        "descricao": "Principais Viroses do Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Geometria Analítica: Explorando o Ponto e a Reta",
+        "descricao": "Geometria Analítica: Explorando o Ponto e a Reta",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "O que falta para o 1000: desvendando a tabela de correção do Enem (Competência 3)",
+        "descricao": "O que falta para o 1000: desvendando a tabela de correção do Enem (Competência 3)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Bacterioses",
+        "descricao": "Bacterioses",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "República Nova",
+        "descricao": "República Nova",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 32)",
+        "descricao": "Text Comprehension (Enem e vestibulares 32)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Doenças Parasitárias do Brasil (Protozooses)",
+        "descricao": "Doenças Parasitárias do Brasil (Protozooses)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Noam Chomsky e Jacques Derrida",
+        "descricao": "Noam Chomsky e Jacques Derrida",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Questão urbana e os problemas urbanos",
+        "descricao": "Questão urbana e os problemas urbanos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Solução Tampão",
+        "descricao": "Solução Tampão",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Darcy Ribeiro, Paulo Freire, Celso Furtado e Raymundo Faoro",
+        "descricao": "Darcy Ribeiro, Paulo Freire, Celso Furtado e Raymundo Faoro",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Reações Orgânicas - Parte 4",
+        "descricao": "Reações Orgânicas - Parte 4",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Arte contemporânea (Poesia)",
+        "descricao": "Arte contemporânea (Poesia)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Estudo dos Gases",
+        "descricao": "Estudo dos Gases",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Orações coordenadas",
+        "descricao": "Orações coordenadas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Eletromagnetismo I",
+        "descricao": "Eletromagnetismo I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Competência 9 - Habilidade 28",
+        "descricao": "Competência 9 - Habilidade 28",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

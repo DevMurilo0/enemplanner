@@ -1,0 +1,198 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Tecido Conjuntivo - Parte 1",
+        "descricao": "Tecido Conjuntivo - Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Acústica - Parte 2",
+        "descricao": "Acústica - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Conjunção - Parte 2 (Conjunções Coordenativas)",
+        "descricao": "Conjunção - Parte 2 (Conjunções Coordenativas)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Tecido Conjuntivo - Parte 2",
+        "descricao": "Tecido Conjuntivo - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Dominando a Função Exponencial: Equações e Inequações na Prática",
+        "descricao": "Dominando a Função Exponencial: Equações e Inequações na Prática",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Competência 3 - Habilidade 9",
+        "descricao": "Competência 3 - Habilidade 9",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Tecido Sanguíneo - plasma e elementos figurados",
+        "descricao": "Tecido Sanguíneo - plasma e elementos figurados",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Formação das Monarquias Nacionais, Absolutismo e Mercantilismo",
+        "descricao": "Formação das Monarquias Nacionais, Absolutismo e Mercantilismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "Estrutura da conclusão para vestibulares em geral e concursos públicos: sem proposta de intervenção",
+        "descricao": "Estrutura da conclusão para vestibulares em geral e concursos públicos: sem proposta de intervenção",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Imunologia: sistema imune, imunização e mecanismos de defesa",
+        "descricao": "Imunologia: sistema imune, imunização e mecanismos de defesa",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Segundo Reinado: Política e Economia - Parte 1",
+        "descricao": "Segundo Reinado: Política e Economia - Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 15)",
+        "descricao": "Text Comprehension (Enem e vestibulares 15)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Representação de um Nuclídeo",
+        "descricao": "Representação de um Nuclídeo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Os contratualistas",
+        "descricao": "Os contratualistas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Plural of Nouns",
+        "descricao": "Plural of Nouns",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Isomeria Espacial Geométrica",
+        "descricao": "Isomeria Espacial Geométrica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "A “evolução” histórica do trabalho",
+        "descricao": "A “evolução” histórica do trabalho",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "As Transformações no Leste Europeu: Guerra Fria e Cortina de ferro e a Formação territorial do mundo no fim do século XX e início do Séc. XXI",
+        "descricao": "As Transformações no Leste Europeu: Guerra Fria e Cortina de ferro e a Formação territorial do mundo no fim do século XX e início do Séc. XXI",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Impulso e Quantidade de Movimento - Parte 1",
+        "descricao": "Impulso e Quantidade de Movimento - Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Parnasianismo",
+        "descricao": "Parnasianismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Biotecnologia completa",
+        "descricao": "Biotecnologia completa",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Geometria Espacial: Pirâmides, Cones e Proporcionalidades entre Sólidos Semelhantes",
+        "descricao": "Geometria Espacial: Pirâmides, Cones e Proporcionalidades entre Sólidos Semelhantes",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "O ouro: seleção dos melhores tópicos frasais e dos melhores teóricos para cada eixo temático - Parte 2",
+        "descricao": "O ouro: seleção dos melhores tópicos frasais e dos melhores teóricos para cada eixo temático - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Vírus: características gerais, ciclo lítico e lisogênico",
+        "descricao": "Vírus: características gerais, ciclo lítico e lisogênico",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Período Entreguerras: A Crise de 1929 e os Totalitarismos",
+        "descricao": "Período Entreguerras: A Crise de 1929 e os Totalitarismos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 30)",
+        "descricao": "Text Comprehension (Enem e vestibulares 30)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "O reino dos Procariontes: Bactérias, Cianobactérias e Arqueobactérias",
+        "descricao": "O reino dos Procariontes: Bactérias, Cianobactérias e Arqueobactérias",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Ailton Krenak",
+        "descricao": "Ailton Krenak",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Urbanização no mundo",
+        "descricao": "Urbanização no mundo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Reações de Simples Troca e Dupla Troca",
+        "descricao": "Reações de Simples Troca e Dupla Troca",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Ulrich Beck, Alain Touraine e Anthony Giddens",
+        "descricao": "Ulrich Beck, Alain Touraine e Anthony Giddens",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Reações Orgânicas - Parte 2",
+        "descricao": "Reações Orgânicas - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Arte contemporânea (Artes plásticas)",
+        "descricao": "Arte contemporânea (Artes plásticas)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Calorimetria II",
+        "descricao": "Calorimetria II",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Variação Linguística",
+        "descricao": "Variação Linguística",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Eletrodinâmica: Capacitores",
+        "descricao": "Eletrodinâmica: Capacitores",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Competência 7 - Habilidade 24",
+        "descricao": "Competência 7 - Habilidade 24",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

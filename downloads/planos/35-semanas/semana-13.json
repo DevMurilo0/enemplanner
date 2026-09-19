@@ -1,0 +1,198 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Embriologia Animal – Parte 1",
+        "descricao": "Embriologia Animal – Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Função Quadrática: Explorando Máximos e Mínimos",
+        "descricao": "Função Quadrática: Explorando Máximos e Mínimos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Competência 1 - Habilidade 3",
+        "descricao": "Competência 1 - Habilidade 3",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Embriologia Animal – Parte 2",
+        "descricao": "Embriologia Animal – Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Reforma Protestante: Antecedentes e Luteranismo - Parte 1",
+        "descricao": "Reforma Protestante: Antecedentes e Luteranismo - Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "Elementos estruturais da dissertação - Desenvolvimento - Parte 2",
+        "descricao": "Elementos estruturais da dissertação - Desenvolvimento - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Desenvolvimento embrionário da espécie humana.",
+        "descricao": "Desenvolvimento embrionário da espécie humana.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Período Regencial (1831 - 1840)",
+        "descricao": "Período Regencial (1831 - 1840)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 13)",
+        "descricao": "Text Comprehension (Enem e vestibulares 13)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Alotropia",
+        "descricao": "Alotropia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "A invenção da política",
+        "descricao": "A invenção da política",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Reported Speech",
+        "descricao": "Reported Speech",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Termoquímica – Parte 2 (energia de ligação, análise dos valores de tabela, cálculos e operações com as equações termoquímicas)",
+        "descricao": "Termoquímica – Parte 2 (energia de ligação, análise dos valores de tabela, cálculos e operações com as equações termoquímicas)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Movimentos sociais contemporâneos",
+        "descricao": "Movimentos sociais contemporâneos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Mundialização do Capitalismo",
+        "descricao": "Mundialização do Capitalismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Energia Mecânica - Parte 1",
+        "descricao": "Energia Mecânica - Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Realismo (Literatura)",
+        "descricao": "Realismo (Literatura)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Blocos Econômicos, Mercado Global e Estratégias de Inserção da globalização",
+        "descricao": "Blocos Econômicos, Mercado Global e Estratégias de Inserção da globalização",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Interferência",
+        "descricao": "Interferência",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Preposição",
+        "descricao": "Preposição",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

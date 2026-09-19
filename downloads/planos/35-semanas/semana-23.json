@@ -1,0 +1,198 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Respiração comparada dos animais",
+        "descricao": "Respiração comparada dos animais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Eletrodinâmica: Corrente Elétrica",
+        "descricao": "Eletrodinâmica: Corrente Elétrica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Gramática na prática 3",
+        "descricao": "Gramática na prática 3",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Sistema Urinário: Excretor humano",
+        "descricao": "Sistema Urinário: Excretor humano",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Probabilidade Avançada: Evento Complementar e Distribuição Binomial",
+        "descricao": "Probabilidade Avançada: Evento Complementar e Distribuição Binomial",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Competência 5 - Habilidade 17",
+        "descricao": "Competência 5 - Habilidade 17",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Sistema Urinário: Excreção dos animais",
+        "descricao": "Sistema Urinário: Excreção dos animais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "A Expansão dos Estados Unidos para o Oeste e a Guerra de Secessão",
+        "descricao": "A Expansão dos Estados Unidos para o Oeste e a Guerra de Secessão",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "Algumas teorias novas, nossos teóricos e nossas ideias sobre tudo - Parte 5 (escritora e ativista Helena Vieira)",
+        "descricao": "Algumas teorias novas, nossos teóricos e nossas ideias sobre tudo - Parte 5 (escritora e ativista Helena Vieira)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Sistema endócrino",
+        "descricao": "Sistema endócrino",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Governo de Dutra e Segundo Governo Vargas",
+        "descricao": "Governo de Dutra e Segundo Governo Vargas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 23)",
+        "descricao": "Text Comprehension (Enem e vestibulares 23)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Ligação Intermolecular",
+        "descricao": "Ligação Intermolecular",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Escola de Frankfurt: Razão instrumental e Teoria crítica",
+        "descricao": "Escola de Frankfurt: Razão instrumental e Teoria crítica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Prefixes and Suffixes",
+        "descricao": "Prefixes and Suffixes",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Previsão de Acidez e Basicidade na Química Orgânica",
+        "descricao": "Previsão de Acidez e Basicidade na Química Orgânica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Sociologia Ambiental",
+        "descricao": "Sociologia Ambiental",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "América Latina e Caribe",
+        "descricao": "América Latina e Caribe",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Hidrostática - Parte 1",
+        "descricao": "Hidrostática - Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Semana de Arte Moderna e seus desdobramentos",
+        "descricao": "Semana de Arte Moderna e seus desdobramentos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

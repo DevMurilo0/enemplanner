@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Verminoses do Brasil - Platelmintos e Nematelmintos",
+        "descricao": "Verminoses do Brasil - Platelmintos e Nematelmintos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Eletromagnetismo II",
+        "descricao": "Eletromagnetismo II",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Competência 9 - Habilidade 29",
+        "descricao": "Competência 9 - Habilidade 29",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Zoologia Geral",
+        "descricao": "Zoologia Geral",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Geometria Analítica: Desvendando a Circunferência",
+        "descricao": "Geometria Analítica: Desvendando a Circunferência",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "O que falta para o 1000: desvendando a tabela de correção do Enem (Competência 4)",
+        "descricao": "O que falta para o 1000: desvendando a tabela de correção do Enem (Competência 4)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Zoologia dos invertebrados - Parte 1 (Poríferos, Cnidários e Platelmintos)",
+        "descricao": "Zoologia dos invertebrados - Parte 1 (Poríferos, Cnidários e Platelmintos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Guerra Fria: Origens, Descolonização Afro-Asiática e 1968 - Parte 1",
+        "descricao": "Guerra Fria: Origens, Descolonização Afro-Asiática e 1968 - Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "O que falta para o 1000: desvendando a tabela de correção do Enem (Competência 5)",
+        "descricao": "O que falta para o 1000: desvendando a tabela de correção do Enem (Competência 5)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Zoologia dos invertebrados - Parte 2 (Nematelmintos, Moluscos e Anelídeos)",
+        "descricao": "Zoologia dos invertebrados - Parte 2 (Nematelmintos, Moluscos e Anelídeos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Ronald Dworkin e John Rawls",
+        "descricao": "Ronald Dworkin e John Rawls",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 33)",
+        "descricao": "Text Comprehension (Enem e vestibulares 33)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Propriedades Coligativas",
+        "descricao": "Propriedades Coligativas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Jessé de Souza, Roberto da Matta e José Murilo de Carvalho",
+        "descricao": "Jessé de Souza, Roberto da Matta e José Murilo de Carvalho",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "A industrialização da agricultura e a produção agropecuária no Brasil",
+        "descricao": "A industrialização da agricultura e a produção agropecuária no Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Saponificação",
+        "descricao": "Saponificação",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Arte contemporânea (Prosa)",
+        "descricao": "Arte contemporânea (Prosa)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Termodinâmica I",
+        "descricao": "Termodinâmica I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Orações subordinadas",
+        "descricao": "Orações subordinadas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Introdução à Biologia",
+        "descricao": "Introdução à Biologia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Desvendando os Conjuntos Numéricos, Sistemas de Unidades e o Poder das Potências e Raízes",
+        "descricao": "Desvendando os Conjuntos Numéricos, Sistemas de Unidades e o Poder das Potências e Raízes",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Como estudar a prova de Linguagens para aumentar a TRI",
+        "descricao": "Como estudar a prova de Linguagens para aumentar a TRI",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Origem da Vida",
+        "descricao": "Origem da Vida",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "A Teoria e os Fundamentos da História",
+        "descricao": "A Teoria e os Fundamentos da História",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "Estrutura textual - Quem são os corretores da sua redação e o que eles querem de você? (apresentação dos critérios avaliativos do ENEM – as competências – e de outros vestibulares)",
+        "descricao": "Estrutura textual - Quem são os corretores da sua redação e o que eles querem de você? (apresentação dos critérios avaliativos do ENEM – as competências – e de outros vestibulares)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Metodologia científica",
+        "descricao": "Metodologia científica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "A Expansão Marítima (As Grandes Navegações)",
+        "descricao": "A Expansão Marítima (As Grandes Navegações)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 1)",
+        "descricao": "Text Comprehension (Enem e vestibulares 1)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Introdução à química, mudanças de estado físico e diagrama de fases",
+        "descricao": "Introdução à química, mudanças de estado físico e diagrama de fases",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Introdução à Filosofia",
+        "descricao": "Introdução à Filosofia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Pronouns and Possessive Adjectives",
+        "descricao": "Pronouns and Possessive Adjectives",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Coeficiente de solubilidade",
+        "descricao": "Coeficiente de solubilidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Introdução ao estudo da sociologia",
+        "descricao": "Introdução ao estudo da sociologia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "História do pensamento geográfico: Conceitos e Princípios",
+        "descricao": "História do pensamento geográfico: Conceitos e Princípios",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Movimento Uniforme",
+        "descricao": "Movimento Uniforme",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Quinhentismo",
+        "descricao": "Quinhentismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Introdução à Óptica Geométrica - Parte 1",
+        "descricao": "Introdução à Óptica Geométrica - Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Compreensão e Interpretação de textos",
+        "descricao": "Compreensão e Interpretação de textos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Sistema sensorial",
+        "descricao": "Sistema sensorial",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Revisão Completa de Probabilidades: Conceitos, Cálculos e Aplicações",
+        "descricao": "Revisão Completa de Probabilidades: Conceitos, Cálculos e Aplicações",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "Análise das melhores redações do Brasil - Parte 1",
+        "descricao": "Análise das melhores redações do Brasil - Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Taxonomia, Reinos, Domínios e Filogenia",
+        "descricao": "Taxonomia, Reinos, Domínios e Filogenia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Governos JK e Jânio Quadros",
+        "descricao": "Governos JK e Jânio Quadros",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 25)",
+        "descricao": "Text Comprehension (Enem e vestibulares 25)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Introdução aos estudos dos vegetais (características e ciclo reprodutivo geral) + Glossário da botânica: Termos importantes para os estudos dos vegetais",
+        "descricao": "Introdução aos estudos dos vegetais (características e ciclo reprodutivo geral) + Glossário da botânica: Termos importantes para os estudos dos vegetais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Escola de Frankfurt: Walter Benjamin e Herbert Marcuse",
+        "descricao": "Escola de Frankfurt: Walter Benjamin e Herbert Marcuse",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Revisão Humanas",
+        "descricao": "Revisão Humanas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Esterificação + Transesterificação",
+        "descricao": "Esterificação + Transesterificação",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Biopolítica e Necropolítica - Michel Foucault e Achille Mbembe",
+        "descricao": "Biopolítica e Necropolítica - Michel Foucault e Achille Mbembe",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Ligação metálica",
+        "descricao": "Ligação metálica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "2ª Fase do Modernismo (Poesia)",
+        "descricao": "2ª Fase do Modernismo (Poesia)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Máquinas Simples",
+        "descricao": "Máquinas Simples",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Concordância nominal",
+        "descricao": "Concordância nominal",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Eletrostática: Que Campo Elétrico é Esse?",
+        "descricao": "Eletrostática: Que Campo Elétrico é Esse?",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Competência 6 – Habilidade 19",
+        "descricao": "Competência 6 – Habilidade 19",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

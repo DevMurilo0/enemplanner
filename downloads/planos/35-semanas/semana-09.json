@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Introdução à Bioenergética (aula básica com conceitos iniciais)",
+        "descricao": "Introdução à Bioenergética (aula básica com conceitos iniciais)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Dominando as Áreas das Figuras Planas: Conceitos e Aplicações",
+        "descricao": "Dominando as Áreas das Figuras Planas: Conceitos e Aplicações",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Questões operacionais - Enem 2021",
+        "descricao": "Questões operacionais - Enem 2021",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "A Fotossíntese: O papel da Luz e Os Processos de Fotofosforilação Acíclica e Cíclica (Fase clara)",
+        "descricao": "A Fotossíntese: O papel da Luz e Os Processos de Fotofosforilação Acíclica e Cíclica (Fase clara)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Baixa Idade Média Ocidental",
+        "descricao": "Baixa Idade Média Ocidental",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "Elementos estruturais da dissertação - A introdução e os tipos de tese (como apresentar um ponto de vista coerente)",
+        "descricao": "Elementos estruturais da dissertação - A introdução e os tipos de tese (como apresentar um ponto de vista coerente)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "A Fotossíntese: Ciclo de calvin (fase escura) e fatores limitantes da fotossíntese (Luz, CO2 e temperatura)",
+        "descricao": "A Fotossíntese: Ciclo de calvin (fase escura) e fatores limitantes da fotossíntese (Luz, CO2 e temperatura)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Movimentos Emancipacionistas",
+        "descricao": "Movimentos Emancipacionistas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 9)",
+        "descricao": "Text Comprehension (Enem e vestibulares 9)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Balanceamento de equações pelo método das tentativas e algébrico",
+        "descricao": "Balanceamento de equações pelo método das tentativas e algébrico",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Teoria do Conhecimento – Racionalismo: Descartes, Baruch de Spinoza e Leibniz",
+        "descricao": "Teoria do Conhecimento – Racionalismo: Descartes, Baruch de Spinoza e Leibniz",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "There Be x Have",
+        "descricao": "There Be x Have",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Teoria Moderna de Ácidos e Bases (Arrhenius, Bronsted-Lowry e Lewis)",
+        "descricao": "Teoria Moderna de Ácidos e Bases (Arrhenius, Bronsted-Lowry e Lewis)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Sociologia das contradições sociais",
+        "descricao": "Sociologia das contradições sociais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Os domínios de vegetação e natureza no Brasil",
+        "descricao": "Os domínios de vegetação e natureza no Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Cinemática Angular (Movimentos Circulares)",
+        "descricao": "Cinemática Angular (Movimentos Circulares)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Romantismo (Poesia)",
+        "descricao": "Romantismo (Poesia)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Instrumentos Ópticos",
+        "descricao": "Instrumentos Ópticos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Pronome pessoais e possessivos",
+        "descricao": "Pronome pessoais e possessivos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

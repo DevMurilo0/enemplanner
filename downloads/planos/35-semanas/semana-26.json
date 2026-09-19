@@ -1,0 +1,171 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Grandes grupos vegetais (Características Gerais e reprodução): Briófitas e pteridófitas",
+        "descricao": "Grandes grupos vegetais (Características Gerais e reprodução): Briófitas e pteridófitas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Desvendando Progressões Aritméticas: Conceitos e Aplicações",
+        "descricao": "Desvendando Progressões Aritméticas: Conceitos e Aplicações",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "Análise das melhores redações do Brasil - Parte 2",
+        "descricao": "Análise das melhores redações do Brasil - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Grandes grupos vegetais (Características Gerais e reprodução): Gimnospermas e Angiospermas (Morfologia da flor)",
+        "descricao": "Grandes grupos vegetais (Características Gerais e reprodução): Gimnospermas e Angiospermas (Morfologia da flor)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Unificações da Alemanha e Itália e a Primeira Guerra Mundial (1914 - 1918)",
+        "descricao": "Unificações da Alemanha e Itália e a Primeira Guerra Mundial (1914 - 1918)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 26)",
+        "descricao": "Text Comprehension (Enem e vestibulares 26)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Histologia Vegetal (tecidos embrionários e tecidos permanentes)",
+        "descricao": "Histologia Vegetal (tecidos embrionários e tecidos permanentes)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Fredric Jameson e Antonio Gramsci",
+        "descricao": "Fredric Jameson e Antonio Gramsci",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "A inserção do Brasil no capitalismo monopolista mundial e o subdesenvolvimento",
+        "descricao": "A inserção do Brasil no capitalismo monopolista mundial e o subdesenvolvimento",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Reativo de Tollens e Fehlings",
+        "descricao": "Reativo de Tollens e Fehlings",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "As minorias",
+        "descricao": "As minorias",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Isômeros meso e Derivados Alênicos",
+        "descricao": "Isômeros meso e Derivados Alênicos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "2ª Fase do Modernismo (Prosa)",
+        "descricao": "2ª Fase do Modernismo (Prosa)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Termometria",
+        "descricao": "Termometria",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Regência verbal",
+        "descricao": "Regência verbal",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Eletrodinâmica: Associação de Resistores",
+        "descricao": "Eletrodinâmica: Associação de Resistores",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Competência 6 – Habilidade 20",
+        "descricao": "Competência 6 – Habilidade 20",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

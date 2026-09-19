@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Sucessões Ecológicas",
+        "descricao": "Sucessões Ecológicas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Estatística Essencial: Definições Fundamentais, Tendência Central e Dispersão",
+        "descricao": "Estatística Essencial: Definições Fundamentais, Tendência Central e Dispersão",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Competência 4 - Habilidade 12",
+        "descricao": "Competência 4 - Habilidade 12",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Biomas Aquáticos",
+        "descricao": "Biomas Aquáticos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Iluminismo, Fisiocracia e Liberalismo",
+        "descricao": "Iluminismo, Fisiocracia e Liberalismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "Questões sociais, econômicas, políticas e culturais: o melhor resumo com as melhores escolhas",
+        "descricao": "Questões sociais, econômicas, políticas e culturais: o melhor resumo com as melhores escolhas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Biomas Terrestres",
+        "descricao": "Biomas Terrestres",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Aula especial sobre Escravidão",
+        "descricao": "Aula especial sobre Escravidão",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 18)",
+        "descricao": "Text Comprehension (Enem e vestibulares 18)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Distribuição eletrônica e Características da Tabela Periódica Atual",
+        "descricao": "Distribuição eletrônica e Características da Tabela Periódica Atual",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Introdução à Ética",
+        "descricao": "Introdução à Ética",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Degrees of The Adjectives",
+        "descricao": "Degrees of The Adjectives",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Pilhas",
+        "descricao": "Pilhas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Globalização e novos intercâmbios sociais",
+        "descricao": "Globalização e novos intercâmbios sociais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Características econômicas e territoriais dos países de industrialização avançada ou desenvolvidos e os em desenvolvimento.",
+        "descricao": "Características econômicas e territoriais dos países de industrialização avançada ou desenvolvidos e os em desenvolvimento.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Gravitação Universal - Parte 2",
+        "descricao": "Gravitação Universal - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Pós-Impressionismo e Vincent Van Gogh (1853-1890)",
+        "descricao": "Pós-Impressionismo e Vincent Van Gogh (1853-1890)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Campo Elétrico - Parte 1",
+        "descricao": "Campo Elétrico - Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Crase",
+        "descricao": "Crase",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

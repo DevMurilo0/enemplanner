@@ -1,0 +1,171 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Morfologia vegetal",
+        "descricao": "Morfologia vegetal",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Explorando Progressões Geométricas: Conceitos e Aplicações Práticas",
+        "descricao": "Explorando Progressões Geométricas: Conceitos e Aplicações Práticas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "Sociólogo Laymert Garcia dos Santos - Teórico para questões tecnológicas, científicas e comunicacionais",
+        "descricao": "Sociólogo Laymert Garcia dos Santos - Teórico para questões tecnológicas, científicas e comunicacionais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Fisiologia Vegetal, Germinação das sementes, movimentos vegetais, fitormônios e Condução da seiva nos vegetais",
+        "descricao": "Fisiologia Vegetal, Germinação das sementes, movimentos vegetais, fitormônios e Condução da seiva nos vegetais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "A Revolução Russa de 1917",
+        "descricao": "A Revolução Russa de 1917",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 27)",
+        "descricao": "Text Comprehension (Enem e vestibulares 27)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Floração - Fotoperiodismo",
+        "descricao": "Floração - Fotoperiodismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Hannah Arendt",
+        "descricao": "Hannah Arendt",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "População (Brasil e Mundo)",
+        "descricao": "População (Brasil e Mundo)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Funções Inorgânicas: Ácidos e Bases",
+        "descricao": "Funções Inorgânicas: Ácidos e Bases",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "A sociedade do espetáculo - Guy Debord",
+        "descricao": "A sociedade do espetáculo - Guy Debord",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Equilíbrio Iônico",
+        "descricao": "Equilíbrio Iônico",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "3ª Fase do Modernismo (Poesia)",
+        "descricao": "3ª Fase do Modernismo (Poesia)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Dilatação Térmica",
+        "descricao": "Dilatação Térmica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Regência nominal",
+        "descricao": "Regência nominal",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Eletrodinâmica: Geradores Elétricos",
+        "descricao": "Eletrodinâmica: Geradores Elétricos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Competência 7 - Habilidade 21",
+        "descricao": "Competência 7 - Habilidade 21",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

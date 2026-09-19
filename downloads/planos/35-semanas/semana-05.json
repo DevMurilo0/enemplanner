@@ -1,0 +1,198 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Proteínas e Enzimologia",
+        "descricao": "Proteínas e Enzimologia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Porcentagem, Juros Simples e Compostos",
+        "descricao": "Porcentagem, Juros Simples e Compostos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Questões básicas - Enem 2022",
+        "descricao": "Questões básicas - Enem 2022",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Introdução a citologia: eucariontes e procariontes. Leis da citologia (Lei de Spencer, Lei de Driesch e Lei de Hertwing)",
+        "descricao": "Introdução a citologia: eucariontes e procariontes. Leis da citologia (Lei de Spencer, Lei de Driesch e Lei de Hertwing)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Grécia: o Período Clássico e Período Helenístico - Parte 2",
+        "descricao": "Grécia: o Período Clássico e Período Helenístico - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "As manifestações culturais para entender o Brasil (aula especial de repertório)",
+        "descricao": "As manifestações culturais para entender o Brasil (aula especial de repertório)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Membrana plasmática e seus transportes passivos (difusão e Osmose), ativos (bombas), Endocitoses (fagocitose, pinocitose e pinocitose mediada por receptor).",
+        "descricao": "Membrana plasmática e seus transportes passivos (difusão e Osmose), ativos (bombas), Endocitoses (fagocitose, pinocitose e pinocitose mediada por receptor).",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "A União Ibérica e o Brasil Holandês",
+        "descricao": "A União Ibérica e o Brasil Holandês",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 5)",
+        "descricao": "Text Comprehension (Enem e vestibulares 5)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Reações químicas em solução (reações ácido base e de oxirredução)",
+        "descricao": "Reações químicas em solução (reações ácido base e de oxirredução)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Aristóteles",
+        "descricao": "Aristóteles",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Perfect Tenses",
+        "descricao": "Perfect Tenses",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Hidrocarbonetos (alcanos, alcenos e alcinos)",
+        "descricao": "Hidrocarbonetos (alcanos, alcenos e alcinos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "A sociologia e a relação entre indivíduo e sociedade",
+        "descricao": "A sociologia e a relação entre indivíduo e sociedade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Superfícies da terra: unidades do relevo brasileiro",
+        "descricao": "Superfícies da terra: unidades do relevo brasileiro",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Leis de Newton - Parte 2",
+        "descricao": "Leis de Newton - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Arte Neoclássica - Arcadismo (Artes Plásticas)",
+        "descricao": "Arte Neoclássica - Arcadismo (Artes Plásticas)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Hidrografia",
+        "descricao": "Hidrografia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Espelhos Esféricos - Parte 2",
+        "descricao": "Espelhos Esféricos - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Gêneros e tipos textuais - Parte 1",
+        "descricao": "Gêneros e tipos textuais - Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

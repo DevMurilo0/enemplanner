@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Água",
+        "descricao": "Água",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Explorando Números Inteiros, Fatores e Segredos do MMC e MDC",
+        "descricao": "Explorando Números Inteiros, Fatores e Segredos do MMC e MDC",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Questões básicas - Enem 2023",
+        "descricao": "Questões básicas - Enem 2023",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Sais Minerais características e atividade biológica",
+        "descricao": "Sais Minerais características e atividade biológica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Pré-História",
+        "descricao": "Pré-História",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "Estrutura textual - Estrutura básica do texto dissertativo-argumentativo (introdução, desenvolvimento e conclusão, MACRO)",
+        "descricao": "Estrutura textual - Estrutura básica do texto dissertativo-argumentativo (introdução, desenvolvimento e conclusão, MACRO)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Vitaminas lipossolúveis e hidrossolúveis",
+        "descricao": "Vitaminas lipossolúveis e hidrossolúveis",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "O Brasil Pré-Cabralino, as Sociedades \"Ameríndias\" e o Período Pré-Colonial",
+        "descricao": "O Brasil Pré-Cabralino, as Sociedades \"Ameríndias\" e o Período Pré-Colonial",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 2)",
+        "descricao": "Text Comprehension (Enem e vestibulares 2)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Métodos de separação das misturas",
+        "descricao": "Métodos de separação das misturas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Pré-Socráticos",
+        "descricao": "Pré-Socráticos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Present Simple",
+        "descricao": "Present Simple",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Introdução à química orgânica",
+        "descricao": "Introdução à química orgânica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "O pensamento de Émile Durkheim",
+        "descricao": "O pensamento de Émile Durkheim",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Cartografia",
+        "descricao": "Cartografia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Movimentos Variados",
+        "descricao": "Movimentos Variados",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Barroco (Artes Plásticas)",
+        "descricao": "Barroco (Artes Plásticas)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Introdução à Óptica Geométrica - Parte 2",
+        "descricao": "Introdução à Óptica Geométrica - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Reescrita de frases",
+        "descricao": "Reescrita de frases",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Especializações de membrana plasmática",
+        "descricao": "Especializações de membrana plasmática",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Revisão de Matemática Básica: Conjuntos Numéricos, Razão, Proporção, Porcentagem e Juros Descomplicados",
+        "descricao": "Revisão de Matemática Básica: Conjuntos Numéricos, Razão, Proporção, Porcentagem e Juros Descomplicados",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Questões operacionais - Enem 2022",
+        "descricao": "Questões operacionais - Enem 2022",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Citoplasma (endoplasma, ectoplasma, tixotropia e movimentos citoplasmáticos) e organelas ou estruturas amembranosas do citoesqueleto",
+        "descricao": "Citoplasma (endoplasma, ectoplasma, tixotropia e movimentos citoplasmáticos) e organelas ou estruturas amembranosas do citoesqueleto",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Roma: a Monarquia e a República - Parte 1",
+        "descricao": "Roma: a Monarquia e a República - Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "Um lugar ao sol (aula especial de repertório)",
+        "descricao": "Um lugar ao sol (aula especial de repertório)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Organelas Citoplasmáticas",
+        "descricao": "Organelas Citoplasmáticas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Bandeiras, Entradas, Monções e Expansão das Fronteiras do Brasil",
+        "descricao": "Bandeiras, Entradas, Monções e Expansão das Fronteiras do Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 6)",
+        "descricao": "Text Comprehension (Enem e vestibulares 6)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Estequiometria (pureza e rendimento)",
+        "descricao": "Estequiometria (pureza e rendimento)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Filosofia Helenística",
+        "descricao": "Filosofia Helenística",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Modal Verbs",
+        "descricao": "Modal Verbs",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Hidrocarbonetos (alcadienos, ciclanos, ciclenos e aromáticos)",
+        "descricao": "Hidrocarbonetos (alcadienos, ciclanos, ciclenos e aromáticos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Cultura e Diversidade Cultural",
+        "descricao": "Cultura e Diversidade Cultural",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Mecanismos do clima e circulação atmosférica",
+        "descricao": "Mecanismos do clima e circulação atmosférica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Força de Atrito",
+        "descricao": "Força de Atrito",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Arte Neoclássica - Arcadismo (Literatura)",
+        "descricao": "Arte Neoclássica - Arcadismo (Literatura)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Refração da Luz - Parte 1",
+        "descricao": "Refração da Luz - Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Gêneros e tipos textuais - Parte 2",
+        "descricao": "Gêneros e tipos textuais - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

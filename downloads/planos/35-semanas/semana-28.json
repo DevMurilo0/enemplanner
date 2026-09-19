@@ -1,0 +1,180 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Genética Mendeliana",
+        "descricao": "Genética Mendeliana",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Eletrodinâmica: Receptores Elétricos",
+        "descricao": "Eletrodinâmica: Receptores Elétricos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Competência 7 - Habilidade 22",
+        "descricao": "Competência 7 - Habilidade 22",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Estudo dos heredogramas",
+        "descricao": "Estudo dos heredogramas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Geometria no Espaço: Elementos 3D e Poliedros Desvendados",
+        "descricao": "Geometria no Espaço: Elementos 3D e Poliedros Desvendados",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "Questões ambientais - Sociólogo Laymert Garcia dos Santos e Biólogo Marcos Reigota",
+        "descricao": "Questões ambientais - Sociólogo Laymert Garcia dos Santos e Biólogo Marcos Reigota",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Herança dos grupos sanguíneos",
+        "descricao": "Herança dos grupos sanguíneos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Governo João Goulart e os Primeiros Governos Militares (Castelo Branco e Costa e Silva)",
+        "descricao": "Governo João Goulart e os Primeiros Governos Militares (Castelo Branco e Costa e Silva)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 28)",
+        "descricao": "Text Comprehension (Enem e vestibulares 28)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "A segunda lei de Mendel",
+        "descricao": "A segunda lei de Mendel",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Michel Foucault",
+        "descricao": "Michel Foucault",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Os novos processos de migração",
+        "descricao": "Os novos processos de migração",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Funções Inorgânicas: Óxidos e Sais",
+        "descricao": "Funções Inorgânicas: Óxidos e Sais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Decolonialidade",
+        "descricao": "Decolonialidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Hidrólise Salina",
+        "descricao": "Hidrólise Salina",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "3ª Fase do Modernismo (Prosa)",
+        "descricao": "3ª Fase do Modernismo (Prosa)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Propagação do Calor",
+        "descricao": "Propagação do Calor",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Teoria da comunicação - Funções da Linguagem",
+        "descricao": "Teoria da comunicação - Funções da Linguagem",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

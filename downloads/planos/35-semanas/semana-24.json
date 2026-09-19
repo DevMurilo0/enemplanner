@@ -1,0 +1,180 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Termorregulação humana e nos animais",
+        "descricao": "Termorregulação humana e nos animais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Explorando Probabilidade Condicional e Diagramas em Árvore",
+        "descricao": "Explorando Probabilidade Condicional e Diagramas em Árvore",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "Rumo à estratégia perfeita: como escolher os tópicos frasais, o teórico e os dados",
+        "descricao": "Rumo à estratégia perfeita: como escolher os tópicos frasais, o teórico e os dados",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Sistema Nervoso Humano",
+        "descricao": "Sistema Nervoso Humano",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "O Imperialismo e a Segunda Revolução Industrial",
+        "descricao": "O Imperialismo e a Segunda Revolução Industrial",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "Polimento da Redação - Estratégias para organizar os argumentos",
+        "descricao": "Polimento da Redação - Estratégias para organizar os argumentos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Sistema Nervoso Comparado do Animais",
+        "descricao": "Sistema Nervoso Comparado do Animais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Escola de Frankfurt: Habermas",
+        "descricao": "Escola de Frankfurt: Habermas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 24)",
+        "descricao": "Text Comprehension (Enem e vestibulares 24)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Peneira Molecular",
+        "descricao": "Peneira Molecular",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Racismo, exclusão e representatividade",
+        "descricao": "Racismo, exclusão e representatividade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Revisão Geofísica",
+        "descricao": "Revisão Geofísica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Química do DNA",
+        "descricao": "Química do DNA",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "1ª Fase do Modernismo",
+        "descricao": "1ª Fase do Modernismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Hidrostática - Parte 2",
+        "descricao": "Hidrostática - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Concordância verbal",
+        "descricao": "Concordância verbal",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Eletrodinâmica: Leis de Ohm",
+        "descricao": "Eletrodinâmica: Leis de Ohm",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Competência 6 – Habilidade 18",
+        "descricao": "Competência 6 – Habilidade 18",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Reino Protoctista: Protozoários",
+        "descricao": "Reino Protoctista: Protozoários",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Desvendando a Esfera e Sólidos Inscritos e Circunscritos",
+        "descricao": "Desvendando a Esfera e Sólidos Inscritos e Circunscritos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "O que falta para o 1000: desvendando a tabela de correção do Enem - Parte 1 (Competência 1)",
+        "descricao": "O que falta para o 1000: desvendando a tabela de correção do Enem - Parte 1 (Competência 1)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Reino Protoctista: Algas",
+        "descricao": "Reino Protoctista: Algas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "A Segunda Guerra Mundial (1939 - 1945)",
+        "descricao": "A Segunda Guerra Mundial (1939 - 1945)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "O que falta para o 1000: desvendando a tabela de correção do Enem - Parte 2 (Competência 1)",
+        "descricao": "O que falta para o 1000: desvendando a tabela de correção do Enem - Parte 2 (Competência 1)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "O Reino dos Fungos",
+        "descricao": "O Reino dos Fungos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Byung-Chul Han",
+        "descricao": "Byung-Chul Han",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "O que falta para o 1000: desvendando a tabela de correção do Enem (Competência 2)",
+        "descricao": "O que falta para o 1000: desvendando a tabela de correção do Enem (Competência 2)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Produto de Solubilidade",
+        "descricao": "Produto de Solubilidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Gilberto Freyre, Sérgio Buarque de Holanda, Caio Prado Jr e Florestan Fernandes",
+        "descricao": "Gilberto Freyre, Sérgio Buarque de Holanda, Caio Prado Jr e Florestan Fernandes",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 31)",
+        "descricao": "Text Comprehension (Enem e vestibulares 31)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Reações Orgânicas - Parte 3",
+        "descricao": "Reações Orgânicas - Parte 3",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Arte contemporânea: tendências da fotografia, cinema e arte digital",
+        "descricao": "Arte contemporânea: tendências da fotografia, cinema e arte digital",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Urbanização no Brasil",
+        "descricao": "Urbanização no Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Temperatura e Calor",
+        "descricao": "Temperatura e Calor",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Sintaxe",
+        "descricao": "Sintaxe",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Eletrodinâmica: Tô Chocado!",
+        "descricao": "Eletrodinâmica: Tô Chocado!",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Competência 8 - Habilidade 25, 26 e 27",
+        "descricao": "Competência 8 - Habilidade 25, 26 e 27",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

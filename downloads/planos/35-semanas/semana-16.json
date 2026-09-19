@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Tecido Muscular e Tecido nervoso",
+        "descricao": "Tecido Muscular e Tecido nervoso",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Desvendando os Logaritmos: Conceitos, Propriedades, Equações e Inequações",
+        "descricao": "Desvendando os Logaritmos: Conceitos, Propriedades, Equações e Inequações",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Competência 3 - Habilidade 10",
+        "descricao": "Competência 3 - Habilidade 10",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Introdução à ecologia (cadeias alimentares, pirâmides ecológicas)",
+        "descricao": "Introdução à ecologia (cadeias alimentares, pirâmides ecológicas)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Revoluções Inglesas do Século XVII",
+        "descricao": "Revoluções Inglesas do Século XVII",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "O desenvolvimento e a montagem do tópico frasal com base na tese",
+        "descricao": "O desenvolvimento e a montagem do tópico frasal com base na tese",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Ciclos Biogeoquímicos - Parte 1 (nitrogênio)",
+        "descricao": "Ciclos Biogeoquímicos - Parte 1 (nitrogênio)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Segundo Reinado: Guerra do Paraguai e Declínio - Parte 2",
+        "descricao": "Segundo Reinado: Guerra do Paraguai e Declínio - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 16)",
+        "descricao": "Text Comprehension (Enem e vestibulares 16)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Eletrólise - Parte 1 (aspectos qualitativos, aplicações no dia a dia, eletrólise com eletrodos ativos e purificação de metais)",
+        "descricao": "Eletrólise - Parte 1 (aspectos qualitativos, aplicações no dia a dia, eletrólise com eletrodos ativos e purificação de metais)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Cultura e linguagem",
+        "descricao": "Cultura e linguagem",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Articles",
+        "descricao": "Articles",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Isomeria Espacial Óptica",
+        "descricao": "Isomeria Espacial Óptica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Trabalho e sociedade na contemporaneidade",
+        "descricao": "Trabalho e sociedade na contemporaneidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Nova Ordem Mundial: China, Rússia e EUA",
+        "descricao": "Nova Ordem Mundial: China, Rússia e EUA",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Impulso e Quantidade de Movimento - Parte 2",
+        "descricao": "Impulso e Quantidade de Movimento - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Simbolismo",
+        "descricao": "Simbolismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Eletrostática",
+        "descricao": "Eletrostática",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Conjunções Subordinativas",
+        "descricao": "Conjunções Subordinativas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

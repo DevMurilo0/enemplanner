@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Digestão Humana",
+        "descricao": "Digestão Humana",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Revisão Completa de Análise Combinatória: Conceitos e Aplicações",
+        "descricao": "Revisão Completa de Análise Combinatória: Conceitos e Aplicações",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Competência 5 - Habilidade 15",
+        "descricao": "Competência 5 - Habilidade 15",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Digestão comparada dos seres vivos",
+        "descricao": "Digestão comparada dos seres vivos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Revolução Francesa: A Convenção Nacional, o Diretório e o Golpe do 18 de Brumário - Parte 2",
+        "descricao": "Revolução Francesa: A Convenção Nacional, o Diretório e o Golpe do 18 de Brumário - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "Os teóricos do Brasil e nossas ideias sobre tudo - Raquel Rolnik (arquiteta e urbanista)",
+        "descricao": "Os teóricos do Brasil e nossas ideias sobre tudo - Raquel Rolnik (arquiteta e urbanista)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Circulação sanguínea humana",
+        "descricao": "Circulação sanguínea humana",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Era Vargas: Revolução de 1930, Governo Provisório e Governo Constitucional - Parte 1",
+        "descricao": "Era Vargas: Revolução de 1930, Governo Provisório e Governo Constitucional - Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 21)",
+        "descricao": "Text Comprehension (Enem e vestibulares 21)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Ligação Covalente",
+        "descricao": "Ligação Covalente",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Existencialismo: Kierkegaard e Sartre",
+        "descricao": "Existencialismo: Kierkegaard e Sartre",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Genitive Case's",
+        "descricao": "Genitive Case's",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Equilíbrio Químico",
+        "descricao": "Equilíbrio Químico",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "A questão prisional",
+        "descricao": "A questão prisional",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Conflitos no Oriente Médio",
+        "descricao": "Conflitos no Oriente Médio",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Princípios fundamentais da conservação",
+        "descricao": "Princípios fundamentais da conservação",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Vanguardas europeias (Fauvismo, Expressionismo e Futurismo)",
+        "descricao": "Vanguardas europeias (Fauvismo, Expressionismo e Futurismo)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Que Onda!",
+        "descricao": "Que Onda!",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Gramática na prática 1",
+        "descricao": "Gramática na prática 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

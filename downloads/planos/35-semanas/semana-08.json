@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Ciclo celular - Mitose e Meiose",
+        "descricao": "Ciclo celular - Mitose e Meiose",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Geometria Essencial: Semelhança de Triângulos, Leis dos Senos e Cossenos, e Polígonos",
+        "descricao": "Geometria Essencial: Semelhança de Triângulos, Leis dos Senos e Cossenos, e Polígonos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Questões básicas - Enem 2021",
+        "descricao": "Questões básicas - Enem 2021",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Ciclos de vida (haplobionte haplonte, haplobionte Diplonte e haplodiplobionte)",
+        "descricao": "Ciclos de vida (haplobionte haplonte, haplobionte Diplonte e haplodiplobionte)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Alta Idade Média Ocidental",
+        "descricao": "Alta Idade Média Ocidental",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "Montagem do esquema de Redação - Eixos temáticos",
+        "descricao": "Montagem do esquema de Redação - Eixos temáticos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Erros cromossômicos numéricos e estruturais (euploidias, aneuploidias, mosaicos e quimeras)",
+        "descricao": "Erros cromossômicos numéricos e estruturais (euploidias, aneuploidias, mosaicos e quimeras)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Ciclo da mineração e período pombalino",
+        "descricao": "Ciclo da mineração e período pombalino",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 8)",
+        "descricao": "Text Comprehension (Enem e vestibulares 8)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Tratamento de Água (coagulação, floculação, agentes químicos esterilizantes, sedimentação e filtração)",
+        "descricao": "Tratamento de Água (coagulação, floculação, agentes químicos esterilizantes, sedimentação e filtração)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Introdução à Filosofia Moderna",
+        "descricao": "Introdução à Filosofia Moderna",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Used To/ To Be Used To",
+        "descricao": "Used To/ To Be Used To",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Hidrogênio Verde (produção, eletrólise, painel solar e combustível do futuro)",
+        "descricao": "Hidrogênio Verde (produção, eletrólise, painel solar e combustível do futuro)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Socialização e controle social",
+        "descricao": "Socialização e controle social",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Os domínios de vegetação e natureza no mundo",
+        "descricao": "Os domínios de vegetação e natureza no mundo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Força Resultante Centrípeta",
+        "descricao": "Força Resultante Centrípeta",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Romantismo (Artes Plásticas)",
+        "descricao": "Romantismo (Artes Plásticas)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Lentes Esféricas",
+        "descricao": "Lentes Esféricas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Acentuação",
+        "descricao": "Acentuação",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Fermentação alcoólica, láctica e acética",
+        "descricao": "Fermentação alcoólica, láctica e acética",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Função Afim Descomplicada: Conceitos, Gráficos e Propriedades",
+        "descricao": "Função Afim Descomplicada: Conceitos, Gráficos e Propriedades",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Redação",
+        "cor": "#b48a73",
+        "titulo": "Novos repertórios para introdução das melhores redações do país",
+        "descricao": "Novos repertórios para introdução das melhores redações do país",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Reprodução Geral (Assexuada e Sexuada)",
+        "descricao": "Reprodução Geral (Assexuada e Sexuada)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Idade Média Oriental: Civilização Bizantina - Parte 2",
+        "descricao": "Idade Média Oriental: Civilização Bizantina - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Text Comprehension (Enem e vestibulares 11)",
+        "descricao": "Text Comprehension (Enem e vestibulares 11)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Anatomia e fisiologia do sistema reprodutor (masculino e feminino)",
+        "descricao": "Anatomia e fisiologia do sistema reprodutor (masculino e feminino)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Processo de independência do Brasil",
+        "descricao": "Processo de independência do Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Question Tags",
+        "descricao": "Question Tags",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Densidade Absoluta (definição e determinação)",
+        "descricao": "Densidade Absoluta (definição e determinação)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Teoria do Conhecimento - Criticismo Kantiano",
+        "descricao": "Teoria do Conhecimento - Criticismo Kantiano",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Mudanças Climáticas e Conferências ambientais",
+        "descricao": "Mudanças Climáticas e Conferências ambientais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Funções Orgânicas Nitrogenadas (aminas, amidas, nitrocompostos e nitrilos) e Derivados Halogenados",
+        "descricao": "Funções Orgânicas Nitrogenadas (aminas, amidas, nitrocompostos e nitrilos) e Derivados Halogenados",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Democracia e Cidadania",
+        "descricao": "Democracia e Cidadania",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Movimento Harmônico Simples (MHS)",
+        "descricao": "Movimento Harmônico Simples (MHS)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Textos narrativos e seus gêneros textuais",
+        "descricao": "Textos narrativos e seus gêneros textuais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Câmera, Luz e Ação",
+        "descricao": "Câmera, Luz e Ação",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Interpretação de Texto",
+        "cor": "#849a93",
+        "titulo": "Competência 1 - Habilidade 1",
+        "descricao": "Competência 1 - Habilidade 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}
