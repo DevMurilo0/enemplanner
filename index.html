@@ -253,7 +253,7 @@
       </div>
       <div class="modal__body guide-body">
         <div class="guide-row"><span>1</span><div><strong>Escolha um cronograma</strong><p>Use “Importar plano” para selecionar um dos planos disponíveis.</p></div></div>
-        <div class="guide-row"><span>2</span><div><strong>Personalize o plano</strong><p>Escolha de qual semana partir e desative as matérias que você não quer estudar. O restante é reorganizado automaticamente.</p></div></div>
+        <div class="guide-row"><span>2</span><div><strong>Adapte ao tempo que falta</strong><p>Se restarem menos semanas que o plano original, o Planner reorganiza o conteúdo para caber no período sem simplesmente apagar as semanas anteriores.</p></div></div>
         <div class="guide-row"><span>3</span><div><strong>Acompanhe em quatro visões</strong><p>Use Dia, Semana, Mês e Ano para alternar entre foco no presente e visão geral.</p></div></div>
         <div class="guide-row"><span>4</span><div><strong>Continue com liberdade</strong><p>Você ainda pode importar uma semana isolada, editar blocos, distribuir conteúdos e exportar sua semana.</p></div></div>
         <div class="guide-note">Importar um plano completo substitui conteúdos já existentes no período escolhido. O Planner avisa antes de continuar.</div>
@@ -266,28 +266,50 @@
   </div>
 
   <div class="overlay" id="plan-overlay" role="dialog" aria-modal="true" aria-labelledby="plan-title">
-    <div class="modal modal--compact">
+    <div class="modal modal--wide plan-import-modal">
       <div class="modal__head">
         <div><span class="eyebrow">Importação completa</span><h2 id="plan-title">Importar um plano inteiro</h2></div>
         <button class="modal-close" id="plan-close" type="button" aria-label="Fechar">×</button>
       </div>
       <div class="modal__body">
-        <p class="modal-lead">Escolha o cronograma, a semana do plano em que você quer entrar e a data em que vai começar.</p>
+        <p class="modal-lead">Escolha o cronograma e quanto tempo você tem. Se o plano original for maior, o Planner adapta o conteúdo para caber no período disponível.</p>
         <div class="plan-import-fields">
           <label class="plan-field">
             <span>Plano</span>
             <select id="plan-select"></select>
           </label>
           <label class="plan-field">
-            <span>Começar pela semana</span>
+            <span>Em qual semana do plano você está?</span>
             <select id="plan-week-start"></select>
-            <small class="plan-field__help">Pode pular o início do cronograma. Exemplo: começar na Semana 3 usa somente da Semana 3 até o final.</small>
+            <small class="plan-field__help">O número ao lado mostra quantas semanas caberão no seu calendário. O conteúdo das semanas anteriores não será perdido por padrão.</small>
+            <div class="plan-enem-fit" id="plan-enem-fit" hidden>
+              <span id="plan-enem-fit-text"></span>
+              <button id="plan-enem-fit-btn" type="button">Ajustar ao ENEM</button>
+            </div>
           </label>
           <label class="plan-field plan-field--wide">
             <span>Data de início</span>
             <input id="plan-start-date" type="date" />
           </label>
         </div>
+        <section class="plan-adaptation" aria-labelledby="plan-adaptation-title">
+          <div class="plan-adaptation__head">
+            <span class="plan-import-summary__label">Adaptação do cronograma</span>
+            <strong id="plan-adaptation-title">Nenhuma semana precisa ser perdida</strong>
+            <p>Se você tiver menos tempo que o plano original, o Planner redistribui os conteúdos das matérias escolhidas dentro das semanas restantes.</p>
+          </div>
+          <label class="plan-skip-option">
+            <input id="plan-skip-previous" type="checkbox" />
+            <span>
+              <strong>Já estudei as semanas anteriores</strong>
+              <small>Marque apenas se você realmente já concluiu esse conteúdo. Nesse caso, ele não será trazido para o novo cronograma.</small>
+            </span>
+          </label>
+          <div class="plan-optimization-preview" id="plan-optimization-preview">
+            <span class="plan-optimization-preview__status">Preparando a prévia do cronograma...</span>
+          </div>
+        </section>
+
         <section class="plan-subjects" aria-labelledby="plan-subjects-title">
           <div class="plan-subjects__head">
             <div>
@@ -311,7 +333,7 @@
           <p id="plan-range-label">Selecione um plano para ver o período.</p>
           <div class="plan-import-count" id="plan-import-count">Todas as semanas serão importadas.</div>
         </div>
-        <p class="plan-import-note">A data é ajustada para o domingo da semana escolhida. Se já houver conteúdo no período, o Planner pedirá confirmação antes de substituir.</p>
+        <p class="plan-import-note">A data é ajustada para o domingo da semana escolhida. A adaptação preserva todos os conteúdos das matérias selecionadas, agrupando temas no mesmo bloco somente quando for necessário para caber no período.</p>
         <p class="plan-import-status" id="plan-import-status" hidden></p>
       </div>
       <div class="modal__foot">

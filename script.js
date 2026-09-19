@@ -83,6 +83,8 @@ let detailsContext = null;
 let toastTimer = null;
 let distItems = [];
 let selectedPlanSubjects = new Set(SUBJECTS.map(subject => subject.id));
+const planWeeksCache = new Map();
+let planPreviewToken = 0;
 
 const $ = (id) => document.getElementById(id);
 
@@ -969,8 +971,259 @@ function updatePlanWeekOptions(preferredWeek = null) {
 
   select.innerHTML = Array.from({ length: plan.total }, (_, index) => {
     const week = index + 1;
-    return `<option value="${week}" ${week === selected ? 'selected' : ''}>Semana ${week}</option>`;
+    const remaining = plan.total - week + 1;
+    const suffix = week === 1
+      ? 'plano completo'
+      : `${remaining} semana${remaining === 1 ? '' : 's'} no calendário`;
+    return `<option value="${week}" ${week === selected ? 'selected' : ''}>Semana ${week} · ${suffix}</option>`;
   }).join('');
+}
+
+function getTargetPlanWeeks() {
+  const plan = AVAILABLE_PLANS.find(item => item.id === $('plan-select').value) || AVAILABLE_PLANS[0];
+  return plan.total - getSelectedPlanStartWeek() + 1;
+}
+
+function getWeeksUntilEnemFromStart() {
+  const start = getPlanStartDate();
+  const startUtc = Date.UTC(start.getFullYear(), start.getMonth(), start.getDate());
+  const enemUtc = Date.UTC(2026, 10, 8);
+  const diffDays = Math.floor((enemUtc - startUtc) / 86400000);
+  if (diffDays < 0) return 0;
+  return Math.max(1, Math.floor(diffDays / 7));
+}
+
+function updateEnemFitSuggestion() {
+  const box = $('plan-enem-fit');
+  const text = $('plan-enem-fit-text');
+  const button = $('plan-enem-fit-btn');
+  if (!box || !text || !button) return;
+
+  const plan = AVAILABLE_PLANS.find(item => item.id === $('plan-select').value) || AVAILABLE_PLANS[0];
+  const available = getWeeksUntilEnemFromStart();
+
+  if (!available || available >= plan.total) {
+    box.hidden = true;
+    return;
+  }
+
+  const targetWeeks = Math.max(1, available);
+  const suggestedWeek = plan.total - targetWeeks + 1;
+  box.hidden = false;
+  text.textContent = `Pela data escolhida, há cerca de ${targetWeeks} semana${targetWeeks === 1 ? '' : 's'} até o 1º dia do ENEM.`;
+  button.textContent = `Usar ${targetWeeks} semana${targetWeeks === 1 ? '' : 's'}`;
+  button.dataset.suggestedWeek = String(suggestedWeek);
+}
+
+async function loadPlanWeeks(plan) {
+  if (planWeeksCache.has(plan.id)) return planWeeksCache.get(plan.id);
+
+  const promise = Promise.all(Array.from({ length: plan.total }, async (_, index) => {
+    const week = index + 1;
+    const response = await fetch(`${plan.folder}/${planFileName(week)}`, { cache: 'no-store' });
+    if (!response.ok) throw new Error(`A Semana ${week} não está disponível.`);
+    const parsed = await response.json();
+    const error = validateWeekJSON(parsed);
+    if (error) throw new Error(`Semana ${week}: ${error}`);
+    return { week, semana: parsed.semana };
+  }));
+
+  planWeeksCache.set(plan.id, promise);
+  try {
+    return await promise;
+  } catch (error) {
+    planWeeksCache.delete(plan.id);
+    throw error;
+  }
+}
+
+function flattenSelectedContents(weekEntries, selectedIds) {
+  const contents = [];
+  let sourceOrder = 0;
+
+  weekEntries.forEach(({ week, semana }) => {
+    DAY_KEYS_ORDER.forEach((dayKey, dayIndex) => {
+      (semana[dayKey] || []).forEach((block, blockIndex) => {
+        const subjectId = resolveSubjectId(block.materia);
+        if (!subjectId || !selectedIds.has(subjectId)) return;
+
+        contents.push({
+          materia: block.materia || getSubject(subjectId)?.label || '',
+          titulo: block.titulo || '',
+          descricao: block.descricao || '',
+          detalhes: block.detalhes || '',
+          duracao: block.duracao || '',
+          prioridade: block.prioridade || '',
+          subjectId,
+          sourceWeek: week,
+          sourceOrder: sourceOrder++,
+          originalDayIndex: dayIndex,
+          originalBlockIndex: blockIndex
+        });
+      });
+    });
+  });
+
+  return contents;
+}
+
+function bundleContentGroup(group) {
+  if (group.length === 1) {
+    return {
+      ...group[0],
+      bundleSize: 1
+    };
+  }
+
+  const subject = getSubject(group[0].subjectId);
+  const titles = group.map(item => item.titulo || item.descricao || 'Conteúdo').filter(Boolean);
+  const sourceWeeks = [...new Set(group.map(item => item.sourceWeek))];
+
+  return {
+    materia: subject?.label || group[0].materia,
+    titulo: titles.length === 2
+      ? `${titles[0]} + ${titles[1]}`
+      : `${titles[0]} + ${titles.length - 1} conteúdos`,
+    descricao: `Conteúdos reunidos para adaptar o cronograma:\n${titles.map((title, index) => `${index + 1}. ${title}`).join('\n')}`,
+    detalhes: `Este bloco preserva conteúdos do plano original das semanas ${sourceWeeks.join(', ')}.\n\n${titles.map((title, index) => `${index + 1}. ${title}`).join('\n')}`,
+    duracao: '',
+    prioridade: group.find(item => item.prioridade)?.prioridade || '',
+    subjectId: group[0].subjectId,
+    sourceWeek: Math.min(...sourceWeeks),
+    sourceOrder: group.reduce((sum, item) => sum + item.sourceOrder, 0) / group.length,
+    bundleSize: group.length
+  };
+}
+
+function compressContentsToCapacity(contents, capacity) {
+  if (contents.length <= capacity) {
+    return {
+      blocks: contents.map(item => ({ ...item, bundleSize: 1 })),
+      maxBundleSize: 1,
+      groupedBlocks: 0
+    };
+  }
+
+  const bySubject = new Map();
+  contents.forEach(item => {
+    if (!bySubject.has(item.subjectId)) bySubject.set(item.subjectId, []);
+    bySubject.get(item.subjectId).push(item);
+  });
+
+  let chunkSize = 2;
+  const blockCountFor = size => [...bySubject.values()]
+    .reduce((total, items) => total + Math.ceil(items.length / size), 0);
+
+  while (blockCountFor(chunkSize) > capacity) chunkSize++;
+
+  const blocks = [];
+  bySubject.forEach(items => {
+    items.sort((a, b) => a.sourceOrder - b.sourceOrder);
+    for (let index = 0; index < items.length; index += chunkSize) {
+      blocks.push(bundleContentGroup(items.slice(index, index + chunkSize)));
+    }
+  });
+
+  blocks.sort((a, b) => a.sourceOrder - b.sourceOrder);
+
+  return {
+    blocks,
+    maxBundleSize: Math.max(1, ...blocks.map(block => block.bundleSize || 1)),
+    groupedBlocks: blocks.filter(block => (block.bundleSize || 1) > 1).length
+  };
+}
+
+function distributeOptimizedBlocksAcrossWeeks(blocks, targetWeeks) {
+  const result = [];
+  let cursor = 0;
+
+  for (let index = 0; index < targetWeeks; index++) {
+    const remainingBlocks = blocks.length - cursor;
+    const remainingWeeks = targetWeeks - index;
+    const take = remainingWeeks > 0 ? Math.ceil(remainingBlocks / remainingWeeks) : 0;
+    const bucket = blocks.slice(cursor, cursor + take);
+    cursor += take;
+
+    const { semana, overflow } = distribute(bucket);
+    if (overflow.length) throw new Error('Não foi possível distribuir todos os conteúdos dentro da capacidade semanal.');
+    result.push(semana);
+  }
+
+  return result;
+}
+
+function buildAdaptivePlan(allWeekEntries, targetWeeks, selectedIds, skipPrevious, firstWeek) {
+  const sourceEntries = skipPrevious
+    ? allWeekEntries.filter(entry => entry.week >= firstWeek)
+    : allWeekEntries;
+
+  const contents = flattenSelectedContents(sourceEntries, selectedIds);
+  const capacity = targetWeeks * 7 * MAX_BLOCKS_PER_DAY;
+  const compressed = compressContentsToCapacity(contents, capacity);
+  const weeks = distributeOptimizedBlocksAcrossWeeks(compressed.blocks, targetWeeks);
+
+  return {
+    weeks,
+    originalContentCount: contents.length,
+    scheduledBlockCount: compressed.blocks.length,
+    maxBundleSize: compressed.maxBundleSize,
+    groupedBlocks: compressed.groupedBlocks,
+    skippedSourceWeeks: skipPrevious ? Math.max(0, firstWeek - 1) : 0
+  };
+}
+
+async function updatePlanOptimizationPreview() {
+  const preview = $('plan-optimization-preview');
+  if (!preview) return;
+
+  const token = ++planPreviewToken;
+  const plan = AVAILABLE_PLANS.find(item => item.id === $('plan-select').value) || AVAILABLE_PLANS[0];
+  const firstWeek = getSelectedPlanStartWeek();
+  const targetWeeks = plan.total - firstWeek + 1;
+  const selectedIds = getSelectedPlanSubjectIds();
+  const skipPrevious = $('plan-skip-previous')?.checked === true;
+
+  if (!selectedIds.size) {
+    preview.innerHTML = '<span class="plan-optimization-preview__warning">Escolha pelo menos uma matéria para montar a prévia.</span>';
+    return;
+  }
+
+  preview.innerHTML = '<span class="plan-optimization-preview__status">Calculando a melhor distribuição...</span>';
+
+  try {
+    const allWeeks = await loadPlanWeeks(plan);
+    if (token !== planPreviewToken) return;
+
+    const optimized = buildAdaptivePlan(allWeeks, targetWeeks, selectedIds, skipPrevious, firstWeek);
+    const originalPlanText = plan.total === targetWeeks
+      ? `Plano com ${plan.total} semanas`
+      : `Plano original: ${plan.total} semanas <span>→</span> Seu plano: ${targetWeeks} semanas`;
+
+    let detail;
+    if (skipPrevious && firstWeek > 1) {
+      detail = `As Semanas 1 a ${firstWeek - 1} serão ignoradas porque você marcou que já estudou esse conteúdo. Os ${optimized.originalContentCount} conteúdos restantes serão reorganizados.`;
+    } else if (targetWeeks < plan.total) {
+      detail = `Todos os ${optimized.originalContentCount} conteúdos das matérias selecionadas serão preservados e redistribuídos em ${targetWeeks} semanas.`;
+    } else {
+      detail = `Os ${optimized.originalContentCount} conteúdos das matérias selecionadas serão mantidos na duração original do plano.`;
+    }
+
+    const grouping = optimized.maxBundleSize > 1
+      ? ` Para caber sem excluir conteúdo, alguns blocos reunirão até ${optimized.maxBundleSize} conteúdos da mesma matéria.`
+      : ' Nenhum conteúdo precisará ser agrupado.';
+
+    preview.innerHTML = `
+      <div class="plan-optimization-preview__headline">${originalPlanText}</div>
+      <p>${detail}${grouping}</p>
+      <div class="plan-optimization-preview__badges">
+        <span>${optimized.originalContentCount} conteúdos preservados</span>
+        <span>${optimized.scheduledBlockCount} blocos de estudo</span>
+      </div>
+    `;
+  } catch (error) {
+    if (token !== planPreviewToken) return;
+    preview.innerHTML = `<span class="plan-optimization-preview__warning">${escapeHtml(error.message || 'Não foi possível preparar a prévia.')}</span>`;
+  }
 }
 
 function getSelectedPlanStartWeek() {
@@ -997,8 +1250,8 @@ function updatePlanImportSummary() {
   end.setDate(end.getDate() + weeksToImport * 7 - 1);
 
   $('plan-start-label').textContent = firstWeek === 1
-    ? `${plan.title}, desde a Semana 1`
-    : `${plan.title}, começando pela Semana ${firstWeek}`;
+    ? `${plan.title}, duração original`
+    : `${plan.title} adaptado para ${weeksToImport} semana${weeksToImport === 1 ? '' : 's'}`;
 
   $('plan-range-label').textContent = `No calendário: ${start.toLocaleDateString('pt-BR')} a ${end.toLocaleDateString('pt-BR')}.`;
 
@@ -1018,7 +1271,10 @@ function updatePlanImportSummary() {
     ? 'Escolha uma matéria'
     : firstWeek === 1
       ? 'Importar plano completo'
-      : `Importar ${weeksToImport} semanas`;
+      : `Montar plano de ${weeksToImport} semanas`;
+
+  updateEnemFitSuggestion();
+  updatePlanOptimizationPreview();
 }
 
 function openPlanImport(planId = null, startWeek = 1) {
@@ -1026,6 +1282,7 @@ function openPlanImport(planId = null, startWeek = 1) {
   if (planId && AVAILABLE_PLANS.some(plan => plan.id === String(planId))) $('plan-select').value = String(planId);
   updatePlanWeekOptions(startWeek);
   resetPlanSubjectSelection();
+  if ($('plan-skip-previous')) $('plan-skip-previous').checked = false;
 
   const anchor = viewMode === 'week' ? getWeekStart(weekOffset) : getCurrentAnchorDate();
   $('plan-start-date').value = toDateKey(anchor);
@@ -1050,8 +1307,9 @@ async function importFullPlan() {
   if (!plan) return;
 
   const firstWeek = getSelectedPlanStartWeek();
-  const weeksToImport = plan.total - firstWeek + 1;
+  const targetWeeks = plan.total - firstWeek + 1;
   const selectedSubjects = getSelectedPlanSubjectIds();
+  const skipPrevious = $('plan-skip-previous')?.checked === true;
 
   if (!selectedSubjects.size) {
     $('plan-import-status').hidden = false;
@@ -1060,35 +1318,23 @@ async function importFullPlan() {
   }
 
   const start = getPlanStartDate();
-  const existing = countExistingInPlanRange(start, weeksToImport);
-
+  const existing = countExistingInPlanRange(start, targetWeeks);
   if (existing && !window.confirm(`Já existem ${existing} conteúdos nesse período. Deseja substituir e continuar?`)) return;
 
   const status = $('plan-import-status');
   const run = $('plan-run');
   status.hidden = false;
-  status.textContent = firstWeek === 1
-    ? `Carregando ${weeksToImport} semanas...`
-    : `Carregando da Semana ${firstWeek} até a Semana ${plan.total}...`;
+  status.textContent = targetWeeks < plan.total
+    ? `Reorganizando o plano de ${plan.total} semanas para ${targetWeeks} semanas...`
+    : `Preparando as ${targetWeeks} semanas...`;
   run.disabled = true;
-  run.textContent = 'Importando...';
+  run.textContent = 'Organizando...';
 
   try {
-    const weekNumbers = Array.from({ length: weeksToImport }, (_, index) => firstWeek + index);
+    const allWeeks = await loadPlanWeeks(plan);
+    const optimized = buildAdaptivePlan(allWeeks, targetWeeks, selectedSubjects, skipPrevious, firstWeek);
 
-    const weeks = await Promise.all(weekNumbers.map(async week => {
-      const response = await fetch(`${plan.folder}/${planFileName(week)}`, { cache: 'no-store' });
-      if (!response.ok) throw new Error(`A Semana ${week} não está disponível.`);
-      const parsed = await response.json();
-      const error = validateWeekJSON(parsed);
-      if (error) throw new Error(`Semana ${week}: ${error}`);
-      return {
-        week,
-        semana: organizeFilteredWeek(parsed.semana, selectedSubjects)
-      };
-    }));
-
-    weeks.forEach(({ semana }, index) => {
+    optimized.weeks.forEach((semana, index) => {
       const weekStart = new Date(start);
       weekStart.setDate(weekStart.getDate() + index * 7);
       writeWeek(semana, weekStart);
@@ -1097,20 +1343,19 @@ async function importFullPlan() {
     saveData();
     closePlanImport();
 
-    const customized = selectedSubjects.size !== SUBJECTS.length;
-    const successMessage = firstWeek === 1
-      ? customized
+    const subjectCustomized = selectedSubjects.size !== SUBJECTS.length;
+    const durationCustomized = targetWeeks !== plan.total;
+    const successMessage = durationCustomized
+      ? `Plano reorganizado em ${targetWeeks} semanas com ${optimized.originalContentCount} conteúdos preservados.`
+      : subjectCustomized
         ? `${plan.title} personalizado e importado com sucesso.`
-        : `${plan.title} importado com sucesso.`
-      : customized
-        ? `Semana ${firstWeek} até Semana ${plan.total} importadas com as matérias escolhidas.`
-        : `Semana ${firstWeek} até Semana ${plan.total} importadas com sucesso.`;
+        : `${plan.title} importado com sucesso.`;
 
     showToast(successMessage, 'success');
     setViewMode('week', start);
   } catch (error) {
     status.hidden = false;
-    status.textContent = error.message || 'Não foi possível importar o plano.';
+    status.textContent = error.message || 'Não foi possível reorganizar o plano.';
     run.disabled = false;
     updatePlanImportSummary();
   }
@@ -1354,12 +1599,19 @@ function bindEvents() {
   $('plan-cancel').addEventListener('click', closePlanImport);
   $('plan-select').addEventListener('change', () => {
     updatePlanWeekOptions(1);
+    if ($('plan-skip-previous')) $('plan-skip-previous').checked = false;
     updatePlanImportSummary();
   });
   $('plan-week-start').addEventListener('change', updatePlanImportSummary);
   $('plan-start-date').addEventListener('change', updatePlanImportSummary);
   $('plan-subjects-all').addEventListener('click', () => setAllPlanSubjects(true));
   $('plan-subjects-none').addEventListener('click', () => setAllPlanSubjects(false));
+  $('plan-skip-previous').addEventListener('change', updatePlanImportSummary);
+  $('plan-enem-fit-btn').addEventListener('click', () => {
+    const suggestedWeek = Number($('plan-enem-fit-btn').dataset.suggestedWeek) || 1;
+    updatePlanWeekOptions(suggestedWeek);
+    updatePlanImportSummary();
+  });
   $('plan-run').addEventListener('click', importFullPlan);
 
   $('edit-close').addEventListener('click', closeEdit);
