@@ -32,10 +32,6 @@
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
           <span>Planos prontos</span>
         </a>
-        <button class="action" id="btn-import" type="button">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 19h14"/></svg>
-          <span>Importar semana</span>
-        </button>
         <button class="action action--ghost" id="btn-help" type="button">
           <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.8 9a2.4 2.4 0 1 1 4.6 1c-.5 1-1.5 1.4-2 2.2-.3.4-.4.8-.4 1.3M12 17h.01"/></svg>
           <span>Como usar</span>
@@ -50,7 +46,6 @@
           </div>
         </div>
       </nav>
-      <input type="file" id="file-input" accept=".json,application/json" hidden />
     </div>
   </header>
 
@@ -81,17 +76,6 @@
       <svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
       Mostrar apresentação
     </button>
-
-    <section class="import-hint" id="import-hint" hidden>
-      <div>
-        <span class="import-hint__icon">↓</span>
-        <div>
-          <strong>Arquivo baixado? Agora falta só importar.</strong>
-          <p>Selecione o JSON da semana que você acabou de baixar.</p>
-        </div>
-      </div>
-      <button class="button button--primary" id="hint-import" type="button">Selecionar arquivo</button>
-    </section>
 
     <section class="enem-countdown" id="enem-countdown" aria-live="polite">
       <div class="enem-countdown__icon" aria-hidden="true">
@@ -151,7 +135,6 @@
         </div>
         <div class="section-heading__tools">
           <button class="button button--secondary button--small" id="section-full-plan" type="button">Importar plano</button>
-          <button class="button button--secondary button--small" id="section-import" type="button">Importar semana</button>
           <button class="button button--secondary button--small" id="section-distribute" type="button">Distribuir manualmente</button>
         </div>
       </div>
@@ -267,7 +250,7 @@
         <div class="guide-row"><span>1</span><div><strong>Escolha um cronograma</strong><p>Use “Importar plano” para selecionar um dos planos disponíveis.</p></div></div>
         <div class="guide-row"><span>2</span><div><strong>Adapte ao tempo que falta</strong><p>Se restarem menos semanas que o plano original, deixe “Reorganizar” marcado para encaixar os conteúdos das semanas que ficariam de fora.</p></div></div>
         <div class="guide-row"><span>3</span><div><strong>Acompanhe em quatro visões</strong><p>Use Dia, Semana, Mês e Ano para alternar entre foco no presente e visão geral.</p></div></div>
-        <div class="guide-row"><span>4</span><div><strong>Continue com liberdade</strong><p>Você ainda pode importar uma semana isolada, editar blocos, distribuir conteúdos e exportar sua semana.</p></div></div>
+        <div class="guide-row"><span>4</span><div><strong>Ajuste quando precisar</strong><p>Edite blocos, distribua conteúdos manualmente e reorganize seu plano sem depender de arquivos externos.</p></div></div>
         <div class="guide-note">Importar um plano completo substitui conteúdos já existentes no período escolhido. O Planner avisa antes de continuar.</div>
       </div>
       <div class="modal__foot">

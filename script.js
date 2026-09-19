@@ -1610,9 +1610,6 @@ function resetPlanner() {
   planPreviewToken++;
   planWeeksCache.clear();
 
-  if ($('file-input')) $('file-input').value = '';
-  if ($('import-hint')) $('import-hint').hidden = true;
-
   closeResetPlanner();
   renderCalendar();
   showToast('Planner limpo. Todas as semanas estão livres novamente.', 'success');
@@ -1649,9 +1646,7 @@ function bindEvents() {
   $('intro-collapse')?.addEventListener('click', () => setIntroCollapsed(true));
   $('intro-restore')?.addEventListener('click', () => setIntroCollapsed(false));
 
-  [$('btn-import'), $('hint-import'), $('section-import')].forEach(btn => btn?.addEventListener('click', triggerImport));
   [$('btn-full-plan'), $('quick-full-plan'), $('section-full-plan'), $('help-full-plan')].forEach(btn => btn?.addEventListener('click', () => openPlanImport()));
-  $('file-input').addEventListener('change', () => importJSON($('file-input').files[0]));
 
   $('btn-help').addEventListener('click', () => openHelp(true));
   $('footer-help')?.addEventListener('click', () => openHelp(true));
@@ -1716,20 +1711,14 @@ function bindEvents() {
 
 function handleEntryContext() {
   const params = new URLSearchParams(location.search);
-  const shouldImport = params.get('import') === '1' || location.hash === '#importar';
   const fullPlanId = params.get('plan');
   const fullPlanStartWeek = Number(params.get('startWeek')) || 1;
   const shouldImportPlan = params.get('full') === '1' && fullPlanId;
-  if (shouldImport) {
-    $('import-hint').hidden = false;
-    $('btn-import').classList.add('pulse-import');
-    setTimeout(() => $('btn-import').classList.remove('pulse-import'), 3000);
-  }
 
   if (shouldImportPlan) setTimeout(() => openPlanImport(fullPlanId, fullPlanStartWeek), 120);
 
   const hasAnyData = Object.values(data).some(day => Array.isArray(day) && day.some(block => block?.subject));
-  if (!localStorage.getItem(TUTORIAL_KEY) && !hasAnyData && !shouldImport && !shouldImportPlan) {
+  if (!localStorage.getItem(TUTORIAL_KEY) && !hasAnyData && !shouldImportPlan) {
     setTimeout(() => openHelp(true), 550);
   }
 }

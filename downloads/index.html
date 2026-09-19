@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Baixe cronogramas prontos para importar no Planner ENEM." />
+  <meta name="description" content="Explore os cronogramas do Planner ENEM, veja o conteúdo de cada semana e importe o plano ideal." />
   <meta name="theme-color" content="#0d0d0c" />
   <title>Planos prontos | Planner ENEM</title>
   <link rel="icon" type="image/png" href="../icon.png" />
@@ -25,42 +25,76 @@
 
   <main class="shell">
     <section class="hero">
-      <span class="eyebrow">Escolha seu plano</span>
-      <h1>Importe um cronograma inteiro com um único clique.</h1>
-      <p>Você pode enviar o plano completo direto para o Planner. Se preferir, os arquivos semanais continuam disponíveis para download individual.</p>
+      <span class="eyebrow">Explore antes de importar</span>
+      <h1>Veja exatamente o que você vai estudar.</h1>
+      <p>Abra um plano inteiro ou uma semana específica. Pesquise temas, filtre por matéria e só depois decida qual cronograma faz sentido para você.</p>
     </section>
 
-    <section class="steps" aria-label="Como usar os downloads">
-      <article class="step step--active"><span>01</span><div><strong>Escolher</strong><p>Selecione o cronograma.</p></div></article>
-      <article class="step"><span>02</span><div><strong>Importar plano</strong><p>Defina a data de início.</p></div></article>
-      <article class="step"><span>03</span><div><strong>Acompanhar</strong><p>Veja semana, mês ou ano.</p></div></article>
+    <section class="steps" aria-label="Como usar os planos">
+      <article class="step step--active"><span>01</span><div><strong>Explore</strong><p>Veja todas as semanas e conteúdos.</p></div></article>
+      <article class="step"><span>02</span><div><strong>Filtre</strong><p>Pesquise por tema ou matéria.</p></div></article>
+      <article class="step"><span>03</span><div><strong>Importe</strong><p>Leve o plano para o Planner quando estiver pronto.</p></div></article>
     </section>
 
     <section class="plans-heading">
-      <div><span class="eyebrow">Cronogramas disponíveis</span><h2>Qual plano você está seguindo?</h2></div>
-      <p>Importe tudo de uma vez ou baixe somente uma semana quando precisar.</p>
+      <div>
+        <span class="eyebrow">Cronogramas disponíveis</span>
+        <h2>Qual plano combina com o tempo que você tem?</h2>
+      </div>
+      <p>Cada semana mostra uma prévia. Para pesquisar tudo de uma vez, use “Explorar plano”.</p>
     </section>
 
     <div class="plans" id="plans"></div>
 
     <section class="help-card">
       <div>
-        <span class="eyebrow">Ainda ficou em dúvida?</span>
-        <h2>Você não precisa mais baixar semana por semana.</h2>
-        <p>Use “Importar plano completo” para escolher uma data de início e preencher todo o cronograma automaticamente.</p>
+        <span class="eyebrow">Quando decidir</span>
+        <h2>O Planner adapta o cronograma ao seu tempo.</h2>
+        <p>Você pode escolher as matérias, reduzir a duração e reorganizar os conteúdos antes de importar.</p>
       </div>
       <a class="button button--primary" href="../">Abrir o Planner</a>
     </section>
   </main>
 
-  <footer>Feito de forma independente por Murilo Gabriel Souza da Silva.</footer>
+  <footer>Planner ENEM · Projeto independente por Murilo Gabriel.</footer>
 
-  <div class="download-next" id="download-next" hidden>
-    <div>
-      <span class="download-next__check">✓</span>
-      <div><strong id="download-next-title">Download iniciado</strong><p>Agora volte ao planner e importe o arquivo.</p></div>
-    </div>
-    <a class="button button--primary" href="../?import=1">Ir para importar</a>
+  <div class="explorer-overlay" id="explorer-overlay" aria-hidden="true">
+    <section class="explorer" role="dialog" aria-modal="true" aria-labelledby="explorer-title">
+      <header class="explorer__header">
+        <div>
+          <span class="eyebrow">Explorar conteúdo</span>
+          <h2 id="explorer-title">Cronograma</h2>
+          <p id="explorer-subtitle">Carregando conteúdo...</p>
+        </div>
+        <div class="explorer__header-actions">
+          <a class="button button--primary" id="explorer-import" href="../">Importar este plano</a>
+          <button class="explorer__close" id="explorer-close" type="button" aria-label="Fechar">×</button>
+        </div>
+      </header>
+
+      <div class="explorer__toolbar">
+        <label class="search-field">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+          <input id="explorer-search" type="search" placeholder="Pesquisar conteúdo, tema ou matéria" autocomplete="off" />
+        </label>
+
+        <label class="scope-field">
+          <span>Visualização</span>
+          <select id="explorer-scope"></select>
+        </label>
+      </div>
+
+      <div class="subject-filters" id="subject-filters" aria-label="Filtrar por matéria"></div>
+
+      <div class="explorer__summary">
+        <strong id="explorer-result-count">0 conteúdos</strong>
+        <span id="explorer-active-filter">Todas as matérias</span>
+      </div>
+
+      <div class="explorer__body" id="explorer-body">
+        <div class="explorer-loading">Carregando conteúdo...</div>
+      </div>
+    </section>
   </div>
 
   <script src="downloads.js"></script>
