@@ -1,0 +1,198 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Introdução à ecologia, cadeias alimentares, pirâmides ecológicas e fl…",
+        "descricao": "Introdução à ecologia, cadeias alimentares, pirâmides ecológicas e fluxo de energia.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Funções-Quadrática - Parte 1 e 2 (Conceitos, Propriedades, Gráficos, …",
+        "descricao": "Funções-Quadrática - Parte 1 e 2 (Conceitos, Propriedades, Gráficos, Forma Fatorada, máximos e mínimos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Vanguardas europeias - Quebrar para criar: a arte em tempos de ruptura",
+        "descricao": "Vanguardas europeias - Quebrar para criar: a arte em tempos de ruptura",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Ciclos biogeoquímicos: Ciclo do Nitrogênio",
+        "descricao": "Ciclos biogeoquímicos: Ciclo do Nitrogênio",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Segundo Reinado - Parte 1 (Política e Economia)",
+        "descricao": "Segundo Reinado - Parte 1 (Política e Economia)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Figuras de linguagem e efeitos de sentido: metáfora, metonímia, ironí…",
+        "descricao": "Figuras de linguagem e efeitos de sentido: metáfora, metonímia, ironía, hipérbole, eufemismo, antítese, paradoxo etc",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Ciclos biogeoquímicos: Carbono, água e oxigênio",
+        "descricao": "Ciclos biogeoquímicos: Carbono, água e oxigênio",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Processo de Independência dos Estados Unidos",
+        "descricao": "Processo de Independência dos Estados Unidos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Enem e vestibulares 9",
+        "descricao": "Enem e vestibulares 9",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Produto de solubilidade",
+        "descricao": "Produto de solubilidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Revolução Francesa - Parte 1 (dos antecedentes até o fim da Monarquia…",
+        "descricao": "Revolução Francesa - Parte 1 (dos antecedentes até o fim da Monarquia Constitucional)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "There Be x Have",
+        "descricao": "There Be x Have",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Saponificação (diferença entre sabão e detergente)",
+        "descricao": "Saponificação (diferença entre sabão e detergente)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Estética contemporânea: corpo, imagem e tecnologia",
+        "descricao": "Estética contemporânea: corpo, imagem e tecnologia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Mundialização do Capitalismo e as instituições financeiras internacio…",
+        "descricao": "Mundialização do Capitalismo e as instituições financeiras internacionais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Trabalho mecânico e Potência",
+        "descricao": "Trabalho mecânico e Potência",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Decolonialidade",
+        "descricao": "Decolonialidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Blocos Econômicos, Mercado Global e Estratégias de Inserção na Global…",
+        "descricao": "Blocos Econômicos, Mercado Global e Estratégias de Inserção na Globalização",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Ondas",
+        "descricao": "Ondas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Crise do Cuidado e Reprodução Social",
+        "descricao": "Crise do Cuidado e Reprodução Social",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}
