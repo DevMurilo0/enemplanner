@@ -1,0 +1,216 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Duplicação semiconservativa do DNA",
+        "descricao": "Duplicação semiconservativa do DNA",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Introdução à óptica geométrica - Parte II",
+        "descricao": "Introdução à óptica geométrica - Parte II",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Identidade, representação e estigma",
+        "descricao": "Identidade, representação e estigma",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Novas tecnologias cartográficas",
+        "descricao": "Novas tecnologias cartográficas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "RNA: Transcrição, tradução, características do código genético",
+        "descricao": "RNA: Transcrição, tradução, características do código genético",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Razão e proporção; Escalas; Grandezas proporcionais",
+        "descricao": "Razão e proporção; Escalas; Grandezas proporcionais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Arte do Renascimento - A revolução do saber e da técnica",
+        "descricao": "Arte do Renascimento - A revolução do saber e da técnica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Tradução e síntese proteica.",
+        "descricao": "Tradução e síntese proteica.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Início da Colonização: As Capitanias Hereditárias e o Governo-Geral",
+        "descricao": "Início da Colonização: As Capitanias Hereditárias e o Governo-Geral",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Pontuação I",
+        "descricao": "Pontuação I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Estequiometria (pureza e rendimento)",
+        "descricao": "Estequiometria (pureza e rendimento)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Grécia: Período Clássico e Período Helenístico - Parte 2",
+        "descricao": "Grécia: Período Clássico e Período Helenístico - Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Pontuação II",
+        "descricao": "Pontuação II",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Isomeria espacial geométrica",
+        "descricao": "Isomeria espacial geométrica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Introdução à Filosofia Moderna",
+        "descricao": "Introdução à Filosofia Moderna",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Enem e vestibulares 2",
+        "descricao": "Enem e vestibulares 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Isomeria espacial óptica",
+        "descricao": "Isomeria espacial óptica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Modernidade e o sujeito do conhecimento",
+        "descricao": "Modernidade e o sujeito do conhecimento",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Present Simple",
+        "descricao": "Present Simple",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Movimento uniformemente variado (MUV) e Movimento vertical",
+        "descricao": "Movimento uniformemente variado (MUV) e Movimento vertical",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Cultura, etnocentrismo e alteridade",
+        "descricao": "Cultura, etnocentrismo e alteridade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Cartografia",
+        "descricao": "Cartografia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}
