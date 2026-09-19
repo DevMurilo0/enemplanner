@@ -1,0 +1,198 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Fanerógamas: angiospermas",
+        "descricao": "Fanerógamas: angiospermas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Geometria espacial - Retas e planos no espaço, Vistas e perspectivas,…",
+        "descricao": "Geometria espacial - Retas e planos no espaço, Vistas e perspectivas, Projeções ortogonais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Advérbios e Locuções Adverbiais",
+        "descricao": "Advérbios e Locuções Adverbiais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Evolução: teorias evolucionistas de Lamarck e Darwin. Neodarwinismo e…",
+        "descricao": "Evolução: teorias evolucionistas de Lamarck e Darwin. Neodarwinismo e tipos de adaptação",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Era Vargas - Parte 1 (Revolução de 1930, Governo Provisório e Governo…",
+        "descricao": "Era Vargas - Parte 1 (Revolução de 1930, Governo Provisório e Governo Constitucional)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Preposição e relações de sentido",
+        "descricao": "Preposição e relações de sentido",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Evidências evolutivas, especiação e isolamento reprodutivo",
+        "descricao": "Evidências evolutivas, especiação e isolamento reprodutivo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Período Entreguerras: A Crise de 1929 e os Totalitarismos",
+        "descricao": "Período Entreguerras: A Crise de 1929 e os Totalitarismos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Enem e vestibulares 14",
+        "descricao": "Enem e vestibulares 14",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Reação de simples troca",
+        "descricao": "Reação de simples troca",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Poder, Corpo e Subjetividade",
+        "descricao": "Poder, Corpo e Subjetividade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Passive Voice",
+        "descricao": "Passive Voice",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Reações orgânicas - Parte 4",
+        "descricao": "Reações orgânicas - Parte 4",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Raça, Racismo e Branquitude no Brasil Contemporâneo",
+        "descricao": "Raça, Racismo e Branquitude no Brasil Contemporâneo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Os novos processos de migração",
+        "descricao": "Os novos processos de migração",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Gravitação universal - Parte I",
+        "descricao": "Gravitação universal - Parte I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Pop Art e a crítica à arte moderna - Imagem em excesso: consumo, repr…",
+        "descricao": "Pop Art e a crítica à arte moderna - Imagem em excesso: consumo, reprodução e ironia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "A industrialização brasileira",
+        "descricao": "A industrialização brasileira",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Lei de coulomb",
+        "descricao": "Lei de coulomb",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Da obra ao conceito: a crise do objeto artístico",
+        "descricao": "Da obra ao conceito: a crise do objeto artístico",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}
