@@ -1,0 +1,207 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Divisão celular: Meiose (reducional)",
+        "descricao": "Divisão celular: Meiose (reducional)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Explorando Triângulos: Conceitos, Propriedades e Suas Formas Especiais",
+        "descricao": "Explorando Triângulos: Conceitos, Propriedades e Suas Formas Especiais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Movimentos sociais no Brasil",
+        "descricao": "Movimentos sociais no Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "A Fotossíntese: O papel da Luz e Os Processos de Fotofosforilação Ací…",
+        "descricao": "A Fotossíntese: O papel da Luz e Os Processos de Fotofosforilação Acíclica e Cíclica (fase clara).",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Ciclo da mineração e período pombalino",
+        "descricao": "Ciclo da mineração e período pombalino",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Romantismo - O triunfo da emoção e do indivíduo",
+        "descricao": "Romantismo - O triunfo da emoção e do indivíduo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "A Fotossíntese: Ciclo de Calvin (fase escura) e fatores limitantes da…",
+        "descricao": "A Fotossíntese: Ciclo de Calvin (fase escura) e fatores limitantes da fotossíntese (Luz, CO2 e temperatura).",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Idade Média Oriental - Parte 1 (Civilização Islâmica)",
+        "descricao": "Idade Média Oriental - Parte 1 (Civilização Islâmica)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Concordância nominal — armadilhas frequentes: “É proibido”; “meio/mei…",
+        "descricao": "Concordância nominal — armadilhas frequentes: “É proibido”; “meio/meia”; “anexo”; “bastante”; “mesmo”; “todo”; “obrigado”",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Equilíbrio iônico",
+        "descricao": "Equilíbrio iônico",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "O problema moral: fundamentos históricos e filosóficos",
+        "descricao": "O problema moral: fundamentos históricos e filosóficos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Enem e vestibulares 5",
+        "descricao": "Enem e vestibulares 5",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Previsão da acidez na química orgânica",
+        "descricao": "Previsão da acidez na química orgânica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Moral e Sociedade: conflitos, normas e valores",
+        "descricao": "Moral e Sociedade: conflitos, normas e valores",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Perfect Tenses",
+        "descricao": "Perfect Tenses",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Leis de Newton - Parte II",
+        "descricao": "Leis de Newton - Parte II",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Dilemas morais contemporâneos",
+        "descricao": "Dilemas morais contemporâneos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Características climáticas do território brasileiro",
+        "descricao": "Características climáticas do território brasileiro",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Espelhos esféricos - Parte II",
+        "descricao": "Espelhos esféricos - Parte II",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Movimentos sociais",
+        "descricao": "Movimentos sociais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Os domínios de vegetação e natureza no mundo",
+        "descricao": "Os domínios de vegetação e natureza no mundo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}
