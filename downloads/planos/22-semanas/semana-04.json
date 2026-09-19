@@ -1,0 +1,252 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Membrana plasmática e seus transportes passivos (difusão e osmose) e ativos (bombas e endocitoses)",
+        "descricao": "Membrana plasmática e seus transportes passivos (difusão e osmose) e ativos (bombas e endocitoses)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Espelhos esféricos - Parte I",
+        "descricao": "Espelhos esféricos - Parte I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Política, Estado Dominação e Poder",
+        "descricao": "Política, Estado Dominação e Poder",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Crase",
+        "descricao": "Crase",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Organelas Citoplasmáticas - Parte 1 (ribossomos, retículo, golgi, lisossomos)",
+        "descricao": "Organelas Citoplasmáticas - Parte 1 (ribossomos, retículo, golgi, lisossomos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Revisão de Matemática Básica: Conjuntos numéricos, sistemas de numeração, potências, raízes, notação científica e sistemas de medidas",
+        "descricao": "Revisão de Matemática Básica: Conjuntos numéricos, sistemas de numeração, potências, raízes, notação científica e sistemas de medidas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Democracia, cidadania e direitos humanos",
+        "descricao": "Democracia, cidadania e direitos humanos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 4",
+        "descricao": "Enem e vestibulares 4",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Organelas Citoplasmáticas - Parte 2 (peroxissomos, glioxissomos, vacúolos, mitocôndrias, cloroplastos, centríolos)",
+        "descricao": "Organelas Citoplasmáticas - Parte 2 (peroxissomos, glioxissomos, vacúolos, mitocôndrias, cloroplastos, centríolos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Bandeiras, Entradas, Monções e Expansão das Fronteiras do Brasil",
+        "descricao": "Bandeiras, Entradas, Monções e Expansão das Fronteiras do Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Nacionalismo, globalização e identitarismo",
+        "descricao": "Nacionalismo, globalização e identitarismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Present and Past Continuous",
+        "descricao": "Present and Past Continuous",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Ligação iônica",
+        "descricao": "Ligação iônica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Roma - Parte 1 (a Monarquia e a República)",
+        "descricao": "Roma - Parte 1 (a Monarquia e a República)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Quinhentismo - Olhar europeu, cultura visual, colonização e representação do Brasil",
+        "descricao": "Quinhentismo - Olhar europeu, cultura visual, colonização e representação do Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Superfícies da terra: unidades do relevo brasileiro",
+        "descricao": "Superfícies da terra: unidades do relevo brasileiro",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Radioatividade (cinética das emissões)",
+        "descricao": "Radioatividade (cinética das emissões)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Roma - Parte 2 (a fase do Império)",
+        "descricao": "Roma - Parte 2 (a fase do Império)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Barroco - Excesso, drama e persuasão",
+        "descricao": "Barroco - Excesso, drama e persuasão",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Hidrografia: geomorfologia fluvial",
+        "descricao": "Hidrografia: geomorfologia fluvial",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Cinética química",
+        "descricao": "Cinética química",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Filosofia política moderna - Maquiavel e o contrato",
+        "descricao": "Filosofia política moderna - Maquiavel e o contrato",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Regência verbal — verbos campeões: assistir, preferir, visar, implicar, obedecer, aspirar, namorar, chegar, ir etc.",
+        "descricao": "Regência verbal — verbos campeões: assistir, preferir, visar, implicar, obedecer, aspirar, namorar, chegar, ir etc.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Leis de Newton - Parte I",
+        "descricao": "Leis de Newton - Parte I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Filosofia política contemporânea - Estado, mercado, tecnologia e identidades",
+        "descricao": "Filosofia política contemporânea - Estado, mercado, tecnologia e identidades",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Regência nominal: adjetivos e nomes que exigem preposição; mudança de sentido por regência.",
+        "descricao": "Regência nominal: adjetivos e nomes que exigem preposição; mudança de sentido por regência.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

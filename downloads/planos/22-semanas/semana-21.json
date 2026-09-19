@@ -1,0 +1,180 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Vírus: características gerais, ciclo lítico e lisogênico",
+        "descricao": "Vírus: características gerais, ciclo lítico e lisogênico",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Força magnética",
+        "descricao": "Força magnética",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Subordinadas adverbiais. Causa, consequência, concessão, condição, finalidade, tempo, comparação etc.",
+        "descricao": "Subordinadas adverbiais. Causa, consequência, concessão, condição, finalidade, tempo, comparação etc.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Procariontes/Reino monera: bactérias, cianobactérias e arqueobactérias",
+        "descricao": "Procariontes/Reino monera: bactérias, cianobactérias e arqueobactérias",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Geometria espacial - Esfera , Sólidos inscritos e circunscritos",
+        "descricao": "Geometria espacial - Esfera , Sólidos inscritos e circunscritos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 21",
+        "descricao": "Enem e vestibulares 21",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Principais protozooses do Brasil: Amebíase, Giardíase, Leishmaniose tegumentar e visceral, Malária, Doença de Chagas, Doença do sono, Toxoplasmose, Tricomoníase, Balantidíase",
+        "descricao": "Principais protozooses do Brasil: Amebíase, Giardíase, Leishmaniose tegumentar e visceral, Malária, Doença de Chagas, Doença do sono, Toxoplasmose, Tricomoníase, Balantidíase",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Ditadura Militar: O Ápice e o Declínio (Governos Médici, Geisel e Figueiredo)",
+        "descricao": "Ditadura Militar: O Ápice e o Declínio (Governos Médici, Geisel e Figueiredo)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Genitive Case's",
+        "descricao": "Genitive Case's",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Fungos: características, classificação e reprodução",
+        "descricao": "Fungos: características, classificação e reprodução",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Guerra Fria - Parte 1 (Origens, Descolonização Afro-Asiática e 1968)",
+        "descricao": "Guerra Fria - Parte 1 (Origens, Descolonização Afro-Asiática e 1968)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "A Questão Agrária Brasileira",
+        "descricao": "A Questão Agrária Brasileira",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Oxidação e redução",
+        "descricao": "Oxidação e redução",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Pós-modernidade, Consumo e Informação",
+        "descricao": "Pós-modernidade, Consumo e Informação",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Biocombustíveis",
+        "descricao": "Biocombustíveis",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Classes, elites e subalternidade",
+        "descricao": "Classes, elites e subalternidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Termodinâmica - Parte I",
+        "descricao": "Termodinâmica - Parte I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Arte afro-brasileira e identidade - Memória, corpo e território",
+        "descricao": "Arte afro-brasileira e identidade - Memória, corpo e território",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

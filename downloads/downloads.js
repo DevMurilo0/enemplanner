@@ -1,7 +1,8 @@
 const PLANS = [
   { id: '9', total: 9, folder: 'planos/9-semanas', title: '9 semanas', description: 'Cronograma inédito de 9 semanas.' },
   { id: '14', total: 14, folder: 'planos/14-semanas', title: '14 semanas', description: 'Cronograma anterior em 14 semanas.' },
-  { id: '18', total: 18, folder: 'planos/18-semanas', title: '18 semanas', description: 'Cronograma inédito de 18 semanas.' }
+  { id: '18', total: 18, folder: 'planos/18-semanas', title: '18 semanas', description: 'Cronograma inédito de 18 semanas.' },
+  { id: '22', total: 22, folder: 'planos/22-semanas', title: '22 semanas', description: 'Cronograma inédito de 22 semanas.' }
 ];
 
 function fileName(number) {

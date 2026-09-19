@@ -1,0 +1,180 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Segunda Lei de Mendel (segregação independente dos gametas) e suas proporções fenotípicas e genotípicas.",
+        "descricao": "Segunda Lei de Mendel (segregação independente dos gametas) e suas proporções fenotípicas e genotípicas.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Geometria espacial - Retas e planos no espaço, Vistas e perspectivas, Projeções ortogonais",
+        "descricao": "Geometria espacial - Retas e planos no espaço, Vistas e perspectivas, Projeções ortogonais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 18",
+        "descricao": "Enem e vestibulares 18",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Determinação do sexo, heranças genéticas sexuais (ligada, holândrica, limitada e influenciada) e genética das populações (Equilíbrio gênico de hard-Weimberg).",
+        "descricao": "Determinação do sexo, heranças genéticas sexuais (ligada, holândrica, limitada e influenciada) e genética das populações (Equilíbrio gênico de hard-Weimberg).",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Governo de Dutra e Segundo Governo Vargas",
+        "descricao": "Governo de Dutra e Segundo Governo Vargas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Degrees of The Adjectives",
+        "descricao": "Degrees of The Adjectives",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Biotecnologia completa",
+        "descricao": "Biotecnologia completa",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Unificações da Alemanha e Itália e a Primeira Guerra Mundial (1914 - 1918)",
+        "descricao": "Unificações da Alemanha e Itália e a Primeira Guerra Mundial (1914 - 1918)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Urbanização (Brasil e mundo)",
+        "descricao": "Urbanização (Brasil e mundo)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Reação de simples troca",
+        "descricao": "Reação de simples troca",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Poder, Corpo e Subjetividade",
+        "descricao": "Poder, Corpo e Subjetividade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Hierarquia urbana e rede urbana",
+        "descricao": "Hierarquia urbana e rede urbana",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Reações orgânicas - Parte 4",
+        "descricao": "Reações orgânicas - Parte 4",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Raça, Racismo e Branquitude no Brasil Contemporâneo",
+        "descricao": "Raça, Racismo e Branquitude no Brasil Contemporâneo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Dilatação Térmica",
+        "descricao": "Dilatação Térmica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Fotografia e cinema como arte - Novos olhares, novas narrativas",
+        "descricao": "Fotografia e cinema como arte - Novos olhares, novas narrativas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Associação de Resistores",
+        "descricao": "Associação de Resistores",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Orações coordenadas: Aditiva, adversativa, alternativa, conclusiva, explicativa; conectivos e valores.",
+        "descricao": "Orações coordenadas: Aditiva, adversativa, alternativa, conclusiva, explicativa; conectivos e valores.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Verminoses causadas por platelminto e nematelmintos: Esquistossomose, Teníase e Cisticercose, Ascaridíase, Ancilostomose, Filariose, Oxiuríase e Larva migrans (bicho geográfico)",
+        "descricao": "Verminoses causadas por platelminto e nematelmintos: Esquistossomose, Teníase e Cisticercose, Ascaridíase, Ancilostomose, Filariose, Oxiuríase e Larva migrans (bicho geográfico)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Termodinâmica - Parte II",
+        "descricao": "Termodinâmica - Parte II",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Antropoceno, ecologia e futuro",
+        "descricao": "Antropoceno, ecologia e futuro",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Prefixes and Suffixes",
+        "descricao": "Prefixes and Suffixes",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Zoologia Geral (níveis de organização, folhetos embrionários, Celoma, protostomia e deuterostomia, simetria, metameria) - árvore filogenética dos animais",
+        "descricao": "Zoologia Geral (níveis de organização, folhetos embrionários, Celoma, protostomia e deuterostomia, simetria, metameria) - árvore filogenética dos animais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Indução eletromagnética",
+        "descricao": "Indução eletromagnética",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "O Brasil entre Democracia, Autoritarismo e Populismo",
+        "descricao": "O Brasil entre Democracia, Autoritarismo e Populismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "A Organização do Estado Brasileiro",
+        "descricao": "A Organização do Estado Brasileiro",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Artrópodes (Filo Arthropoda)",
+        "descricao": "Artrópodes (Filo Arthropoda)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Operação Raciocínio: Problemas de 1º grau, razão, proporção e porcentagem sem mistério + Revisando as 4 operações elementares e suas aplicações e frações, potências e raízes",
+        "descricao": "Operação Raciocínio: Problemas de 1º grau, razão, proporção e porcentagem sem mistério + Revisando as 4 operações elementares e suas aplicações e frações, potências e raízes",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Arte em tempo real - da arte popular à arte digital: redes, mercado e experiência e cotidiano",
+        "descricao": "Arte em tempo real - da arte popular à arte digital: redes, mercado e experiência e cotidiano",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Geografia Cultural",
+        "descricao": "Geografia Cultural",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Cordados vertebrados (anfíbios e répteis)",
+        "descricao": "Cordados vertebrados (anfíbios e répteis)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "República Nova",
+        "descricao": "República Nova",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Verbos — tempos, modos e locuções verbais. Valor temporal; aspecto verbal; perífrases; usos frequentes em questões, transitividade, vozes e predicação VTD/VTI/VTDI; voz ativa/passiva; agente da passiva; efeitos de sentido.\"",
+        "descricao": "Verbos — tempos, modos e locuções verbais. Valor temporal; aspecto verbal; perífrases; usos frequentes em questões, transitividade, vozes e predicação VTD/VTI/VTDI; voz ativa/passiva; agente da passiva; efeitos de sentido.\"",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Cordados vertebrados (aves e mamíferos)",
+        "descricao": "Cordados vertebrados (aves e mamíferos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Método para fazer a prova do ENEM",
+        "descricao": "Método para fazer a prova do ENEM",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 22",
+        "descricao": "Enem e vestibulares 22",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Equação de Gibbs e espontaneidade das reações químicas",
+        "descricao": "Equação de Gibbs e espontaneidade das reações químicas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Guerra Fria - Parte 2 (Conflitos na Ásia, Revolução Cubana e Crise dos Mísseis de Cuba)",
+        "descricao": "Guerra Fria - Parte 2 (Conflitos na Ásia, Revolução Cubana e Crise dos Mísseis de Cuba)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Connectors and Conjunctions",
+        "descricao": "Connectors and Conjunctions",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Lixo, lixão, aterro controlado e aterro sanitário",
+        "descricao": "Lixo, lixão, aterro controlado e aterro sanitário",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "O Pós-Guerra Fria",
+        "descricao": "O Pós-Guerra Fria",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 23",
+        "descricao": "Enem e vestibulares 23",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Biologia como ciência: O que é Biologia: conceito de Biologia, objeto de estudo da Biologia, importância da Biologia para a sociedade.",
+        "descricao": "Biologia como ciência: O que é Biologia: conceito de Biologia, objeto de estudo da Biologia, importância da Biologia para a sociedade.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Introdução à óptica geométrica - Parte I",
+        "descricao": "Introdução à óptica geométrica - Parte I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Filosofia Helenística",
+        "descricao": "Filosofia Helenística",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Pontuação I",
+        "descricao": "Pontuação I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Origem da vida: Abiogênese, biogênese, Origem do primeiro ser vivo, Experimentos de Stanley Miller e Sidney fox, hipótese da invaginação de Robertson, Endossimbiose, Metabolismo, unicelularidade e multicelularidade",
+        "descricao": "Origem da vida: Abiogênese, biogênese, Origem do primeiro ser vivo, Experimentos de Stanley Miller e Sidney fox, hipótese da invaginação de Robertson, Endossimbiose, Metabolismo, unicelularidade e multicelularidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Conjuntos numéricos, sistemas de numeração, potências, raízes, notação científica e sistemas de medidas. + Números inteiros, múltiplos e divisores. Números primos. MMC e MDC",
+        "descricao": "Conjuntos numéricos, sistemas de numeração, potências, raízes, notação científica e sistemas de medidas. + Números inteiros, múltiplos e divisores. Números primos. MMC e MDC",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Sociologia: ciência, método e estranhamento",
+        "descricao": "Sociologia: ciência, método e estranhamento",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Pontuação II",
+        "descricao": "Pontuação II",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Origem da vida: Metabolismo autotrófico e heterotrófico",
+        "descricao": "Origem da vida: Metabolismo autotrófico e heterotrófico",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "A Expansão Marítima",
+        "descricao": "A Expansão Marítima",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Émile Durkheim: fato social, solidariedade e anomia",
+        "descricao": "Émile Durkheim: fato social, solidariedade e anomia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 1",
+        "descricao": "Enem e vestibulares 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Métodos de separação das misturas",
+        "descricao": "Métodos de separação das misturas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "A teoria e os fundamentos da História",
+        "descricao": "A teoria e os fundamentos da História",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Max Weber: ação social e racionalização",
+        "descricao": "Max Weber: ação social e racionalização",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Pronouns and Possessive Adjectives",
+        "descricao": "Pronouns and Possessive Adjectives",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Densidade absoluta",
+        "descricao": "Densidade absoluta",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Pré-socráticos",
+        "descricao": "Pré-socráticos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Karl Marx: trabalho, classes e capitalismo",
+        "descricao": "Karl Marx: trabalho, classes e capitalismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "História do pensamento geográfico: da natureza à sociedade",
+        "descricao": "História do pensamento geográfico: da natureza à sociedade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Eletrólise (aspectos quantitativos)",
+        "descricao": "Eletrólise (aspectos quantitativos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Filosofia Clássica (Sócrates e os Sofistas)",
+        "descricao": "Filosofia Clássica (Sócrates e os Sofistas)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Arte africana - Forma, ancestralidade e sentido: arte além do olhar europeu",
+        "descricao": "Arte africana - Forma, ancestralidade e sentido: arte além do olhar europeu",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Geografia da saúde: a saúde no brasil e a importância do SUS",
+        "descricao": "Geografia da saúde: a saúde no brasil e a importância do SUS",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Movimento retilíneo uniforme (MRU)",
+        "descricao": "Movimento retilíneo uniforme (MRU)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Filosofia Clássica (Platão e Aristóteles)",
+        "descricao": "Filosofia Clássica (Platão e Aristóteles)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Norma-padrão, norma culta e variação linguística: adequação x “certo/errado”; preconceito linguístico; registro e contexto de prova.",
+        "descricao": "Norma-padrão, norma culta e variação linguística: adequação x “certo/errado”; preconceito linguístico; registro e contexto de prova.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

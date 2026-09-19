@@ -1,0 +1,171 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Endocrinologia humana + Vacinas Emagrecedoras",
+        "descricao": "Endocrinologia humana + Vacinas Emagrecedoras",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Geometria espacial - Pirâmides, Cones, Proporcionalidades entre sólidos semelhantes",
+        "descricao": "Geometria espacial - Pirâmides, Cones, Proporcionalidades entre sólidos semelhantes",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 20",
+        "descricao": "Enem e vestibulares 20",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Sistema nervoso humano",
+        "descricao": "Sistema nervoso humano",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Governo João Goulart e os Primeiros Governos Militares (Castelo Branco e Costa e Silva)",
+        "descricao": "Governo João Goulart e os Primeiros Governos Militares (Castelo Branco e Costa e Silva)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Too/Also/As Well/Either …",
+        "descricao": "Too/Also/As Well/Either …",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Termologia humana e dos animais",
+        "descricao": "Termologia humana e dos animais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "A Segunda Guerra Mundial (1939 - 1945)",
+        "descricao": "A Segunda Guerra Mundial (1939 - 1945)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "A industrialização da agricultura e a produção agropecuária no Brasil",
+        "descricao": "A industrialização da agricultura e a produção agropecuária no Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Osmose",
+        "descricao": "Osmose",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Simulacros, Hiper-realidade e Capitalismo Tardio",
+        "descricao": "Simulacros, Hiper-realidade e Capitalismo Tardio",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Petróleo e combustíveis fósseis",
+        "descricao": "Petróleo e combustíveis fósseis",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Cultura, Identidade e Modernização no Brasil",
+        "descricao": "Cultura, Identidade e Modernização no Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Calorimetria - Parte I",
+        "descricao": "Calorimetria - Parte I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Arte indígena - Tradição viva e resistência: estética, ritualística e contemporânea",
+        "descricao": "Arte indígena - Tradição viva e resistência: estética, ritualística e contemporânea",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Calorimetria - Parte II",
+        "descricao": "Calorimetria - Parte II",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Subordinadas adjetivas (restritiva × explicativa) + pontuação. Efeito de sentido com vírgula; pronomes relativos; redução de ambiguidades.",
+        "descricao": "Subordinadas adjetivas (restritiva × explicativa) + pontuação. Efeito de sentido com vírgula; pronomes relativos; redução de ambiguidades.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

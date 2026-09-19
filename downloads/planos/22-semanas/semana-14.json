@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Taxonomia (regras de classificação de Lineu e classificação moderna), os reinos dos seres vivos, domínios e filogenia (estudo dos cladogramas)",
+        "descricao": "Taxonomia (regras de classificação de Lineu e classificação moderna), os reinos dos seres vivos, domínios e filogenia (estudo dos cladogramas)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Lei de coulomb",
+        "descricao": "Lei de coulomb",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Conjunção – Análise Geral",
+        "descricao": "Conjunção – Análise Geral",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Apomorfias, sinapomorfias, plesiomorfias e simplesiomorfias",
+        "descricao": "Apomorfias, sinapomorfias, plesiomorfias e simplesiomorfias",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Revisão Completa de Análise Combinatória: Conceitos e Aplicações",
+        "descricao": "Revisão Completa de Análise Combinatória: Conceitos e Aplicações",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 14",
+        "descricao": "Enem e vestibulares 14",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Botânica: Introdução aos estudos dos vegetais: características gerais, ciclo reprodutivo geral e glossário de botânica",
+        "descricao": "Botânica: Introdução aos estudos dos vegetais: características gerais, ciclo reprodutivo geral e glossário de botânica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Primeira República: Estruturas Políticas e Econômicas",
+        "descricao": "Primeira República: Estruturas Políticas e Econômicas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Passive Voice",
+        "descricao": "Passive Voice",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Criptógamas: briófitas e pteridófitas",
+        "descricao": "Criptógamas: briófitas e pteridófitas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Revolução Francesa - Parte 2 (a Convenção Nacional, o Diretório e o Golpe do 18 de Brumário)",
+        "descricao": "Revolução Francesa - Parte 2 (a Convenção Nacional, o Diretório e o Golpe do 18 de Brumário)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "China: A construção de uma grande potência",
+        "descricao": "China: A construção de uma grande potência",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Funções inorgânicas bases",
+        "descricao": "Funções inorgânicas bases",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Crise da Razão e o Nascimento do Contemporâneo",
+        "descricao": "Crise da Razão e o Nascimento do Contemporâneo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Geografia dos Transportes",
+        "descricao": "Geografia dos Transportes",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Reações orgânicas - Parte 1",
+        "descricao": "Reações orgânicas - Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Sociedade Algorítmica, Inteligência Artificial e Democracia",
+        "descricao": "Sociedade Algorítmica, Inteligência Artificial e Democracia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Gravitação universal - Parte I",
+        "descricao": "Gravitação universal - Parte I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Pop Art e a crítica à arte moderna - Imagem em excesso: consumo, reprodução e ironia",
+        "descricao": "Pop Art e a crítica à arte moderna - Imagem em excesso: consumo, reprodução e ironia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

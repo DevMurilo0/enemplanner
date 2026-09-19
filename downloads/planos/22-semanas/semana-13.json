@@ -1,0 +1,180 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Biomas brasileiros - Parte 1 (Floresta amazônica, Caatinga e Cerrado)",
+        "descricao": "Biomas brasileiros - Parte 1 (Floresta amazônica, Caatinga e Cerrado)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Princípios fundamentais e processos de eletrização",
+        "descricao": "Princípios fundamentais e processos de eletrização",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Preposição e relações de sentido",
+        "descricao": "Preposição e relações de sentido",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Biomas brasileiros - Parte 2 (Pampas, Florestas de araucárias, Pantanal e Zona dos cocais)",
+        "descricao": "Biomas brasileiros - Parte 2 (Pampas, Florestas de araucárias, Pantanal e Zona dos cocais)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Análise combinatória - Parte 1 (contagem, fatorial, permutações simples) + Análise combinatória - Parte 2 (Agrupamento (arranjos, permutações, combinações))",
+        "descricao": "Análise combinatória - Parte 1 (contagem, fatorial, permutações simples) + Análise combinatória - Parte 2 (Agrupamento (arranjos, permutações, combinações))",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 13",
+        "descricao": "Enem e vestibulares 13",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Poluição e desequilíbrio ecológico - Parte 1 (Hipótese de gaia, Biodiversidade, extinção, poluição das águas (derramamento de petróleo, eutrofização e DBO, acidificação da água do mar))",
+        "descricao": "Poluição e desequilíbrio ecológico - Parte 1 (Hipótese de gaia, Biodiversidade, extinção, poluição das águas (derramamento de petróleo, eutrofização e DBO, acidificação da água do mar))",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Aula especial sobre Escravidão",
+        "descricao": "Aula especial sobre Escravidão",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Reported Speech",
+        "descricao": "Reported Speech",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Poluição e desequilíbrio ecológico - Parte 2 (Maré-vermelha, biomagnificação, Efeito estufa, inversão térmica, chuva ácida, tratamento de lixo, reciclagem, 5Rs, desmatamento e espécies exóticas)",
+        "descricao": "Poluição e desequilíbrio ecológico - Parte 2 (Maré-vermelha, biomagnificação, Efeito estufa, inversão térmica, chuva ácida, tratamento de lixo, reciclagem, 5Rs, desmatamento e espécies exóticas)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Revolução Francesa - Parte 1 (dos antecedentes até o fim da Monarquia Constitucional)",
+        "descricao": "Revolução Francesa - Parte 1 (dos antecedentes até o fim da Monarquia Constitucional)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "As Transformações no Leste Europeu: Guerra Fria e Cortina de ferro e a Formação territorial do mundo no fim do século XX e início do Séc. XXI",
+        "descricao": "As Transformações no Leste Europeu: Guerra Fria e Cortina de ferro e a Formação territorial do mundo no fim do século XX e início do Séc. XXI",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Produto de solubilidade",
+        "descricao": "Produto de solubilidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Estética contemporânea: corpo, imagem e tecnologia",
+        "descricao": "Estética contemporânea: corpo, imagem e tecnologia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Saponificação (diferença entre sabão e detergente)",
+        "descricao": "Saponificação (diferença entre sabão e detergente)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Crise do Cuidado e Reprodução Social",
+        "descricao": "Crise do Cuidado e Reprodução Social",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Conservação da quantidade de movimento e colisão mecânica",
+        "descricao": "Conservação da quantidade de movimento e colisão mecânica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Modernismo brasileiro – 3ª fase - Existência, linguagem e universalidade",
+        "descricao": "Modernismo brasileiro – 3ª fase - Existência, linguagem e universalidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

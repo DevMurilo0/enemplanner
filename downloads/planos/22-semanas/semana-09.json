@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Pele e Queimaduras (primeiros socorros)",
+        "descricao": "Pele e Queimaduras (primeiros socorros)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Funções-Quadrática - Parte 1 e 2 (Conceitos, Propriedades, Gráficos, Forma Fatorada, máximos e mínimos)",
+        "descricao": "Funções-Quadrática - Parte 1 e 2 (Conceitos, Propriedades, Gráficos, Forma Fatorada, máximos e mínimos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Pré-Modernismo no Brasil - Um país em conflito: arte, identidade e contradição",
+        "descricao": "Pré-Modernismo no Brasil - Um país em conflito: arte, identidade e contradição",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Tecido Sanguíneo - plasma e elementos figurados do sangue",
+        "descricao": "Tecido Sanguíneo - plasma e elementos figurados do sangue",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Período Regencial (1831 - 1840)",
+        "descricao": "Período Regencial (1831 - 1840)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Termos essenciais da oração: sujeito e predicado; tipos de sujeito; sujeito oracional; orações sem sujeito; predicativo do sujeito e do objeto; verbos de ligação; verbos significativos × verbos de ligação",
+        "descricao": "Termos essenciais da oração: sujeito e predicado; tipos de sujeito; sujeito oracional; orações sem sujeito; predicativo do sujeito e do objeto; verbos de ligação; verbos significativos × verbos de ligação",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Imunologia: Sistema imunitário, imunização passiva (soro), ativa (vacina), coagulação, soro, vacina, alergia, febre e inflamação",
+        "descricao": "Imunologia: Sistema imunitário, imunização passiva (soro), ativa (vacina), coagulação, soro, vacina, alergia, febre e inflamação",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Revoltas Regenciais",
+        "descricao": "Revoltas Regenciais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 9",
+        "descricao": "Enem e vestibulares 9",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Equilíbrio iônico",
+        "descricao": "Equilíbrio iônico",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Reforma Protestante - Parte 1 (Antecedentes e Luteranismo)",
+        "descricao": "Reforma Protestante - Parte 1 (Antecedentes e Luteranismo)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "There Be x Have",
+        "descricao": "There Be x Have",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Previsão da acidez na química orgânica",
+        "descricao": "Previsão da acidez na química orgânica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Reforma Protestante - Parte 2 (Calvinismo, Anglicanismo e Contrarreforma)",
+        "descricao": "Reforma Protestante - Parte 2 (Calvinismo, Anglicanismo e Contrarreforma)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Matriz energética e Fontes de energia",
+        "descricao": "Matriz energética e Fontes de energia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Trabalho mecânico e Potência",
+        "descricao": "Trabalho mecânico e Potência",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "O ser humano em perspectiva: natureza, cultura e liberdade",
+        "descricao": "O ser humano em perspectiva: natureza, cultura e liberdade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Ondas",
+        "descricao": "Ondas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Urbanização e direito à cidade",
+        "descricao": "Urbanização e direito à cidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

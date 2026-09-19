@@ -1,0 +1,189 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Fermentação alcoólica, lactica e acética",
+        "descricao": "Fermentação alcoólica, lactica e acética",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#7e8fb8",
+        "titulo": "Dominando as Áreas das Figuras Planas: Conceitos e Aplicações",
+        "descricao": "Dominando as Áreas das Figuras Planas: Conceitos e Aplicações",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#9097a0",
+        "titulo": "Registros, níveis de formalidade e adequação: variação linguística; oralidade x escrita; quando “marca de fala” vira erro em prova.",
+        "descricao": "Registros, níveis de formalidade e adequação: variação linguística; oralidade x escrita; quando “marca de fala” vira erro em prova.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Gametogênese Masculina (espermatogênese) e Feminina (ovogênese, ovulogênese ou ovocitogênese)",
+        "descricao": "Gametogênese Masculina (espermatogênese) e Feminina (ovogênese, ovulogênese ou ovocitogênese)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Período Joanino",
+        "descricao": "Período Joanino",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Enem e vestibulares 7",
+        "descricao": "Enem e vestibulares 7",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#7fa67f",
+        "titulo": "Ciclo sexual feminino ou Ciclo Menstrual",
+        "descricao": "Ciclo sexual feminino ou Ciclo Menstrual",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#b8a168",
+        "titulo": "Idade Média Oriental - Parte 1 (Civilização Islâmica)",
+        "descricao": "Idade Média Oriental - Parte 1 (Civilização Islâmica)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#b97770",
+        "titulo": "Future",
+        "descricao": "Future",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Equilíbrio químico",
+        "descricao": "Equilíbrio químico",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Moral e Sociedade: conflitos, normas e valores",
+        "descricao": "Moral e Sociedade: conflitos, normas e valores",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Os problemas ambientais",
+        "descricao": "Os problemas ambientais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#c98a64",
+        "titulo": "Polímeros",
+        "descricao": "Polímeros",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#a9809a",
+        "titulo": "Violência, crime e território",
+        "descricao": "Violência, crime e território",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#6f9980",
+        "titulo": "Política ambiental brasileira",
+        "descricao": "Política ambiental brasileira",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Velocidade e aceleração vetoriais",
+        "descricao": "Velocidade e aceleração vetoriais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Impressionismo - O olhar em movimento: luz, tempo e cidade",
+        "descricao": "Impressionismo - O olhar em movimento: luz, tempo e cidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#75a0b5",
+        "titulo": "Lentes esféricas",
+        "descricao": "Lentes esféricas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#9784ad",
+        "titulo": "Pós-Impressionismo - Quando a pintura começa a pensar a si mesma",
+        "descricao": "Pós-Impressionismo - Quando a pintura começa a pensar a si mesma",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}
