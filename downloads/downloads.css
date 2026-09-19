@@ -112,3 +112,8 @@ footer{max-width:1160px;margin:auto;border-top:1px solid var(--line);padding:21p
   .download-next .button{width:100%}
 }
 @media(max-width:380px){.weeks-grid{grid-template-columns:1fr}}
+
+.plan__complete{margin:7px 0 12px;padding:13px 14px;border:1px solid var(--line);border-radius:9px;background:var(--surface-2);display:flex;align-items:center;justify-content:space-between;gap:18px}
+.plan__complete strong{display:block;font-size:.8rem}
+.plan__complete p{margin-top:2px;color:var(--muted);font-size:.67rem}
+@media(max-width:620px){.plan__complete{align-items:stretch;flex-direction:column}.plan__complete .button{width:100%}}

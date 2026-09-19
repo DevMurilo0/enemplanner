@@ -38,7 +38,7 @@ function makeWeekCard(plan, week, available, url) {
     </div>
     <p>${available ? 'Arquivo pronto para importar no planner.' : 'Esta semana ainda não foi adicionada.'}</p>
     <div class="week-card__actions">
-      <a class="download-btn ${available ? 'ok' : 'missing'}" ${available ? `href="${url}" download="${fileName(week)}"` : 'href="#" aria-disabled="true"'}>${available ? 'Baixar JSON' : 'Em breve'}</a>
+      <a class="download-btn ${available ? 'ok' : 'missing'}" ${available ? `href="${url}" download="semana_${String(week).padStart(2, '0')}.json"` : 'href="#" aria-disabled="true"'}>${available ? 'Baixar JSON' : 'Em breve'}</a>
     </div>
   `;
 
@@ -82,6 +82,13 @@ function renderPlans() {
         <span class="plan__count">verificando…</span>
       </button>
       <div class="plan__body" ${index === 0 ? '' : 'hidden'}>
+        <div class="plan__complete">
+          <div>
+            <strong>Importar plano completo</strong>
+            <p>Leva todas as ${plan.total} semanas direto para o Planner.</p>
+          </div>
+          <a class="button button--primary" href="../?plan=${plan.id}&full=1">Importar ${plan.total} semanas</a>
+        </div>
         <div class="weeks-grid"></div>
       </div>
     `;

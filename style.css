@@ -407,3 +407,49 @@ svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-l
   .creator-card{align-items:flex-start;gap:13px;padding:13px}
   .creator-photo{width:72px;height:88px}
 }
+
+
+/* Visões do planner e importação completa */
+.section-heading__right{display:flex;flex-direction:column;align-items:flex-end;gap:10px}
+.view-switcher{display:inline-flex;align-items:center;gap:3px;padding:3px;border:1px solid var(--line);border-radius:9px;background:var(--surface)}
+.view-switcher__button{min-height:33px;padding:0 12px;border:0;border-radius:6px;background:transparent;color:var(--muted);cursor:pointer;font-size:.72rem;font-weight:700;transition:.16s ease}
+.view-switcher__button:hover{color:var(--text);background:var(--surface-2)}
+.view-switcher__button.active{color:var(--text);background:var(--surface-3);box-shadow:0 1px 0 rgba(255,255,255,.04) inset}
+.month-view,.year-view{margin-top:8px}
+.month-weekdays{display:grid;grid-template-columns:repeat(7,1fr);border:1px solid var(--line);border-bottom:0;border-radius:10px 10px 0 0;overflow:hidden;background:var(--surface)}
+.month-weekdays span{padding:9px 10px;border-right:1px solid var(--line);color:var(--muted-2);font-size:.62rem;font-weight:750;text-transform:uppercase;letter-spacing:.06em}
+.month-weekdays span:last-child{border-right:0}
+.month-grid{display:grid;grid-template-columns:repeat(7,1fr);border:1px solid var(--line);border-radius:0 0 10px 10px;overflow:hidden;background:var(--surface)}
+.month-day{min-height:128px;padding:11px;border:0;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:#131312;color:var(--text);text-align:left;cursor:pointer;display:flex;flex-direction:column;align-items:flex-start;transition:.16s ease}
+.month-day:nth-child(7n){border-right:0}
+.month-day:hover{background:var(--surface-2)}
+.month-day.today{box-shadow:inset 0 0 0 1px #66759a}
+.month-day--empty{cursor:default;background:#10100f}
+.month-day--empty:hover{background:#10100f}
+.month-day__number{font-size:.84rem;font-weight:750}
+.month-day__count{margin-top:auto;font-size:.7rem;font-weight:700;color:#d7d3ca}
+.month-day__progress{margin-top:2px;font-size:.61rem;color:var(--muted-2)}
+.month-day__dots{display:flex;gap:4px;margin-top:9px;min-height:6px}
+.month-day__dots span{width:6px;height:6px;border-radius:50%}
+.year-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}
+.year-card{min-height:132px;padding:16px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--text);text-align:left;cursor:pointer;transition:.16s ease}
+.year-card:hover{background:var(--surface-2);border-color:var(--line-strong);transform:translateY(-1px)}
+.year-card__head{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.year-card__head strong{font-size:.88rem}
+.year-card__head span{font-size:.7rem;color:var(--muted);font-weight:700}
+.year-card__bar{height:6px;margin:22px 0 9px;border-radius:999px;background:#292825;overflow:hidden}
+.year-card__bar span{display:block;height:100%;border-radius:inherit;background:var(--success)}
+.year-card p{font-size:.67rem;color:var(--muted)}
+.plan-import-fields{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.plan-field span{display:block;margin-bottom:7px;color:var(--muted-2);font-size:.63rem;font-weight:750;text-transform:uppercase;letter-spacing:.07em}
+.plan-field select,.plan-field input{width:100%;min-height:42px;padding:0 11px;border:1px solid var(--line);border-radius:8px;background:#111110;color:var(--text);outline:none}
+.plan-field select:focus,.plan-field input:focus{border-color:var(--accent)}
+.plan-import-summary{margin-top:16px;padding:14px;border:1px solid var(--line);border-radius:9px;background:var(--surface-2)}
+.plan-import-summary__label{display:block;margin-bottom:6px;color:var(--muted-2);font-size:.61rem;font-weight:750;text-transform:uppercase;letter-spacing:.07em}
+.plan-import-summary strong{display:block;font-size:.86rem}
+.plan-import-summary p{margin-top:3px;color:var(--muted);font-size:.72rem}
+.plan-import-note{margin-top:12px;color:var(--muted);font-size:.7rem;line-height:1.55}
+.plan-import-status{margin-top:12px;padding:10px 11px;border:1px solid var(--line);border-radius:8px;background:#111110;color:var(--muted);font-size:.72rem}
+@media(max-width:1000px){.year-grid{grid-template-columns:repeat(3,1fr)}.month-day{min-height:112px}}
+@media(max-width:760px){.section-heading__right{width:100%;align-items:flex-start}.view-switcher{width:100%}.view-switcher__button{flex:1}.month-view{overflow-x:auto;padding-bottom:8px}.month-weekdays,.month-grid{min-width:760px}.year-grid{grid-template-columns:repeat(2,1fr)}.plan-import-fields{grid-template-columns:1fr}}
+@media(max-width:480px){.year-grid{grid-template-columns:1fr}.year-card{min-height:112px}}

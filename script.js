@@ -1,12 +1,13 @@
 /* ============================================================
-   Planner ENEM — experiência v2
+   Planner ENEM, experiência v2
    ============================================================ */
 
 const STORAGE_KEY = 'studyPlanner_v1';
 const TUTORIAL_KEY = 'studyPlanner_tutorial_seen_v2';
 const INTRO_STATE_KEY = 'studyPlanner_intro_collapsed_v1';
+const VIEW_KEY = 'studyPlanner_view_v1';
 const DAYS_SHORT = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'];
-const BLOCK_TIMES = ['07:00 – 08:00', '08:00 – 09:00', '09:00 – 10:00', '10:00 – 11:00', '11:00 – 12:00'];
+const BLOCK_TIMES = ['07:00 às 08:00', '08:00 às 09:00', '09:00 às 10:00', '10:00 às 11:00', '11:00 às 12:00'];
 const DAY_KEYS_ORDER = ['domingo', 'segunda', 'terca', 'quarta', 'quinta', 'sexta', 'sabado'];
 const MAX_BLOCKS_PER_DAY = 5;
 
@@ -25,9 +26,57 @@ const SUBJECTS = [
   { id: 'geo', label: 'Geografia e Atualidades', color: '#6f9980', aliases: ['geografia e atualidades', 'geografia', 'atualidades'] }
 ];
 
+const AVAILABLE_PLANS = [
+  {
+    "id": "9",
+    "total": 9,
+    "folder": "downloads/planos/9-semanas",
+    "title": "9 semanas"
+  },
+  {
+    "id": "14",
+    "total": 14,
+    "folder": "downloads/planos/14-semanas",
+    "title": "14 semanas"
+  },
+  {
+    "id": "18",
+    "total": 18,
+    "folder": "downloads/planos/18-semanas",
+    "title": "18 semanas"
+  },
+  {
+    "id": "22",
+    "total": 22,
+    "folder": "downloads/planos/22-semanas",
+    "title": "22 semanas"
+  },
+  {
+    "id": "27",
+    "total": 27,
+    "folder": "downloads/planos/27-semanas",
+    "title": "27 semanas"
+  },
+  {
+    "id": "30",
+    "total": 30,
+    "folder": "downloads/planos/30-semanas",
+    "title": "30 semanas"
+  },
+  {
+    "id": "35",
+    "total": 35,
+    "folder": "downloads/planos/35-semanas",
+    "title": "35 semanas"
+  }
+];
+
 const PRIORITY_ORDER = { alta: 0, media: 1, baixa: 2, '': 3 };
 
 let weekOffset = 0;
+let monthOffset = 0;
+let yearOffset = 0;
+let viewMode = ['week', 'month', 'year'].includes(localStorage.getItem(VIEW_KEY)) ? localStorage.getItem(VIEW_KEY) : 'week';
 let data = {};
 let editing = null;
 let detailsContext = null;
@@ -112,6 +161,63 @@ function getWeekStart(offset = 0) {
   return start;
 }
 
+function getWeekStartForDate(input) {
+  const date = new Date(input);
+  date.setHours(0, 0, 0, 0);
+  date.setDate(date.getDate() - date.getDay());
+  return date;
+}
+
+function getWeekOffsetForDate(input) {
+  const target = getWeekStartForDate(input);
+  const current = getWeekStart(0);
+  return Math.round((target - current) / 604800000);
+}
+
+function getMonthAnchor(offset = monthOffset) {
+  const now = new Date();
+  return new Date(now.getFullYear(), now.getMonth() + offset, 1);
+}
+
+function getYearAnchor(offset = yearOffset) {
+  const now = new Date();
+  return new Date(now.getFullYear() + offset, 0, 1);
+}
+
+function monthOffsetForDate(input) {
+  const date = new Date(input);
+  const now = new Date();
+  return (date.getFullYear() - now.getFullYear()) * 12 + date.getMonth() - now.getMonth();
+}
+
+function yearOffsetForDate(input) {
+  return new Date(input).getFullYear() - new Date().getFullYear();
+}
+
+function getCurrentAnchorDate() {
+  if (viewMode === 'month') return getMonthAnchor();
+  if (viewMode === 'year') return getYearAnchor();
+  return getWeekStart(weekOffset);
+}
+
+function setViewMode(mode, anchorDate = null) {
+  if (!['week', 'month', 'year'].includes(mode)) return;
+  const anchor = anchorDate ? new Date(anchorDate) : getCurrentAnchorDate();
+  if (mode === 'week') weekOffset = getWeekOffsetForDate(anchor);
+  if (mode === 'month') monthOffset = monthOffsetForDate(anchor);
+  if (mode === 'year') yearOffset = yearOffsetForDate(anchor);
+  viewMode = mode;
+  localStorage.setItem(VIEW_KEY, mode);
+  renderCalendar();
+}
+
+function shiftCurrentPeriod(amount) {
+  if (viewMode === 'week') weekOffset += amount;
+  if (viewMode === 'month') monthOffset += amount;
+  if (viewMode === 'year') yearOffset += amount;
+  renderCalendar();
+}
+
 function toDateKey(date) {
   const y = date.getFullYear();
   const m = String(date.getMonth() + 1).padStart(2, '0');
@@ -123,7 +229,7 @@ function formatWeekLabel(start) {
   const end = new Date(start);
   end.setDate(end.getDate() + 6);
   const opts = { day: '2-digit', month: 'short' };
-  return `${start.toLocaleDateString('pt-BR', opts)} – ${end.toLocaleDateString('pt-BR', opts)}`;
+  return `${start.toLocaleDateString('pt-BR', opts)} a ${end.toLocaleDateString('pt-BR', opts)}`;
 }
 
 function isToday(date) {
@@ -158,7 +264,7 @@ function renderLegend() {
   `).join('');
 }
 
-function renderCalendar() {
+function renderWeekView() {
   const weekStart = getWeekStart(weekOffset);
   $('week-label').textContent = formatWeekLabel(weekStart);
   const grid = $('calendar-grid');
@@ -231,6 +337,150 @@ function renderCalendar() {
     grid.appendChild(card);
   }
 
+}
+
+function getDateBlocks(date) {
+  const dateKey = toDateKey(date);
+  return Array.from({ length: MAX_BLOCKS_PER_DAY }, (_, index) => ({ ...getBlock(dateKey, index), dateKey, index }));
+}
+
+function getRangeBlocks(start, end) {
+  const blocks = [];
+  const cursor = new Date(start);
+  cursor.setHours(0, 0, 0, 0);
+  while (cursor < end) {
+    blocks.push(...getDateBlocks(cursor));
+    cursor.setDate(cursor.getDate() + 1);
+  }
+  return blocks;
+}
+
+function renderMonthView() {
+  const root = $('month-view');
+  const anchor = getMonthAnchor();
+  const year = anchor.getFullYear();
+  const month = anchor.getMonth();
+  const monthName = anchor.toLocaleDateString('pt-BR', { month: 'long', year: 'numeric' });
+  $('period-kind').textContent = 'Mês selecionado';
+  $('week-label').textContent = monthName.charAt(0).toUpperCase() + monthName.slice(1);
+
+  const firstDay = new Date(year, month, 1);
+  const daysInMonth = new Date(year, month + 1, 0).getDate();
+  const cells = [];
+  for (let i = 0; i < firstDay.getDay(); i++) {
+    cells.push('<div class="month-day month-day--empty" aria-hidden="true"></div>');
+  }
+
+  for (let day = 1; day <= daysInMonth; day++) {
+    const date = new Date(year, month, day);
+    const filled = getDateBlocks(date).filter(block => block.subject);
+    const studied = filled.filter(block => block.studied);
+    const subjects = [...new Set(filled.map(block => block.subject).filter(Boolean))].slice(0, 5);
+    const dots = subjects.map(id => {
+      const subject = getSubject(id);
+      return subject ? `<span style="background:${subject.color}"></span>` : '';
+    }).join('');
+
+    cells.push(`
+      <button class="month-day${isToday(date) ? ' today' : ''}" type="button" data-date="${toDateKey(date)}">
+        <span class="month-day__number">${day}</span>
+        <span class="month-day__count">${filled.length ? `${filled.length} conteúdo${filled.length === 1 ? '' : 's'}` : 'Livre'}</span>
+        <span class="month-day__progress">${filled.length ? `${studied.length} de ${filled.length} concluídos` : 'Sem conteúdo'}</span>
+        <span class="month-day__dots">${dots}</span>
+      </button>
+    `);
+  }
+
+  root.innerHTML = `
+    <div class="month-weekdays">${DAYS_SHORT.map(day => `<span>${day}</span>`).join('')}</div>
+    <div class="month-grid">${cells.join('')}</div>
+  `;
+  root.querySelectorAll('[data-date]').forEach(button => {
+    button.addEventListener('click', () => setViewMode('week', new Date(`${button.dataset.date}T12:00:00`)));
+  });
+}
+
+function renderYearView() {
+  const root = $('year-view');
+  const anchor = getYearAnchor();
+  const year = anchor.getFullYear();
+  $('period-kind').textContent = 'Ano selecionado';
+  $('week-label').textContent = String(year);
+
+  const cards = [];
+  for (let month = 0; month < 12; month++) {
+    const start = new Date(year, month, 1);
+    const end = new Date(year, month + 1, 1);
+    const filled = getRangeBlocks(start, end).filter(block => block.subject);
+    const studied = filled.filter(block => block.studied);
+    const pct = filled.length ? Math.round((studied.length / filled.length) * 100) : 0;
+    const name = start.toLocaleDateString('pt-BR', { month: 'long' });
+
+    cards.push(`
+      <button class="year-card" type="button" data-month="${month}">
+        <div class="year-card__head">
+          <strong>${name.charAt(0).toUpperCase() + name.slice(1)}</strong>
+          <span>${pct}%</span>
+        </div>
+        <div class="year-card__bar"><span style="width:${pct}%"></span></div>
+        <p>${filled.length ? `${studied.length} de ${filled.length} conteúdos concluídos` : 'Nenhum conteúdo planejado'}</p>
+      </button>
+    `);
+  }
+
+  root.innerHTML = `<div class="year-grid">${cards.join('')}</div>`;
+  root.querySelectorAll('[data-month]').forEach(button => {
+    button.addEventListener('click', () => setViewMode('month', new Date(year, Number(button.dataset.month), 1)));
+  });
+}
+
+function getCurrentPeriodBlocks() {
+  if (viewMode === 'month') {
+    const start = getMonthAnchor();
+    return getRangeBlocks(start, new Date(start.getFullYear(), start.getMonth() + 1, 1));
+  }
+  if (viewMode === 'year') {
+    const start = getYearAnchor();
+    return getRangeBlocks(start, new Date(start.getFullYear() + 1, 0, 1));
+  }
+  return getWeekBlocks();
+}
+
+function renderCalendar() {
+  const week = $('calendar-grid');
+  const month = $('month-view');
+  const year = $('year-view');
+
+  week.hidden = viewMode !== 'week';
+  month.hidden = viewMode !== 'month';
+  year.hidden = viewMode !== 'year';
+
+  document.querySelectorAll('[data-view]').forEach(button => {
+    button.classList.toggle('active', button.dataset.view === viewMode);
+    button.setAttribute('aria-pressed', String(button.dataset.view === viewMode));
+  });
+
+  const eyebrow = $('planner-view-eyebrow');
+  const title = $('planner-view-title');
+  const description = $('planner-view-description');
+
+  if (viewMode === 'week') {
+    eyebrow.textContent = 'Planner semanal';
+    title.textContent = 'O que você vai estudar';
+    description.textContent = 'Clique em um bloco para ver detalhes ou editar. Marque a caixa quando concluir um conteúdo.';
+    renderWeekView();
+  } else if (viewMode === 'month') {
+    eyebrow.textContent = 'Visão mensal';
+    title.textContent = 'Seu mês em uma única tela';
+    description.textContent = 'Cada dia mostra quantidade de conteúdos e progresso. Clique em uma data para abrir a semana correspondente.';
+    renderMonthView();
+  } else {
+    eyebrow.textContent = 'Visão anual';
+    title.textContent = 'O ano inteiro, sem perder o contexto';
+    description.textContent = 'Veja o progresso de cada mês e clique em um deles para abrir a visão mensal.';
+    renderYearView();
+  }
+
   updateStats();
   updateQuickStart();
 }
@@ -241,7 +491,7 @@ function toggleStudied(dateKey, index, studied) {
 }
 
 function updateStats() {
-  const blocks = getWeekBlocks();
+  const blocks = getCurrentPeriodBlocks();
   const filled = blocks.filter(b => b.subject);
   const studied = filled.filter(b => b.studied);
   const counts = {};
@@ -257,14 +507,18 @@ function updateStats() {
   });
 
   const pct = filled.length ? Math.round((studied.length / filled.length) * 100) : 0;
-  $('stat-filled').textContent = `${filled.length}`;
+  const period = viewMode === 'week' ? 'semana' : viewMode === 'month' ? 'mês' : 'ano';
+
+  $('stat-filled').textContent = String(filled.length);
   $('stat-studied').textContent = `${studied.length}/${filled.length}`;
-  $('stat-top-subject').textContent = topId ? getSubject(topId)?.label || '—' : '—';
+  $('stat-top-subject').textContent = topId ? getSubject(topId)?.label || 'Nenhuma' : 'Nenhuma';
   $('stat-progress-pct').textContent = `${pct}%`;
   $('stat-progress-fill').style.width = `${pct}%`;
+  $('stat-period-copy').textContent = `conteúdos neste ${period}`;
+  $('stat-subject-copy').textContent = `no ${period} selecionado`;
   $('progress-message').textContent = filled.length
-    ? (pct === 100 ? 'Semana concluída. Excelente consistência.' : `${filled.length - studied.length} bloco(s) ainda faltam.`)
-    : 'Comece importando ou adicionando blocos.';
+    ? (pct === 100 ? `${period.charAt(0).toUpperCase() + period.slice(1)} concluído. Excelente consistência.` : `${filled.length - studied.length} conteúdo(s) ainda faltam.`)
+    : `Nenhum conteúdo planejado neste ${period}.`;
 }
 
 function applyIntroState() {
@@ -415,7 +669,7 @@ function openDetails(dateKey, blockIndex) {
   const subject = getSubject(block.subject);
 
   $('details-dot').style.background = subject?.color || 'var(--muted)';
-  $('details-subject').textContent = subject?.label || '—';
+  $('details-subject').textContent = subject?.label || 'Sem matéria';
   $('details-title').textContent = block.titulo || block.note || block.descricao || 'Conteúdo de estudo';
 
   const meta = $('details-meta');
@@ -479,8 +733,7 @@ function validateWeekJSON(parsed) {
   return null;
 }
 
-function applyWeek(semana) {
-  const weekStart = getWeekStart(weekOffset);
+function writeWeek(semana, weekStart) {
   DAY_KEYS_ORDER.forEach((dayKey, d) => {
     const date = new Date(weekStart);
     date.setDate(date.getDate() + d);
@@ -507,8 +760,104 @@ function applyWeek(semana) {
       };
     }
   });
+}
+
+function applyWeek(semana) {
+  writeWeek(semana, getWeekStart(weekOffset));
   saveData();
   renderCalendar();
+}
+
+function planFileName(number) {
+  return `semana-${String(number).padStart(2, '0')}.json`;
+}
+
+function populatePlanSelect() {
+  const select = $('plan-select');
+  if (select.options.length) return;
+  select.innerHTML = AVAILABLE_PLANS.map(plan => `<option value="${plan.id}">${plan.title}</option>`).join('');
+}
+
+function getPlanStartDate() {
+  const raw = $('plan-start-date').value;
+  const base = raw ? new Date(`${raw}T12:00:00`) : getWeekStart(weekOffset);
+  return getWeekStartForDate(base);
+}
+
+function updatePlanImportSummary() {
+  populatePlanSelect();
+  const plan = AVAILABLE_PLANS.find(item => item.id === $('plan-select').value) || AVAILABLE_PLANS[0];
+  const start = getPlanStartDate();
+  const end = new Date(start);
+  end.setDate(end.getDate() + plan.total * 7 - 1);
+  $('plan-start-label').textContent = `${plan.title}, começa em ${start.toLocaleDateString('pt-BR')}`;
+  $('plan-range-label').textContent = `Vai de ${start.toLocaleDateString('pt-BR')} a ${end.toLocaleDateString('pt-BR')}, ocupando ${plan.total} semanas.`;
+}
+
+function openPlanImport(planId = null) {
+  populatePlanSelect();
+  if (planId && AVAILABLE_PLANS.some(plan => plan.id === String(planId))) $('plan-select').value = String(planId);
+  const anchor = viewMode === 'week' ? getWeekStart(weekOffset) : getCurrentAnchorDate();
+  $('plan-start-date').value = toDateKey(anchor);
+  $('plan-import-status').hidden = true;
+  $('plan-run').disabled = false;
+  $('plan-run').textContent = 'Importar plano completo';
+  updatePlanImportSummary();
+  openOverlay('plan-overlay');
+}
+
+function closePlanImport() {
+  closeOverlay('plan-overlay');
+}
+
+function countExistingInPlanRange(start, totalWeeks) {
+  const end = new Date(start);
+  end.setDate(end.getDate() + totalWeeks * 7);
+  return getRangeBlocks(start, end).filter(block => block.subject).length;
+}
+
+async function importFullPlan() {
+  const plan = AVAILABLE_PLANS.find(item => item.id === $('plan-select').value);
+  if (!plan) return;
+
+  const start = getPlanStartDate();
+  const existing = countExistingInPlanRange(start, plan.total);
+  if (existing && !window.confirm(`Já existem ${existing} conteúdos nesse período. Deseja substituir e continuar?`)) return;
+
+  const status = $('plan-import-status');
+  const run = $('plan-run');
+  status.hidden = false;
+  status.textContent = `Carregando ${plan.total} semanas...`;
+  run.disabled = true;
+  run.textContent = 'Importando...';
+
+  try {
+    const weeks = await Promise.all(Array.from({ length: plan.total }, async (_, index) => {
+      const week = index + 1;
+      const response = await fetch(`${plan.folder}/${planFileName(week)}`, { cache: 'no-store' });
+      if (!response.ok) throw new Error(`A semana ${week} não está disponível.`);
+      const parsed = await response.json();
+      const error = validateWeekJSON(parsed);
+      if (error) throw new Error(`Semana ${week}: ${error}`);
+      return parsed.semana;
+    }));
+
+    weeks.forEach((semana, index) => {
+      const weekStart = new Date(start);
+      weekStart.setDate(weekStart.getDate() + index * 7);
+      writeWeek(semana, weekStart);
+    });
+
+    saveData();
+    closePlanImport();
+    showToast(`${plan.title} importado com sucesso.`, 'success');
+    setViewMode('week', start);
+  } catch (error) {
+    status.hidden = false;
+    status.textContent = error.message || 'Não foi possível importar o plano.';
+    run.disabled = false;
+    run.textContent = 'Tentar novamente';
+  }
 }
 
 function importJSON(file) {
@@ -582,7 +931,7 @@ function exportJSON() {
   const url = URL.createObjectURL(blob);
   const link = document.createElement('a');
   link.href = url;
-  link.download = `planner-${toDateKey(weekStart)}.json`;
+  link.download = `planner_${toDateKey(weekStart)}.json`;
   link.click();
   setTimeout(() => URL.revokeObjectURL(url), 1000);
   showToast('Semana exportada.', 'success');
@@ -728,18 +1077,28 @@ function bindDropdown() {
 }
 
 function bindEvents() {
-  $('btn-prev').addEventListener('click', () => { weekOffset--; renderCalendar(); });
-  $('btn-next').addEventListener('click', () => { weekOffset++; renderCalendar(); });
+  $('btn-prev').addEventListener('click', () => shiftCurrentPeriod(-1));
+  $('btn-next').addEventListener('click', () => shiftCurrentPeriod(1));
+
+  document.querySelectorAll('[data-view]').forEach(button => {
+    button.addEventListener('click', () => setViewMode(button.dataset.view));
+  });
 
   $('intro-collapse')?.addEventListener('click', () => setIntroCollapsed(true));
   $('intro-restore')?.addEventListener('click', () => setIntroCollapsed(false));
 
-  [$('btn-import'), $('quick-import'), $('hint-import'), $('section-import')].forEach(btn => btn?.addEventListener('click', triggerImport));
+  [$('btn-import'), $('hint-import'), $('section-import')].forEach(btn => btn?.addEventListener('click', triggerImport));
+  [$('btn-full-plan'), $('quick-full-plan'), $('section-full-plan'), $('help-full-plan')].forEach(btn => btn?.addEventListener('click', () => openPlanImport()));
   $('file-input').addEventListener('change', () => importJSON($('file-input').files[0]));
 
   $('btn-help').addEventListener('click', () => openHelp(true));
   $('help-close').addEventListener('click', closeHelp);
-  $('help-import').addEventListener('click', triggerImport);
+
+  $('plan-close').addEventListener('click', closePlanImport);
+  $('plan-cancel').addEventListener('click', closePlanImport);
+  $('plan-select').addEventListener('change', updatePlanImportSummary);
+  $('plan-start-date').addEventListener('change', updatePlanImportSummary);
+  $('plan-run').addEventListener('click', importFullPlan);
 
   $('edit-close').addEventListener('click', closeEdit);
   $('btn-save').addEventListener('click', saveEdit);
@@ -778,14 +1137,18 @@ function bindEvents() {
 function handleEntryContext() {
   const params = new URLSearchParams(location.search);
   const shouldImport = params.get('import') === '1' || location.hash === '#importar';
+  const fullPlanId = params.get('plan');
+  const shouldImportPlan = params.get('full') === '1' && fullPlanId;
   if (shouldImport) {
     $('import-hint').hidden = false;
     $('btn-import').classList.add('pulse-import');
     setTimeout(() => $('btn-import').classList.remove('pulse-import'), 3000);
   }
 
+  if (shouldImportPlan) setTimeout(() => openPlanImport(fullPlanId), 120);
+
   const hasAnyData = Object.values(data).some(day => Array.isArray(day) && day.some(block => block?.subject));
-  if (!localStorage.getItem(TUTORIAL_KEY) && !hasAnyData && !shouldImport) {
+  if (!localStorage.getItem(TUTORIAL_KEY) && !hasAnyData && !shouldImport && !shouldImportPlan) {
     setTimeout(() => openHelp(true), 550);
   }
 }
