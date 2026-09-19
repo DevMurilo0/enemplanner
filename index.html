@@ -181,25 +181,36 @@
       <div class="subject-legend subject-legend--below" id="subject-legend" aria-label="Legenda de matérias"></div>
     </section>
 
-    <section class="creator-section" aria-labelledby="creator-title">
-      <div class="creator-card">
-        <img class="creator-photo" src="assets/murilo-gabriel.jpg" alt="Murilo Gabriel" loading="lazy" />
-        <div class="creator-copy">
-          <span class="eyebrow">Criador do projeto</span>
-          <h2 id="creator-title">Murilo Gabriel</h2>
-          <p>Planner ENEM é um projeto independente criado e desenvolvido por Murilo Gabriel.</p>
-          <a class="creator-link" href="https://murilogabriel.com.br" target="_blank" rel="noopener noreferrer">
-            murilogabriel.com.br
-            <span aria-hidden="true">↗</span>
-          </a>
-        </div>
-      </div>
-    </section>
+
   </main>
 
   <footer class="site-footer">
-    <span>Planner ENEM</span>
-    <span>Projeto independente por Murilo Gabriel.</span>
+    <div class="site-footer__inner">
+      <div class="footer-brand">
+        <img src="icon.png" alt="" class="footer-brand__logo" />
+        <div>
+          <strong>Planner ENEM</strong>
+          <p>Transforme um cronograma em uma rotina que você consegue acompanhar.</p>
+        </div>
+      </div>
+
+      <nav class="footer-nav" aria-label="Links do rodapé">
+        <a href="./">Planner</a>
+        <a href="downloads/">Planos prontos</a>
+        <button type="button" id="footer-help">Como usar</button>
+        <a href="sobre/">Sobre o projeto</a>
+      </nav>
+
+      <div class="footer-info">
+        <div class="footer-info__item">
+          <span class="footer-info__dot" aria-hidden="true"></span>
+          <span>Seus dados ficam salvos neste navegador.</span>
+        </div>
+        <a class="footer-credit" href="https://murilogabriel.com.br" target="_blank" rel="noopener noreferrer">
+          Criado por Murilo Gabriel <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </div>
   </footer>
 
   <div class="overlay" id="edit-overlay" role="dialog" aria-modal="true" aria-labelledby="edit-title">

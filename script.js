@@ -1654,6 +1654,7 @@ function bindEvents() {
   $('file-input').addEventListener('change', () => importJSON($('file-input').files[0]));
 
   $('btn-help').addEventListener('click', () => openHelp(true));
+  $('footer-help')?.addEventListener('click', () => openHelp(true));
   $('help-close').addEventListener('click', closeHelp);
 
   $('plan-close').addEventListener('click', closePlanImport);
