@@ -488,3 +488,46 @@ svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-l
   .planner-controls{justify-content:stretch}
   .subject-legend--below{margin-top:13px}
 }
+
+
+/* Visão de hoje */
+.calendar-grid--day{
+  grid-template-columns:minmax(320px,760px);
+  justify-content:center;
+  overflow:visible;
+}
+.calendar-grid--day .day-card{
+  width:100%;
+  min-width:0;
+}
+.calendar-grid--day .day-header{
+  min-height:68px;
+}
+.calendar-grid--day .day-blocks{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:8px;
+}
+.calendar-grid--day .study-block:last-child:nth-child(odd){
+  grid-column:1 / -1;
+}
+.week-switcher .icon-btn:disabled{
+  opacity:.28;
+  cursor:not-allowed;
+  background:transparent;
+}
+.week-switcher .icon-btn:disabled:hover{
+  color:var(--muted);
+  background:transparent;
+}
+@media(max-width:760px){
+  .calendar-grid--day{
+    display:block;
+  }
+  .calendar-grid--day .day-blocks{
+    grid-template-columns:1fr;
+  }
+  .calendar-grid--day .study-block:last-child:nth-child(odd){
+    grid-column:auto;
+  }
+}

@@ -63,7 +63,7 @@
       <div class="intro-card__copy">
         <span class="eyebrow">Comece por aqui</span>
         <h1>Seu ENEM, semana por semana.</h1>
-        <p>Escolha um cronograma pronto, importe todas as semanas de uma vez e acompanhe seu progresso em uma visão semanal, mensal ou anual.</p>
+        <p>Escolha um cronograma pronto, importe todas as semanas de uma vez e acompanhe seu progresso por dia, semana, mês ou ano.</p>
         <div class="intro-card__actions">
           <button class="button button--primary" id="quick-full-plan" type="button">Importar plano completo</button>
           <a class="button button--secondary" href="downloads/">Ver cronogramas</a>
@@ -72,7 +72,7 @@
       <div class="flow" aria-label="Passo a passo de uso">
         <article class="flow-step"><span class="flow-step__number">01</span><div><strong>Escolha um plano</strong><p>Selecione o cronograma que combina com o tempo disponível até a prova.</p></div></article>
         <article class="flow-step"><span class="flow-step__number">02</span><div><strong>Importe tudo de uma vez</strong><p>Defina a data de início e o Planner organiza todas as semanas automaticamente.</p></div></article>
-        <article class="flow-step"><span class="flow-step__number">03</span><div><strong>Acompanhe seu progresso</strong><p>Alterne entre semana, mês e ano para enxergar sua preparação do jeito que preferir.</p></div></article>
+        <article class="flow-step"><span class="flow-step__number">03</span><div><strong>Acompanhe seu progresso</strong><p>Alterne entre dia, semana, mês e ano para enxergar sua preparação do jeito que preferir.</p></div></article>
       </div>
     </section>
 
@@ -115,7 +115,7 @@
       <p class="enem-countdown__waiting" id="enem-countdown-waiting" hidden>Esperando a nova data do ENEM...</p>
     </section>
 
-    <section class="overview" aria-label="Resumo da semana">
+    <section class="overview" aria-label="Resumo do período">
       <article class="metric">
         <span class="metric__label">Conteúdos planejados</span>
         <strong id="stat-filled">0</strong>
@@ -166,6 +166,7 @@
         </div>
 
         <div class="view-switcher" role="group" aria-label="Mudar visualização">
+          <button class="view-switcher__button" type="button" data-view="day">Dia</button>
           <button class="view-switcher__button active" type="button" data-view="week">Semana</button>
           <button class="view-switcher__button" type="button" data-view="month">Mês</button>
           <button class="view-switcher__button" type="button" data-view="year">Ano</button>
@@ -253,7 +254,7 @@
       <div class="modal__body guide-body">
         <div class="guide-row"><span>1</span><div><strong>Escolha um cronograma</strong><p>Use “Importar plano” para selecionar um dos planos disponíveis.</p></div></div>
         <div class="guide-row"><span>2</span><div><strong>Defina quando começar</strong><p>Escolha uma data. O Planner organiza todas as semanas do cronograma a partir dela.</p></div></div>
-        <div class="guide-row"><span>3</span><div><strong>Acompanhe em três visões</strong><p>Use o seletor Semana, Mês e Ano para alternar entre detalhes e visão geral.</p></div></div>
+        <div class="guide-row"><span>3</span><div><strong>Acompanhe em quatro visões</strong><p>Use Dia, Semana, Mês e Ano para alternar entre foco no presente e visão geral.</p></div></div>
         <div class="guide-row"><span>4</span><div><strong>Continue com liberdade</strong><p>Você ainda pode importar uma semana isolada, editar blocos, distribuir conteúdos e exportar sua semana.</p></div></div>
         <div class="guide-note">Importar um plano completo substitui conteúdos já existentes no período escolhido. O Planner avisa antes de continuar.</div>
       </div>

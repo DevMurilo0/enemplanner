@@ -76,7 +76,7 @@ const PRIORITY_ORDER = { alta: 0, media: 1, baixa: 2, '': 3 };
 let weekOffset = 0;
 let monthOffset = 0;
 let yearOffset = 0;
-let viewMode = ['week', 'month', 'year'].includes(localStorage.getItem(VIEW_KEY)) ? localStorage.getItem(VIEW_KEY) : 'week';
+let viewMode = ['day', 'week', 'month', 'year'].includes(localStorage.getItem(VIEW_KEY)) ? localStorage.getItem(VIEW_KEY) : 'week';
 let data = {};
 let editing = null;
 let detailsContext = null;
@@ -195,13 +195,14 @@ function yearOffsetForDate(input) {
 }
 
 function getCurrentAnchorDate() {
+  if (viewMode === 'day') return new Date();
   if (viewMode === 'month') return getMonthAnchor();
   if (viewMode === 'year') return getYearAnchor();
   return getWeekStart(weekOffset);
 }
 
 function setViewMode(mode, anchorDate = null) {
-  if (!['week', 'month', 'year'].includes(mode)) return;
+  if (!['day', 'week', 'month', 'year'].includes(mode)) return;
   const anchor = anchorDate ? new Date(anchorDate) : getCurrentAnchorDate();
   if (mode === 'week') weekOffset = getWeekOffsetForDate(anchor);
   if (mode === 'month') monthOffset = monthOffsetForDate(anchor);
@@ -212,6 +213,7 @@ function setViewMode(mode, anchorDate = null) {
 }
 
 function shiftCurrentPeriod(amount) {
+  if (viewMode === 'day') return;
   if (viewMode === 'week') weekOffset += amount;
   if (viewMode === 'month') monthOffset += amount;
   if (viewMode === 'year') yearOffset += amount;
@@ -266,8 +268,10 @@ function renderLegend() {
 
 function renderWeekView() {
   const weekStart = getWeekStart(weekOffset);
+  $('period-kind').textContent = 'Semana selecionada';
   $('week-label').textContent = formatWeekLabel(weekStart);
   const grid = $('calendar-grid');
+  grid.classList.remove('calendar-grid--day');
   grid.innerHTML = '';
 
   for (let d = 0; d < 7; d++) {
@@ -337,6 +341,90 @@ function renderWeekView() {
     grid.appendChild(card);
   }
 
+}
+
+function renderDayView() {
+  const date = new Date();
+  date.setHours(0, 0, 0, 0);
+  const dateKey = toDateKey(date);
+  const dayIndex = date.getDay();
+  const dayBlocks = Array.from({ length: MAX_BLOCKS_PER_DAY }, (_, i) => getBlock(dateKey, i));
+  const filled = dayBlocks.filter(block => block.subject);
+  const studied = filled.filter(block => block.studied);
+  const grid = $('calendar-grid');
+
+  $('period-kind').textContent = 'Hoje';
+  $('week-label').textContent = date.toLocaleDateString('pt-BR', {
+    weekday: 'long',
+    day: '2-digit',
+    month: 'long'
+  });
+
+  grid.classList.add('calendar-grid--day');
+  grid.innerHTML = '';
+
+  const card = document.createElement('article');
+  card.className = 'day-card today';
+
+  const header = document.createElement('div');
+  header.className = 'day-header';
+  header.innerHTML = `
+    <div class="day-header-left">
+      <span class="day-name">${DAYS_SHORT[dayIndex]}</span>
+      <span class="day-date">${String(date.getDate()).padStart(2, '0')}</span>
+    </div>
+    ${filled.length ? `<span class="day-progress">${studied.length}/${filled.length}</span>` : ''}
+  `;
+  card.appendChild(header);
+
+  const blocksEl = document.createElement('div');
+  blocksEl.className = 'day-blocks';
+
+  for (let i = 0; i < MAX_BLOCKS_PER_DAY; i++) {
+    const block = getBlock(dateKey, i);
+    const subject = getSubject(block.subject);
+    const blockEl = document.createElement('div');
+    blockEl.className = `study-block ${subject ? 'block-filled' : 'block-empty'}${block.studied ? ' is-studied' : ''}`;
+    blockEl.style.setProperty('--block-color', subject ? subject.color : 'var(--line)');
+    blockEl.setAttribute('role', 'button');
+    blockEl.setAttribute('tabindex', '0');
+    blockEl.setAttribute('aria-label', `Hoje, bloco ${i + 1}. ${subject ? subject.label : 'Vazio'}`);
+
+    if (!subject) {
+      blockEl.innerHTML = `<div class="empty-copy"><strong>Adicionar bloco</strong>${BLOCK_TIMES[i]}</div>`;
+    } else {
+      const preview = block.titulo || block.descricao || block.note || 'Conteúdo de estudo';
+      blockEl.innerHTML = `
+        <div class="block-header">
+          <span class="block-time">${BLOCK_TIMES[i]}</span>
+          <input type="checkbox" class="study-checkbox" ${block.studied ? 'checked' : ''} aria-label="Marcar como concluído" />
+        </div>
+        <div class="block-subject">${escapeHtml(subject.label)}</div>
+        <div class="block-note-preview">${escapeHtml(preview)}</div>
+      `;
+    }
+
+    blockEl.addEventListener('click', event => {
+      if (event.target.classList.contains('study-checkbox')) {
+        event.stopPropagation();
+        toggleStudied(dateKey, i, event.target.checked);
+        return;
+      }
+      subject ? openDetails(dateKey, i) : openEdit(dateKey, i);
+    });
+
+    blockEl.addEventListener('keydown', event => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        subject ? openDetails(dateKey, i) : openEdit(dateKey, i);
+      }
+    });
+
+    blocksEl.appendChild(blockEl);
+  }
+
+  card.appendChild(blocksEl);
+  grid.appendChild(card);
 }
 
 function getDateBlocks(date) {
@@ -435,6 +523,7 @@ function renderYearView() {
 }
 
 function getCurrentPeriodBlocks() {
+  if (viewMode === 'day') return getDateBlocks(new Date());
   if (viewMode === 'month') {
     const start = getMonthAnchor();
     return getRangeBlocks(start, new Date(start.getFullYear(), start.getMonth() + 1, 1));
@@ -451,7 +540,7 @@ function renderCalendar() {
   const month = $('month-view');
   const year = $('year-view');
 
-  week.hidden = viewMode !== 'week';
+  week.hidden = !['day', 'week'].includes(viewMode);
   month.hidden = viewMode !== 'month';
   year.hidden = viewMode !== 'year';
 
@@ -460,15 +549,23 @@ function renderCalendar() {
     button.setAttribute('aria-pressed', String(button.dataset.view === viewMode));
   });
 
-  const periodName = viewMode === 'week' ? 'semana' : viewMode === 'month' ? 'mês' : 'ano';
-  $('btn-prev').setAttribute('aria-label', `${periodName} anterior`);
-  $('btn-next').setAttribute('aria-label', `próximo ${periodName}`);
+  const isDayView = viewMode === 'day';
+  const periodName = isDayView ? 'dia' : viewMode === 'week' ? 'semana' : viewMode === 'month' ? 'mês' : 'ano';
+  $('btn-prev').disabled = isDayView;
+  $('btn-next').disabled = isDayView;
+  $('btn-prev').setAttribute('aria-label', isDayView ? 'A visualização Dia mostra apenas hoje' : `${periodName} anterior`);
+  $('btn-next').setAttribute('aria-label', isDayView ? 'A visualização Dia mostra apenas hoje' : `próximo ${periodName}`);
 
   const eyebrow = $('planner-view-eyebrow');
   const title = $('planner-view-title');
   const description = $('planner-view-description');
 
-  if (viewMode === 'week') {
+  if (viewMode === 'day') {
+    eyebrow.textContent = 'Hoje';
+    title.textContent = 'Seu dia de estudos';
+    description.textContent = 'Veja somente os conteúdos planejados para hoje e marque o que já concluiu.';
+    renderDayView();
+  } else if (viewMode === 'week') {
     eyebrow.textContent = 'Planner semanal';
     title.textContent = 'O que você vai estudar';
     description.textContent = 'Clique em um bloco para ver detalhes ou editar. Marque a caixa quando concluir um conteúdo.';
@@ -511,7 +608,7 @@ function updateStats() {
   });
 
   const pct = filled.length ? Math.round((studied.length / filled.length) * 100) : 0;
-  const period = viewMode === 'week' ? 'semana' : viewMode === 'month' ? 'mês' : 'ano';
+  const period = viewMode === 'day' ? 'dia' : viewMode === 'week' ? 'semana' : viewMode === 'month' ? 'mês' : 'ano';
 
   $('stat-filled').textContent = String(filled.length);
   $('stat-studied').textContent = `${studied.length}/${filled.length}`;
