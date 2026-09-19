@@ -1,0 +1,225 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Organelas Citoplasmáticas - Parte 2 (peroxissomos, glioxissomos, vacú…",
+        "descricao": "Organelas Citoplasmáticas - Parte 2 (peroxissomos, glioxissomos, vacúolos, mitocôndrias, cloroplastos, centríolos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Espelhos esféricos - Parte I",
+        "descricao": "Espelhos esféricos - Parte I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Política, Estado Dominação e Poder",
+        "descricao": "Política, Estado Dominação e Poder",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Hidrografia: geomorfologia fluvial",
+        "descricao": "Hidrografia: geomorfologia fluvial",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Núcleo (estrutura, eucromatina, heterocromatina e nucléolo), corpúscu…",
+        "descricao": "Núcleo (estrutura, eucromatina, heterocromatina e nucléolo), corpúsculo de Barr, cariótipo celular (número de cromossomos, células haplóides e diplóides)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Porcentagem, Juros Simples e Compostos: Conceitos e Aplicações no Dia…",
+        "descricao": "Porcentagem, Juros Simples e Compostos: Conceitos e Aplicações no Dia a Dia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Democracia, cidadania e direitos humanos",
+        "descricao": "Democracia, cidadania e direitos humanos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Mecanismos do clima e circulação atmosférica",
+        "descricao": "Mecanismos do clima e circulação atmosférica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Divisão celular: Mitose (equacional)",
+        "descricao": "Divisão celular: Mitose (equacional)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Bandeiras, Entradas, Monções e Expansão das Fronteiras do Brasil",
+        "descricao": "Bandeiras, Entradas, Monções e Expansão das Fronteiras do Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Barroco - Excesso, drama e persuasão",
+        "descricao": "Barroco - Excesso, drama e persuasão",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Radioatividade (cinética das emissões)",
+        "descricao": "Radioatividade (cinética das emissões)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Alta Idade Média Ocidental",
+        "descricao": "Alta Idade Média Ocidental",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Neoclassicismo / Arcadismo - Razão, norma e disciplina do olhar",
+        "descricao": "Neoclassicismo / Arcadismo - Razão, norma e disciplina do olhar",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Ligação metálica",
+        "descricao": "Ligação metálica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Baixa Idade Média Ocidental",
+        "descricao": "Baixa Idade Média Ocidental",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Concordância verbal — casos especiais: sujeito composto; porcentagem;…",
+        "descricao": "Concordância verbal — casos especiais: sujeito composto; porcentagem; coletivos; “haver/fazer/existir”; verbos impessoais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Fatores que afetam o equilíbrio",
+        "descricao": "Fatores que afetam o equilíbrio",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Filosofia política moderna - Maquiavel e o contrato",
+        "descricao": "Filosofia política moderna - Maquiavel e o contrato",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Enem e vestibulares 4",
+        "descricao": "Enem e vestibulares 4",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Leis de Newton - Parte I",
+        "descricao": "Leis de Newton - Parte I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Filosofia Política contemporânea: Estado, mercado, tecnologia e ident…",
+        "descricao": "Filosofia Política contemporânea: Estado, mercado, tecnologia e identidades",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Present and Past Continuous",
+        "descricao": "Present and Past Continuous",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}
