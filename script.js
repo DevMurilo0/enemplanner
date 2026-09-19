@@ -460,6 +460,10 @@ function renderCalendar() {
     button.setAttribute('aria-pressed', String(button.dataset.view === viewMode));
   });
 
+  const periodName = viewMode === 'week' ? 'semana' : viewMode === 'month' ? 'mês' : 'ano';
+  $('btn-prev').setAttribute('aria-label', `${periodName} anterior`);
+  $('btn-next').setAttribute('aria-label', `próximo ${periodName}`);
+
   const eyebrow = $('planner-view-eyebrow');
   const title = $('planner-view-title');
   const description = $('planner-view-description');
@@ -1081,7 +1085,7 @@ function bindEvents() {
   $('btn-next').addEventListener('click', () => shiftCurrentPeriod(1));
 
   document.querySelectorAll('[data-view]').forEach(button => {
-    button.addEventListener('click', () => setViewMode(button.dataset.view));
+    button.addEventListener('click', () => setViewMode(button.dataset.view, new Date()));
   });
 
   $('intro-collapse')?.addEventListener('click', () => setIntroCollapsed(true));
