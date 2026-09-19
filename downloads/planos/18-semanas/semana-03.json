@@ -1,0 +1,243 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Enzimologia",
+        "descricao": "Enzimologia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Espelhos planos",
+        "descricao": "Espelhos planos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Estratificação social",
+        "descricao": "Estratificação social",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Enem e vestibulares 3",
+        "descricao": "Enem e vestibulares 3",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Membrana plasmática e seus transportes passivos (difusão e osmose) e …",
+        "descricao": "Membrana plasmática e seus transportes passivos (difusão e osmose) e ativos (bombas e endocitoses).",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Regra de 3 simples e composta",
+        "descricao": "Regra de 3 simples e composta",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Mobilidade social e desenvolvimento",
+        "descricao": "Mobilidade social e desenvolvimento",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Past Simple",
+        "descricao": "Past Simple",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Organelas Citoplasmáticas - Parte 1 (ribossomos, retículo, golgi, lis…",
+        "descricao": "Organelas Citoplasmáticas - Parte 1 (ribossomos, retículo, golgi, lisossomos)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "A sociedade do açúcar e a economia complementar colonial",
+        "descricao": "A sociedade do açúcar e a economia complementar colonial",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Trabalho e transformação tecnológica",
+        "descricao": "Trabalho e transformação tecnológica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Superfícies da terra: estrutura e formas do relevo",
+        "descricao": "Superfícies da terra: estrutura e formas do relevo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Pilhas",
+        "descricao": "Pilhas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Roma - Parte 1 (a Monarquia e a República)",
+        "descricao": "Roma - Parte 1 (a Monarquia e a República)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Economia digital e plataformização",
+        "descricao": "Economia digital e plataformização",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Superfícies da terra: unidades do relevo brasileiro",
+        "descricao": "Superfícies da terra: unidades do relevo brasileiro",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Equilíbrio químico",
+        "descricao": "Equilíbrio químico",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Roma - Parte 2 (a fase do Império)",
+        "descricao": "Roma - Parte 2 (a fase do Império)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Quinhentismo - Olhar europeu, cultura visual, colonização e represent…",
+        "descricao": "Quinhentismo - Olhar europeu, cultura visual, colonização e representação do Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Polímeros",
+        "descricao": "Polímeros",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Epistemologia contemporânea: linguagem, ciência e verdade",
+        "descricao": "Epistemologia contemporânea: linguagem, ciência e verdade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Pronomes e Colocação Pronominal I",
+        "descricao": "Pronomes e Colocação Pronominal I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Gráficos do MUV",
+        "descricao": "Gráficos do MUV",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Conhecimento, tecnologia e sociedade: desafios atuais",
+        "descricao": "Conhecimento, tecnologia e sociedade: desafios atuais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Pronomes e Colocação Pronominal II",
+        "descricao": "Pronomes e Colocação Pronominal II",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}
