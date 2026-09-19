@@ -10,16 +10,16 @@ const BLOCK_TIMES = ['07:00 – 08:00', '08:00 – 09:00', '09:00 – 10:00', '1
 const DAY_KEYS_ORDER = ['domingo', 'segunda', 'terca', 'quarta', 'quinta', 'sexta', 'sabado'];
 
 const SUBJECTS = [
-  { id: 'bio', label: 'Biologia', color: '#4caf7d' },
-  { id: 'qui', label: 'Química', color: '#f4883a' },
-  { id: 'fis', label: 'Física', color: '#58b4e8' },
-  { id: 'mat', label: 'Matemática', color: '#3a6ecc' },
-  { id: 'his', label: 'História', color: '#e8c744' },
-  { id: 'fil', label: 'Fil. e Sociologia', color: '#e87fad', aliases: ['filosofia e sociologia', 'filosofia', 'sociologia', 'fil. e sociologia', 'filosofia/sociologia'] },
-  { id: 'art', label: 'Artes e Literatura', color: '#b689e0', aliases: ['artes e literatura', 'artes', 'literatura', 'arte'] },
-  { id: 'gra', label: 'Gramática Tradicional', color: '#8a9bb0', aliases: ['gramática tradicional', 'gramatica tradicional', 'gramática', 'gramatica', 'português', 'portugues'] },
-  { id: 'ing', label: 'Inglês', color: '#e05454', aliases: ['ingles'] },
-  { id: 'geo', label: 'Geografia e Atualidades', color: '#2e8b57', aliases: ['geografia e atualidades', 'geografia', 'atualidades'] }
+  { id: 'bio', label: 'Biologia', color: '#7fa67f' },
+  { id: 'qui', label: 'Química', color: '#c98a64' },
+  { id: 'fis', label: 'Física', color: '#75a0b5' },
+  { id: 'mat', label: 'Matemática', color: '#7e8fb8' },
+  { id: 'his', label: 'História', color: '#b8a168' },
+  { id: 'fil', label: 'Fil. e Sociologia', color: '#a9809a', aliases: ['filosofia e sociologia', 'filosofia', 'sociologia', 'fil. e sociologia', 'filosofia/sociologia'] },
+  { id: 'art', label: 'Artes e Literatura', color: '#9784ad', aliases: ['artes e literatura', 'artes', 'literatura', 'arte'] },
+  { id: 'gra', label: 'Gramática Tradicional', color: '#9097a0', aliases: ['gramática tradicional', 'gramatica tradicional', 'gramática', 'gramatica', 'português', 'portugues'] },
+  { id: 'ing', label: 'Inglês', color: '#b97770', aliases: ['ingles'] },
+  { id: 'geo', label: 'Geografia e Atualidades', color: '#6f9980', aliases: ['geografia e atualidades', 'geografia', 'atualidades'] }
 ];
 
 const PRIORITY_ORDER = { alta: 0, media: 1, baixa: 2, '': 3 };
