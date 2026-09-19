@@ -1,89 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Downloads — Planner ENEM</title>
+  <meta name="description" content="Baixe cronogramas prontos para importar no Planner ENEM." />
+  <meta name="theme-color" content="#0a0a0a" />
+  <title>Planos prontos — Planner ENEM</title>
   <link rel="icon" type="image/png" href="../icon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
-    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="downloads.css" />
 </head>
-
 <body>
-
-  <header class="header">
-    <div class="header-inner">
-      <a class="header-title header-title--link" href="../index.html">
-        <div class="header-logo">
-          <img src="../icon.png" alt="Logo Planner ENEM" />
-        </div>
-        <div>
-          <h1>Planner ENEM</h1>
-          <p class="header-sub">Downloads de planos prontos</p>
-        </div>
+  <header class="topbar">
+    <div class="topbar__inner">
+      <a class="brand" href="../">
+        <img src="../icon.png" alt="" />
+        <div><strong>Planner ENEM</strong><span>Planos prontos</span></div>
       </a>
-      <a class="btn-action" href="../index.html">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-          stroke-linecap="round" stroke-linejoin="round">
-          <line x1="19" y1="12" x2="5" y2="12" />
-          <polyline points="12 19 5 12 12 5" />
-        </svg>
-        Voltar ao planner
-      </a>
+      <a class="back" href="../">← Voltar ao planner</a>
     </div>
   </header>
 
-  <main class="dl-main">
-
-    <section class="dl-hero">
-      <span class="dl-eyebrow">Downloads</span>
-      <h2 class="dl-hero-title">Baixe um plano de estudos pronto</h2>
-      <p class="dl-hero-lead">
-        Escolha uma duração e baixe o arquivo JSON da semana desejada. Depois é só
-        importar o arquivo no planner (botão "Importar" no topo da página principal).
-      </p>
+  <main class="shell">
+    <section class="hero">
+      <span class="eyebrow">Passo 1 de 3</span>
+      <h1>Escolha o cronograma e baixe a semana que você quer estudar.</h1>
+      <p>Os arquivos abaixo já estão no formato certo do Planner ENEM. Depois do download, volte ao planner e importe o JSON.</p>
     </section>
 
-    <section class="dl-plan" id="plan-14">
-      <button class="dl-plan-head dl-plan-head--toggle" id="toggle-14" aria-expanded="false"
-        aria-controls="grid-14">
-        <div class="dl-plan-head-left">
-          <span class="dl-plan-chevron" id="chevron-14">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-              stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="9 18 15 12 9 6" />
-            </svg>
-          </span>
-          <h3>14 semanas</h3>
-        </div>
-        <span class="dl-plan-count" id="count-14">0/14 disponíveis</span>
-      </button>
-      <div class="dl-grid" id="grid-14" hidden>
-        <!-- gerado por JS -->
+    <section class="steps" aria-label="Como usar os downloads">
+      <article class="step step--active"><span>01</span><div><strong>Baixar</strong><p>Escolha o plano e a semana.</p></div></article>
+      <article class="step"><span>02</span><div><strong>Importar</strong><p>Selecione o JSON no planner.</p></div></article>
+      <article class="step"><span>03</span><div><strong>Estudar</strong><p>Use os blocos como checklist.</p></div></article>
+    </section>
+
+    <section class="plans-heading">
+      <div><span class="eyebrow">Cronogramas disponíveis</span><h2>Qual plano você está seguindo?</h2></div>
+      <p>Você pode baixar somente a semana atual. Não precisa baixar tudo de uma vez.</p>
+    </section>
+
+    <div class="plans" id="plans"></div>
+
+    <section class="help-card">
+      <div>
+        <span class="eyebrow">Ainda ficou em dúvida?</span>
+        <h2>Depois do download, o próximo botão é “Importar”.</h2>
+        <p>O planner coloca o conteúdo na semana que estiver selecionada. Por isso, antes de importar, confira a data no topo do planner.</p>
       </div>
+      <a class="button button--primary" href="../?import=1">Ir para importar</a>
     </section>
-
-    <section class="dl-plan dl-plan--soon">
-      <div class="dl-plan-head">
-        <div class="dl-plan-head-left">
-          <h3>18 semanas</h3>
-        </div>
-        <span class="dl-plan-tag">em breve</span>
-      </div>
-      <p class="dl-soon-text">O plano de 18 semanas ainda está sendo preparado.</p>
-    </section>
-
   </main>
 
-  <footer class="dl-footer">
-    <p>Feito de forma independente por Murilo Gabriel Souza da Silva.</p>
-  </footer>
+  <footer>Feito de forma independente por Murilo Gabriel Souza da Silva.</footer>
+
+  <div class="download-next" id="download-next" hidden>
+    <div>
+      <span class="download-next__check">✓</span>
+      <div><strong id="download-next-title">Download iniciado</strong><p>Agora volte ao planner e importe o arquivo.</p></div>
+    </div>
+    <a class="button button--primary" href="../?import=1">Ir para importar</a>
+  </div>
 
   <script src="downloads.js"></script>
 </body>
-
 </html>
