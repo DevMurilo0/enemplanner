@@ -1,0 +1,207 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Segunda Lei de Mendel (segregação independente dos gametas) e suas pr…",
+        "descricao": "Segunda Lei de Mendel (segregação independente dos gametas) e suas proporções fenotípicas e genotípicas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Leis de Ohm",
+        "descricao": "Leis de Ohm",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Arte afro-brasileira e identidade - Memória, corpo e território",
+        "descricao": "Arte afro-brasileira e identidade - Memória, corpo e território",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Determinação do sexo, heranças genéticas sexuais (ligada, holândrica,…",
+        "descricao": "Determinação do sexo, heranças genéticas sexuais (ligada, holândrica, limitada e influenciada) e genética das populações (Equilíbrio gênico de hard-Weimberg)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Geometria espacial - Esfera , Sólidos inscritos e circunscritos",
+        "descricao": "Geometria espacial - Esfera , Sólidos inscritos e circunscritos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Orações coordenadas: Aditiva, adversativa, alternativa, conclusiva, e…",
+        "descricao": "Orações coordenadas: Aditiva, adversativa, alternativa, conclusiva, explicativa; conectivos e valores.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Biotecnologia completa",
+        "descricao": "Biotecnologia completa",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Ditadura Militar: O Ápice e o Declínio (Governos Médici, Geisel e Fig…",
+        "descricao": "Ditadura Militar: O Ápice e o Declínio (Governos Médici, Geisel e Figueiredo)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Subordinadas substantivas: Funções (sujeito, objeto, complemento, pre…",
+        "descricao": "Subordinadas substantivas: Funções (sujeito, objeto, complemento, predicativo, apositiva); encaixe.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Digestão humana",
+        "descricao": "Digestão humana",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Guerra Fria - Parte 2 (Conflitos na Ásia, Revolução Cubana e Crise do…",
+        "descricao": "Guerra Fria - Parte 2 (Conflitos na Ásia, Revolução Cubana e Crise dos Mísseis de Cuba)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Enem e vestibulares 17",
+        "descricao": "Enem e vestibulares 17",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Oxidação e redução",
+        "descricao": "Oxidação e redução",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Pós-modernidade, Consumo e Informação",
+        "descricao": "Pós-modernidade, Consumo e Informação",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Quantifiers",
+        "descricao": "Quantifiers",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Biocombustíveis",
+        "descricao": "Biocombustíveis",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Classes, elites e subalternidade",
+        "descricao": "Classes, elites e subalternidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "A Questão Agrária Brasileira",
+        "descricao": "A Questão Agrária Brasileira",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Hidrostática – Parte II",
+        "descricao": "Hidrostática – Parte II",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Arte indígena - Tradição viva e resistência: estética, ritualística e…",
+        "descricao": "Arte indígena - Tradição viva e resistência: estética, ritualística e contemporânea",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "A Organização do Estado Brasileiro",
+        "descricao": "A Organização do Estado Brasileiro",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}
