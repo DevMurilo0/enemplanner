@@ -56,16 +56,6 @@
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
   <main class="page-shell">
-    <div class="period-navigation">
-      <div class="week-switcher" aria-label="Navegação do período">
-        <button class="icon-btn" id="btn-prev" type="button" aria-label="Período anterior">←</button>
-        <div class="week-switcher__label">
-          <span id="period-kind">Semana selecionada</span>
-          <strong id="week-label">Carregando</strong>
-        </div>
-        <button class="icon-btn" id="btn-next" type="button" aria-label="Próximo período">→</button>
-      </div>
-    </div>
     <section class="intro-card" id="quick-start">
       <button class="intro-collapse" id="intro-collapse" type="button" aria-label="Ocultar apresentação" title="Ocultar apresentação">
         <svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
@@ -158,23 +148,35 @@
           <h2 id="planner-view-title">O que você vai estudar</h2>
           <p id="planner-view-description">Clique em um bloco para ver detalhes ou editar. Marque a caixa quando concluir um conteúdo.</p>
         </div>
-        <div class="section-heading__right">
-          <div class="view-switcher" role="group" aria-label="Mudar visualização">
-            <button class="view-switcher__button active" type="button" data-view="week">Semana</button>
-            <button class="view-switcher__button" type="button" data-view="month">Mês</button>
-            <button class="view-switcher__button" type="button" data-view="year">Ano</button>
-          </div>
-          <div class="section-heading__tools">
-            <button class="button button--secondary button--small" id="section-full-plan" type="button">Importar plano</button>
-            <button class="button button--secondary button--small" id="section-import" type="button">Importar semana</button>
-            <button class="button button--secondary button--small" id="section-distribute" type="button">Distribuir manualmente</button>
-          </div>
+        <div class="section-heading__tools">
+          <button class="button button--secondary button--small" id="section-full-plan" type="button">Importar plano</button>
+          <button class="button button--secondary button--small" id="section-import" type="button">Importar semana</button>
+          <button class="button button--secondary button--small" id="section-distribute" type="button">Distribuir manualmente</button>
         </div>
       </div>
-      <div class="subject-legend" id="subject-legend" aria-label="Legenda de matérias"></div>
+
+      <div class="planner-controls">
+        <div class="week-switcher" aria-label="Navegação do período">
+          <button class="icon-btn" id="btn-prev" type="button" aria-label="Período anterior">←</button>
+          <div class="week-switcher__label">
+            <span id="period-kind">Semana selecionada</span>
+            <strong id="week-label">Carregando</strong>
+          </div>
+          <button class="icon-btn" id="btn-next" type="button" aria-label="Próximo período">→</button>
+        </div>
+
+        <div class="view-switcher" role="group" aria-label="Mudar visualização">
+          <button class="view-switcher__button active" type="button" data-view="week">Semana</button>
+          <button class="view-switcher__button" type="button" data-view="month">Mês</button>
+          <button class="view-switcher__button" type="button" data-view="year">Ano</button>
+        </div>
+      </div>
+
       <div class="calendar-grid" id="calendar-grid"></div>
       <div class="month-view" id="month-view" hidden></div>
       <div class="year-view" id="year-view" hidden></div>
+
+      <div class="subject-legend subject-legend--below" id="subject-legend" aria-label="Legenda de matérias"></div>
     </section>
 
     <section class="creator-section" aria-labelledby="creator-title">
