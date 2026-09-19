@@ -253,7 +253,7 @@
       </div>
       <div class="modal__body guide-body">
         <div class="guide-row"><span>1</span><div><strong>Escolha um cronograma</strong><p>Use “Importar plano” para selecionar um dos planos disponíveis.</p></div></div>
-        <div class="guide-row"><span>2</span><div><strong>Defina quando começar</strong><p>Escolha uma data. O Planner organiza todas as semanas do cronograma a partir dela.</p></div></div>
+        <div class="guide-row"><span>2</span><div><strong>Escolha de qual semana partir</strong><p>Se o cronograma já começou, pule as semanas anteriores e importe somente da semana escolhida até o final.</p></div></div>
         <div class="guide-row"><span>3</span><div><strong>Acompanhe em quatro visões</strong><p>Use Dia, Semana, Mês e Ano para alternar entre foco no presente e visão geral.</p></div></div>
         <div class="guide-row"><span>4</span><div><strong>Continue com liberdade</strong><p>Você ainda pode importar uma semana isolada, editar blocos, distribuir conteúdos e exportar sua semana.</p></div></div>
         <div class="guide-note">Importar um plano completo substitui conteúdos já existentes no período escolhido. O Planner avisa antes de continuar.</div>
@@ -272,15 +272,27 @@
         <button class="modal-close" id="plan-close" type="button" aria-label="Fechar">×</button>
       </div>
       <div class="modal__body">
-        <p class="modal-lead">Escolha o cronograma e a data em que a primeira semana deve começar.</p>
+        <p class="modal-lead">Escolha o cronograma, a semana do plano em que você quer entrar e a data em que vai começar.</p>
         <div class="plan-import-fields">
-          <label class="plan-field"><span>Plano</span><select id="plan-select"></select></label>
-          <label class="plan-field"><span>Data de início</span><input id="plan-start-date" type="date" /></label>
+          <label class="plan-field">
+            <span>Plano</span>
+            <select id="plan-select"></select>
+          </label>
+          <label class="plan-field">
+            <span>Começar pela semana</span>
+            <select id="plan-week-start"></select>
+            <small class="plan-field__help">Pode pular o início do cronograma. Exemplo: começar na Semana 3 usa somente da Semana 3 até o final.</small>
+          </label>
+          <label class="plan-field plan-field--wide">
+            <span>Data de início</span>
+            <input id="plan-start-date" type="date" />
+          </label>
         </div>
         <div class="plan-import-summary">
           <span class="plan-import-summary__label">Como ficará</span>
-          <strong id="plan-start-label">Primeira semana</strong>
+          <strong id="plan-start-label">Começando pela Semana 1</strong>
           <p id="plan-range-label">Selecione um plano para ver o período.</p>
+          <div class="plan-import-count" id="plan-import-count">Todas as semanas serão importadas.</div>
         </div>
         <p class="plan-import-note">A data é ajustada para o domingo da semana escolhida. Se já houver conteúdo no período, o Planner pedirá confirmação antes de substituir.</p>
         <p class="plan-import-status" id="plan-import-status" hidden></p>

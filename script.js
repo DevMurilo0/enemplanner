@@ -879,6 +879,24 @@ function populatePlanSelect() {
   select.innerHTML = AVAILABLE_PLANS.map(plan => `<option value="${plan.id}">${plan.title}</option>`).join('');
 }
 
+function updatePlanWeekOptions(preferredWeek = null) {
+  const plan = AVAILABLE_PLANS.find(item => item.id === $('plan-select').value) || AVAILABLE_PLANS[0];
+  const select = $('plan-week-start');
+  const previous = Number(preferredWeek ?? select.value ?? 1);
+  const selected = Math.min(Math.max(previous || 1, 1), plan.total);
+
+  select.innerHTML = Array.from({ length: plan.total }, (_, index) => {
+    const week = index + 1;
+    return `<option value="${week}" ${week === selected ? 'selected' : ''}>Semana ${week}</option>`;
+  }).join('');
+}
+
+function getSelectedPlanStartWeek() {
+  const plan = AVAILABLE_PLANS.find(item => item.id === $('plan-select').value) || AVAILABLE_PLANS[0];
+  const value = Number($('plan-week-start').value) || 1;
+  return Math.min(Math.max(value, 1), plan.total);
+}
+
 function getPlanStartDate() {
   const raw = $('plan-start-date').value;
   const base = raw ? new Date(`${raw}T12:00:00`) : getWeekStart(weekOffset);
@@ -887,22 +905,39 @@ function getPlanStartDate() {
 
 function updatePlanImportSummary() {
   populatePlanSelect();
+  updatePlanWeekOptions();
+
   const plan = AVAILABLE_PLANS.find(item => item.id === $('plan-select').value) || AVAILABLE_PLANS[0];
+  const firstWeek = getSelectedPlanStartWeek();
+  const weeksToImport = plan.total - firstWeek + 1;
   const start = getPlanStartDate();
   const end = new Date(start);
-  end.setDate(end.getDate() + plan.total * 7 - 1);
-  $('plan-start-label').textContent = `${plan.title}, começa em ${start.toLocaleDateString('pt-BR')}`;
-  $('plan-range-label').textContent = `Vai de ${start.toLocaleDateString('pt-BR')} a ${end.toLocaleDateString('pt-BR')}, ocupando ${plan.total} semanas.`;
+  end.setDate(end.getDate() + weeksToImport * 7 - 1);
+
+  $('plan-start-label').textContent = firstWeek === 1
+    ? `${plan.title}, desde a Semana 1`
+    : `${plan.title}, começando pela Semana ${firstWeek}`;
+
+  $('plan-range-label').textContent = `No calendário: ${start.toLocaleDateString('pt-BR')} a ${end.toLocaleDateString('pt-BR')}.`;
+
+  $('plan-import-count').textContent = firstWeek === 1
+    ? `As ${plan.total} semanas do plano serão importadas.`
+    : `Serão importadas ${weeksToImport} semanas, da Semana ${firstWeek} até a Semana ${plan.total}.`;
+
+  $('plan-run').textContent = firstWeek === 1
+    ? 'Importar plano completo'
+    : `Importar ${weeksToImport} semanas`;
 }
 
-function openPlanImport(planId = null) {
+function openPlanImport(planId = null, startWeek = 1) {
   populatePlanSelect();
   if (planId && AVAILABLE_PLANS.some(plan => plan.id === String(planId))) $('plan-select').value = String(planId);
+  updatePlanWeekOptions(startWeek);
+
   const anchor = viewMode === 'week' ? getWeekStart(weekOffset) : getCurrentAnchorDate();
   $('plan-start-date').value = toDateKey(anchor);
   $('plan-import-status').hidden = true;
   $('plan-run').disabled = false;
-  $('plan-run').textContent = 'Importar plano completo';
   updatePlanImportSummary();
   openOverlay('plan-overlay');
 }
@@ -921,29 +956,35 @@ async function importFullPlan() {
   const plan = AVAILABLE_PLANS.find(item => item.id === $('plan-select').value);
   if (!plan) return;
 
+  const firstWeek = getSelectedPlanStartWeek();
+  const weeksToImport = plan.total - firstWeek + 1;
   const start = getPlanStartDate();
-  const existing = countExistingInPlanRange(start, plan.total);
+  const existing = countExistingInPlanRange(start, weeksToImport);
+
   if (existing && !window.confirm(`Já existem ${existing} conteúdos nesse período. Deseja substituir e continuar?`)) return;
 
   const status = $('plan-import-status');
   const run = $('plan-run');
   status.hidden = false;
-  status.textContent = `Carregando ${plan.total} semanas...`;
+  status.textContent = firstWeek === 1
+    ? `Carregando ${weeksToImport} semanas...`
+    : `Carregando da Semana ${firstWeek} até a Semana ${plan.total}...`;
   run.disabled = true;
   run.textContent = 'Importando...';
 
   try {
-    const weeks = await Promise.all(Array.from({ length: plan.total }, async (_, index) => {
-      const week = index + 1;
+    const weekNumbers = Array.from({ length: weeksToImport }, (_, index) => firstWeek + index);
+
+    const weeks = await Promise.all(weekNumbers.map(async week => {
       const response = await fetch(`${plan.folder}/${planFileName(week)}`, { cache: 'no-store' });
-      if (!response.ok) throw new Error(`A semana ${week} não está disponível.`);
+      if (!response.ok) throw new Error(`A Semana ${week} não está disponível.`);
       const parsed = await response.json();
       const error = validateWeekJSON(parsed);
       if (error) throw new Error(`Semana ${week}: ${error}`);
-      return parsed.semana;
+      return { week, semana: parsed.semana };
     }));
 
-    weeks.forEach((semana, index) => {
+    weeks.forEach(({ semana }, index) => {
       const weekStart = new Date(start);
       weekStart.setDate(weekStart.getDate() + index * 7);
       writeWeek(semana, weekStart);
@@ -951,13 +992,18 @@ async function importFullPlan() {
 
     saveData();
     closePlanImport();
-    showToast(`${plan.title} importado com sucesso.`, 'success');
+
+    const successMessage = firstWeek === 1
+      ? `${plan.title} importado com sucesso.`
+      : `Semana ${firstWeek} até Semana ${plan.total} importadas com sucesso.`;
+
+    showToast(successMessage, 'success');
     setViewMode('week', start);
   } catch (error) {
     status.hidden = false;
     status.textContent = error.message || 'Não foi possível importar o plano.';
     run.disabled = false;
-    run.textContent = 'Tentar novamente';
+    updatePlanImportSummary();
   }
 }
 
@@ -1197,7 +1243,11 @@ function bindEvents() {
 
   $('plan-close').addEventListener('click', closePlanImport);
   $('plan-cancel').addEventListener('click', closePlanImport);
-  $('plan-select').addEventListener('change', updatePlanImportSummary);
+  $('plan-select').addEventListener('change', () => {
+    updatePlanWeekOptions(1);
+    updatePlanImportSummary();
+  });
+  $('plan-week-start').addEventListener('change', updatePlanImportSummary);
   $('plan-start-date').addEventListener('change', updatePlanImportSummary);
   $('plan-run').addEventListener('click', importFullPlan);
 
@@ -1239,6 +1289,7 @@ function handleEntryContext() {
   const params = new URLSearchParams(location.search);
   const shouldImport = params.get('import') === '1' || location.hash === '#importar';
   const fullPlanId = params.get('plan');
+  const fullPlanStartWeek = Number(params.get('startWeek')) || 1;
   const shouldImportPlan = params.get('full') === '1' && fullPlanId;
   if (shouldImport) {
     $('import-hint').hidden = false;
@@ -1246,7 +1297,7 @@ function handleEntryContext() {
     setTimeout(() => $('btn-import').classList.remove('pulse-import'), 3000);
   }
 
-  if (shouldImportPlan) setTimeout(() => openPlanImport(fullPlanId), 120);
+  if (shouldImportPlan) setTimeout(() => openPlanImport(fullPlanId, fullPlanStartWeek), 120);
 
   const hasAnyData = Object.values(data).some(day => Array.isArray(day) && day.some(block => block?.subject));
   if (!localStorage.getItem(TUTORIAL_KEY) && !hasAnyData && !shouldImport && !shouldImportPlan) {
