@@ -62,39 +62,49 @@
 
   <main class="page-shell">
     <section class="intro-card" id="quick-start">
+      <button class="intro-collapse" id="intro-collapse" type="button" aria-label="Ocultar apresentação" title="Ocultar apresentação">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
+      </button>
+
       <div class="intro-card__copy">
         <span class="eyebrow">Comece por aqui</span>
-        <h1>Monte sua semana sem ficar tentando adivinhar como o site funciona.</h1>
-        <p>O fluxo é simples: escolha um cronograma pronto, baixe a semana que quer estudar e importe o arquivo no planner.</p>
+        <h1>Seu ENEM, semana por semana.</h1>
+        <p>O Planner ENEM transforma seu cronograma em uma rotina visual: escolha um plano, importe a semana e acompanhe o que já foi estudado.</p>
         <div class="intro-card__actions">
           <a class="button button--primary" href="downloads/">Escolher um cronograma</a>
           <button class="button button--secondary" id="quick-import" type="button">Já baixei, quero importar</button>
         </div>
       </div>
+
       <div class="flow" aria-label="Passo a passo de uso">
         <article class="flow-step">
           <span class="flow-step__number">01</span>
           <div>
             <strong>Baixe uma semana</strong>
-            <p>Abra “Planos prontos” e escolha entre os cronogramas disponíveis.</p>
+            <p>Abra “Planos prontos” e escolha o cronograma que você está seguindo.</p>
           </div>
         </article>
         <article class="flow-step">
           <span class="flow-step__number">02</span>
           <div>
-            <strong>Importe o arquivo JSON</strong>
-            <p>Volte para cá, clique em “Importar” e selecione o arquivo baixado.</p>
+            <strong>Importe no planner</strong>
+            <p>Selecione o JSON baixado e aplique o conteúdo na semana desejada.</p>
           </div>
         </article>
         <article class="flow-step">
           <span class="flow-step__number">03</span>
           <div>
-            <strong>Estude e marque o progresso</strong>
-            <p>Abra cada bloco para ver o conteúdo e marque como concluído ao terminar.</p>
+            <strong>Acompanhe seu progresso</strong>
+            <p>Use os blocos como checklist e marque cada conteúdo quando terminar.</p>
           </div>
         </article>
       </div>
     </section>
+
+    <button class="intro-restore" id="intro-restore" type="button" hidden aria-label="Mostrar apresentação">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+      Mostrar apresentação
+    </button>
 
     <section class="import-hint" id="import-hint" hidden>
       <div>
@@ -105,6 +115,29 @@
         </div>
       </div>
       <button class="button button--primary" id="hint-import" type="button">Selecionar arquivo</button>
+    </section>
+
+    <section class="enem-countdown" id="enem-countdown" aria-live="polite">
+      <div class="enem-countdown__icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18"/></svg>
+      </div>
+      <div class="enem-countdown__copy">
+        <span class="eyebrow">Contagem para o ENEM</span>
+        <strong id="enem-countdown-title">ENEM 2026</strong>
+        <p id="enem-countdown-date">8 de novembro de 2026</p>
+      </div>
+      <div class="enem-countdown__time" id="enem-countdown-time">
+        <div class="count-unit">
+          <strong id="enem-weeks">—</strong>
+          <span id="enem-weeks-label">semanas</span>
+        </div>
+        <span class="count-separator">+</span>
+        <div class="count-unit">
+          <strong id="enem-days">—</strong>
+          <span id="enem-days-label">dias</span>
+        </div>
+      </div>
+      <p class="enem-countdown__waiting" id="enem-countdown-waiting" hidden>Esperando a nova data do ENEM...</p>
     </section>
 
     <section class="overview" aria-label="Resumo da semana">
@@ -149,11 +182,26 @@
       <div class="subject-legend" id="subject-legend" aria-label="Legenda de matérias"></div>
       <div class="calendar-grid" id="calendar-grid"></div>
     </section>
+
+    <section class="creator-section" aria-labelledby="creator-title">
+      <div class="creator-card">
+        <img class="creator-photo" src="assets/murilo-gabriel.jpg" alt="Murilo Gabriel" loading="lazy" />
+        <div class="creator-copy">
+          <span class="eyebrow">Criador do projeto</span>
+          <h2 id="creator-title">Murilo Gabriel</h2>
+          <p>Planner ENEM é um projeto independente criado e desenvolvido por Murilo Gabriel.</p>
+          <a class="creator-link" href="https://murilogabriel.com.br" target="_blank" rel="noopener noreferrer">
+            murilogabriel.com.br
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
     <span>Planner ENEM</span>
-    <span>Feito de forma independente por Murilo Gabriel Souza da Silva.</span>
+    <span>Projeto independente por Murilo Gabriel.</span>
   </footer>
 
   <div class="overlay" id="edit-overlay" role="dialog" aria-modal="true" aria-labelledby="edit-title">

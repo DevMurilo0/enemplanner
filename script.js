@@ -4,6 +4,7 @@
 
 const STORAGE_KEY = 'studyPlanner_v1';
 const TUTORIAL_KEY = 'studyPlanner_tutorial_seen_v2';
+const INTRO_STATE_KEY = 'studyPlanner_intro_collapsed_v1';
 const DAYS_SHORT = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'];
 const BLOCK_TIMES = ['07:00 – 08:00', '08:00 – 09:00', '09:00 – 10:00', '10:00 – 11:00'];
 const DAY_KEYS_ORDER = ['domingo', 'segunda', 'terca', 'quarta', 'quinta', 'sexta', 'sabado'];
@@ -263,9 +264,72 @@ function updateStats() {
     : 'Comece importando ou adicionando blocos.';
 }
 
+function applyIntroState() {
+  const intro = $('quick-start');
+  const restore = $('intro-restore');
+  if (!intro || !restore) return;
+  const collapsed = localStorage.getItem(INTRO_STATE_KEY) === '1';
+  intro.hidden = collapsed;
+  restore.hidden = !collapsed;
+}
+
+function setIntroCollapsed(collapsed) {
+  localStorage.setItem(INTRO_STATE_KEY, collapsed ? '1' : '0');
+  applyIntroState();
+  if (collapsed) {
+    $('planner-section')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+
 function updateQuickStart() {
-  const hasContent = getWeekBlocks().some(b => b.subject);
-  $('quick-start').style.display = hasContent ? 'none' : 'grid';
+  applyIntroState();
+}
+
+function renderEnemCountdown() {
+  const weeksEl = $('enem-weeks');
+  const daysEl = $('enem-days');
+  const weeksLabel = $('enem-weeks-label');
+  const daysLabel = $('enem-days-label');
+  const titleEl = $('enem-countdown-title');
+  const dateEl = $('enem-countdown-date');
+  const timeEl = $('enem-countdown-time');
+  const waitingEl = $('enem-countdown-waiting');
+  if (!weeksEl || !daysEl || !titleEl || !dateEl || !timeEl || !waitingEl) return;
+
+  const now = new Date();
+  const today = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+  const firstDay = Date.UTC(2026, 10, 8);
+  const secondDay = Date.UTC(2026, 10, 15);
+  const DAY_MS = 86400000;
+
+  if (today > secondDay) {
+    timeEl.hidden = true;
+    waitingEl.hidden = false;
+    titleEl.textContent = 'ENEM concluído';
+    dateEl.textContent = 'Aguardando o calendário oficial da próxima edição.';
+    return;
+  }
+
+  waitingEl.hidden = true;
+  timeEl.hidden = false;
+
+  const target = today < firstDay ? firstDay : secondDay;
+  const diffDays = Math.max(0, Math.round((target - today) / DAY_MS));
+  const weeks = Math.floor(diffDays / 7);
+  const days = diffDays % 7;
+
+  weeksEl.textContent = String(weeks);
+  daysEl.textContent = String(days);
+  weeksLabel.textContent = weeks === 1 ? 'semana' : 'semanas';
+  daysLabel.textContent = days === 1 ? 'dia' : 'dias';
+
+  if (target === firstDay) {
+    titleEl.textContent = 'Até o 1º dia do ENEM 2026';
+    dateEl.textContent = '8 de novembro de 2026';
+  } else {
+    titleEl.textContent = 'Até o 2º dia do ENEM 2026';
+    dateEl.textContent = '15 de novembro de 2026';
+  }
 }
 
 function openOverlay(id) {
@@ -664,6 +728,9 @@ function bindEvents() {
   $('btn-prev').addEventListener('click', () => { weekOffset--; renderCalendar(); });
   $('btn-next').addEventListener('click', () => { weekOffset++; renderCalendar(); });
 
+  $('intro-collapse')?.addEventListener('click', () => setIntroCollapsed(true));
+  $('intro-restore')?.addEventListener('click', () => setIntroCollapsed(false));
+
   [$('btn-import'), $('quick-import'), $('hint-import'), $('section-import')].forEach(btn => btn?.addEventListener('click', triggerImport));
   $('file-input').addEventListener('change', () => importJSON($('file-input').files[0]));
 
@@ -725,6 +792,8 @@ function init() {
   bindEvents();
   renderLegend();
   renderCalendar();
+  renderEnemCountdown();
+  setInterval(renderEnemCountdown, 60 * 60 * 1000);
   handleEntryContext();
 }
 
