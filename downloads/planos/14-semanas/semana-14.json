@@ -1,0 +1,234 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Principais protozooses do Brasil: Amebíase, Giardíase, Leishmaniose tegumentar e visceral, Malária, Doença de Chagas, Doença do sono, Toxoplasmose, Tricomoníase, Balantidíase",
+        "descricao": "Principais protozooses do Brasil: Amebíase, Giardíase, Leishmaniose tegumentar e visceral, Malária, Doença de Chagas, Doença do sono, Toxoplasmose, Tricomoníase, Balantidíase",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Hidrostática – Parte II",
+        "descricao": "Hidrostática – Parte II",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Cultura, Identidade e Modernização no Brasil",
+        "descricao": "Cultura, Identidade e Modernização no Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Connectors and Conjunctions",
+        "descricao": "Connectors and Conjunctions",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Verminoses causadas por platelminto e nematelmintos: Esquistossomose, Teníase e Cisticercose, Ascaridíase, Ancilostomose, Filariose, Oxiuríase e Larva migrans (bicho geográfico)",
+        "descricao": "Verminoses causadas por platelminto e nematelmintos: Esquistossomose, Teníase e Cisticercose, Ascaridíase, Ancilostomose, Filariose, Oxiuríase e Larva migrans (bicho geográfico)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Leis de Ohm",
+        "descricao": "Leis de Ohm",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Classes, elites e subalternidade",
+        "descricao": "Classes, elites e subalternidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "A industrialização da agricultura e a produção agropecuária no Brasil",
+        "descricao": "A industrialização da agricultura e a produção agropecuária no Brasil",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Artrópodes (Filo Arthropoda)",
+        "descricao": "Artrópodes (Filo Arthropoda)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Geometria espacial - Esfera, Sólidos inscritos e circunscritos",
+        "descricao": "Geometria espacial - Esfera, Sólidos inscritos e circunscritos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "O Brasil entre Democracia, Autoritarismo e Populismo",
+        "descricao": "O Brasil entre Democracia, Autoritarismo e Populismo",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "A Questão Agrária Brasileira",
+        "descricao": "A Questão Agrária Brasileira",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Equação de Gibbs e espontaneidade das reações químicas",
+        "descricao": "Equação de Gibbs e espontaneidade das reações químicas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Método para fazer a prova do ENEM",
+        "descricao": "Método para fazer a prova do ENEM",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Arte em tempo real - da arte popular à arte digital: redes, mercado e experiência e cotidiano",
+        "descricao": "Arte em tempo real - da arte popular à arte digital: redes, mercado e experiência e cotidiano",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Lixo, lixão, aterro controlado e aterro sanitário",
+        "descricao": "Lixo, lixão, aterro controlado e aterro sanitário",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Guerra Fria - Parte 2 (Conflitos na Ásia, Revolução Cubana e Crise dos Mísseis de Cuba)",
+        "descricao": "Guerra Fria - Parte 2 (Conflitos na Ásia, Revolução Cubana e Crise dos Mísseis de Cuba)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Subordinadas adjetivas (restritiva × explicativa) + Pontuação: Efeito de sentido com vírgula; pronomes relativos; redução de ambiguidades.",
+        "descricao": "Subordinadas adjetivas (restritiva × explicativa) + Pontuação: Efeito de sentido com vírgula; pronomes relativos; redução de ambiguidades.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Hidrostática – Parte I",
+        "descricao": "Hidrostática – Parte I",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Antropoceno, ecologia e futuro",
+        "descricao": "Antropoceno, ecologia e futuro",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Subordinadas adverbiais: Causa, consequência, concessão, condição, finalidade, tempo, comparação etc.",
+        "descricao": "Subordinadas adverbiais: Causa, consequência, concessão, condição, finalidade, tempo, comparação etc.",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Corrente elétrica",
+        "descricao": "Corrente elétrica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Feminismos Brasileiros e Interseccionalidade",
+        "descricao": "Feminismos Brasileiros e Interseccionalidade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Enem e vestibulares 14",
+        "descricao": "Enem e vestibulares 14",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}

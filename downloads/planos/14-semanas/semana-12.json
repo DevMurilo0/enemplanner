@@ -1,0 +1,234 @@
+{
+  "semana": {
+    "domingo": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Heredogramas",
+        "descricao": "Heredogramas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Geometria espacial - Retas e planos no espaço, Vistas e perspectivas, Projeções ortogonais",
+        "descricao": "Geometria espacial - Retas e planos no espaço, Vistas e perspectivas, Projeções ortogonais",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Antropoceno, ecologia e Amazônia",
+        "descricao": "Antropoceno, ecologia e Amazônia",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Conditionals",
+        "descricao": "Conditionals",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "segunda": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Grupos sanguíneos: Sistema RH e eritroblastose fetal. Sistema MN e SS",
+        "descricao": "Grupos sanguíneos: Sistema RH e eritroblastose fetal. Sistema MN e SS",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Matemática",
+        "cor": "#3a6ecc",
+        "titulo": "Geometria espacial - Poliedros, Prismas, Cilindros",
+        "descricao": "Geometria espacial - Poliedros, Prismas, Cilindros",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Riscos globais, tecnologia e futuro",
+        "descricao": "Riscos globais, tecnologia e futuro",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "A industrialização brasileira",
+        "descricao": "A industrialização brasileira",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "terca": [
+      {
+        "materia": "Biologia",
+        "cor": "#4caf7d",
+        "titulo": "Biotecnologia completa",
+        "descricao": "Biotecnologia completa",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Ditadura Militar: O Ápice e o Declínio (Governos Médici, Geisel e Figueiredo)",
+        "descricao": "Ditadura Militar: O Ápice e o Declínio (Governos Médici, Geisel e Figueiredo)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Fotografia e cinema como arte - Novos olhares, novas narrativas",
+        "descricao": "Fotografia e cinema como arte - Novos olhares, novas narrativas",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Geografia e Atualidades",
+        "cor": "#2e8b57",
+        "titulo": "Urbanização (Brasil e mundo)",
+        "descricao": "Urbanização (Brasil e mundo)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quarta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Osmose",
+        "descricao": "Osmose",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "Período Entreguerras: A Crise de 1929 e os Totalitarismos",
+        "descricao": "Período Entreguerras: A Crise de 1929 e os Totalitarismos",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Artes e Literatura",
+        "cor": "#b689e0",
+        "titulo": "Arte contemporânea brasileira - Diversidade, política e experimentação",
+        "descricao": "Arte contemporânea brasileira - Diversidade, política e experimentação",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "quinta": [
+      {
+        "materia": "Química",
+        "cor": "#f4883a",
+        "titulo": "Petróleo e combustíveis fósseis",
+        "descricao": "Petróleo e combustíveis fósseis",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "História",
+        "cor": "#e8c744",
+        "titulo": "A Segunda Guerra Mundial (1939 - 1945)",
+        "descricao": "A Segunda Guerra Mundial (1939 - 1945)",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Conjunções Subordinativas – Parte 1",
+        "descricao": "Conjunções Subordinativas – Parte 1",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sexta": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Conservação da quantidade de movimento e colisão mecânica",
+        "descricao": "Conservação da quantidade de movimento e colisão mecânica",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Poder, Corpo e Subjetividade",
+        "descricao": "Poder, Corpo e Subjetividade",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Gramática Tradicional",
+        "cor": "#8a9bb0",
+        "titulo": "Conjunções Subordinativas – Parte 2",
+        "descricao": "Conjunções Subordinativas – Parte 2",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ],
+    "sabado": [
+      {
+        "materia": "Física",
+        "cor": "#58b4e8",
+        "titulo": "Princípios fundamentais e processos de eletrização",
+        "descricao": "Princípios fundamentais e processos de eletrização",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Filosofia e Sociologia",
+        "cor": "#e87fad",
+        "titulo": "Linguagem, Diferença e Desconstrução",
+        "descricao": "Linguagem, Diferença e Desconstrução",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      },
+      {
+        "materia": "Inglês",
+        "cor": "#e05454",
+        "titulo": "Enem e vestibulares 12",
+        "descricao": "Enem e vestibulares 12",
+        "detalhes": "",
+        "duracao": "",
+        "prioridade": ""
+      }
+    ]
+  }
+}
