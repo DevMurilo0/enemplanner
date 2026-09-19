@@ -253,7 +253,7 @@
       </div>
       <div class="modal__body guide-body">
         <div class="guide-row"><span>1</span><div><strong>Escolha um cronograma</strong><p>Use “Importar plano” para selecionar um dos planos disponíveis.</p></div></div>
-        <div class="guide-row"><span>2</span><div><strong>Escolha de qual semana partir</strong><p>Se o cronograma já começou, pule as semanas anteriores e importe somente da semana escolhida até o final.</p></div></div>
+        <div class="guide-row"><span>2</span><div><strong>Personalize o plano</strong><p>Escolha de qual semana partir e desative as matérias que você não quer estudar. O restante é reorganizado automaticamente.</p></div></div>
         <div class="guide-row"><span>3</span><div><strong>Acompanhe em quatro visões</strong><p>Use Dia, Semana, Mês e Ano para alternar entre foco no presente e visão geral.</p></div></div>
         <div class="guide-row"><span>4</span><div><strong>Continue com liberdade</strong><p>Você ainda pode importar uma semana isolada, editar blocos, distribuir conteúdos e exportar sua semana.</p></div></div>
         <div class="guide-note">Importar um plano completo substitui conteúdos já existentes no período escolhido. O Planner avisa antes de continuar.</div>
@@ -288,6 +288,23 @@
             <input id="plan-start-date" type="date" />
           </label>
         </div>
+        <section class="plan-subjects" aria-labelledby="plan-subjects-title">
+          <div class="plan-subjects__head">
+            <div>
+              <span class="plan-import-summary__label">Matérias do cronograma</span>
+              <strong id="plan-subjects-title">Escolha o que você quer estudar</strong>
+              <p>Desative uma matéria para remover seus conteúdos. O Planner reorganiza automaticamente o restante da semana.</p>
+            </div>
+            <div class="plan-subjects__actions">
+              <button class="plan-subjects__action" id="plan-subjects-all" type="button">Todas</button>
+              <button class="plan-subjects__action" id="plan-subjects-none" type="button">Limpar</button>
+            </div>
+          </div>
+          <div class="plan-subjects__grid" id="plan-subjects-grid"></div>
+          <div class="plan-subjects__footer">
+            <span id="plan-subjects-count">Todas as matérias selecionadas</span>
+          </div>
+        </section>
         <div class="plan-import-summary">
           <span class="plan-import-summary__label">Como ficará</span>
           <strong id="plan-start-label">Começando pela Semana 1</strong>

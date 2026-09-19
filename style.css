@@ -560,3 +560,111 @@ svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-l
     grid-column:auto;
   }
 }
+
+
+/* Configuração de matérias na importação */
+.plan-subjects{
+  margin-top:18px;
+  padding:15px;
+  border:1px solid var(--line);
+  border-radius:10px;
+  background:#121211;
+}
+.plan-subjects__head{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:16px;
+}
+.plan-subjects__head strong{display:block;font-size:.86rem}
+.plan-subjects__head p{
+  margin-top:4px;
+  max-width:430px;
+  color:var(--muted);
+  font-size:.7rem;
+  line-height:1.5;
+}
+.plan-subjects__actions{
+  display:flex;
+  gap:5px;
+  flex:0 0 auto;
+}
+.plan-subjects__action{
+  min-height:30px;
+  padding:0 9px;
+  border:1px solid var(--line);
+  border-radius:7px;
+  background:var(--surface-2);
+  color:var(--muted);
+  cursor:pointer;
+  font-size:.65rem;
+  font-weight:700;
+}
+.plan-subjects__action:hover{
+  color:var(--text);
+  border-color:var(--line-strong);
+  background:var(--surface-3);
+}
+.plan-subjects__grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:7px;
+  margin-top:13px;
+}
+.plan-subject-toggle{
+  min-height:40px;
+  padding:8px 9px;
+  border:1px solid var(--line);
+  border-radius:8px;
+  background:var(--surface);
+  color:var(--muted);
+  display:grid;
+  grid-template-columns:9px minmax(0,1fr) 18px;
+  align-items:center;
+  gap:8px;
+  text-align:left;
+  cursor:pointer;
+  font-size:.69rem;
+  font-weight:650;
+  transition:.15s ease;
+}
+.plan-subject-toggle:hover{
+  border-color:var(--line-strong);
+  background:var(--surface-2);
+}
+.plan-subject-toggle.selected{
+  border-color:var(--subject-color);
+  background:var(--surface-2);
+  color:var(--text);
+}
+.plan-subject-toggle__dot{
+  width:8px;
+  height:8px;
+  border-radius:50%;
+  background:var(--subject-color);
+}
+.plan-subject-toggle__state{
+  width:18px;
+  height:18px;
+  border:1px solid var(--line);
+  border-radius:5px;
+  display:grid;
+  place-items:center;
+  color:var(--muted-2);
+  font-size:.67rem;
+}
+.plan-subject-toggle.selected .plan-subject-toggle__state{
+  border-color:var(--subject-color);
+  color:var(--text);
+}
+.plan-subjects__footer{
+  margin-top:10px;
+  padding-top:10px;
+  border-top:1px solid var(--line);
+  color:var(--muted);
+  font-size:.67rem;
+}
+@media(max-width:520px){
+  .plan-subjects__head{flex-direction:column}
+  .plan-subjects__grid{grid-template-columns:1fr}
+}

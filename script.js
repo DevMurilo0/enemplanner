@@ -82,6 +82,7 @@ let editing = null;
 let detailsContext = null;
 let toastTimer = null;
 let distItems = [];
+let selectedPlanSubjects = new Set(SUBJECTS.map(subject => subject.id));
 
 const $ = (id) => document.getElementById(id);
 
@@ -873,6 +874,87 @@ function planFileName(number) {
   return `semana-${String(number).padStart(2, '0')}.json`;
 }
 
+function resetPlanSubjectSelection() {
+  selectedPlanSubjects = new Set(SUBJECTS.map(subject => subject.id));
+  renderPlanSubjectSelector();
+}
+
+function setAllPlanSubjects(selected) {
+  selectedPlanSubjects = selected
+    ? new Set(SUBJECTS.map(subject => subject.id))
+    : new Set();
+  renderPlanSubjectSelector();
+  updatePlanImportSummary();
+}
+
+function renderPlanSubjectSelector() {
+  const grid = $('plan-subjects-grid');
+  if (!grid) return;
+
+  grid.innerHTML = SUBJECTS.map(subject => {
+    const selected = selectedPlanSubjects.has(subject.id);
+    return `
+      <button
+        class="plan-subject-toggle${selected ? ' selected' : ''}"
+        type="button"
+        data-plan-subject="${subject.id}"
+        aria-pressed="${selected}"
+        style="--subject-color:${subject.color}"
+      >
+        <span class="plan-subject-toggle__dot"></span>
+        <span>${escapeHtml(subject.label)}</span>
+        <span class="plan-subject-toggle__state" aria-hidden="true">${selected ? '✓' : '+'}</span>
+      </button>
+    `;
+  }).join('');
+
+  grid.querySelectorAll('[data-plan-subject]').forEach(button => {
+    button.addEventListener('click', () => {
+      const id = button.dataset.planSubject;
+      if (selectedPlanSubjects.has(id)) selectedPlanSubjects.delete(id);
+      else selectedPlanSubjects.add(id);
+      renderPlanSubjectSelector();
+      updatePlanImportSummary();
+    });
+  });
+
+  const count = selectedPlanSubjects.size;
+  const countEl = $('plan-subjects-count');
+  if (countEl) {
+    countEl.textContent = count === SUBJECTS.length
+      ? 'Todas as matérias selecionadas'
+      : count === 0
+        ? 'Nenhuma matéria selecionada'
+        : `${count} de ${SUBJECTS.length} matérias selecionadas`;
+  }
+}
+
+function getSelectedPlanSubjectIds() {
+  return new Set(selectedPlanSubjects);
+}
+
+function organizeFilteredWeek(semana, selectedIds) {
+  if (selectedIds.size === SUBJECTS.length) return semana;
+
+  const contents = [];
+  DAY_KEYS_ORDER.forEach(dayKey => {
+    (semana[dayKey] || []).forEach(block => {
+      const subjectId = resolveSubjectId(block.materia);
+      if (!subjectId || !selectedIds.has(subjectId)) return;
+      contents.push({
+        materia: block.materia || '',
+        titulo: block.titulo || '',
+        descricao: block.descricao || '',
+        detalhes: block.detalhes || '',
+        duracao: block.duracao || '',
+        prioridade: block.prioridade || ''
+      });
+    });
+  });
+
+  return distribute(contents).semana;
+}
+
 function populatePlanSelect() {
   const select = $('plan-select');
   if (select.options.length) return;
@@ -920,19 +1002,30 @@ function updatePlanImportSummary() {
 
   $('plan-range-label').textContent = `No calendário: ${start.toLocaleDateString('pt-BR')} a ${end.toLocaleDateString('pt-BR')}.`;
 
-  $('plan-import-count').textContent = firstWeek === 1
-    ? `As ${plan.total} semanas do plano serão importadas.`
-    : `Serão importadas ${weeksToImport} semanas, da Semana ${firstWeek} até a Semana ${plan.total}.`;
+  const selectedCount = selectedPlanSubjects.size;
+  const subjectsText = selectedCount === SUBJECTS.length
+    ? ' Todas as matérias estão incluídas.'
+    : selectedCount === 0
+      ? ' Escolha pelo menos uma matéria para continuar.'
+      : ` ${selectedCount} de ${SUBJECTS.length} matérias estão incluídas.`;
 
-  $('plan-run').textContent = firstWeek === 1
-    ? 'Importar plano completo'
-    : `Importar ${weeksToImport} semanas`;
+  $('plan-import-count').textContent = (firstWeek === 1
+    ? `As ${plan.total} semanas do plano serão importadas.`
+    : `Serão importadas ${weeksToImport} semanas, da Semana ${firstWeek} até a Semana ${plan.total}.`) + subjectsText;
+
+  $('plan-run').disabled = selectedCount === 0;
+  $('plan-run').textContent = selectedCount === 0
+    ? 'Escolha uma matéria'
+    : firstWeek === 1
+      ? 'Importar plano completo'
+      : `Importar ${weeksToImport} semanas`;
 }
 
 function openPlanImport(planId = null, startWeek = 1) {
   populatePlanSelect();
   if (planId && AVAILABLE_PLANS.some(plan => plan.id === String(planId))) $('plan-select').value = String(planId);
   updatePlanWeekOptions(startWeek);
+  resetPlanSubjectSelection();
 
   const anchor = viewMode === 'week' ? getWeekStart(weekOffset) : getCurrentAnchorDate();
   $('plan-start-date').value = toDateKey(anchor);
@@ -958,6 +1051,14 @@ async function importFullPlan() {
 
   const firstWeek = getSelectedPlanStartWeek();
   const weeksToImport = plan.total - firstWeek + 1;
+  const selectedSubjects = getSelectedPlanSubjectIds();
+
+  if (!selectedSubjects.size) {
+    $('plan-import-status').hidden = false;
+    $('plan-import-status').textContent = 'Escolha pelo menos uma matéria para montar o cronograma.';
+    return;
+  }
+
   const start = getPlanStartDate();
   const existing = countExistingInPlanRange(start, weeksToImport);
 
@@ -981,7 +1082,10 @@ async function importFullPlan() {
       const parsed = await response.json();
       const error = validateWeekJSON(parsed);
       if (error) throw new Error(`Semana ${week}: ${error}`);
-      return { week, semana: parsed.semana };
+      return {
+        week,
+        semana: organizeFilteredWeek(parsed.semana, selectedSubjects)
+      };
     }));
 
     weeks.forEach(({ semana }, index) => {
@@ -993,9 +1097,14 @@ async function importFullPlan() {
     saveData();
     closePlanImport();
 
+    const customized = selectedSubjects.size !== SUBJECTS.length;
     const successMessage = firstWeek === 1
-      ? `${plan.title} importado com sucesso.`
-      : `Semana ${firstWeek} até Semana ${plan.total} importadas com sucesso.`;
+      ? customized
+        ? `${plan.title} personalizado e importado com sucesso.`
+        : `${plan.title} importado com sucesso.`
+      : customized
+        ? `Semana ${firstWeek} até Semana ${plan.total} importadas com as matérias escolhidas.`
+        : `Semana ${firstWeek} até Semana ${plan.total} importadas com sucesso.`;
 
     showToast(successMessage, 'success');
     setViewMode('week', start);
@@ -1249,6 +1358,8 @@ function bindEvents() {
   });
   $('plan-week-start').addEventListener('change', updatePlanImportSummary);
   $('plan-start-date').addEventListener('change', updatePlanImportSummary);
+  $('plan-subjects-all').addEventListener('click', () => setAllPlanSubjects(true));
+  $('plan-subjects-none').addEventListener('click', () => setAllPlanSubjects(false));
   $('plan-run').addEventListener('click', importFullPlan);
 
   $('edit-close').addEventListener('click', closeEdit);
